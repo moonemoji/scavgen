@@ -114,7 +114,7 @@ class Sprites():
             'rosettecolours', 'singlecolours', 'singlestripecolours', 'smokecolours', 
             'sokokecolours', 'speckledcolours', 'tabbycolours', 'tapircolours', 'tickedcolours',
             'chiselantlers', 'forkantlers', 'kittyantlers', 'spikeantlers',
-            'sheepantlers', 'tineantlers', 'waveantlers', 'maskgloves',
+            'sheepantlers', 'tineantlers', 'waveantlers', 'wedgeantlers', 'maskgloves',
             'whitepatches', 'eyes', 'eyes2', 'skin', 'scars', 'missingscars',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars',
             'shadersnewwhite', 'lineartdead', 'tortiepatchesmasks', 
@@ -351,6 +351,13 @@ class Sprites():
             self.make_group('waveantlers', (a, 1), f'waveantlers{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('waveantlers', (a, 2), f'waveantlers{i}')
+        # wedge
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('wedgeantlers', (a, 0), f'wedgeantlers{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('wedgeantlers', (a, 1), f'wedgeantlers{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('wedgeantlers', (a, 2), f'wedgeantlers{i}')
             
         # new new torties
         for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE']):
