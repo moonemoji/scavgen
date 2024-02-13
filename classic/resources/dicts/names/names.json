@@ -37,12 +37,12 @@
 	"Jagged", "Leafy", "Blooming", "Fruiting", "Youthful",
 	"Elite", "Peaceful", "King", "Caramel", "Eel", "Strawberry",
 	"Ashen", "Barking", "Bestial", "Chomping", "Iron", "Steel", "Downy", "Wooden", "Pearl", "Metal", "Rock", "Stone", "Earthen", "Clay",
-	"Untouched", "Billowing", "Slouched", "Slouching", "Big", "Gusting", "Howling", "Kicking", "Slashing," "Barking","Bitter", "Bouncy", "Bouncing", "Brave", "Bright", "Broken", "Freckled", "Fuzzy", "Gentle", "Gilled", "Foggy",
+	"Untouched", "Billowing", "Slouched", "Slouching", "Big", "Gusting", "Howling", "Kicking", "Slashing", "Barking","Bitter", "Bouncy", "Bouncing", "Brave", "Bright", "Broken", "Freckled", "Fuzzy", "Gentle", "Gilled", "Foggy",
 	"Faithful", "Fallen", "Falling", "Feathery", "Fierce", "Finned",
 	"Shivering", "Short", "Shy", "Silent", "Sharp", "Bellowing",
 	"Calm", "Placid", "Pensive", "Ponderous", "Thoughtful",
-	"Blank", "Scorched", "Sleek", "Slick," "Sleepy", "Sneezy", "Snowy", "Mossy",
-	"Soft", "Quivering", "Ragged", "Pouncing", "Quick", "Quiet", "Blurry", "Bleached", "Blotched", "Flecked", "Flickering," "Dazzling", "Dazed", "Hazy", "Foggy", "Clouded", "Cloudy", "Budding", "Bumbling", "Glaring", "Echoing", "Echoic", "Resounding",
+	"Blank", "Scorched", "Sleek", "Slick", "Sleepy", "Sneezy", "Snowy", "Mossy",
+	"Soft", "Quivering", "Ragged", "Pouncing", "Quick", "Quiet", "Blurry", "Bleached", "Blotched", "Flecked", "Flickering", "Dazzling", "Dazed", "Hazy", "Foggy", "Clouded", "Cloudy", "Budding", "Bumbling", "Glaring", "Echoing", "Echoic", "Resounding",
 	"Moonlit", "Sunlit", "Starlit", "Waxing", "Waning",
 	"Hollow", "Murky", "Striking", "Bubbling", "Bursting", "Buzzing", "Calling", "Clashing", "Crackling", "Crashing",
 	"Crawling", "Cresting", "Darting", "Dashing", "Dawning", "Dazed", "Drifting", "Dusty", "Dusted", "Splashing"
@@ -145,7 +145,7 @@
 	"Moon", "Light", "Wisp", "Ghost", "Pearl", "Sky", "Lantern", "Lamp", "Glint", "Air", "Rime"
     ],
     "PALEGREY": [
-    "Turquoise", "Blue", "Green", "Pale", "Water", "Pool", "Puddle", "Drip", "Droplet", "Grower", "Grass" ,"Sea", "Ocean", "Ice", "Frost", "Freeze", "River", "Rivulet", "Berry", "Fruit", "Bubble", "Moss", 
+    "Turquoise", "Blue", "Green", "Pale", "Water", "Pool", "Puddle", "Drip", "Droplet", "Grower", "Grass" ,"Sea", "Ocean", "Ice", "Frost", "Freeze", "River", "Rivulet", "Berry", "Fruit", "Bubble", "Moss"
     ],
     "SILVER": [
     "Blue", "Silver", "Ice", "Frost",  "Rain", "River", "Blizzard", "Flurry",
@@ -181,13 +181,13 @@
     "Pink", "Peach", "Berry", "Light", "Bright", "Snail", "Rose", "Lantern"
     ],
     "CREAM": [
-    "White", "Sand", "Sandy", "Yellow", "Pale", "Cream", "Cream", "Light", "Pearl", "Day", "Cloud", "Sky",
+    "White", "Sand", "Sandy", "Yellow", "Pale", "Cream", "Cream", "Light", "Pearl", "Day", "Cloud", "Sky"
     ],
     "LIGHTBROWN": [
     "White", "Pale", "Snow", "Cloud", "Cloudy", "Hail", "Frost", "Mouse", "Lilypuck", "Bright", "Grower", "Grass", "Leaf", "Grasshopper", "Mushroom" 
     ],
     "LILAC": [
-    "Pale", "Green", "Green", "Lantern Mouse", "Lilypuck", "Bright", "Acid", "Snail", "Hazer" "Grower", "Grass", "Leaf", "Grasshopper"
+    "Pale", "Green", "Green", "Lantern Mouse", "Lilypuck", "Bright", "Acid", "Snail", "Hazer", "Grower", "Grass", "Leaf", "Grasshopper"
     ],
     "BROWN": [
     "Green", "Lilypuck", "Acid", "Vulture", "Snail", "Hazer",  "Grower", "Grass", "Leaf", "Grasshopper"
@@ -211,15 +211,15 @@
   "biome_prefixes": {
     "Forest": [
 	"Antler", "Bark", "Branch", "Buck", "Canopy",
-	"Deer", "Doe", "Fern", "Forest", "Frond", "Grove", "Honey", "Log",,
+	"Deer", "Doe", "Fern", "Forest", "Frond", "Grove", "Honey", "Log",
 	"Moss", "Mushroom", "Sap", "Sprig",
-	"Spruce", "Stag", "Stick", "Stump", "Thicket", "Twig", "Wood",
+	"Spruce", "Stag", "Stick", "Stump", "Thicket", "Twig", "Wood"
 	],
 	"Beach": [
 	"Algae", "Anemone", "Barnacle", "Brine", "Clam", "Coast",
 	"Conch", "Coral", "Cove", "Crab", "Current", "Delta", "Drip", "Drop", "Fin", 
 	"Foam", "Hermit", "Jellyfish", "Lagoon", "Lake", "Nacre", "Ocean", "Palm", "Pearl",
-	"Pool", "Ripple", "Reef", "Salt", "Sandy",  "Scale", ""Sea",
+	"Pool", "Ripple", "Reef", "Salt", "Sandy",  "Scale", "Sea",
 	"Shell", "Shimmer", "Shore", "Slug", "Snail", "Splash", 
 	"Tide", "Torrent", "Wave", "Leviathan"
 	],
@@ -227,7 +227,7 @@
 	"Breeze", "Burrow", "Butterfly", "Field",
 	"Flutter", "Grass", "Meadow", 
 	"Pollen", "Prairie", "Roan", "Rustle", "Swish", "Tunnel", 
-	"Willow", "Wool", 
+	"Willow", "Wool"
 	],
 	"Mountainous": [
 	"Alpine", "Avalanche", "Basalt", "Blizzard", "Boulder", "Cavern", "Cave", "Chasm", "Cliff", "Crag",
@@ -237,17 +237,17 @@
 	],
 	"Wetlands": [
 	"Marsh", "Bog", "Lotus", "Reed", "Yeek",
-	"Swamp", "Murk", "Algae", "Mud", "Mire", "Splash", "Peat", "Bog", ,
+	"Swamp", "Murk", "Algae", "Mud", "Mire", "Splash", "Peat", "Bog",
 	"Wade", "Lily", "Bayou", "Clay", 
 	"Creek", "Skip", "Reed", "Beetle", "Bug", "Vine", "Creeper", "Rush", 
-	"Axolotl", "Salamander",
+	"Axolotl", "Salamander"
 	],
 	"Desert": [
-	"Dune", "Vulture", "Canyon", "Prickle",, "Dry", "Drought",
+	"Dune", "Vulture", "Canyon", "Prickle", "Dry", "Drought",
 	"Desert", "Brittle", "Mesa", "Barren", "Oasis", "Dust", "Arid", "Fly", "Scrub", "Gully", "Wax",
 	"Salt", "Mirage", 
 	"Skull", "Needle", 
-	"Poison", "Venom", "Fang", "Blister", "Blaze", "Burn", "Scorch", "Smolder",
+	"Poison", "Venom", "Fang", "Blister", "Blaze", "Burn", "Scorch", "Smolder"
     ]
   },
 

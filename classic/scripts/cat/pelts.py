@@ -18,7 +18,6 @@ class Pelt():
         'Mackerel': 'mackerel',
         'Mantle': 'mantle',
         'Marbled': 'marbled',
-        'Masked': 'masked',
         'Rosette': 'rosette',
         'SingleColour': 'single',
         'Singlestripe': 'singlestripe',
@@ -58,7 +57,7 @@ class Pelt():
                     'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'SMUDGED', 'DAPPLENIGHT', 'STREAK', 'MASK', 'CHEST', 'ARMTAIL', 'SMOKE', 'GRUMPYFACE',
                     'BRIE', 'BELOVED', 'BODY', 'SHILOH', 'FRECKLED', 'HEARTBEAT']
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
-                'tapir', 'sokoke', 'agouti', 'singlestripe', 'masked', 'mantle', 'frosted', 'gravel']
+                'tapir', 'sokoke', 'agouti', 'singlestripe', 'mantle', 'frosted', 'gravel']
 
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
@@ -98,7 +97,7 @@ class Pelt():
     tabbies = ["Tabby", "Ticked", "Mackerel", "Tapir", "Sokoke", "Agouti"]
     spotted = ["Speckled", "Rosette", "Gravel"]
     plain = ["SingleColour", "Smoke", "Singlestripe", "TwoColour"]
-    exotic = ["Bengal", "Marbled", "Masked", "Frosted", "Mantle"]
+    exotic = ["Bengal", "Marbled", "Frosted", "Mantle"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [tabbies, spotted, plain, exotic, torties]
 
@@ -1013,8 +1012,7 @@ class Pelt():
             "Agouti": "c_n tabby",
             "Singlestripe": "dorsal-striped c_n",
             "Rosette": "unusually spotted c_n",
-            "Sokoke": "c_n tabby",
-            "Masked": "masked c_n tabby"
+            "Sokoke": "c_n tabby"
         }
 
         # Start with determining the base color name

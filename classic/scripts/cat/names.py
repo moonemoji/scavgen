@@ -174,11 +174,11 @@ class Name():
 
     def __repr__(self):
         if self.status in self.names_dict["special_suffixes"] and not self.specsuffix_hidden and self.status != "leader":
-            return self.suffix.title()
+            return self.prefix.title()
         else:
             if game.config['fun']['april_fools']:
                 return self.prefix + 'egg'
-            return self.prefix + " " + self.suffix.title()
+            return self.suffix.title() + " " + self.prefix
 
 
 names = Name()
