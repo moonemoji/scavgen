@@ -25,9 +25,8 @@
 	"Adoring", "Loving", "Beloved", "Contrary", "Opportunistic", "Smitten", "Paranoid", "Stubborn", "Obsessed", "Breaking", "Broken", "Scattered", "Cheated", "Hunted",
 	"One", "First", "Second", "Third", "Outnumbered", "Numerous",
 	"Outlasting", "Enduring", "Powerful", "Dextrous",
-	"Trapped", "Daydreaming", "Dreaming", "Dancing", "Dappled", 
-	"Gator", "Pole", "Wall", "Pack", "Camo", "Leap", "Web", "Long Legs",
-	"Ponderous", "Pensive","Happy", "Joyful", "Biting", "Chomping", "Growling", "Ripping", "Tearing",
+	"Trapped", "Daydreaming", "Dreaming", "Dancing", "Dappled",
+	"Ponderous", "Pensive", "Happy", "Joyful", "Biting", "Chomping", "Growling", "Ripping", "Tearing",
 	"Trotting", "Tumbling", "Running", "Leaping", "Dancing", "Climbing", "Swinging", "Flying",
 	"Scarred", "Burnt", "Maimed", "Ruined", "Fallen", "Toppled", "Crumbled", "Cracked",
 	"Forgotten", "Drizzling", "Pouring", "Thundering",
@@ -78,7 +77,6 @@
     "classic": ["stripe", "feather", "fern"],
     "sokoke": ["stripe", "feather", "fern", "shade", "dapple"],
     "agouti": ["back", "pelt", "fur", "dapple", "splash"],
-    "masked": ["stripe", "dapple", "mask", "mask", "shade"]
   },
 
   "normal_prefixes": [
@@ -86,7 +84,7 @@
 	"Bubbleweed", "Bubble", "Spear", "Fuzz", "Wall", "Shield", "Tower", "Pillar", "Fortress", "Den", "Tunnel", "Pipe", "Cable", "Wire", "Spire", "Chimney", "Fence", "Glyph", "Symbol", "Light", "Lamp", "Bulb", "Metal", "Steel", "Sheet", "Girder", "Mountain", "Mound", "Hill", "Pit", "Hall", "Temple", "Bridge", "Ruin",
 	"Outlander", "Slime", "Vine", "Climber", "Listener", "Watcher", "Popcorn", "Arch",
 	"Karma Flower", "Bubble Fruit", "Popcorn Plant", "Bubble", "Roller", "Grower", "Rain Moss", "Drift",
-	"Root Grass", "Seed Pod", "Spiral", "Horse Tail", "Shadow Plant", "Thorn", "Fern", "Beak", "Belly", "Berry", "Bite",
+	"Root Grass", "Seed Pod", "Spiral", "Horsetail", "Shadow Plant", "Thorn", "Fern", "Beak", "Belly", "Berry", "Bite",
 	"Slime Mold", "Spore Puff", "Egg", "Fire Egg", "Electric", "Beehive", "Grenade", "Cherrybomb", "Buzz",
 	"Sky", "Horizon", "Antler", "Tunnel", "Curl", "Noise", "Sound", "Cry", "Call", "Shout", "Bone", "Blink", "Dart", "Dash", "Blossom", "Branch", "Stem", "Stalk", "Leaf", "Egg", "Crash", "Crawl", "Gaze", "Bush",
 	"Fruit", "Root", "Blessing", "Hope", 
@@ -253,7 +251,7 @@
 
   "biome_suffixes": {
     "Forest": [
-    "acorn", "antler", "beak", "branch", "clove", "cone", "dapple", "deer", "fawn", "fern", "fog", "frond", "grove", "moss", 
+    "antler", "beak", "branch", "cone", "dapple", "deer", "fawn", "fern", "fog", "frond", "grove", "moss", 
     "sap", "shade", "twig", "wood", "thicket", "glade", "bear"
     ],
     "Beach": [
@@ -282,24 +280,24 @@
 
   "eye_prefixes": {
     "YELLOW": ["Yellow", "Moon", "Daisy", "Honey", "Light", "Sun", "Lemon"],
-    "AMBER": ["Amber", "Sun", "Fire", "Gold", "Honey", "Scorch", "Flame", "Blaze", "Pumpkin"],
-    "HAZEL": ["Hazel", "Tawny", "Hazel", "Gold", "Daisy", "Sand", "Almond"],
-    "PALEGREEN": ["Pale", "Green", "Mint", "Fern", "Weed", "Olive", "Stem", "Lime", "Agave"],
-    "GREEN": ["Green", "Green", "Fern", "Weed", "Holly", "Clover", "Olive", "Jade", "Tree", "Algae", "Aloe"],
-    "BLUE": ["Blue", "Blue", "Ice", "Sky", "Lake", "Frost", "Water", "Icicle", "Frosty", "Cold", "Rime"],
+    "AMBER": ["Amber", "Sun", "Fire", "Gold", "Honey", "Scorch", "Flame", "Blaze"],
+    "HAZEL": ["Hazel", "Gold", "Daisy", "Sand"],
+    "PALEGREEN": ["Pale", "Green", "Mint", "Fern", "Weed", "Olive", "Stem", "Lime"],
+    "GREEN": ["Green", "Fern", "Weed", "Olive", "Jade", "Tree", "Algae"],
+    "BLUE": ["Blue", "Ice", "Sky", "Lake", "Frost", "Water", "Icicle", "Cold", "Rime"],
     "DARKBLUE": ["Dark", "Blue", "Blue", "Sky", "Lake", "Berry", "Water", "Deep", "Cobalt", "River", "Night", "Rain"],
     "GREY": ["Gray", "Stone", "Silver", "Ripple", "Moon", "Rain", "Storm", "Heather"],
     "CYAN": ["Sky", "Blue", "River", "Rapid", "Ice", "Frost", "Cold", "Rime"],
-    "EMERALD": ["Emerald", "Green", "Shine", "Green", "Pine", "Weed"],
+    "EMERALD": ["Emerald", "Green", "Shine", "Green", "Weed"],
     "PALEBLUE": ["Pale", "Blue", "Blue", "Sky", "River", "Ripple", "Day", "Cloud", "Rime"],
-    "PALEYELLOW": ["Pale", "Yellow", "Sun", "Gold", "Light", "Daisy"],
-    "GOLD": ["Gold", "Golden", "Sun", "Amber", "Sap", "Honey", "Yellow"],
-    "HEATHERBLUE": ["Heather", "Blue", "Lilac", "Rosemary", "Lavender", "Wisteria"],
+    "PALEYELLOW": ["Pale", "Yellow", "Sun", "Gold", "Light"],
+    "GOLD": ["Gold", "Sun", "Amber", "Sap", "Honey", "Yellow"],
+    "HEATHERBLUE": ["Blue", "Lilac", "Lavender", ],
     "COPPER": ["Copper", "Red", "Amber", "Brown", "Fire", "Cinnamon"],
-    "SAGE": ["Sage", "Leaf", "Olive", "Bush", "Clove", "Green", "Weed"],
-    "COBALT": ["Blue", "Blue", "Ice", "Icy", "Sky", "Lake", "Frost", "Water", "Frosty", "Rime"],
+    "SAGE": ["Sage", "Leaf", "Olive", "Bush", "Green", "Weed"],
+    "COBALT": ["Blue", "Blue", "Ice", "Icy", "Sky", "Lake", "Frost", "Water", "Frost", "Rime"],
     "SUNLITICE": ["Sun", "Ice", "Icy", "Frost", "Dawn", "Dusk", "Odd", "Glow", "Mouse"],
-    "GREENYELLOW": ["Green", "Yellow", "Tawny", "Hazel", "Gold", "Daisy", "Sand", "Sandy", "Weed"]
+    "GREENYELLOW": ["Green", "Yellow", "Hazel", "Gold", "Daisy", "Sand", "Weed"]
   },
 
   "loner_names": [
