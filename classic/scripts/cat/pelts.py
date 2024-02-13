@@ -34,7 +34,7 @@ class Pelt():
     
     # ANTLER types
     antler_types = ['chiselantlers', 'forkantlers', 'kittyantlers', 'sheepantlers', 'spikeantlers', 'tineantlers',
-                    'waveantlers']
+                    'waveantlers', 'wedgeantlers']
     
     # ATTRIBUTES, including non-pelt related
     pelt_colours = [
