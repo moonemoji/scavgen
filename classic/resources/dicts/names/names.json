@@ -76,7 +76,7 @@
     "mackerel": ["stripe", "feather", "fern", "shade"],
     "classic": ["stripe", "feather", "fern"],
     "sokoke": ["stripe", "feather", "fern", "shade", "dapple"],
-    "agouti": ["back", "pelt", "fur", "dapple", "splash"],
+    "agouti": ["back", "pelt", "fur", "dapple", "splash"]
   },
 
   "normal_prefixes": [
@@ -84,7 +84,7 @@
 	"Bubbleweed", "Bubble", "Spear", "Fuzz", "Wall", "Shield", "Tower", "Pillar", "Fortress", "Den", "Tunnel", "Pipe", "Cable", "Wire", "Spire", "Chimney", "Fence", "Glyph", "Symbol", "Light", "Lamp", "Bulb", "Metal", "Steel", "Sheet", "Girder", "Mountain", "Mound", "Hill", "Pit", "Hall", "Temple", "Bridge", "Ruin",
 	"Outlander", "Slime", "Vine", "Climber", "Listener", "Watcher", "Popcorn", "Arch",
 	"Karma Flower", "Bubble Fruit", "Popcorn Plant", "Bubble", "Roller", "Grower", "Rain Moss", "Drift",
-	"Root Grass", "Seed Pod", "Spiral", "Horsetail", "Shadow Plant", "Thorn", "Fern", "Beak", "Belly", "Berry", "Bite",
+	"Root Grass", "Seed Pod", "Spiral", "Horse Tail", "Shadow Plant", "Thorn", "Fern", "Beak", "Belly", "Berry", "Bite",
 	"Slime Mold", "Spore Puff", "Egg", "Fire Egg", "Electric", "Beehive", "Grenade", "Cherrybomb", "Buzz",
 	"Sky", "Horizon", "Antler", "Tunnel", "Curl", "Noise", "Sound", "Cry", "Call", "Shout", "Bone", "Blink", "Dart", "Dash", "Blossom", "Branch", "Stem", "Stalk", "Leaf", "Egg", "Crash", "Crawl", "Gaze", "Bush",
 	"Fruit", "Root", "Blessing", "Hope", 
