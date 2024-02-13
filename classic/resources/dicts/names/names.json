@@ -45,6 +45,7 @@
 	"Moonlit", "Sunlit", "Starlit", "Waxing", "Waning", "Shielded",
 	"Hollow", "Murky", "Striking", "Bubbling", "Bursting", "Buzzing", "Calling", "Clashing", "Crackling", "Crashing",
 	"Painted", "Dyed", "Scribbled", "Sketched", "Drawn",
+	"Whispering", "Torn", "Trembling", "Tiny", "Tufted", "Winged",  "Wild", "Sweet", "Sour", "Wishful", "Thorny", "Tawny", "Swift", "Tall", "Stumpy", "Sunny", "Wet",
 	"Crawling", "Cresting", "Darting", "Dashing", "Dawning", "Drifting", "Dusty", "Dusted", "Splashing"
   ],
   "pelt_suffixes": {
@@ -109,7 +110,6 @@
 	"Gatherer", "Protector", "Shield",
 	"Thief", "Murderer", "Killer", "Exile", "Vagabond", "Ruffian", "Brute", "Lout", "Goon", "Grunt",
 	"Breeze", "Gale", "Wind", "Mumble", "Murmur", "Whisper", "Word", "Song", "Blotch", "Bounce", "Chill",
-	"Whispering", "Torn", "Trembling", "Tiny", "Tufted", "Winged",  "Wild", "Sweet", "Sour", "Wishful", "Thorny", "Tawny", "Swift", "Tall", "Stumpy", "Sunny", "Wet",
 	"Martyr", "Nomad", "Pilgrim", "Champion", "Enemy", "Salamander Tamer", "Green", "Pink", "Blue", "Cyan",
 	"White", "Black", "Yellow", "Lizard Tamer", "Tamer", "Mauler", "Noodlefly", "Deer", "Overseer", "Slugcat",
 	"Lantern", "Lantern Mouse", "Jetfish", "Squidcada", "Grappler", "Grappling Worm", "Eggbug", "Batfly", "Hazer",
