@@ -106,7 +106,8 @@ def json_load():
                 scars=cat["scars"] if "scars" in cat else [],
                 accessory=cat["accessory"],
                 opacity=cat["opacity"] if "opacity" in cat else 100,
-                antlers=cat["antler_type"]
+                antlers=cat["antler_type"],
+                mouthparts=cat["mouthparts"]
             )
             
             # Runs a bunch of apperence-related convertion of old stuff. 

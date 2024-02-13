@@ -2882,6 +2882,7 @@ class Cat():
                 "pelt_color": self.pelt.colour,
                 "pelt_length": self.pelt.length,
                 "antler_type": self.pelt.antlers,
+                "mouthparts": self.pelt.mouthparts,
                 "sprite_kitten": self.pelt.cat_sprites['kitten'],
                 "sprite_adolescent": self.pelt.cat_sprites['adolescent'],
                 "sprite_adult": self.pelt.cat_sprites['adult'],

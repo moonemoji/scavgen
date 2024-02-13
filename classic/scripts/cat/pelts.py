@@ -34,7 +34,7 @@ class Pelt():
     
     # ANTLER types
     antler_types = ['chiselantlers', 'forkantlers', 'kittyantlers', 'sheepantlers', 'spikeantlers', 'tineantlers',
-                    'waveantlers', 'wedgeantlers']
+                    'waveantlers']
     
     # ATTRIBUTES, including non-pelt related
     pelt_colours = [
@@ -167,7 +167,8 @@ class Pelt():
                  senior_sprite:int=None,
                  para_adult_sprite:int=None,
                  reverse:bool=False,
-                 antlers:str='forkantlers'
+                 antlers:str='forkantlers',
+                 mouthparts:str='WHISKERS'
                  ) -> None:
         self.name = name
         self.colour = colour
@@ -202,6 +203,7 @@ class Pelt():
         self.cat_sprites["sick_adult"] = 18
         self.cat_sprites["sick_young"] = 19
         self.antlers = antlers
+        self.mouthparts = mouthparts
         
         self.reverse = reverse
         self.skin = skin
@@ -220,6 +222,7 @@ class Pelt():
         new_pelt.init_antlers(parents)
         new_pelt.init_tint()
         new_pelt.maskgloves = new_pelt.colour
+        new_pelt.mouthparts = random.choice(['WHISKERS', 'PINCERS', 'FEELERS', 'TONGUE', 'DOUBLE'])
         
         return new_pelt
     

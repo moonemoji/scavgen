@@ -1320,6 +1320,10 @@ def generate_sprite(cat, life_state=None, scars_hidden=False, acc_hidden=False, 
         blendmode = pygame.BLEND_RGBA_MIN
         new_sprite.blit(sprites.sprites['skin' + cat.pelt.skin + cat_sprite], (0, 0))
         
+        # draw mouthparts
+        if cat.pelt.mouthparts is not None:
+            new_sprite.blit(sprites.sprites["mouthparts" + cat.pelt.mouthparts + cat_sprite], (0, 0))
+        
         if not scars_hidden:
             for scar in cat.pelt.scars:
                 if scar in cat.pelt.scars2:
