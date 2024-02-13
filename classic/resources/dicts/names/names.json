@@ -10,7 +10,7 @@
   "normal_suffixes" : [
     	"Shining", "Glowing", "Gleaming", "Bright", "Brilliant", "Sparking", "Warm", "Loving", "Sweet", "Crafty", "Clever",
 	"Bleak", "Dull", "Dark", "Skittering", "Scuttling",
-	"Soft", "Gentle", "Quiet",
+	"Soft", "Gentle", "Quiet", "Little", "Small",
 	"Quick", "Slow", "Flying", "Falling", "Slicing",
 	"Chasing", "Chirping", "Nervous", "Scared", "Fearful",
 	"Fierce", "Fearsome", "Noisy", "Loud", "Biting", "Clawed", "Fanged", "Bellowing", "Roaring",
@@ -125,7 +125,7 @@
 	"Echo", "Fish", "Fleck", "Flicker", "Flight", "Chase",
 	"Flood", "Flower", "Fluff", "Flutter", "Fog", "Freckle", 
 	"Guppy", "Hail", "Half", "Haven", "Hazel", "Hazy", "Heart", "Heavy", "Hollow", "Holly", "Honey", "Hope",
-	"Hunt", "Leap", "Light", "Lightning", "Lilac", "Little", "Lizard",
+	"Hunt", "Leap", "Light", "Lightning", "Lilac", "Lizard",
 	"Long", "Lotus", "Loud", "Marsh", "Meadow", "Mist", "Mite", "Mole", "Cinder", "Clash", "Rise", "Monk", "Moon", "Moor", "Morning", 
 	"Moth", "Needle", "One", "Peak", "Perch", "Petal",
 	 "Pond", "Pool", "Pouncer", "Puddle", "Quill", "Brick", "Nut", "Bolt",
