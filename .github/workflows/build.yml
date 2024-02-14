@@ -50,20 +50,20 @@ jobs:
           git log --pretty="format:%H|||%cd|||%b|||%s" -15 --no-decorate --merges --grep="Merge pull request" --date=short > changelog.txt
       - name: Run PyInstaller
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run python3 -m PyInstaller Clangen.spec
+        run: poetry run python3 -m PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 0
       - name: Run PyInstaller
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run python3 -m PyInstaller Clangen.spec
+        run: poetry run python3 -m PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 1
       - name: Create archive (.tar.xz)
-        run: tar -caf Clangen_Linux64_glibc2.31+.tar.xz -C dist Clangen
+        run: tar -caf Scavgen_Linux64_glibc2.31+.tar.xz -C dist Scavgen
       - uses: actions/upload-artifact@v3
         with:
-          name: Clangen_Linux64_glibc2.31+.tar.xz
-          path: Clangen_Linux64_glibc2.31+.tar.xz
+          name: Scavgen_Linux64_glibc2.31+.tar.xz
+          path: Scavgen_Linux64_glibc2.31+.tar.xz
       - name: Import GPG key
         id: import_gpg
         uses: crazy-max/ghaction-import-gpg@v5
@@ -74,7 +74,7 @@ jobs:
       - name: Upload artifact to API
         if: ${{ env.update_api_push_token != '' }}
         run: |
-          gpg --output Clangen_Linux64_glibc2.31+.tar.xz.sig --detach-sig -a Clangen_Linux64_glibc2.31+.tar.xz
+          gpg --output Scavgen_Linux64_glibc2.31+.tar.xz.sig --detach-sig -a Scavgen_Linux64_glibc2.31+.tar.xz
           curl -X 'POST' \
             'https://clangen.io/api/v1/Update/Channels/${{ env.RELEASE_CHANNEL }}/Releases/${{ env.VERSION_NUMBER }}/Appoint' \
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
@@ -84,8 +84,8 @@ jobs:
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
             -H 'accept: */*' \
             -H 'Content-Type: multipart/form-data' \
-            -F 'fileBundle=@Clangen_Linux64_glibc2.31+.tar.xz' \
-            -F 'fileBundle=@Clangen_Linux64_glibc2.31+.tar.xz.sig' \
+            -F 'fileBundle=@Scavgen_Linux64_glibc2.31+.tar.xz' \
+            -F 'fileBundle=@Scavgen_Linux64_glibc2.31+.tar.xz.sig' \
             --http1.1
       - name: Set up butler
         uses: jdno/setup-butler@v1
@@ -144,16 +144,16 @@ jobs:
           git log --pretty=oneline -15 --no-decorate  --no-merges > changelog.txt
       - name: Run PyInstaller
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run python3 -m PyInstaller Clangen.spec
+        run: poetry run python3 -m PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 0
       - name: Run PyInstaller
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run python3 -m PyInstaller Clangen.spec
+        run: poetry run python3 -m PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 1
       - name: Create archive (.tar.xz)
-        run: tar -caf Clangen_Linux64_glibc2.35+.tar.xz -C dist Clangen
+        run: tar -caf Clangen_Linux64_glibc2.35+.tar.xz -C dist Scavgen
       - uses: actions/upload-artifact@v3
         with:
           name: Clangen_Linux64_glibc2.35+.tar.xz
@@ -259,12 +259,12 @@ jobs:
           cp target/release/self_updater.exe ../resources/
       - name: Run PyInstaller
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run PyInstaller Clangen.spec
+        run: poetry run PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 0
       - name: Run PyInstaller
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run PyInstaller Clangen.spec
+        run: poetry run PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 1
       - name: Create archive (.zip)
@@ -383,12 +383,12 @@ jobs:
           cp target/release/self_updater.exe ../resources/
       - name: Run PyInstaller
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run PyInstaller Clangen.spec
+        run: poetry run PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 0
       - name: Run PyInstaller
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run PyInstaller Clangen.spec
+        run: poetry run PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 1
       - name: Create archive (.zip)
@@ -507,12 +507,12 @@ jobs:
           cp target/release/self_updater.exe ../resources/
       - name: Run PyInstaller
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run PyInstaller Clangen.spec
+        run: poetry run PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 0
       - name: Run PyInstaller
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run PyInstaller Clangen.spec
+        run: poetry run PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 1
       - name: Create archive (.zip)
@@ -615,12 +615,12 @@ jobs:
           git log --pretty="format:%H|||%cd|||%b|||%s" -15 --no-decorate --merges --grep="Merge pull request" --date=short > changelog.txt
       - name: Run PyInstaller
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        run: python -m PyInstaller Clangen.spec
+        run: python -m PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 0
       - name: Run PyInstaller
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: python -m PyInstaller Clangen.spec
+        run: python -m PyInstaller Scavgen.spec
         env:
           IS_RELEASE: 1
       - name: Create archive (.tar.xz)
