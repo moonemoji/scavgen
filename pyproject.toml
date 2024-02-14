@@ -1,6 +1,6 @@
 [tool.poetry]
 
-name = "scavgen"
+name = "scavlifegen"
 version = "0.1.0"
 description = "Fan-edit of the Warrior Cats ClanGen game, to replace cats with Rain World scavengers."
 license = "MPL-2.0"

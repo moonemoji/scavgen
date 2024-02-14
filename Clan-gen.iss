@@ -1,7 +1,7 @@
 ; Clan-gen Installer Script
 
-#define ApplicationBaseName "Scav-Gen"
-#define ApplicationFullName "Scav-Gen (ClanGen mod) by everyone-needs-a-hoopoe, mothfishing, and murderbot, based on ClanGen by Sablesteel"
+#define ApplicationBaseName "Scav-Life-Gen"
+#define ApplicationFullName "Scav-Life-Gen (ClanGen mod) by Philomel, Mijkai, and Cam, based on ClanGen by Sablesteel, and based on LifeGen by sedgestripe"
 
 ; Update this line to the date of the latest Clan-gen (fan edit) by Sablesteel release 
 ; (or choose your own version-numbering scheme)
