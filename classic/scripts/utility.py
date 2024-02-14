@@ -1331,7 +1331,13 @@ def generate_sprite(cat, life_state=None, scars_hidden=False, acc_hidden=False, 
 
         # draw antlers
         if cat.pelt.antlers is not None:
-            new_sprite.blit(sprites.sprites[cat.pelt.antlers + cat.pelt.colour + cat_sprite], (0, 0))
+            if not dead:
+                new_sprite.blit(sprites.sprites[cat.pelt.antlers + cat.pelt.colour + cat_sprite], (0, 0))
+            elif cat.df:
+                new_sprite.blit(sprites.sprites[cat.pelt.antlers + cat.pelt.colour + cat_sprite], (0, 0))
+            elif dead:
+                new_sprite.blit(sprites.sprites['dead' + cat.pelt.antlers + cat.pelt.colour + cat_sprite], (0, 0))
+            
 
         # draw accessories
         if not acc_hidden:        

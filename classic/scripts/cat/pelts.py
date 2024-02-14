@@ -626,8 +626,6 @@ class Pelt():
     def init_antlers(self, parents) -> bool:
         """Inits antlers."""
         
-        print("INITING ANTLERS")
-        
         if parents:
             par_antlers = set()
             for p in parents:
