@@ -363,6 +363,13 @@ class Sprites():
         # =========================================
         # dead antlers
         # =========================================
+       # kitty
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('deadkittyantlers', (a, 0), f'deadkittyantlers{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('deadkittyantlers', (a, 1), f'deadkittyantlers{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('deadkittyantlers', (a, 2), f'deadkittyantlers{i}')
         # sheep
         for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
             self.make_group('deadsheepantlers', (a, 0), f'deadsheepantlers{i}')
