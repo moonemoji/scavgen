@@ -170,7 +170,7 @@ scripts/__pycache__/**
 saves/currentclan.txt
 
 tests/testSaves
-cache/
+/cache
 
 # Update system
 
@@ -179,3 +179,4 @@ version.ini
 *.xml
 .vs/
 lgvenv/
+
