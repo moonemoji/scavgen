@@ -59,11 +59,11 @@ jobs:
         env:
           IS_RELEASE: 1
       - name: Create archive (.tar.xz)
-        run: tar -caf ScavGen_Linux64_glibc2.31+.tar.xz -C dist ScavGen
+        run: tar -caf ScavLifeGen_Linux64_glibc2.31+.tar.xz -C dist ScavLifeGen
       - uses: actions/upload-artifact@v3
         with:
-          name: ScavGen_Linux64_glibc2.31+.tar.xz
-          path: ScavGen_Linux64_glibc2.31+.tar.xz
+          name: ScavLifeGen_Linux64_glibc2.31+.tar.xz
+          path: ScavLifeGen_Linux64_glibc2.31+.tar.xz
       - name: Import GPG key
         id: import_gpg
         uses: crazy-max/ghaction-import-gpg@v5
@@ -74,7 +74,7 @@ jobs:
       - name: Upload artifact to API
         if: ${{ env.update_api_push_token != '' }}
         run: |
-          gpg --output ScavGen_Linux64_glibc2.31+.tar.xz.sig --detach-sig -a ScavGen_Linux64_glibc2.31+.tar.xz
+          gpg --output ScavLifeGen_Linux64_glibc2.31+.tar.xz.sig --detach-sig -a ScavLifeGen_Linux64_glibc2.31+.tar.xz
           curl -X 'POST' \
             'https://clangen.io/api/v1/Update/Channels/${{ env.RELEASE_CHANNEL }}/Releases/${{ env.VERSION_NUMBER }}/Appoint' \
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
@@ -84,8 +84,8 @@ jobs:
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
             -H 'accept: */*' \
             -H 'Content-Type: multipart/form-data' \
-            -F 'fileBundle=@ScavGen_Linux64_glibc2.31+.tar.xz' \
-            -F 'fileBundle=@ScavGen_Linux64_glibc2.31+.tar.xz.sig' \
+            -F 'fileBundle=@ScavLifeGen_Linux64_glibc2.31+.tar.xz' \
+            -F 'fileBundle=@ScavLifeGen_Linux64_glibc2.31+.tar.xz.sig' \
             --http1.1
       - name: Set up butler
         uses: jdno/setup-butler@v1
@@ -93,12 +93,12 @@ jobs:
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         if: startsWith(github.ref, 'refs/tags/') && env.BUTLER_API_KEY != ''
-        run: butler push ScavGen_Linux64_glibc2.31+.tar.xz sablesteel/clan-gen-fan-edit:linux64_glibc_231 --userversion "${{ env.VERSION_NUMBER }}"
+        run: butler push ScavLifeGen_Linux64_glibc2.31+.tar.xz sablesteel/clan-gen-fan-edit:linux64_glibc_231 --userversion "${{ env.VERSION_NUMBER }}"
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ScavGen_Linux64_glibc2.31+.tar.xz
+          files: ScavLifeGen_Linux64_glibc2.31+.tar.xz
 
   build_ubuntu_22_04:
     runs-on: ubuntu-22.04
@@ -153,11 +153,11 @@ jobs:
         env:
           IS_RELEASE: 1
       - name: Create archive (.tar.xz)
-        run: tar -caf ScavGen_Linux64_glibc2.35+.tar.xz -C dist ScavGen
+        run: tar -caf ScavLifeGen_Linux64_glibc2.35+.tar.xz -C dist ScavLifeGen
       - uses: actions/upload-artifact@v3
         with:
-          name: ScavGen_Linux64_glibc2.35+.tar.xz
-          path: ScavGen_Linux64_glibc2.35+.tar.xz
+          name: ScavLifeGen_Linux64_glibc2.35+.tar.xz
+          path: ScavLifeGen_Linux64_glibc2.35+.tar.xz
       - name: Import GPG key
         id: import_gpg
         uses: crazy-max/ghaction-import-gpg@v5
@@ -168,7 +168,7 @@ jobs:
       - name: Upload artifact to API
         if: ${{ env.update_api_push_token != '' }}
         run: |
-          gpg --output ScavGen_Linux64_glibc2.35+.tar.xz.sig --detach-sig -a ScavGen_Linux64_glibc2.35+.tar.xz
+          gpg --output ScavLifeGen_Linux64_glibc2.35+.tar.xz.sig --detach-sig -a ScavLifeGen_Linux64_glibc2.35+.tar.xz
           curl -X 'POST' \
             'https://clangen.io/api/v1/Update/Channels/${{ env.RELEASE_CHANNEL }}/Releases/${{ env.VERSION_NUMBER }}/Appoint' \
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
@@ -178,8 +178,8 @@ jobs:
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
             -H 'accept: */*' \
             -H 'Content-Type: multipart/form-data' \
-            -F 'fileBundle=@ScavGen_Linux64_glibc2.35+.tar.xz' \
-            -F 'fileBundle=@ScavGen_Linux64_glibc2.35+.tar.xz.sig' \
+            -F 'fileBundle=@ScavLifeGen_Linux64_glibc2.35+.tar.xz' \
+            -F 'fileBundle=@ScavLifeGen_Linux64_glibc2.35+.tar.xz.sig' \
             --http1.1
       - name: Set up butler
         uses: jdno/setup-butler@v1
@@ -187,12 +187,12 @@ jobs:
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         if: startsWith(github.ref, 'refs/tags/') && env.BUTLER_API_KEY != ''
-        run: butler push ScavGen_Linux64_glibc2.35+.tar.xz sablesteel/clan-gen-fan-edit:linux64_glibc_235 --userversion "${{ env.VERSION_NUMBER }}"
+        run: butler push ScavLifeGen_Linux64_glibc2.35+.tar.xz sablesteel/clan-gen-fan-edit:linux64_glibc_235 --userversion "${{ env.VERSION_NUMBER }}"
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ScavGen_Linux64_glibc2.35+.tar.xz
+          files: ScavLifeGen_Linux64_glibc2.35+.tar.xz
 
   build_win32:
     runs-on: windows-2019
@@ -269,12 +269,12 @@ jobs:
           IS_RELEASE: 1
       - name: Create archive (.zip)
         run: |
-          cp dist/ScavGen/.itch.toml dist/ 
-          tar.exe -a -c -f ScavGen_Win32.zip -C dist ScavGen .itch.toml
+          cp dist/ScavLifeGen/.itch.toml dist/ 
+          tar.exe -a -c -f ScavLifeGen_Win32.zip -C dist ScavLifeGen .itch.toml
       - uses: actions/upload-artifact@v3
         with:
-          name: ScavGen_Win32
-          path: ScavGen_Win32.zip
+          name: ScavLifeGen_Win32
+          path: ScavLifeGen_Win32.zip
       - name: Import GPG key
         id: import_gpg
         uses: crazy-max/ghaction-import-gpg@v5
@@ -286,7 +286,7 @@ jobs:
         if: ${{ env.update_api_push_token != '' }}
         shell: bash
         run: |
-          gpg --output ScavGen_Win32.zip.sig --detach-sig -a ScavGen_Win32.zip
+          gpg --output ScavLifeGen_Win32.zip.sig --detach-sig -a ScavLifeGen_Win32.zip
           curl -X 'POST' \
             'https://clangen.io/api/v1/Update/Channels/${{ env.RELEASE_CHANNEL }}/Releases/${{ env.VERSION_NUMBER }}/Appoint' \
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
@@ -296,8 +296,8 @@ jobs:
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
             -H 'accept: */*' \
             -H 'Content-Type: multipart/form-data' \
-            -F 'fileBundle=@ScavGen_Win32.zip;type=application/zip' \
-            -F 'fileBundle=@ScavGen_Win32.zip.sig' \
+            -F 'fileBundle=@ScavLifeGen_Win32.zip;type=application/zip' \
+            -F 'fileBundle=@ScavLifeGen_Win32.zip.sig' \
             --http1.1
       - name: Set up butler
         uses: jdno/setup-butler@v1
@@ -305,12 +305,12 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/') && env.BUTLER_API_KEY != ''
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
-        run: butler push ScavGen_Win32.zip sablesteel/clan-gen-fan-edit:win32 --userversion "${{ env.VERSION_NUMBER }}"
+        run: butler push ScavLifeGen_Win32.zip sablesteel/clan-gen-fan-edit:win32 --userversion "${{ env.VERSION_NUMBER }}"
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ScavGen_Win32.zip
+          files: ScavLifeGen_Win32.zip
 
   build_win64:
     runs-on: windows-latest
@@ -393,12 +393,12 @@ jobs:
           IS_RELEASE: 1
       - name: Create archive (.zip)
         run: |
-          cp dist/ScavGen/.itch.toml dist/ 
-          tar.exe -a -c -f ScavGen_Win64.zip -C dist ScavGen .itch.toml
+          cp dist/ScavLifeGen/.itch.toml dist/ 
+          tar.exe -a -c -f ScavLifeGen_Win64.zip -C dist ScavLifeGen .itch.toml
       - uses: actions/upload-artifact@v3
         with:
-          name: ScavGen_Win64
-          path: ScavGen_Win64.zip
+          name: ScavLifeGen_Win64
+          path: ScavLifeGen_Win64.zip
       - name: Import GPG key
         id: import_gpg
         uses: crazy-max/ghaction-import-gpg@v5
@@ -410,7 +410,7 @@ jobs:
         if: ${{ env.update_api_push_token != '' }}
         shell: bash
         run: |
-          gpg --output ScavGen_Win64.zip.sig --detach-sig -a ScavGen_Win64.zip
+          gpg --output ScavLifeGen_Win64.zip.sig --detach-sig -a ScavLifeGen_Win64.zip
           curl -X 'POST' \
             'https://clangen.io/api/v1/Update/Channels/${{ env.RELEASE_CHANNEL }}/Releases/${{ env.VERSION_NUMBER }}/Appoint' \
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
@@ -420,8 +420,8 @@ jobs:
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
             -H 'accept: */*' \
             -H 'Content-Type: multipart/form-data' \
-            -F 'fileBundle=@ScavGen_Win64.zip;type=application/zip' \
-            -F 'fileBundle=@ScavGen_Win64.zip.sig' \
+            -F 'fileBundle=@ScavLifeGen_Win64.zip;type=application/zip' \
+            -F 'fileBundle=@ScavLifeGen_Win64.zip.sig' \
             --http1.1
       - name: Set up butler
         uses: jdno/setup-butler@v1
@@ -429,12 +429,12 @@ jobs:
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         if: startsWith(github.ref, 'refs/tags/') && env.BUTLER_API_KEY != ''
-        run: butler push ScavGen_Win64.zip sablesteel/clan-gen-fan-edit:win64 --userversion "${{ env.VERSION_NUMBER }}"
+        run: butler push ScavLifeGen_Win64.zip sablesteel/clan-gen-fan-edit:win64 --userversion "${{ env.VERSION_NUMBER }}"
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ScavGen_Win64.zip
+          files: ScavLifeGen_Win64.zip
 
   build_win64_py311:
     runs-on: windows-latest
@@ -517,12 +517,12 @@ jobs:
           IS_RELEASE: 1
       - name: Create archive (.zip)
         run: |
-          cp dist/ScavGen/.itch.toml dist/ 
-          tar.exe -a -c -f ScavGen_Win64_Windows10+.zip -C dist ScavGen .itch.toml
+          cp dist/ScavLifeGen/.itch.toml dist/ 
+          tar.exe -a -c -f ScavLifeGen_Win64_Windows10+.zip -C dist ScavLifeGen .itch.toml
       - uses: actions/upload-artifact@v3
         with:
-          name: ScavGen_Win64_Windows10+
-          path: ScavGen_Win64_Windows10+.zip
+          name: ScavLifeGen_Win64_Windows10+
+          path: ScavLifeGen_Win64_Windows10+.zip
       - name: Import GPG key
         id: import_gpg
         uses: crazy-max/ghaction-import-gpg@v5
@@ -534,7 +534,7 @@ jobs:
         if: ${{ env.update_api_push_token != '' }}
         shell: bash
         run: |
-          gpg --output ScavGen_Win64_Windows10+.zip.sig --detach-sig -a ScavGen_Win64_Windows10+.zip
+          gpg --output ScavLifeGen_Win64_Windows10+.zip.sig --detach-sig -a ScavLifeGen_Win64_Windows10+.zip
           curl -X 'POST' \
             'https://clangen.io/api/v1/Update/Channels/${{ env.RELEASE_CHANNEL }}/Releases/${{ env.VERSION_NUMBER }}/Appoint' \
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
@@ -544,8 +544,8 @@ jobs:
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
             -H 'accept: */*' \
             -H 'Content-Type: multipart/form-data' \
-            -F 'fileBundle=@ScavGen_Win64_Windows10+.zip;type=application/zip' \
-            -F 'fileBundle=@ScavGen_Win64_Windows10+.zip.sig' \
+            -F 'fileBundle=@ScavLifeGen_Win64_Windows10+.zip;type=application/zip' \
+            -F 'fileBundle=@ScavLifeGen_Win64_Windows10+.zip.sig' \
             --http1.1
       - name: Set up butler
         uses: jdno/setup-butler@v1
@@ -553,12 +553,12 @@ jobs:
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         if: startsWith(github.ref, 'refs/tags/') && env.BUTLER_API_KEY != ''
-        run: butler push ScavGen_Win64_Windows10+.zip sablesteel/clan-gen-fan-edit:win64_10 --userversion "${{ env.VERSION_NUMBER }}"
+        run: butler push ScavLifeGen_Win64_Windows10+.zip sablesteel/clan-gen-fan-edit:win64_10 --userversion "${{ env.VERSION_NUMBER }}"
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ScavGen_Win64_Windows10+.zip
+          files: ScavLifeGen_Win64_Windows10+.zip
 
   build_macos64:
     runs-on: macos-latest
@@ -624,15 +624,15 @@ jobs:
         env:
           IS_RELEASE: 1
       - name: Create archive (.tar.xz)
-        run: rm -r dist/ScavGen
+        run: rm -r dist/ScavLifeGen
       - name: Install appdmg
         run: "npm install -g appdmg"
       - name: Generate .dmg
-        run: "appdmg appdmg.json ScavGen_macOS64.dmg"
+        run: "appdmg appdmg.json ScavLifeGen_macOS64.dmg"
       - uses: actions/upload-artifact@v3
         with:
-          name: ScavGen_macOS64.dmg
-          path: ScavGen_macOS64.dmg
+          name: ScavLifeGen_macOS64.dmg
+          path: ScavLifeGen_macOS64.dmg
       - name: Import GPG key
         id: import_gpg
         uses: crazy-max/ghaction-import-gpg@v5
@@ -643,8 +643,8 @@ jobs:
       - name: Upload artifact to API
         if: ${{ env.update_api_push_token != '' }}
         run: |
-          zip ScavGen_macOS64.dmg.zip ./ScavGen_macOS64.dmg
-          gpg --output ScavGen_macOS64.dmg.zip.sig --detach-sig -a ScavGen_macOS64.dmg.zip
+          zip ScavLifeGen_macOS64.dmg.zip ./ScavLifeGen_macOS64.dmg
+          gpg --output ScavLifeGen_macOS64.dmg.zip.sig --detach-sig -a ScavLifeGen_macOS64.dmg.zip
           curl -X 'POST' \
             'https://clangen.io/api/v1/Update/Channels/${{ env.RELEASE_CHANNEL }}/Releases/${{ env.VERSION_NUMBER }}/Appoint' \
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
@@ -654,8 +654,8 @@ jobs:
             -H 'X-API-Key: ${{ secrets.UPDATE_API_DEPLOY_KEY }}' \
             -H 'accept: */*' \
             -H 'Content-Type: multipart/form-data' \
-            -F 'fileBundle=@ScavGen_macOS64.dmg.zip;type=application/zip' \
-            -F 'fileBundle=@ScavGen_macOS64.dmg.zip.sig' \
+            -F 'fileBundle=@ScavLifeGen_macOS64.dmg.zip;type=application/zip' \
+            -F 'fileBundle=@ScavLifeGen_macOS64.dmg.zip.sig' \
             --http1.1
       - name: Set up butler
         uses: jdno/setup-butler@v1
@@ -663,12 +663,12 @@ jobs:
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         if: startsWith(github.ref, 'refs/tags/') && env.BUTLER_API_KEY != ''
-        run: butler push ScavGen_macOS64.dmg sablesteel/clan-gen-fan-edit:osx64 --userversion "${{ env.VERSION_NUMBER }}"
+        run: butler push ScavLifeGen_macOS64.dmg sablesteel/clan-gen-fan-edit:osx64 --userversion "${{ env.VERSION_NUMBER }}"
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ScavGen_macOS64.dmg
+          files: ScavLifeGen_macOS64.dmg
 
   confirm_release_ubuntu_22_04:
     runs-on: ubuntu-22.04
