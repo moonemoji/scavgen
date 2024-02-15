@@ -11,6 +11,8 @@ from scripts.utility import event_text_adjust, get_med_cats, change_relationship
 from scripts.game_structure.game_essentials import game
 from scripts.events_module.scar_events import Scar_Events
 from scripts.events_module.generate_events import GenerateEvents
+from scripts.game_structure.windows import RetireScreen
+
 from scripts.event_class import Single_Event
 
 
@@ -169,7 +171,6 @@ class Condition_Events():
             text = event_string
         else:
             # EVENTS
-
             if not triggered and \
                     cat.personality.trait in ["adventurous",
                                             "bold",
@@ -257,18 +258,35 @@ class Condition_Events():
                         cat.get_injured(injury_event.injury)
 
         # just double-checking that trigger is only returned True if the cat is dead
-        if cat.dead:
-            triggered = True
-        else:
-            triggered = False
+        if cat.status != "leader":
+            # only checks for non-leaders, as leaders will not be dead if they are just losing a life
+            if cat.dead:
+                triggered = True
+            else:
+                triggered = False
 
         if text is not None:
             types = ["health"]
-            # game.health_events_list.append(text)
             if cat.dead:
                 types.append("birth_death")
             if has_other_clan:
                 types.append("other_clans")
+            # Add event text to the relationship log if two cats are involved
+            if other_cat:
+                pos_rel_event = ["romantic", "platonic", "neg_dislike", "respect", "comfort", "neg_jealousy", "trust"]
+                neg_rel_event = ["neg_romantic", "neg_platonic", "dislike", "neg_respect", "neg_comfort", "jealousy", "neg_trust"]
+                effect = ""
+                if any(tag in injury_event.tags for tag in pos_rel_event):
+                    effect = " (positive effect)"
+                elif any(tag in injury_event.tags for tag in neg_rel_event):
+                    effect = " (negative effect)"
+
+                log_text = text + effect
+
+                if cat.moons == 1:
+                    cat.relationships[other_cat.ID].log.append(log_text + f" - {cat.name} was {cat.moons} moon old")
+                else:
+                    cat.relationships[other_cat.ID].log.append(log_text + f" - {cat.name} was {cat.moons} moons old")
             game.cur_events_list.append(Single_Event(text, types, involved_cats))
 
         return triggered
@@ -364,11 +382,11 @@ class Condition_Events():
             "BOTHBLIND": ["blind"],
             "RATBITE": ["weak leg"]
         }
-
+        
         scarless_conditions = [
             "weak leg", "paralyzed", "raspy lungs", "wasting disease", "blind", "failing eyesight", "one bad eye",
             "partial hearing loss", "deaf", "constant joint pain", "constantly dizzy", "recurring shock",
-            "lasting grief"
+            "lasting grief", "persistent headaches"
         ]
 
         got_condition = False
@@ -393,6 +411,8 @@ class Condition_Events():
                 except KeyError:
                     print(f"WARNING: {injury_name} couldn't be found in injury dict! no permanent condition was given")
                     return perm_condition
+            # else:
+            #     print(f"WARNING: {scar} for {injury_name} is either None or is not in scar_to_condition dict.")
 
         elif condition is not None:
             perm_condition = condition
@@ -464,7 +484,10 @@ class Condition_Events():
                 History.remove_possible_history(cat, illness)
                 game.switches['skip_conditions'].append(illness)
                 # gather potential event strings for healed illness
-                possible_string_list = Condition_Events.ILLNESS_HEALED_STRINGS[illness]
+                try:
+                    possible_string_list = Condition_Events.ILLNESS_HEALED_STRINGS[illness]
+                except:
+                    print("couldn't find illness")
 
                 # choose event string
                 random_index = int(random.random() * len(possible_string_list))
@@ -732,7 +755,7 @@ class Condition_Events():
 
         if not triggered and not cat.dead and cat.status not in \
                 ['leader', 'medicine cat', 'kitten', 'newborn', 'medicine cat apprentice', 'mediator',
-                 'mediator apprentice', 'elder']:
+                 'mediator apprentice', "queen", "queen's apprentice", 'elder']:
             for condition in cat.permanent_condition:
                 if cat.permanent_condition[condition]['severity'] not in ['major', 'severe']:
                     continue
@@ -783,12 +806,15 @@ class Condition_Events():
                     if cat.age == 'adolescent':
                         event += f" They are given the name {cat.name.prefix}{cat.name.suffix} in honor " \
                                     f"of their contributions to {game.clan.name}Clan."
-
-                    cat.retire_cat()
-                    # Don't add this to the condition event list: instead make it it's own event, a ceremony. 
-                    game.cur_events_list.append(
-                            Single_Event(event, "ceremony", retire_involved))
-
+                    if cat.ID != game.clan.your_cat.ID:
+                        
+                        cat.retire_cat()
+                        # Don't add this to the condition event list: instead make it it's own event, a ceremony. 
+                        game.cur_events_list.append(
+                                Single_Event(event, "ceremony", retire_involved))
+                    elif game.clan.age % 5 == 0 and not game.switches['window_open']:
+                        RetireScreen('events screen')
+                            
     @staticmethod
     def give_risks(cat, event_list, condition, progression, conditions, dictionary):
         event_triggered = False

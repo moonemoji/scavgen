@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+from copy import deepcopy
 import random
 from random import choice, randint, choices
 from typing import List, Tuple
+from itertools import repeat
 
 import ujson
 import pygame
@@ -64,7 +66,7 @@ class Patrol():
             str(game.clan.current_season).casefold(),
             str(game.clan.biome).casefold(),
             patrol_type,
-            game.settings.get('disasters')
+            game.clan.clan_settings['disasters']
         )
         
         print(f'Total Number of Possible Patrols | normal: {len(final_patrols)}, romantic: {len(final_romance_patrols)} ')
@@ -90,6 +92,19 @@ class Patrol():
             
         Patrol.used_patrols.append(self.patrol_event.patrol_id)
         
+        patrol_cat_ids = []
+        for c in patrol_cats:
+            patrol_cat_ids.append(c.ID)
+        if game.clan.your_cat.ID in patrol_cat_ids:
+            if game.current_screen == 'patrol screen':
+                game.switches['patrolled'].append('2')
+            elif game.current_screen == 'patrol screen2':
+                game.switches['patrolled'].append('1')
+            elif game.current_screen == 'patrol screen3':
+                game.switches['patrolled'].append('3')
+            else:
+                game.switches['patrolled'].append('4')
+        
         return self.process_text(self.patrol_event.intro_text, None)
 
     def proceed_patrol(self, path:str="proceed") -> Tuple[str]:
@@ -98,6 +113,7 @@ class Patrol():
         
         if path == "decline":
             if self.patrol_event:
+                print(f"PATROL ID: {self.patrol_event.patrol_id} | SUCCESS: N/A (did not proceed)")        
                 return self.process_text(self.patrol_event.decline_text, None), "", None
             else:
                 return "Error - no event chosen", "", None
@@ -196,10 +212,19 @@ class Patrol():
             
         # DETERMINE RANDOM CAT
         #Find random cat
-        if len(patrol_cats) > 1:
-            self.patrol_random_cat = choice([i for i in patrol_cats if i != self.patrol_leader])
+        if game.current_screen == 'patrol screen4':
+            for date_cat in patrol_cats:
+                if date_cat.ID != game.clan.your_cat.ID:
+                    self.patrol_random_cat = date_cat
+                    break
+        elif len(patrol_cats) > 1 and game.current_screen == 'patrol screen3':
+            possible_random_cats = [i for i in patrol_cats if i.ID != game.clan.your_cat.ID]
+            self.patrol_random_cat = choice(possible_random_cats)
         else:
-            self.patrol_random_cat = choice(patrol_cats)
+            if len(patrol_cats) > 1:
+                self.patrol_random_cat = choice([i for i in patrol_cats if i != self.patrol_leader])
+            else:
+                self.patrol_random_cat = choice(patrol_cats)
             
         print("Patrol Leader:", str(self.patrol_leader.name))
         print("Random Cat:", str(self.patrol_random_cat.name))
@@ -265,26 +290,56 @@ class Patrol():
             welcoming_rep = True
             chance = welcoming_chance
 
-        possible_patrols.extend(self.generate_patrol_events(self.HUNTING))
-        possible_patrols.extend(self.generate_patrol_events(self.HUNTING_SZN))
-        possible_patrols.extend(self.generate_patrol_events(self.BORDER))
-        possible_patrols.extend(self.generate_patrol_events(self.BORDER_SZN))
-        possible_patrols.extend(self.generate_patrol_events(self.TRAINING))
-        possible_patrols.extend(self.generate_patrol_events(self.TRAINING_SZN))
-        possible_patrols.extend(self.generate_patrol_events(self.MEDCAT))
-        possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_SZN))
-        possible_patrols.extend(self.generate_patrol_events(self.HUNTING_GEN))
-        possible_patrols.extend(self.generate_patrol_events(self.BORDER_GEN))
-        possible_patrols.extend(self.generate_patrol_events(self.TRAINING_GEN))
-        possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_GEN))
+        if game.current_screen == 'patrol screen2':
+            possible_patrols.extend(self.generate_patrol_events(self.HUNTING))
+            possible_patrols.extend(self.generate_patrol_events(self.HUNTING_SZN))
+            possible_patrols.extend(self.generate_patrol_events(self.BORDER))
+            possible_patrols.extend(self.generate_patrol_events(self.BORDER_SZN))
+            possible_patrols.extend(self.generate_patrol_events(self.TRAINING))
+            possible_patrols.extend(self.generate_patrol_events(self.TRAINING_SZN))
+            possible_patrols.extend(self.generate_patrol_events(self.MEDCAT))
+            possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_SZN))
+            possible_patrols.extend(self.generate_patrol_events(self.HUNTING_GEN))
+            possible_patrols.extend(self.generate_patrol_events(self.BORDER_GEN))
+            possible_patrols.extend(self.generate_patrol_events(self.TRAINING_GEN))
+            possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_GEN))
+        elif game.current_screen == 'patrol screen':
+            if game.clan.your_cat.status == 'kitten':
+                possible_patrols.extend(self.generate_patrol_events(self.kit_lifegen))
+            elif game.clan.your_cat.status == 'apprentice':
+                possible_patrols.extend(self.generate_patrol_events(self.app_lifegen))
+            elif game.clan.your_cat.status == 'medicine cat apprentice':
+                possible_patrols.extend(self.generate_patrol_events(self.medapp_lifegen))
+            elif game.clan.your_cat.status == 'mediator apprentice':
+                possible_patrols.extend(self.generate_patrol_events(self.mediatorapp_lifegen))
+            elif game.clan.your_cat.status == "queen's apprentice":
+                possible_patrols.extend(self.generate_patrol_events(self.queenapp_lifegen))
+            elif game.clan.your_cat.status == "queen":
+                possible_patrols.extend(self.generate_patrol_events(self.queen_lifegen))
+            elif game.clan.your_cat.status == 'medicine cat':
+                possible_patrols.extend(self.generate_patrol_events(self.med_lifegen))
+            elif game.clan.your_cat.status == 'mediator':
+                possible_patrols.extend(self.generate_patrol_events(self.mediator_lifegen))
+            elif game.clan.your_cat.status == 'deputy':
+                possible_patrols.extend(self.generate_patrol_events(self.deputy_lifegen))
+            elif game.clan.your_cat.status == 'leader':
+                possible_patrols.extend(self.generate_patrol_events(self.leader_lifegen))
+            elif game.clan.your_cat.status == 'elder':
+                possible_patrols.extend(self.generate_patrol_events(self.elder_lifegen))
+            else:
+                possible_patrols.extend(self.generate_patrol_events(self.warrior_lifegen))
+        elif game.current_screen == 'patrol screen4':
+            possible_patrols.extend(self.generate_patrol_events(self.date_lifegen))
+        else:
+            possible_patrols.extend(self.generate_patrol_events(self.df_lifegen))
 
-        if game_setting_disaster:
+        if game_setting_disaster and game.current_screen == 'patrol screen2':
             dis_chance = int(random.getrandbits(3))  # disaster patrol chance
             if dis_chance == 1:
                 possible_patrols.extend(self.generate_patrol_events(self.DISASTER))
 
         # new cat patrols
-        if chance == 1:
+        if chance == 1 and game.current_screen == 'patrol screen2':
             if welcoming_rep:
                 possible_patrols.extend(self.generate_patrol_events(self.NEW_CAT_WELCOMING))
             elif neutral_rep:
@@ -293,7 +348,7 @@ class Patrol():
                 possible_patrols.extend(self.generate_patrol_events(self.NEW_CAT_HOSTILE))
 
         # other Clan patrols
-        if other_clan_chance == 1:
+        if other_clan_chance == 1 and game.current_screen == 'patrol screen2':
             if clan_neutral:
                 possible_patrols.extend(self.generate_patrol_events(self.OTHER_CLAN))
             elif clan_allies:
@@ -301,8 +356,9 @@ class Patrol():
             elif clan_hostile:
                 possible_patrols.extend(self.generate_patrol_events(self.OTHER_CLAN_HOSTILE))
 
-        final_patrols, final_romance_patrols = self. get_filtered_patrols(possible_patrols, biome, current_season,
-                                                                          patrol_type)
+        if game.current_screen == 'patrol screen2' or game.current_screen =='patrol screen3' or game.current_screen =='patrol screen4':
+            final_patrols, final_romance_patrols = self.get_filtered_patrols(possible_patrols, biome, current_season,
+                                                                            patrol_type)
 
         # This is a debug option. If the patrol_id set isn "debug_ensure_patrol" is possible, 
         # make it the *only* possible patrol
@@ -333,7 +389,10 @@ class Patrol():
                       f'"{game.config["patrol_generation"]["debug_ensure_patrol_id"]}" '
                       "is not a possible romantic patrol.")
             
-        return final_patrols, final_romance_patrols
+        if game.current_screen == 'patrol screen2' or game.current_screen =='patrol screen3' or game.current_screen =='patrol screen4':
+            return final_patrols, final_romance_patrols
+            
+        return possible_patrols, []
 
     def _check_constraints(self, patrol: PatrolEvent) -> bool:
         if not self._filter_relationship(patrol):
@@ -378,7 +437,27 @@ class Patrol():
             for x in combinations(self.patrol_cats, 2):
                 if x[0].ID not in x[1].mate:
                     return False
+        
+        # check if all cats are mates with p_l (they do not have to be mates with each other)
+        if "mates_with_pl" in patrol.relationship_constraints:
+            # First test if there is more then one cat
+            if len(self.patrol_cats) == 1:
+                return False
+            
+            # Check each patrol cat to see if it is mates with the patrol leader
+            for cat in self.patrol_cats:
+                if cat.ID == self.patrol_leader.ID:
+                    continue
                 
+                if cat.ID not in self.patrol_leader.mate:
+                    return False
+
+        # check if all cats are not mates
+        if "not_mates" in patrol.relationship_constraints:
+            # opposite of mate check
+            for x in combinations(self.patrol_cats, 2):
+                if x[0].ID in x[1].mate:
+                    return False
 
         # check if the cats are in a parent/child relationship
         if "parent/child" in patrol.relationship_constraints:
@@ -529,6 +608,10 @@ class Patrol():
         filtered_patrols = []
         romantic_patrols = []
         special_date = get_special_date()
+        # This make sure general only gets hunting, border, or training patrols
+		# chose fix type will make it not depending on the content amount
+        if patrol_type == "general":
+            patrol_type = random.choice(["hunting", "border", "training"])
 
         # makes sure that it grabs patrols in the correct biomes, season, with the correct number of cats
         for patrol in possible_patrols:
@@ -564,25 +647,41 @@ class Patrol():
                 continue
             if current_season not in patrol.season and "Any" not in patrol.season:
                 continue
-
+            if game.current_screen == 'patrol screen':
+                if game.clan.your_cat.status == "kitten" and "kit_only" not in patrol.tags:
+                    continue
+                elif game.clan.your_cat.status != "kitten" and "kit_only" in patrol.tags:
+                    continue
+            if game.current_screen == "patrol screen":
+                if "bloodthirsty_only" in patrol.tags:
+                    if Cat.all_cats.get(game.clan.your_cat.mentor).personality.trait != "bloodthirsty":
+                        continue
+            if game.current_screen == 'patrol screen4':
+                if "you_med" in patrol.tags:
+                    if game.clan.your_cat.status != 'medicine cat':
+                        continue
+                if "df" in patrol.tags:
+                    if not game.clan.your_cat.joined_df:
+                        continue
             #  correct button check
-            if patrol_type == "general":
-                if not set(patrol.types).intersection({"hunting", "border", "training"}):
-                    # This make sure general only gets hunting, border, or training patrols.
-                    continue
-            else:
-                if 'hunting' not in patrol.types and patrol_type == 'hunting':
-                    continue
-                elif 'border' not in patrol.types and patrol_type == 'border':
-                    continue
-                elif 'training' not in patrol.types and patrol_type == 'training':
-                    continue
-                elif 'herb_gathering' not in patrol.types and patrol_type == 'med':
-                    continue
+            if game.current_screen == 'patrol screen2':
+                if patrol_type == "general":
+                    if not set(patrol.types).intersection({"hunting", "border", "training"}):
+                        # This make sure general only gets hunting, border, or training patrols.
+                        continue
+                else:
+                    if 'hunting' not in patrol.types and patrol_type == 'hunting':
+                        continue
+                    elif 'border' not in patrol.types and patrol_type == 'border':
+                        continue
+                    elif 'training' not in patrol.types and patrol_type == 'training':
+                        continue
+                    elif 'herb_gathering' not in patrol.types and patrol_type == 'med':
+                        continue
 
             # cruel season tag check
             if "cruel_season" in patrol.tags:
-                if game.clan.game_mode != 'cruel_season':
+                if game.clan and game.clan.game_mode != 'cruel_season':
                     continue
 
             if "romantic" in patrol.tags:
@@ -590,9 +689,9 @@ class Patrol():
             else:
                 filtered_patrols.append(patrol)
 
-        # I'll get to that later, hahah TODO
-        #if patrol_type == 'hunting':
-        #    filtered_patrols = self.balance_hunting(filtered_patrols)
+        # make sure the hunting patrols are balanced
+        if patrol_type == 'hunting':
+            filtered_patrols = self.balance_hunting(filtered_patrols)
 
         return filtered_patrols, romantic_patrols
 
@@ -618,6 +717,7 @@ class Patrol():
                 biome=patrol.get("biome"),
                 season=patrol.get("season"),
                 tags=patrol.get("tags"),
+                weight=patrol.get("weight", 20),
                 types=patrol.get("types"),
                 intro_text=patrol.get("intro_text"),
                 patrol_art=patrol.get("patrol_art"),
@@ -700,7 +800,47 @@ class Patrol():
                 success_chance += game.config["patrol_generation"]["fail_stat_cat_modifier"]
 
             skill_updates += f"{kitty.name} updated chance to {success_chance} | "
-        
+        if game.current_screen == 'patrol screen4':
+            c = random.randint(1,100)
+            success_chance = 40
+            date = None
+            you = game.clan.your_cat
+            if self.patrol_cats[0].ID == game.clan.your_cat.ID:
+                date = self.patrol_cats[1]
+            else:
+                date = self.patrol_cats[0]
+            if date.relationships.get(you.ID):
+                if date.relationships.get(you.ID).romantic_love > 50:
+                    success_chance += 40
+                elif date.relationships.get(you.ID).romantic_love > 40:
+                    success_chance += 30
+                elif date.relationships.get(you.ID).romantic_love > 30:
+                    success_chance += 20
+                elif date.relationships.get(you.ID).romantic_love > 10:
+                    success_chance += 10
+                
+                if date.relationships.get(you.ID).platonic_like > 40:
+                    success_chance += 15
+                elif date.relationships.get(you.ID).platonic_like > 30:
+                    success_chance += 10
+                elif date.relationships.get(you.ID).platonic_like > 20:
+                    success_chance += 5
+                    
+                if date.relationships.get(you.ID).dislike > 50:
+                    success_chance -= 50
+                if date.relationships.get(you.ID).dislike > 30:
+                    success_chance -= 40
+                if date.relationships.get(you.ID).dislike > 20:
+                    success_chance -= 30
+                if date.relationships.get(you.ID).dislike > 0:
+                    success_chance -= 10
+                success_chance += random.randint(-20,20)
+            success_chance = min(90, success_chance)
+            success_chance = max(success_chance, 10)
+            print(f"c: {c} chance: {success_chance}")
+            if c < success_chance:
+                date.relationships.get(you.ID).romantic_love += 10
+                you.relationships.get(date.ID).romantic_love += 10
         if success_chance >= 120:
             success_chance = 115
             skill_updates += "success chance over 120, updated to 115"
@@ -712,70 +852,127 @@ class Patrol():
         
     def update_resources(self, biome_dir, leaf):
         resource_dir = "resources/dicts/patrols/"
-        # HUNTING #
-        self.HUNTING_SZN = None
-        with open(f"{resource_dir}{biome_dir}hunting/{leaf}.json", 'r', encoding='ascii') as read_file:
-            self.HUNTING_SZN = ujson.loads(read_file.read())
-        self.HUNTING = None
-        with open(f"{resource_dir}{biome_dir}hunting/any.json", 'r', encoding='ascii') as read_file:
-            self.HUNTING = ujson.loads(read_file.read())
-        # BORDER #
-        self.BORDER_SZN = None
-        with open(f"{resource_dir}{biome_dir}border/{leaf}.json", 'r', encoding='ascii') as read_file:
-            self.BORDER_SZN = ujson.loads(read_file.read())
-        self.BORDER = None
-        with open(f"{resource_dir}{biome_dir}border/any.json", 'r', encoding='ascii') as read_file:
-            self.BORDER = ujson.loads(read_file.read())
-        # TRAINING #
-        self.TRAINING_SZN = None
-        with open(f"{resource_dir}{biome_dir}training/{leaf}.json", 'r', encoding='ascii') as read_file:
-            self.TRAINING_SZN = ujson.loads(read_file.read())
-        self.TRAINING = None
-        with open(f"{resource_dir}{biome_dir}training/any.json", 'r', encoding='ascii') as read_file:
-            self.TRAINING = ujson.loads(read_file.read())
-        # MED #
-        self.MEDCAT_SZN = None
-        with open(f"{resource_dir}{biome_dir}med/{leaf}.json", 'r', encoding='ascii') as read_file:
-            self.MEDCAT_SZN = ujson.loads(read_file.read())
-        self.MEDCAT = None
-        with open(f"{resource_dir}{biome_dir}med/any.json", 'r', encoding='ascii') as read_file:
-            self.MEDCAT = ujson.loads(read_file.read())
-        # NEW CAT #
-        self.NEW_CAT = None
-        with open(f"{resource_dir}new_cat.json", 'r', encoding='ascii') as read_file:
-            self.NEW_CAT = ujson.loads(read_file.read())
-        self.NEW_CAT_HOSTILE = None
-        with open(f"{resource_dir}new_cat_hostile.json", 'r', encoding='ascii') as read_file:
-            self.NEW_CAT_HOSTILE = ujson.loads(read_file.read())
-        self.NEW_CAT_WELCOMING = None
-        with open(f"{resource_dir}new_cat_welcoming.json", 'r', encoding='ascii') as read_file:
-            self.NEW_CAT_WELCOMING = ujson.loads(read_file.read())
-        # OTHER CLAN #
-        self.OTHER_CLAN = None
-        with open(f"{resource_dir}other_clan.json", 'r', encoding='ascii') as read_file:
-            self.OTHER_CLAN = ujson.loads(read_file.read())
-        self.OTHER_CLAN_ALLIES = None
-        with open(f"{resource_dir}other_clan_allies.json", 'r', encoding='ascii') as read_file:
-            self.OTHER_CLAN_ALLIES = ujson.loads(read_file.read())
-        self.OTHER_CLAN_HOSTILE = None
-        with open(f"{resource_dir}other_clan_hostile.json", 'r', encoding='ascii') as read_file:
-            self.OTHER_CLAN_HOSTILE = ujson.loads(read_file.read())
-        self.DISASTER = None
-        with open(f"{resource_dir}disaster.json", 'r', encoding='ascii') as read_file:
-            self.DISASTER = ujson.loads(read_file.read())
-        # sighing heavily as I add general patrols back in
-        self.HUNTING_GEN = None
-        with open(f"{resource_dir}general/hunting.json", 'r', encoding='ascii') as read_file:
-            self.HUNTING_GEN = ujson.loads(read_file.read())
-        self.BORDER_GEN = None
-        with open(f"{resource_dir}general/border.json", 'r', encoding='ascii') as read_file:
-            self.BORDER_GEN = ujson.loads(read_file.read())
-        self.TRAINING_GEN = None
-        with open(f"{resource_dir}general/training.json", 'r', encoding='ascii') as read_file:
-            self.TRAINING_GEN = ujson.loads(read_file.read())
-        self.MEDCAT_GEN = None
-        with open(f"{resource_dir}general/medcat.json", 'r', encoding='ascii') as read_file:
-            self.MEDCAT_GEN = ujson.loads(read_file.read())
+        if game.current_screen == 'patrol screen2':
+            # HUNTING #
+            self.HUNTING_SZN = None
+            with open(f"{resource_dir}{biome_dir}hunting/{leaf}.json", 'r', encoding='ascii') as read_file:
+                self.HUNTING_SZN = ujson.loads(read_file.read())
+            self.HUNTING = None
+            with open(f"{resource_dir}{biome_dir}hunting/any.json", 'r', encoding='ascii') as read_file:
+                self.HUNTING = ujson.loads(read_file.read())
+            # BORDER #
+            self.BORDER_SZN = None
+            with open(f"{resource_dir}{biome_dir}border/{leaf}.json", 'r', encoding='ascii') as read_file:
+                self.BORDER_SZN = ujson.loads(read_file.read())
+            self.BORDER = None
+            with open(f"{resource_dir}{biome_dir}border/any.json", 'r', encoding='ascii') as read_file:
+                self.BORDER = ujson.loads(read_file.read())
+            # TRAINING #
+            self.TRAINING_SZN = None
+            with open(f"{resource_dir}{biome_dir}training/{leaf}.json", 'r', encoding='ascii') as read_file:
+                self.TRAINING_SZN = ujson.loads(read_file.read())
+            self.TRAINING = None
+            with open(f"{resource_dir}{biome_dir}training/any.json", 'r', encoding='ascii') as read_file:
+                self.TRAINING = ujson.loads(read_file.read())
+            # MED #
+            self.MEDCAT_SZN = None
+            with open(f"{resource_dir}{biome_dir}med/{leaf}.json", 'r', encoding='ascii') as read_file:
+                self.MEDCAT_SZN = ujson.loads(read_file.read())
+            self.MEDCAT = None
+            with open(f"{resource_dir}{biome_dir}med/any.json", 'r', encoding='ascii') as read_file:
+                self.MEDCAT = ujson.loads(read_file.read())
+            # NEW CAT #
+            self.NEW_CAT = None
+            with open(f"{resource_dir}new_cat.json", 'r', encoding='ascii') as read_file:
+                self.NEW_CAT = ujson.loads(read_file.read())
+            self.NEW_CAT_HOSTILE = None
+            with open(f"{resource_dir}new_cat_hostile.json", 'r', encoding='ascii') as read_file:
+                self.NEW_CAT_HOSTILE = ujson.loads(read_file.read())
+            self.NEW_CAT_WELCOMING = None
+            with open(f"{resource_dir}new_cat_welcoming.json", 'r', encoding='ascii') as read_file:
+                self.NEW_CAT_WELCOMING = ujson.loads(read_file.read())
+            # OTHER CLAN #
+            self.OTHER_CLAN = None
+            with open(f"{resource_dir}other_clan.json", 'r', encoding='ascii') as read_file:
+                self.OTHER_CLAN = ujson.loads(read_file.read())
+            self.OTHER_CLAN_ALLIES = None
+            with open(f"{resource_dir}other_clan_allies.json", 'r', encoding='ascii') as read_file:
+                self.OTHER_CLAN_ALLIES = ujson.loads(read_file.read())
+            self.OTHER_CLAN_HOSTILE = None
+            with open(f"{resource_dir}other_clan_hostile.json", 'r', encoding='ascii') as read_file:
+                self.OTHER_CLAN_HOSTILE = ujson.loads(read_file.read())
+            self.DISASTER = None
+            with open(f"{resource_dir}disaster.json", 'r', encoding='ascii') as read_file:
+                self.DISASTER = ujson.loads(read_file.read())
+            # sighing heavily as I add general patrols back in
+            self.HUNTING_GEN = None
+            with open(f"{resource_dir}general/hunting.json", 'r', encoding='ascii') as read_file:
+                self.HUNTING_GEN = ujson.loads(read_file.read())
+            self.BORDER_GEN = None
+            with open(f"{resource_dir}general/border.json", 'r', encoding='ascii') as read_file:
+                self.BORDER_GEN = ujson.loads(read_file.read())
+            self.TRAINING_GEN = None
+            with open(f"{resource_dir}general/training.json", 'r', encoding='ascii') as read_file:
+                self.TRAINING_GEN = ujson.loads(read_file.read())
+            self.MEDCAT_GEN = None
+            with open(f"{resource_dir}general/medcat.json", 'r', encoding='ascii') as read_file:
+                self.MEDCAT_GEN = ujson.loads(read_file.read())
+        elif game.current_screen == 'patrol screen':
+            self.kit_lifegen = None
+            with open(f"{resource_dir}/lifegen/kit.json", 'r', encoding='ascii') as read_file:
+                self.kit_lifegen = ujson.loads(read_file.read())
+                
+            self.app_lifegen = None
+            with open(f"{resource_dir}/lifegen/app.json", 'r', encoding='ascii') as read_file:
+                self.app_lifegen = ujson.loads(read_file.read())
+                
+            self.medapp_lifegen = None
+            with open(f"{resource_dir}/lifegen/medapp.json", 'r', encoding='ascii') as read_file:
+                self.medapp_lifegen = ujson.loads(read_file.read())
+                
+            self.queenapp_lifegen = None
+            with open(f"{resource_dir}/lifegen/queenapp.json", 'r', encoding='ascii') as read_file:
+                self.queenapp_lifegen = ujson.loads(read_file.read())
+
+            self.queen_lifegen = None
+            with open(f"{resource_dir}/lifegen/queen.json", 'r', encoding='ascii') as read_file:
+                self.queen_lifegen = ujson.loads(read_file.read())
+                
+            self.mediatorapp_lifegen = None
+            with open(f"{resource_dir}/lifegen/mediatorapp.json", 'r', encoding='ascii') as read_file:
+                self.mediatorapp_lifegen = ujson.loads(read_file.read())
+                
+            self.med_lifegen = None
+            with open(f"{resource_dir}/lifegen/med.json", 'r', encoding='ascii') as read_file:
+                self.med_lifegen = ujson.loads(read_file.read())
+                
+            self.mediator_lifegen = None
+            with open(f"{resource_dir}/lifegen/mediator.json", 'r', encoding='ascii') as read_file:
+                self.mediator_lifegen = ujson.loads(read_file.read())
+                
+            self.deputy_lifegen = None
+            with open(f"{resource_dir}/lifegen/deputy.json", 'r', encoding='ascii') as read_file:
+                self.deputy_lifegen = ujson.loads(read_file.read())
+                
+            self.leader_lifegen = None
+            with open(f"{resource_dir}/lifegen/leader.json", 'r', encoding='ascii') as read_file:
+                self.leader_lifegen = ujson.loads(read_file.read())
+                
+            self.warrior_lifegen = None
+            with open(f"{resource_dir}/lifegen/warrior.json", 'r', encoding='ascii') as read_file:
+                self.warrior_lifegen = ujson.loads(read_file.read())
+                
+            self.elder_lifegen = None
+            with open(f"{resource_dir}/lifegen/elder.json", 'r', encoding='ascii') as read_file:
+                self.elder_lifegen = ujson.loads(read_file.read())
+        elif game.current_screen == 'patrol screen3':
+            self.df_lifegen = None
+            with open(f"{resource_dir}/lifegen/df.json", 'r', encoding='ascii') as read_file:
+                self.df_lifegen = ujson.loads(read_file.read())
+        elif game.current_screen == 'patrol screen4':
+            self.date_lifegen = None
+            with open(f"{resource_dir}/lifegen/date.json", 'r', encoding='ascii') as read_file:
+                self.date_lifegen = ujson.loads(read_file.read())
 
     def balance_hunting(self, possible_patrols: list):
         """Filter the incoming hunting patrol list to balance the different kinds of hunting patrols.
@@ -793,64 +990,54 @@ class Patrol():
         """
         filtered_patrols = []
 
-        # get first what kind of hunting type which will be chosen
-        patrol_type = ["fighting", "injury", "prey", "prey", "more_prey", "less_prey", "all"]
-        needed_tags = []
-        not_allowed_tag = None
-        chosen_tag = choice(patrol_type)
-        # add different tags which should be in the patrol
-        if chosen_tag == "all":
-            return possible_patrols
-        if chosen_tag == "fighting":
-            needed_tags.append("fighting")
-            needed_tags.append("death")
-        elif chosen_tag == "injury":
-            needed_tags.append("injury")
-            needed_tags.append("blunt_force_injury")
-            needed_tags.append("big_bite_injury")
-            needed_tags.append("small_bite_injury")
-            needed_tags.append("minor_injury")
-            needed_tags.append("cold_injury")
-            needed_tags.append("hot_injury")
-        elif chosen_tag in ["less_prey", "prey"]:
-            if chosen_tag == "prey":
-                not_allowed_tag = "death"
-            prey_types = ["small_prey", "medium_prey", "large_prey", "huge_prey"]
-            for prey_type in prey_types:
-                if chosen_tag == "less_prey" and prey_type in ["large_prey", "huge_prey"]:
-                    continue
-                needed_tags.append(f"{prey_type}")
-                if prey_type != "small_prey":
-                    needed_tags.append(f"{prey_type}0")
-                    needed_tags.append(f"{prey_type}1")
-                    needed_tags.append(f"{prey_type}2")
-                    needed_tags.append(f"{prey_type}3")
-        elif chosen_tag == "more_prey":
-            not_allowed_tag = "death"
-            needed_tags.append("large_prey")
-            needed_tags.append("huge_prey")
-            needed_tags.append("huge_prey0")
-            needed_tags.append("huge_prey1")
-            needed_tags.append("huge_prey2")
-            needed_tags.append("huge_prey3")
+        # get first what kind of prey size which will be chosen
+        biome = game.clan.biome
+        season = game.clan.current_season
+        possible_prey_size = []
+        idx = 0
+        prey_size = ["very_small", "small", "medium", "large", "huge"]
+        for amount in PATROL_BALANCE[biome][season]:
+            possible_prey_size.extend(repeat(prey_size[idx],amount))
+            idx += 1
+        chosen_prey_size = choice(possible_prey_size)
+        print(f"chosen filter prey size: {chosen_prey_size}")
 
-        # filter all possible patrol depending on the needed tags
-        # one of the mentioned tags should be in the patrol tag
+        # filter all possible patrol depending on the needed prey size
         for patrol in possible_patrols:
-            for tag in needed_tags:
-                if tag in patrol.tags:
-                    # if there is a tag set, check if this tag is not in the current patrol
-                    if not_allowed_tag and not_allowed_tag not in patrol.tags:
-                        filtered_patrols.append(patrol)
-                        break
-                    # when there is no tag set, add the patrol
-                    elif not not_allowed_tag:
-                        filtered_patrols.append(patrol)
-                        break
+            for adaption, needed_weight in PATROL_WEIGHT_ADAPTION.items():
+                if needed_weight[0] <= patrol.weight < needed_weight[1]:
+                    # get the amount of class sizes which can be increased
+                    increment = int(adaption.split("_")[0])
+                    new_idx = prey_size.index(chosen_prey_size) + increment
+                    # check that the increment does not lead to a overflow
+                    new_idx = new_idx if new_idx < len(prey_size) else len(prey_size)-1
+                    chosen_prey_size = deepcopy(prey_size[new_idx])
+
+            # now count the outcomes + prey size
+            prey_types = {}
+            for outcome in patrol.success_outcomes:
+                # ignore skill or trait outcomes
+                if outcome.stat_trait or outcome.stat_skill:
+                    continue
+                if outcome.prey:
+                    if outcome.prey[0] in prey_types:
+                        prey_types[outcome.prey[0]] += 1
+                    else:
+                        prey_types[outcome.prey[0]] = 1
+            
+            # get the prey size with the most outcomes
+            most_prey_size = ""
+            max_occurrences = 0
+            for size, amount in prey_types.items():
+                if amount >= max_occurrences and most_prey_size != chosen_prey_size:
+                    most_prey_size = size
+
+            if chosen_prey_size == most_prey_size:
+                filtered_patrols.append(patrol)
 
         # if the filtering results in an empty list, don't filter and return whole possible patrols
         if len(filtered_patrols) <= 0:
-            print("WARNING: filtering to balance out the hunting, didn't work.")
+            print("---- WARNING ---- filtering to balance out the hunting, didn't work.")
             filtered_patrols = possible_patrols
         return filtered_patrols
 
@@ -891,6 +1078,7 @@ class Patrol():
         replace_dict = {
             "p_l": (str(self.patrol_leader.name), choice(self.patrol_leader.pronouns)),
             "r_c": (str(self.patrol_random_cat.name), choice(self.patrol_random_cat.pronouns)),
+            "y_c": (str(game.clan.your_cat.name), choice(game.clan.your_cat.pronouns)),
         }
 
         other_cats = [i for i in self.patrol_cats if i not in [self.patrol_leader, self.patrol_random_cat]]
@@ -1063,7 +1251,8 @@ class Patrol():
 #                               PATROL CLASS END                               #
 # ---------------------------------------------------------------------------- #
 
-
+PATROL_WEIGHT_ADAPTION = game.prey_config["patrol_weight_adaption"]
+PATROL_BALANCE = game.prey_config["patrol_balance"]
 
 # ---------------------------------------------------------------------------- #
 #                              GENERAL INFORMATION                             #
@@ -1077,70 +1266,70 @@ Patrol Template.
 This is a good starting point for writing your own patrols. 
 
 {
-	"patrol_id": "some_unique_id",
-	"biome": [],
-	"season": [],
-	"types": [],
-	"tags": [],
-	"patrol_art": null,
-	"patrol_art_clean": null,
-	"min_cats": 1,
-	"max_cats": 6,
-	"min_max_status": {
-		"apprentice": [0, 6],
-		"medicine cat apprentice": [0, 6],
-		"medicine cat": [0, 6],
-		"deputy": [0, 6]
-		"warrior": [0, 6],
-		"leader": [0, 6],
-		"healer cats": [0, 6],
-		"normal_adult": [1, 6],
-		"all apprentices": [1, 6]
-	}
-	"weight": 20,
-	"chance_of_success": 50,
-	"relationship_constraint": [],
-	"pl_skill_constraint": [],
-	"intro_text": "The patrol heads out.",
-	"decline_text": "And they head right back!",
-	"success_outcomes": [
-		{
-			SEE OUTCOME BLOCK TEMPLATE
+    "patrol_id": "some_unique_id",
+    "biome": [],
+    "season": [],
+    "types": [],
+    "tags": [],
+    "patrol_art": null,
+    "patrol_art_clean": null,
+    "min_cats": 1,
+    "max_cats": 6,
+    "min_max_status": {
+        "apprentice": [0, 6],
+        "medicine cat apprentice": [0, 6],
+        "medicine cat": [0, 6],
+        "deputy": [0, 6]
+        "warrior": [0, 6],
+        "leader": [0, 6],
+        "healer cats": [0, 6],
+        "normal_adult": [1, 6],
+        "all apprentices": [1, 6]
+    }
+    "weight": 20,
+    "chance_of_success": 50,
+    "relationship_constraint": [],
+    "pl_skill_constraint": [],
+    "intro_text": "The patrol heads out.",
+    "decline_text": "And they head right back!",
+    "success_outcomes": [
+        {
+            SEE OUTCOME BLOCK TEMPLATE
         },
         {
-			SEE OUTCOME BLOCK TEMPLATE
-			
-		},
-	],
-	"fail_outcomes": [
-		{
-			SEE OUTCOME BLOCK TEMPLATE
+            SEE OUTCOME BLOCK TEMPLATE
+            
+        },
+    ],
+    "fail_outcomes": [
+        {
+            SEE OUTCOME BLOCK TEMPLATE
         },
         {
-			SEE OUTCOME BLOCK TEMPLATE
-			
-		},
-	],
+            SEE OUTCOME BLOCK TEMPLATE
+            
+        },
+    ],
 
-	"antag_success_outcomes": [
-		{
-			SEE OUTCOME BLOCK TEMPLATE
+    "antag_success_outcomes": [
+        {
+            SEE OUTCOME BLOCK TEMPLATE
         },
         {
-			SEE OUTCOME BLOCK TEMPLATE
-			
-		},
-	],
+            SEE OUTCOME BLOCK TEMPLATE
+            
+        },
+    ],
 
-	"antag_fail_outcomes": [
-		{
-			SEE OUTCOME BLOCK TEMPLATE
+    "antag_fail_outcomes": [
+        {
+            SEE OUTCOME BLOCK TEMPLATE
         },
         {
-			SEE OUTCOME BLOCK TEMPLATE
-			
-		},
-	],
+            SEE OUTCOME BLOCK TEMPLATE
+            
+        },
+    ],
 
 }
 
@@ -1151,50 +1340,50 @@ This is a good starting point for writing your own patrols.
 Outcome Block Template.
 This is a good starting point for writing your own outcomes.
 {
-	"text": "The raw displayed outcome text.",
-	"exp": 0,
+    "text": "The raw displayed outcome text.",
+    "exp": 0,
     "weight": 20,
     "stat_skill": [],
     "stat_trait": [],
     "can_have_stat": [],
     "lost_cats": [],
-	"dead_cats": [],
-	"outsider_rep": null,
-	"other_clan_rep": null,
-	"injury": [
+    "dead_cats": [],
+    "outsider_rep": null,
+    "other_clan_rep": null,
+    "injury": [
         {
-			"cats": [],
-			"injuries": [],
-			"scars": [],
-			"no_results": false
+            "cats": [],
+            "injuries": [],
+            "scars": [],
+            "no_results": false
         },
         {
-			"cats": [],
-			"injuries": [],
-			"scars": [],
-			"no_results": false
+            "cats": [],
+            "injuries": [],
+            "scars": [],
+            "no_results": false
         }
     ]
-	"history_text": {
-		"reg_death": "m_c died while on a patrol.",
-		"leader_death": "died on patrol",
-		"scar": "m_c was scarred on patrol",
-	}
-	"relationships": [
+    "history_text": {
+        "reg_death": "m_c died while on a patrol.",
+        "leader_death": "died on patrol",
+        "scar": "m_c was scarred on patrol",
+    }
+    "relationships": [
         {
-			"cats_to": [],
-			"cats_from": [],
-			"mutual": false
-			"values": [],
-			"amount": 5
+            "cats_to": [],
+            "cats_from": [],
+            "mutual": false
+            "values": [],
+            "amount": 5
         },	
         {
-			"cats_to": [],
-			"cats_from": [],
-			"mutual": false
-			"values": [],
-			"amount": 5
-		}
+            "cats_to": [],
+            "cats_from": [],
+            "mutual": false
+            "values": [],
+            "amount": 5
+        }
     ],
     "new_cat" [
         [],

@@ -37,7 +37,7 @@
             "Is grateful {PRONOUN/m_c/subject} {VERB/m_c/have/has} lived so long",
             "Is sharing {PRONOUN/m_c/poss} wisdom",
             "Is being pestered by fleas",
-            "Is predicting early rain based on {PRONOUN/m_c/poss} aching bones",
+            "Is predicting rainy weather based on {PRONOUN/m_c/poss} aching bones",
             "Hopes {PRONOUN/m_c/poss} legacy will continue on after {PRONOUN/m_c/poss} death",
             "Is in quite the mood today",
             "Feels too stiff to leave {PRONOUN/m_c/poss} nest today...",
@@ -47,7 +47,7 @@
             "Doesn't like how times have changed since {PRONOUN/m_c/subject} {VERB/m_c/were/was} young",
             "Is feeling rather cross today",
             "Thinks that times have changed for the better since {PRONOUN/m_c/subject} {VERB/m_c/were/was} young",
-            "Is recalling something no other scavenger remembers anymore",
+            "Is recalling something no other cat remembers anymore",
             "Is grumbling about the weather",
             "Feels {PRONOUN/m_c/poss} bones creak as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks}"
         ],
@@ -91,7 +91,7 @@
     {
         "id": "elder_alive_leader",
         "thoughts": [
-            "Is giving the Troop leader attitude"
+            "Is giving the Clan leader attitude"
         ],
         "main_age_constraint": [
             "senior"
@@ -107,7 +107,7 @@
             "Almost can't believe that r_c was the first to go",
             "Had a dream about r_c last night",
             "Purrs softly while thinking about r_c",
-            "Longs to groom r_c once more"
+            "Longs to share tongues with r_c once more"
         ],
         "main_age_constraint": [
             "senior"
@@ -124,33 +124,33 @@
         "thoughts": [
             "Wants everyone to stop pitying {PRONOUN/m_c/object}, {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} fine!",
             "Is glad {PRONOUN/m_c/subject} retired",
-            "Knows {PRONOUN/m_c/subject} {VERB/m_c/are/is} helping the Troop more now",
+            "Knows {PRONOUN/m_c/subject} {VERB/m_c/are/is} helping the Clan more now",
             "Feels like {PRONOUN/m_c/subject} {VERB/m_c/are/is} missing out on adventures",
             "Feels alone in {PRONOUN/m_c/poss} struggles",
-            "Is becoming more confident in {PRONOUN/m_c/poss} position in the Troop",
+            "Is becoming more confident in {PRONOUN/m_c/poss} position in the Clan",
             "Is enjoying {PRONOUN/m_c/poss} retirement under the sun",
             "Occasionally sneaks out to hunt, missing the thrill of the chase",
-            "Sits at the edge of the elders' den, watching Troop life with a mix of longing and contentment",
+            "Sits at the edge of the elders' den, watching Clan life with a mix of longing and contentment",
             "Helps their older denmates with their ticks",
             "Is receiving guidance from their older denmates",
-            "Debates asking the Troop leader if there are any ways they can help out today",
+            "Debates asking the Clan leader if there are any ways they can help out today",
             "Is being influenced by the sleepy souls in the elders' den... a nap wouldn't hurt anyone, right?",
             "Wishes they could restart their life from the beginning of their apprenticeship",
-            "Misses being an active part of the Troop",
-            "Thinks about how back in their day, cubs- oh no, their denmates are rubbing off on them!",
+            "Misses being an active part of the Clan",
+            "Thinks about how back in their day, kits- oh no, their denmates are rubbing off on them!",
             "Gossips with an apprentice about the other elders",
-            "Wonders what the latest city scav gossip is",
-            "Wonders if they could make a sculpture in the elders' den for some extra decor",
+            "Wonders what the latest kittypet gossip is",
+            "Wonders if they could get a flower to sprout in the elders' den for some extra decor",
             "Sneaks out of camp in the middle of the night for something or other",
-            "Excitedly awaits a Troop meeting, then wonders if this is really what their life has come to",
+            "Excitedly awaits a Clan meeting, then wonders if this is really what their life has come to",
             "Is very opinionated on mundane topics, such as the prettiest looking herb",
             "Stays up at night thinking about all the embarrassing things they did while they were a warrior",
             "Wishes the medicine cat was awake to give them some poppy seeds right about now",
             "Notes the surge of apprentices visiting the elders' den ever since they retired... curious!",
-            "Found an adorable batfly in the elders' den last night and wants to tell someone",
+            "Found an adorable salamander in the elders' den last night and wants to tell some cat",
             "Complains about being old to the other elders, despite being quite young",
             "Is learning stories from much more experienced cats",
-            "Seems to be annoyed as cubs keep calling them old, when they're not"
+            "Seems to be annoyed as kits keep calling them old, when they're not"
         ],
         "perm_conditions": {
             "m_c": [
@@ -184,10 +184,10 @@
     {
         "id": "gen_retired_disabled_to_kit_thoughts",
         "thoughts": [
-            "Plays with the cubs as a form of exercise",
-            "Offers to watch the cubs",
+            "Plays with the kits as a form of exercise",
+            "Offers to watch the kits",
             "Is busy telling r_c a story",
-            "Knows exactly how to keep the cubs busy"
+            "Knows exactly how to keep the kits busy"
         ],
         "perm_conditions": {
             "m_c": [
@@ -392,7 +392,7 @@
     {
         "id": "one_bad_eye_adolescent_retired_to_alive_gen",
         "thoughts": [
-            "Brags to the Troop that {PRONOUN/m_c/subject} would've been the best leader"
+            "Brags to the Clan that {PRONOUN/m_c/subject} would've been the best leader"
         ],
         "perm_conditions": {
             "m_c": [
@@ -476,7 +476,7 @@
     {
         "id": "deaf_gen_retired_to_alive_gen",
         "thoughts": [
-            "Idly feels the thumps of {PRONOUN/m_c/poss} Troopmates' pawsteps on the ground",
+            "Idly feels the thumps of {PRONOUN/m_c/poss} Clanmates' pawsteps on the ground",
             "Has learned to feel vibrations through the ground",
             "Is teaching r_c tail signals",
             "Tries to read r_c's posture",
@@ -545,7 +545,7 @@
         "id": "lost_leg/tail_gen_retired_to_alive_kit",
         "thoughts": [
             "Tells the story of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb to an interested group of kits",
-            "Is playing along as r_c tells the legend of how {PRONOUN/m_c/subject} lost their limb"
+            "Is playing along as r_c tells the legend of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb"
         ],
         "perm_conditions": {
             "m_c": [
@@ -663,8 +663,8 @@
     {
         "id": "missing_tail_gen_retired_to_alive_kit",
         "thoughts": [
-            "Is being grumped at by a cub because {PRONOUN/m_c/subject} {VERB/m_c/have/has} no tail to chomp on",
-            "Is being asked how {PRONOUN/m_c/subject} can balance by a cub"
+            "Is being grumped at by a kit because {PRONOUN/m_c/subject} {VERB/m_c/have/has} no tail to chomp on",
+            "Is being asked how {PRONOUN/m_c/subject} can balance by a kit"
         ],
         "perm_conditions": {
             "m_c": [

@@ -526,10 +526,10 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol walks into an ambush by a group of rogues and everyone is slaughtered.",
+                "text": "r_c walks into an ambush by a group of rogues and is slaughtered.",
                 "exp": 0,
                 "weight": 10,
-                "dead_cats": ["patrol"],
+                "dead_cats": ["r_c", "some_lives"],
                 "history_text": {
                     "reg_death": "This cat died from being ambushed by rogues while on a solo patrol.",
                     "lead_death": "{VERB/m_c/were/was} ambushed by rogues while on a solo patrol"
@@ -1502,10 +1502,10 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol walks into an ambush by a group of rogues and everyone is slaughtered.",
+                "text": "r_c walks into an ambush by a group of rogues and is slaughtered.",
                 "exp": 0,
                 "weight": 10,
-                "dead_cats": ["patrol"],
+                "dead_cats": ["r_c", "some_lives"],
                 "history_text": {
                     "reg_death": "This cat died from being ambushed by rogues while on a solo patrol.",
                     "lead_death": "{VERB/m_c/were/was} ambushed by rogues while on a solo patrol"
@@ -1849,8 +1849,8 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/p_l/subject} should continue.",
+        "decline_text": "p_l decides to head back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -1864,7 +1864,7 @@
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement, and keeps going. They stick to solid ground, sometimes routing themselves through the trees as the rain begins to pour around them.",
+                "text": "s_c makes a careful judgement, and keeps going. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stick/sticks} to solid ground, sometimes routing {PRONOUN/s_c/self} through the trees as the rain begins to pour around {PRONOUN/s_c/object}.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -1974,7 +1974,7 @@
         "season": ["Any"],
         "types": ["border"],
         "tags": ["disaster"],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "gen_bord_rogues",
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},
@@ -2038,7 +2038,7 @@
         "season": ["Any"],
         "types": ["border"],
         "tags": ["disaster"],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "gen_bord_rogues",
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},
@@ -2102,7 +2102,7 @@
         "season": ["Any"],
         "types": ["border"],
         "tags": ["disaster"],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "gen_bord_rogues",
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},
@@ -2166,7 +2166,7 @@
         "season": ["Any"],
         "types": ["border"],
         "tags": ["disaster"],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "gen_bord_rogues",
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},

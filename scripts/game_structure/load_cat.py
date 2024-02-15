@@ -106,6 +106,8 @@ def json_load():
                 scars=cat["scars"] if "scars" in cat else [],
                 accessory=cat["accessory"],
                 opacity=cat["opacity"] if "opacity" in cat else 100,
+                accessories=cat["accessories"] if "accessories" in cat else [],
+                inventory = cat["inventory"] if "inventory" in cat else [],
                 antlers=cat["antler_type"],
                 mouthparts=cat["mouthparts"]
             )
@@ -176,7 +178,18 @@ def json_load():
             new_cat.faded_offspring = cat["faded_offspring"] if "faded_offspring" in cat else []
             new_cat.prevent_fading = cat["prevent_fading"] if "prevent_fading" in cat else False
             new_cat.favourite = cat["favourite"] if "favourite" in cat else False
-            
+            new_cat.w_done = cat["w_done"] if "w_done" in cat else False
+            new_cat.talked_to = cat["talked_to"] if "talked_to" in cat else False
+            new_cat.insulted = cat["insulted"] if "insulted" in cat else False
+            new_cat.flirted = cat['flirted'] if "flirted" in cat else False
+            new_cat.joined_df = cat["joined_df"] if "joined_df" in cat else False
+            new_cat.revealed = cat["revealed"] if "revealed" in cat else 0
+            new_cat.revives = cat["revives"] if "revives" in cat else 0
+            new_cat.courage = cat["courage"] if "courage" in cat else 0
+            new_cat.intelligence = cat["intelligence"] if "intelligence" in cat else 0
+            new_cat.empathy = cat["empathy"] if "empathy" in cat else 0
+            new_cat.compassion = cat["compassion"] if "compassion" in cat else 0
+            new_cat.did_activity = cat["did_activity"] if "did_activity" in cat else False
             if "died_by" in cat or "scar_event" in cat or "mentor_influence" in cat:
                 new_cat.convert_history(
                     cat["died_by"] if "died_by" in cat else [],
@@ -499,5 +512,7 @@ def version_convert(version_info):
                     c.permanent_condition[con].pop("moons_with")
                 c.permanent_condition[con]["moon_start"] = game.clan.age - moons_with
             
-        
-            
+    if version < 3 and game.clan.freshkill_pile:
+        # freshkill start for older clans
+        add_prey = game.clan.freshkill_pile.amount_food_needed() * 2
+        game.clan.freshkill_pile.add_freshkill(add_prey)

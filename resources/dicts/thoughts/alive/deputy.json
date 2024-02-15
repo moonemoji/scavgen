@@ -14,24 +14,24 @@
     {
         "id": "gen_deputy",
         "thoughts": [
-            "Is assigning scavengers to a border patrol",
-            "Is assigning scavengers to a hunting patrol",
+            "Is assigning cats to a border patrol",
+            "Is assigning cats to a hunting patrol",
             "Is wondering what it would be like to be a leader",
             "Is stressed about organizing patrols",
             "Wonders who will give {PRONOUN/m_c/object} nine lives",
             "Feels overworked",
             "Is hoping for a break",
-            "Is assigning scavengers to the dawn patrol",
-            "Is assigning scavengers to the hunting patrol",
-            "Is assigning scavengers to patrol the borders",
+            "Is assigning cats to the dawn patrol",
+            "Is assigning cats to the hunting patrol",
+            "Is assigning cats to patrol the borders",
             "Can't believe {PRONOUN/m_c/subject} overslept today",
-            "Is unsure of what the rest of the Troop thinks of {PRONOUN/m_c/object} as deputy"
+            "Is unsure of what the rest of the Clan thinks of {PRONOUN/m_c/object} as deputy"
         ]
     },
     {
         "id": "deputy_alive_leader",
         "thoughts": [
-            "Is doing {PRONOUN/m_c/poss} best to honor {PRONOUN/m_c/poss} Troop and {PRONOUN/m_c/poss} leader",
+            "Is doing {PRONOUN/m_c/poss} best to honor {PRONOUN/m_c/poss} Clan and {PRONOUN/m_c/poss} leader",
             "Must speak with the leader soon about something {PRONOUN/m_c/subject} found while out on patrol"
         ],
         "random_status_constraint": [
@@ -50,9 +50,9 @@
     {
         "id": "bloodthirsty_deputy_to_gen",
         "thoughts": [
-            "Is fantasizing about leading the Troop into a victorious battle",
+            "Is fantasizing about leading the Clan into a victorious battle",
             "Feels a thrill imagining the chaos of a large-scale battle",
-            "Tells the border patrol not to let any intruders go free without a scar to remember them by"
+            "Tells the border patrol not to let any intruders go free without a scar to remember {PRONOUN/m_c/object} by"
         ],
         "main_trait_constraint": [
             "bloodthirsty"
@@ -87,12 +87,12 @@
     {  
         "id":"insecure_deputy",
         "thoughts": [
-            "Keeps confirming with the leader that the patrols {PRONOUN/m_c/subject}{VERB/m_c/'s/'re} organizing sound right",
+            "Keeps confirming with the leader that the patrols {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} organizing sound right",
             "Hopes {PRONOUN/m_c/subject}'ll make a decent leader someday",
             "Wonders how {PRONOUN/m_c/subject} became deputy in the first place",
             "Feels a pang of self-doubt when a patrol returns late",
-            "Questions whether they're respected or just tolerated by the Troop",
-            "Worries that their mistakes will lead to the Troop's downfall"
+            "Questions whether {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} respected or just tolerated by the Clan",
+            "Worries that {PRONOUN/m_c/poss} mistakes will lead to the Clan's downfall"
         ],
         "main_trait_constraint":[
             "insecure"
@@ -113,9 +113,9 @@
     {
         "id": "fierce_deputy",
         "thoughts": [
-            "Is sternly instructing a patrol about the importance of strength in defending the Troop",
+            "Is sternly instructing a patrol about the importance of strength in defending the Clan",
             "Feels a rush of adrenaline at the thought of an upcoming battle",
-            "Impressed {PRONOUN/m_c/poss} Troopmates by scaring off an intruder"
+            "Impressed {PRONOUN/m_c/poss} Clanmates by scaring off an intruder"
         ],
         "main_trait_constraint": [
             "fierce"
@@ -125,7 +125,7 @@
         "id": "playful_deputy",
         "thoughts": [
             "Is inventing a fun game to make patrol assignments more engaging",
-            "Is amused by the antics of the younger scavengers",
+            "Is amused by the antics of the younger cats",
             "Finds joy in the simple tasks of a deputy's duty"
         ],
         "main_trait_constraint": [
@@ -135,9 +135,9 @@
     {
         "id": "nervous_deputy",
         "thoughts": [
-            "Is fretting over a recent increase in lizard sightings near the camp",
+            "Is fretting over a recent increase in fox sightings near the camp",
             "Feels a twinge of worry about an approaching storm",
-            "Is overthinking a recent encounter with a rival Troop"
+            "Is overthinking a recent encounter with a rival Clan"
         ],
         "main_trait_constraint": [
             "nervous"
@@ -146,7 +146,7 @@
     {
         "id": "ambitious_deputy",
         "thoughts": [
-            "Is imagining the respect {PRONOUN/m_c/subject}'d command as the leader of the Troop",
+            "Is imagining the respect {PRONOUN/m_c/subject}'d command as the leader of the Clan",
             "Is considering innovative strategies to earn more recognition",
             "Feels a burning desire to prove {PRONOUN/m_c/self} worthy of leadership"
         ],
@@ -173,7 +173,7 @@
         "id": "wise_deputy",
         "thoughts": [
             "Is reflecting on a past lesson to make a crucial decision",
-            "Ponders how their decisions will impact the Troop in the long term",
+            "Ponders how {PRONOUN/m_c/poss} decisions will impact the Clan in the long term",
             "Feels a sense of understanding after meditating on an issue"
         ],
         "main_trait_constraint": [
@@ -204,8 +204,8 @@
     {
         "id": "rebellious_deputy_leader",
         "thoughts": [
-            "Feels an urge to challenge the leader's decision for the betterment of the Troop",
-            "Decided to change patrol routes on their own, hoping the leader will see the benefits"
+            "Feels an urge to challenge the leader's decision for the betterment of the Clan",
+            "Decided to change patrol routes on {PRONOUN/m_c/poss} own, hoping the leader will see the benefits"
         ],
         "main_trait_constraint": [
             "rebellious"
@@ -218,7 +218,7 @@
         "id": "teacher_deputy",
         "thoughts": [
             "Is devising an effective teaching strategy for new skills",
-            "Encourages the older scavengers to share their skills and techniques with the younger generations"
+            "Encourages the older cats to share {PRONOUN/m_c/poss} skills and techniques with the younger generations"
         ],
         "main_skill_constraint": [
             "TEACHER,1"
@@ -228,7 +228,7 @@
         "id": "teacher_deputy_apprentice",
         "thoughts": [
             "Feels satisfaction watching an apprentice master a lesson",
-            "Guides an apprentice through their first hunting assessment"
+            "Guides an apprentice through {PRONOUN/m_c/poss} hunting assessment"
         ],
         "main_skill_constraint": [
             "TEACHER,1"
@@ -252,10 +252,9 @@
         "id": "fighter_deputy",
         "thoughts": [
             "Is instructing a group of warriors in advanced combat techniques",
-            "Double checks the supplies of grenades and cherrybombs",
-            "Feels a sense of protection for the Troop, ready to defend them at any moment",
-            "Is assessing the Troop's physical strength and readiness for potential threats",
-            "Organizes a mock battle to keep the Troop's skills sharp"
+            "Feels a sense of protection for the Clan, ready to defend {PRONOUN/m_c/object} at any moment",
+            "Is assessing the Clan's physical strength and readiness for potential threats",
+            "Organizes a mock battle to keep the Clan's skills sharp"
         ],
         "main_skill_constraint": [
             "FIGHTER,1"
@@ -264,7 +263,7 @@
     {
         "id": "clever_deputy",
         "thoughts": [
-            "Is solving a complex problem that has been troubling the Troop",
+            "Is solving a complex problem that has been troubling the Clan",
             "Feels intrigued by a recent challenge and is strategizing solutions",
             "Is considering a unique approach to organizing the patrols"
         ],
@@ -275,9 +274,9 @@
     {
         "id": "healer_deputy",
         "thoughts": [
-            "Helps a Troopmate get a thorn out of their paw while out on patrol",
-            "Feels empathy for a sick Troopmate and is thinking of ways to help",
-            "Is sharing knowledge about basic herbs with the Troop"
+            "Helps a Clanmate get a thorn out of {PRONOUN/m_c/self} paw while out on patrol",
+            "Feels empathy for a sick Clanmate and is thinking of ways to help",
+            "Is sharing knowledge about basic herbs with the Clan"
         ],
         "main_skill_constraint": [
             "HEALER,1"
@@ -298,9 +297,9 @@
     {
         "id": "story_deputy",
         "thoughts": [
-            "Is recalling an old story that might inspire the Troop in tough times",
+            "Is recalling an old story that might inspire the Clan in tough times",
             "Feels inspired to craft a new legend based on recent events",
-            "Uses the stories of old to help guide their decisions"
+            "Uses the stories of old to help guide {PRONOUN/m_c/self} decisions"
         ],
         "main_skill_constraint": [
             "STORY,1"
@@ -309,11 +308,10 @@
     {
         "id": "story_deputy_apprentice",
         "thoughts": [
-            "Is recalling an old story that might inspire the Troop in tough times",
+            "Is recalling an old story that might inspire the Clan in tough times",
             "Feels inspired to craft a new legend based on recent events",
-            "Uses the stories of old to help guide their decisions",
-            "Is sharing tales of the Troop's legacy with wide-eyed apprentices",
-            "Is sharing tales of the Ancients with wide-eyed apprentices"
+            "Uses the stories of old to help guide {PRONOUN/m_c/self} decisions",
+            "Is sharing tales of the Clan's legacy with wide-eyed apprentices"
         ],
         "main_skill_constraint": [
             "STORY,1"

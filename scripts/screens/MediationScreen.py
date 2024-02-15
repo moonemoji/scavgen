@@ -252,7 +252,7 @@ class MediationScreen(Screens):
 
     def update_list_cats(self):
         self.all_cats_list = [i for i in Cat.all_cats_list if
-                              (i.ID != self.mediators[self.selected_mediator].ID) and not (i.dead or i.outside)]
+                              (i.ID != self.mediators[self.selected_mediator].ID) and not (i.dead or i.outside) and i.moons >= 0]
         self.all_cats = self.chunks(self.all_cats_list, 24)
 
         self.update_page()

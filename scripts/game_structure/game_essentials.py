@@ -7,7 +7,6 @@ import ujson
 import os
 from shutil import move as shutil_move
 from ast import literal_eval
-import traceback
 from scripts.event_class import Single_Event
 
 pygame.init()
@@ -27,6 +26,9 @@ class Game():
     just_died = []  # keeps track of which cats died this moon via die()
 
     cur_events_list = []
+    next_events_list = []
+    other_events_list = []
+    your_events_list = []
     ceremony_events_list = []
     birth_death_events_list = []
     relation_events_list = []
@@ -34,6 +36,7 @@ class Game():
     other_clans_events_list = []
     misc_events_list = []
     herb_events_list = []
+    freshkill_event_list = []
 
     allegiance_list = []
     language = {}
@@ -47,6 +50,7 @@ class Game():
     # Keeping track of various last screen for various purposes
     last_screen_forupdate = 'start screen'
     last_screen_forProfile = 'list screen'
+    last_list_forProfile = None
 
     # down = pygame.image.load("resources/images/buttons/arrow_down.png").convert_alpha()
     # up = pygame.image.load("resources/images/buttons/arrow_up.png").convert_alpha()
@@ -176,6 +180,7 @@ class Game():
     clan = None
     cat_class = None
     config = {}
+    prey_config = {}
 
     rpc = None
 
@@ -189,6 +194,9 @@ class Game():
 
         with open(f"resources/game_config.json", 'r') as read_file:
             self.config = ujson.loads(read_file.read())
+
+        with open(f"resources/prey_config.json", 'r') as read_file:
+            self.prey_config = ujson.loads(read_file.read())
 
         if self.config['fun']['april_fools']:
             self.config['fun']['newborns_can_roam'] = True
@@ -495,7 +503,7 @@ class Game():
         Save current events list to events.json
         """
         events_list = []
-        for event in game.cur_events_list:
+        for event in game.cur_events_list + game.other_events_list:
             events_list.append(event.to_dict())
         game.safe_save(
             f"{get_save_dir()}/{game.clan.name}/events.json", events_list)

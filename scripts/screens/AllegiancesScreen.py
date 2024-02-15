@@ -5,7 +5,7 @@ from .Screens import Screens
 
 from scripts.cat.cats import Cat
 from scripts.game_structure.image_button import UISpriteButton, UIImageButton, UITextBoxTweaked
-from scripts.utility import get_text_box_theme, scale, get_med_cats, shorten_text_to_fit
+from scripts.utility import get_text_box_theme, scale, get_med_cats, shorten_text_to_fit, get_alive_clan_queens
 from scripts.game_structure.game_essentials import game, screen_x, screen_y, MANAGER
 from ..conditions import get_amount_cat_for_one_medic, medical_cats_condition_fulfilled
 
@@ -91,6 +91,7 @@ class AllegiancesScreen(Screens):
         living_mediators = []
         living_warriors = []
         living_apprentices = []
+        living_queens = []
         living_kits = []
         living_elders = []
         for cat in living_cats:
@@ -100,7 +101,9 @@ class AllegiancesScreen(Screens):
                 living_warriors.append(cat)
             elif cat.status == "mediator":
                 living_mediators.append(cat)
-            elif cat.status in ["apprentice", "medicine cat apprentice", "mediator apprentice"]:
+            elif cat.status == 'queen':
+                living_queens.append(cat)
+            elif cat.status in ["apprentice", "medicine cat apprentice", "mediator apprentice", "queen's apprentice"]:
                 living_apprentices.append(cat)
             elif cat.status in ["kitten", "newborn"]:
                 living_kits.append(cat)
@@ -108,28 +111,7 @@ class AllegiancesScreen(Screens):
                 living_elders.append(cat)
 
         # Find Queens:
-        queen_dict = {}
-        for cat in living_kits.copy():
-            parents = cat.get_parents()
-            #Fetch parent object, only alive and not outside. 
-            parents = [Cat.fetch_cat(i) for i in parents if Cat.fetch_cat(i) and not(Cat.fetch_cat(i).dead or Cat.fetch_cat(i).outside)]
-            if not parents:
-                continue
-            
-            if len(parents) == 1 or all(i.gender == "male" for i in parents) or parents[0].gender == "female":
-                if parents[0].ID in queen_dict:
-                    queen_dict[parents[0].ID].append(cat)
-                    living_kits.remove(cat)
-                else:
-                    queen_dict[parents[0].ID] = [cat]
-                    living_kits.remove(cat) 
-            elif len(parents) == 2:
-                if parents[1].ID in queen_dict:
-                    queen_dict[parents[1].ID].append(cat)
-                    living_kits.remove(cat)
-                else:
-                    queen_dict[parents[1].ID] = [cat]
-                    living_kits.remove(cat) 
+        queen_dict, living_kits = get_alive_clan_queens(living_cats)
 
         # Remove queens from warrior or elder lists, if they are there.  Let them stay on any other lists. 
         for q in queen_dict:
@@ -202,7 +184,7 @@ class AllegiancesScreen(Screens):
             outputs.append(_box)
         
          # Queens and Kits Box:
-        if queen_dict or living_kits:
+        if queen_dict or living_kits or living_queens:
             _box = ["", ""]
             _box[0] = '<b><u>QUEENS AND KITS</u></b>'
             
@@ -222,6 +204,9 @@ class AllegiancesScreen(Screens):
 
                 all_entries.append(self.generate_one_entry(queen, kittens))
 
+            for k in living_queens:
+                if k.ID not in queen_dict.keys():
+                    all_entries.append(self.generate_one_entry(k))
             #Now kittens without carers
             for k in living_kits:
                 all_entries.append(f"{str(k.name).upper()} - {k.describe_cat(short=True)}")
