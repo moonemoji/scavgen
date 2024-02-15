@@ -14,7 +14,7 @@
             "neutral",
             "hostile"
         ],
-        "event_text": "m_c finds an abandoned kit and names {PRONOUN/n_c/object} n_c.",
+        "event_text": "m_c finds an abandoned cub and names {PRONOUN/n_c/object} n_c.",
         "loner": true,
         "kit": true,
         "backstory": [
@@ -41,7 +41,7 @@
             "neutral",
             "hostile"
         ],
-        "event_text": "m_c finds an abandoned kit and names {PRONOUN/n_c/object} n_c.",
+        "event_text": "m_c finds an abandoned cub and names {PRONOUN/n_c/object} n_c.",
         "kittypet": true,
         "kit": true,
         "backstory": [
@@ -65,7 +65,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "A loner brings their kit named n_c_pre to the Clan, stating they no longer can care for {PRONOUN/n_c/object}.",
+        "event_text": "A loner brings their cub named n_c_pre to the Clan, stating they no longer can care for {PRONOUN/n_c/object}.",
         "loner": true,
         "kit": true,
         "backstory": [
@@ -88,7 +88,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "A kittypet brings their kit named n_c_pre to the Clan, stating they no longer can care for {PRONOUN/n_c/object}.",
+        "event_text": "A scavenger, clearly from the city, brings their cub named n_c_pre to the Clan, saying sadly that the metropolis is no place {PRONOUN/n_c/object}.",
         "kittypet": true,
         "kit": true,
         "backstory": [
@@ -111,7 +111,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "A rogue brings their kit named n_c_pre to the Clan, stating they no longer can care for {PRONOUN/n_c/object}.",
+        "event_text": "A rogue brings their cub named n_c_pre to the Clan, stating they no longer can care for {PRONOUN/n_c/object}.",
         "loner": true,
         "kit": true,
         "backstory": [
@@ -137,7 +137,32 @@
             "neutral",
             "hostile"
         ],
-        "event_text": "m_c finds a loner named n_c_pre, who joins the Clan. The loner decides to keep {PRONOUN/n_c/poss} old name.",
+        "event_text": "m_c finds a loner named n_c_pre, who joins the Clan.",
+        "loner": true,
+        "backstory": [
+            "loner1",
+            "loner2",
+            "refugee2",
+            "tragedy_survivor4",
+            "guided3"
+        ],
+        "cat_trait": null,
+        "cat_skill": null,
+        "other_cat_trait": null,
+        "other_cat_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Newleaf",
+            "Greenleaf",
+            "Leaf-fall",
+            "Leaf-bare"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A loner waits on the border for a patrol, asking to join the Troop.",
         "loner": true,
         "backstory": [
             "loner1",
@@ -165,40 +190,15 @@
             "neutral",
             "hostile"
         ],
-        "event_text": "m_c finds a loner named n_c_pre, who joins the Clan. The loner decides to take on a more Clan-like name, and is now called n_c.",
-        "loner": true,
+        "event_text": "m_c finds a city scavenger named n_c_pre, who joins the Troop.",
+        "kittypet": true,
         "backstory": [
-            "loner1",
-            "loner2",
-            "refugee2",
-            "tragedy_survivor4",
-            "guided3"
-        ],
-        "new_name": true,
-        "cat_trait": null,
-        "cat_skill": null,
-        "other_cat_trait": null,
-        "other_cat_skill": null
-    },
-    {
-        "camp": "any",
-        "tags": [
-            "Newleaf",
-            "Greenleaf",
-            "Leaf-fall",
-            "Leaf-bare"
-        ],
-        "reputation": [
-            "welcoming"
-        ],
-        "event_text": "A loner waits on the border for a patrol, asking to join the Clan. The loner decides to keep {PRONOUN/n_c/poss} old name, n_c.",
-        "loner": true,
-        "backstory": [
-            "loner1",
-            "loner2",
-            "refugee2",
-            "tragedy_survivor4",
-            "guided3"
+            "kittypet1",
+            "kittypet2",
+            "kittypet3",
+            "refugee3",
+            "tragedy_survivor3",
+            "guided1"
         ],
         "cat_trait": null,
         "cat_skill": null,
@@ -216,36 +216,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "A loner waits on the border for a patrol, asking to join the Clan. The loner decides to take on a more Clan-like name, and is now called n_c.",
-        "loner": true,
-        "backstory": [
-            "loner1",
-            "loner2",
-            "refugee2",
-            "tragedy_survivor4",
-            "guided3"
-        ],
-        "new_name": true,
-        "cat_trait": null,
-        "cat_skill": null,
-        "other_cat_trait": null,
-        "other_cat_skill": null
-    },
-    {
-        "camp": "any",
-        "tags": [
-            "m_c",
-            "Newleaf",
-            "Greenleaf",
-            "Leaf-fall",
-            "Leaf-bare"
-        ],
-        "reputation": [
-            "welcoming",
-            "neutral",
-            "hostile"
-        ],
-        "event_text": "m_c finds a kittypet named n_c_pre, who joins the Clan. The kittypet decides to keep {PRONOUN/n_c/poss} old name.",
+        "event_text": "A city scavenger waits on the border for a patrol, asking to join the Troop.",
         "kittypet": true,
         "backstory": [
             "kittypet1",
@@ -274,147 +245,7 @@
             "neutral",
             "hostile"
         ],
-        "event_text": "m_c finds a kittypet named n_c_pre, who joins the Clan. The kittypet decides to take on a more Clan-like name, and is now called n_c.",
-        "kittypet": true,
-        "backstory": [
-            "kittypet1",
-            "kittypet2",
-            "kittypet3",
-            "refugee3",
-            "tragedy_survivor3",
-            "guided1"
-        ],
-        "new_name": true,
-        "cat_trait": null,
-        "cat_skill": null,
-        "other_cat_trait": null,
-        "other_cat_skill": null
-    },
-    {
-        "camp": "any",
-        "tags": [
-            "Newleaf",
-            "Greenleaf",
-            "Leaf-fall",
-            "Leaf-bare"
-        ],
-        "reputation": [
-            "welcoming"
-        ],
-        "event_text": "A kittypet waits on the border for a patrol, asking to join the Clan. The kittypet decides to keep {PRONOUN/n_c/poss} old name, n_c.",
-        "kittypet": true,
-        "backstory": [
-            "kittypet1",
-            "kittypet2",
-            "kittypet3",
-            "refugee3",
-            "tragedy_survivor3",
-            "guided1"
-        ],
-        "cat_trait": null,
-        "cat_skill": null,
-        "other_cat_trait": null,
-        "other_cat_skill": null
-    },
-    {
-        "camp": "any",
-        "tags": [
-            "Newleaf",
-            "welcoming",
-            "Greenleaf",
-            "Leaf-fall",
-            "Leaf-bare"
-        ],
-        "reputation": [
-            "welcoming"
-        ],
-        "event_text": "A kittypet waits on the border for a patrol, asking to join the Clan. The kittypet decides to take on a more Clan-like name, and is now called n_c.",
-        "kittypet": true,
-        "backstory": [
-            "kittypet1",
-            "kittypet2",
-            "kittypet3",
-            "refugee3",
-            "tragedy_survivor3",
-            "guided1"
-        ],
-        "new_name": true,
-        "cat_trait": null,
-        "cat_skill": null,
-        "other_cat_trait": null,
-        "other_cat_skill": null
-    },
-    {
-        "camp": "any",
-        "tags": [
-            "m_c",
-            "Newleaf",
-            "Greenleaf",
-            "Leaf-fall",
-            "Leaf-bare"
-        ],
-        "reputation": [
-            "welcoming",
-            "neutral",
-            "hostile"
-        ],
-        "event_text": "m_c finds a rogue named n_c_pre, who joins the Clan. The rogue decides to keep {PRONOUN/n_c/poss} old name.",
-        "loner": true,
-        "backstory": [
-            "rogue1",
-            "rogue2",
-            "rogue3",
-            "refugee4",
-            "tragedy_survivor2",
-            "guided2"
-        ],
-        "cat_trait": null,
-        "cat_skill": null,
-        "other_cat_trait": null,
-        "other_cat_skill": null
-    },
-    {
-        "camp": "any",
-        "tags": [
-            "m_c",
-            "Newleaf",
-            "Greenleaf",
-            "Leaf-fall",
-            "Leaf-bare"
-        ],
-        "reputation": [
-            "welcoming",
-            "neutral",
-            "hostile"
-        ],
-        "event_text": "m_c finds a rogue named n_c_pre, who joins the Clan. The rogue decides to take on a more Clan-like name, and is now called n_c.",
-        "loner": true,
-        "backstory": [
-            "rogue1",
-            "rogue2",
-            "rogue3",
-            "refugee4",
-            "tragedy_survivor2",
-            "guided2"
-        ],
-        "new_name": true,
-        "cat_trait": null,
-        "cat_skill": null,
-        "other_cat_trait": null,
-        "other_cat_skill": null
-    },
-    {
-        "camp": "any",
-        "tags": [
-            "Newleaf",
-            "Greenleaf",
-            "Leaf-fall",
-            "Leaf-bare"
-        ],
-        "reputation": [
-            "welcoming"
-        ],
-        "event_text": "A rogue waits on the border for a patrol, asking to join the Clan. The rogue decides to keep {PRONOUN/n_c/poss} old name, n_c.",
+        "event_text": "m_c finds a rogue named n_c_pre, who joins the Troop.",
         "loner": true,
         "backstory": [
             "rogue1",
@@ -440,7 +271,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "A rogue waits on the border for a patrol, asking to join the Clan. The rogue decides to take on a more Clan-like name, and is now called n_c.",
+        "event_text": "A rogue waits on the border for a patrol, asking to join the Troop.",
         "loner": true,
         "backstory": [
             "rogue1",
@@ -450,7 +281,6 @@
             "tragedy_survivor2",
             "guided2"
         ],
-        "new_name": true,
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -470,7 +300,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "m_c finds a warrior from o_c named n_c, who asks to join the Clan.",
+        "event_text": "m_c finds a warrior from o_c named n_c, who asks to join the Troop.",
         "other_clan": true,
         "backstory": [
             "otherclan1",
@@ -584,7 +414,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "A loner leaves their litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A loner leaves their litter to the Troop. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "loner": true,
         "litter": true,
         "backstory": [
@@ -609,7 +439,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "A kittypet leaves their litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A city scavenger leaves their litter to the Troop. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "kittypet": true,
         "litter": true,
         "backstory": [
@@ -634,7 +464,7 @@
         "reputation": [
             "welcoming"
         ],
-        "event_text": "A rogue leaves their litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A rogue leaves their litter to the Troop. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "loner": true,
         "litter": true,
         "backstory": [
@@ -657,7 +487,7 @@
         "reputation": [
             "hostile"
         ],
-        "event_text": "While the Clan has no love for outsiders, sometimes new blood is needed. A patrol heads out and finds a wandering cat to bring into the Clan. The new cat, n_c_pre takes on a more Clan-like name.",
+        "event_text": "While the Troop has no love for outsiders, sometimes new blood is needed. A patrol heads out and finds a wandering scavenger to bring into the Troop.",
         "loner": true,
         "backstory": [
             "tragedy_survivor4",
@@ -705,7 +535,7 @@
         "reputation": [
             "hostile"
         ],
-        "event_text": "A member of o_c defects from their birth Clan and chooses to join c_n. {PRONOUN/n_c/subject/CAP} {VERB/n_c/decide/decides} to keep {PRONOUN/n_c/poss} name.",
+        "event_text": "A member of o_c defects from their birth Troop and chooses to join c_n. {PRONOUN/n_c/subject/CAP} {VERB/n_c/decide/decides} to keep {PRONOUN/n_c/poss} name.",
         "other_clan": true,
         "backstory": [
             "otherclan2",
@@ -751,7 +581,7 @@
         "reputation": [
             "hostile"
         ],
-        "event_text": "n_c, the medicine cat of o_c, has defected to c_n in the war. {PRONOUN/n_c/subject/CAP} {VERB/n_c/decide/decides} to keep {PRONOUN/n_c/poss} name.",
+        "event_text": "n_c, the healer of o_c, has defected to c_n in the war. {PRONOUN/n_c/subject/CAP} {VERB/n_c/decide/decides} to keep {PRONOUN/n_c/poss} name.",
         "other_clan": true,
         "backstory": [
             "medicine_cat",

@@ -8,7 +8,7 @@
             "Leaf-bare",
             "war"
         ],
-        "event_text": "m_c sits by the water, contemplating the calm waves that brush {PRONOUN/m_c/poss} paws and wondering why those times are not as peaceful as the tides.",
+        "event_text": "m_c sits by the water, contemplating the calm waves that brush {PRONOUN/m_c/poss} feet and wondering why times are not as peaceful as the tides.",
         "cat_trait": [
             "thoughtful",
             "wise",

@@ -72,7 +72,7 @@
             "comfort",
             "platonic"
         ],
-        "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/r_c/subject} {VERB/r_c/walk/walks} into camp after a long training day, listening to the kit squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully put acc_plural in m_c's fur.",
+        "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/r_c/subject} {VERB/r_c/walk/walks} into camp after a long training day, listening to the cub squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully put acc_plural in m_c's fur.",
         "accessories": [
             "BLUE FEATHERS"
         ]
@@ -89,7 +89,7 @@
             "dislike",
             "jealousy"
         ],
-        "event_text": "m_c, for the umpteenth time, hears r_c complaining about the dry rye stalks underneath {PRONOUN/r_c/poss} paws when {PRONOUN/r_c/subject} {VERB/r_c/finish/finishes} cleaning the elders' den and got an idea. The next day, m_c adorns {PRONOUN/m_c/poss} pelt with acc_plural.",
+        "event_text": "m_c, for the umpteenth time, hears r_c complaining about the dry rye stalks underneath {PRONOUN/r_c/poss} feet when {PRONOUN/r_c/subject} {VERB/r_c/finish/finishes} cleaning the elders' den and got an idea. The next day, m_c adorns {PRONOUN/m_c/poss} pelt with acc_plural.",
         "accessories": [
             "RYE STALK"
         ]
@@ -166,7 +166,7 @@
             "comfort",
             "neg_dislike"
         ],
-        "event_text": "m_c and r_c play in the snow outside of camp."
+        "event_text": "m_c and r_c play in the puddles outside of camp in the early morning."
     },
     {
         "camp": "any",
@@ -231,7 +231,7 @@
             "other_cat",
             "other_cat_app"
         ],
-        "event_text": "m_c encourages r_c to play in the snow with {PRONOUN/m_c/object} during a patrol.",
+        "event_text": "m_c encourages r_c to play in the puddles with {PRONOUN/m_c/object} during a patrol.",
         "cat_trait": "playful"
     },
     {
@@ -272,7 +272,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen playing with a kittypet over the border."
+        "event_text": "m_c was seen playing with a city scav over the border."
     },
     {
         "camp": "any",
@@ -282,7 +282,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen taking food from a Twoleg!"
+        "event_text": "m_c was seen taking trading with a slugcat."
     },
     {
         "camp": "any",
@@ -323,7 +323,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen speaking with a kittypet."
+        "event_text": "m_c was seen speaking with a slugcat."
     },
     {
         "camp": "any",
@@ -353,7 +353,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen chasing a kittypet off of the territory."
+        "event_text": "m_c was seen chasing a slugcat off of the territory."
     },
     {
         "camp": "any",
@@ -363,7 +363,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was caught sharing prey with a rogue, who was chased off by a patrol."
+        "event_text": "m_c was caught sharing food with a rogue, who was chased off by a patrol."
     },
     {
         "camp": "any",
@@ -373,7 +373,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was caught sharing prey with a kittypet, who was chased off by a patrol."
+        "event_text": "m_c was caught sharing food with a slugcat, who was chased off by a patrol."
     },
     {
         "camp": "any",
@@ -384,7 +384,7 @@
             "Leaf-bare",
             "other_clan"
         ],
-        "event_text": "m_c was loitering around o_c's border, looking for a specific cat."
+        "event_text": "m_c was loitering around o_c's border, looking for a specific scavenger."
     },
     {
         "camp": "any",
@@ -396,7 +396,7 @@
             "other_clan",
             "rel_down"
         ],
-        "event_text": "m_c was seen arguing, and borderline-fighting with, a cat from o_c."
+        "event_text": "m_c was seen arguing, and borderline-fighting with, a scavenger from o_c."
     },
     {
         "camp": "any",
@@ -420,7 +420,7 @@
             "other_clan",
             "rel_down"
         ],
-        "event_text": "m_c was seen arguing, and borderline-fighting with, a kittypet."
+        "event_text": "m_c was seen arguing, and borderline-fighting with, a slugcat."
     },
     {
         "camp": "any",
@@ -430,7 +430,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen talking calmly to a loner, before both cats went their separate ways."
+        "event_text": "m_c was seen talking calmly to a loner, before both scavengers went their separate ways."
     },
     {
         "camp": "any",
@@ -442,7 +442,7 @@
             "other_clan",
             "rel_up"
         ],
-        "event_text": "m_c was seen speaking calmly to a cat from o_c."
+        "event_text": "m_c was seen speaking calmly to a scavenger from o_c."
     },
     {
         "camp": "any",
@@ -452,7 +452,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen talking calmly to a loner, before both cats went their separate ways."
+        "event_text": "m_c was seen talking calmly to a loner, before both scavengers went their separate ways."
     },
     {
         "camp": "any",
@@ -462,7 +462,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was seen in a very serious conversation with a kittypet, who ran away when another patrol approached."
+        "event_text": "m_c was seen in a very serious conversation with a slugcat, who ran away when another patrol approached."
     },
     {
         "camp": "any",

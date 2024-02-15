@@ -58,7 +58,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c is caught outside of the Clan's territory."
+        "event_text": "m_c is caught outside of the Troop's territory."
     },
     {
         "camp": "any",
@@ -142,7 +142,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was given acc_plural as a congratulations, r_c watches from the side with a jealous glint in {PRONOUN/r_c/poss} eyes.",
+        "event_text": "m_c was given acc_plural as a congratulations. r_c watched from the side with a jealous glint in {PRONOUN/r_c/poss} eyes.",
         "accessories": [
             "WILD",
             "PLANT"
@@ -209,7 +209,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c tossed a snake out of the camp before it could bite someone."
+        "event_text": "m_c found a dessicated leech that somehow got into the camp. It still wasn't edible... not that m_c double-checked or anything, of course."
     },
     {
         "camp": "any",
@@ -219,7 +219,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c misstepped and slipped from a rock, but landed on {PRONOUN/m_c/poss} feet nimbly, {PRONOUN/m_c/poss} Clanmates commenting on the show of dexterity."
+        "event_text": "m_c misstepped and slipped from a rock, but landed on {PRONOUN/m_c/poss} feet nimbly, {PRONOUN/m_c/poss} Troopmates commenting on the show of dexterity."
     },
     {
         "camp": "any",
@@ -229,7 +229,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c wasn't looking where {PRONOUN/m_c/subject} {VERB/m_c/were/was} going and tripped over a small trunk, but came out of it with only {PRONOUN/m_c/poss} pride bruised."
+        "event_text": "m_c wasn't looking where {PRONOUN/m_c/subject} {VERB/m_c/were/was} going and tripped over some rubble, but came out of it with only {PRONOUN/m_c/poss} pride bruised."
     },
     {
         "camp": "any",
@@ -239,7 +239,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was trying to fluff up {PRONOUN/m_c/poss} nest when {PRONOUN/m_c/subject} saw a thorn inside of {PRONOUN/m_c/poss} bedding. Another prank, but it could not fool {PRONOUN/m_c/object}!"
+        "event_text": "m_c was trying to fluff up {PRONOUN/m_c/poss} nest when {PRONOUN/m_c/subject} saw a metal shard inside of {PRONOUN/m_c/poss} bedding. Another prank, but it could not fool {PRONOUN/m_c/object}!"
     },
     {
         "camp": "any",
@@ -250,7 +250,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c gathered up the kits to tell them stories of story_list.",
+        "event_text": "m_c gathered up the cubs to tell them stories of story_list.",
         "cat_skill": [
             "LORE,2",
             "KIT,1",
@@ -265,7 +265,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c spends the evening regaling the Clan with stories of story_list.",
+        "event_text": "m_c spends the evening regaling the Troop with stories of story_list.",
         "cat_skill": [
             "LORE,2",
             "KIT,1",
@@ -281,10 +281,9 @@
             "platonic",
             "trust",
             "comfort",
-            "neg_dislike",
-            "Leaf-bare"
+            "neg_dislike"
         ],
-        "event_text": "m_c and r_c begin a small camp snowball fight while on guard duty, eventually getting the whole Clan to join in."
+        "event_text": "m_c and r_c start throwing unpopped bubble fruit at each other while on guard duty, eventually getting the whole Troop to join in."
     },
     {
         "camp": "any",
@@ -322,7 +321,7 @@
             "platonic",
             "romantic"
         ],
-        "event_text": "m_c and r_c watch the Clan's kits play and daydream about having their own one day."
+        "event_text": "m_c and r_c watch the Clan's cubs play and daydream about having their own one day."
     },
     {
         "camp": "any",
@@ -334,7 +333,7 @@
             "other_cat",
             "other_cat_mate"
         ],
-        "event_text": "m_c watches r_c give an elder the best piece of prey on the pile. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} lucky to have such a kind cat as {PRONOUN/m_c/poss} mate."
+        "event_text": "m_c watches r_c give an elder the juiciest piece of food in the store. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} lucky to have such a kind person as {PRONOUN/m_c/poss} mate."
     },
     {
         "camp": "any",
@@ -346,7 +345,7 @@
             "other_cat",
             "other_cat_mate"
         ],
-        "event_text": "m_c watches r_c give an elder the best piece of prey on the pile. {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} lucky to have such a kind cat as their mate.",
+        "event_text": "m_c watches r_c give an elder the juiciest piece of food in the store. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} lucky to have such a kind person as {PRONOUN/m_c/poss} mate.",
         "other_cat_trait": [
             "compassionate",
             "loving",
@@ -376,7 +375,7 @@
             "to_both",
             "platonic"
         ],
-        "event_text": "m_c sits still as r_c helps remove some leftover Leaf-bare fluff from the back of {PRONOUN/m_c/poss} neck."
+        "event_text": "m_c sits still as r_c helps remove some indistinct gunk that got stuck in m_c's spines."
     },
     {
         "camp": "any",
@@ -392,7 +391,7 @@
             "romantic",
             "clan_kits"
         ],
-        "event_text": "m_c listens bashfully as r_c tells the story of how {PRONOUN/r_c/subject} fell in love with {PRONOUN/r_c/poss} mate to a group of starry-eyed kits."
+        "event_text": "m_c listens bashfully as r_c tells the story of how {PRONOUN/r_c/subject} fell in love with {PRONOUN/r_c/poss} mate to a group of starry-eyed cubs."
     },
     {
         "camp": "any",
@@ -430,7 +429,7 @@
             "to_both",
             "platonic"
         ],
-        "event_text": "m_c and r_c spend the evening chasing cicadas around camp. m_c keeps a trophy of {PRONOUN/m_c/poss} catch on {PRONOUN/m_c/poss} pelt.",
+        "event_text": "m_c and r_c spend the evening chasing dragonflies around camp. m_c keeps a trophy of {PRONOUN/m_c/poss} catch on {PRONOUN/m_c/poss} pelt.",
         "accessories": [
             "CICADA WINGS"
         ]
@@ -457,7 +456,7 @@
             "respect",
             "clan_kits"
         ],
-        "event_text": "m_c calls out to some eager kits, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the kits a thrilling story of times long past.",
+        "event_text": "m_c calls out to some eager cubs, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the cubs a thrilling story of times long past.",
         "cat_skill": [
             "STORY,1",
             "LORE,2"
@@ -471,7 +470,7 @@
             "other_cat",
             "other_cat_adult"
         ],
-        "event_text": "The older cats look fondly upon the kits who are dashing in and out of leaf piles at the edge of camp."
+        "event_text": "The older cats look fondly upon the cubs who are dashing in and out of leaf piles at the edge of camp."
     },
     {
         "camp": "any",
@@ -522,7 +521,7 @@
             "Leaf-fall",
             "skill_trait_required"
         ],
-        "event_text": "m_c's dreams are filled with flashing teeth and blood-scent. {PRONOUN/m_c/subject/CAP} {VERB/m_c/wake/wakes} up screaming.",
+        "event_text": "m_c's dreams are filled with flashbangs and blood-scent. {PRONOUN/m_c/subject/CAP} {VERB/m_c/wake/wakes} up screaming.",
         "cat_trait": null,
         "cat_skill": [
             "DARK,0"
@@ -553,7 +552,7 @@
             "murder_reveal",
             "other_cat"
         ],
-        "event_text": "r_c overheard m_c muttering in {PRONOUN/m_c/poss} sleep, claws slashing at the air. {PRONOUN/m_c/poss/CAP} muttering confirms what r_c always suspected -  m_c was the one responsible for mur_c's death."
+        "event_text": "r_c overheard m_c muttering in {PRONOUN/m_c/poss} sleep, hands clenching at the air. {PRONOUN/m_c/poss/CAP} muttering confirms what r_c always suspected -  m_c was the one responsible for mur_c's death."
     },
     {
         "camp": "any",
@@ -577,7 +576,7 @@
             "murder_reveal",
             "other_cat"
         ],
-        "event_text": "m_c laughs menacingly as r_c accuses {PRONOUN/m_c/object} of murdering mur_c. So what if {PRONOUN/m_c/subject} did? What is r_c going to do about it?",
+        "event_text": "m_c laughs as r_c accuses {PRONOUN/m_c/object} of murdering mur_c. So what if {PRONOUN/m_c/subject} did? What is r_c going to do about it?",
         "cat_trait": [
             "bloodthirsty"
         ]
@@ -592,7 +591,7 @@
             "murder_reveal",
             "other_cat"
         ],
-        "event_text": "r_c gathers all the courage {PRONOUN/r_c/subject} {VERB/r_c/have/has} and quietly tells m_c {PRONOUN/r_c/subject} {VERB/r_c/know/knows} what {PRONOUN/m_c/subject} did to mur_c. m_c glares menacingly and threatens r_c with the same fate if {PRONOUN/r_c/subject} {VERB/r_c/don't/doesn't} keep {PRONOUN/r_c/poss} mouth shut.",
+        "event_text": "r_c gathers all the courage {PRONOUN/r_c/subject} {VERB/r_c/have/has} and quietly tells m_c {PRONOUN/r_c/subject} {VERB/r_c/know/knows} what {PRONOUN/m_c/subject} did to mur_c. m_c glares and threatens r_c with the same fate if {PRONOUN/r_c/subject} {VERB/r_c/don't/doesn't} keep {PRONOUN/r_c/poss} mouth shut.",
         "cat_trait": [
             "bloodthirsty"
         ]
@@ -637,7 +636,7 @@
             "murder_reveal",
             "other_cat"
         ],
-        "event_text": "m_c's cold eyes don't blink when {PRONOUN/m_c/subject} {VERB/m_c/are/is} accused of murdering mur_c, and only simply states that the Clan is better off without mur_c anyways.",
+        "event_text": "m_c's cold eyes don't blink when {PRONOUN/m_c/subject} {VERB/m_c/are/is} accused of murdering mur_c, and only states that the Troop is better off without mur_c anyways.",
         "cat_trait": [
             "cold"
         ]
@@ -652,7 +651,7 @@
             "murder_reveal",
             "other_cat"
         ],
-        "event_text": "m_c boldly confesses to the entire Clan that {PRONOUN/m_c/subject} killed mur_c. m_c claims that mur_c deserved to pay for what {PRONOUN/mur_c/subject} did.",
+        "event_text": "m_c boldly confesses to the entire Troop that {PRONOUN/m_c/subject} killed mur_c. m_c claims that mur_c deserved to pay for what {PRONOUN/mur_c/subject} did.",
         "cat_trait": [
             "vengeful"
         ]

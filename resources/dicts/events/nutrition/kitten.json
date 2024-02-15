@@ -27,7 +27,7 @@
             "Leaf-bare",
             "death"
         ],
-        "death_text": "r_c noticed how thin m_c got. r_c wanted to give m_c some prey, but found {PRONOUN/m_c/object} cold in the nursery.",
+        "death_text": "r_c noticed how thin m_c got. r_c wanted to give m_c some food, but found {PRONOUN/m_c/object} cold in the nursery.",
         "history_text": [
             "m_c died from starvation.",
             null
@@ -92,7 +92,7 @@
             "Leaf-bare",
             "starving"
         ],
-        "death_text": "m_c asks r_c if there is prey left that {PRONOUN/m_c/subject} may have, because {PRONOUN/m_c/subject} {VERB/m_c/are/is} so hungry.",
+        "death_text": "m_c asks r_c if there is food left that {PRONOUN/m_c/subject} may have, because {PRONOUN/m_c/subject} {VERB/m_c/are/is} so hungry.",
         "history_text": [
             null,
             null
@@ -134,7 +134,7 @@
             "Leaf-bare",
             "starving"
         ],
-        "death_text": "m_c demands that r_c bring {PRONOUN/m_c/object} prey, because {PRONOUN/m_c/subject} {VERB/m_c/are/is} really hungry.",
+        "death_text": "m_c demands that r_c bring {PRONOUN/m_c/object} food, because {PRONOUN/m_c/subject} {VERB/m_c/are/is} really hungry.",
         "history_text": [
             null,
             null

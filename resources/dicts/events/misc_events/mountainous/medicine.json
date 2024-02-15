@@ -7,7 +7,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "As a storm rages across the mountain outside, m_c is tucked up in the medicine cat den, {PRONOUN/m_c/poss} sleep anything but restful. {PRONOUN/m_c/subject/CAP} {VERB/m_c/keep/keeps} seeing flashes of prophecy_list_sight. {PRONOUN/m_c/subject/CAP} {VERB/m_c/wake/wakes} with a shiver, wondering what {PRONOUN/m_c/poss} dreams mean for the Clan.",
+        "event_text": "As the rain batters the spires outside, m_c is tucked up in the healer's den, {PRONOUN/m_c/poss} sleep anything but restful. {PRONOUN/m_c/subject/CAP} {VERB/m_c/keep/keeps} seeing flashes of prophecy_list_sight. {PRONOUN/m_c/subject/CAP} {VERB/m_c/wake/wakes} with a shiver, wondering what {PRONOUN/m_c/poss} dreams mean for the Troop.",
         "cat_trait": null,
         "cat_skill": [
             "PROPHET,1"
@@ -23,7 +23,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "The things {PRONOUN/m_c/subject} saw today, omen_list_sight... m_c sits on an isolated mountain ledge, considering what the omens foretell.",
+        "event_text": "The things {PRONOUN/m_c/subject} saw today, omen_list_sight... m_c sits on an isolated platform high amidst the clouds, considering what the omens foretell.",
         "cat_trait": null,
         "cat_skill": [
             "OMEN,1"
@@ -37,7 +37,7 @@
             "clan_kits",
             "Leaf-bare"
         ],
-        "event_text": "Through the long, cold night, m_c brings the young cats of the Clan with {PRONOUN/m_c/object} down the tunnels. {PRONOUN/m_c/poss} words paint an enchanting picture of the ancestors of c_n as {PRONOUN/m_c/subject} {VERB/m_c/point/points} out the red pawprints of long dead heroes and villains, telling the Clan's triumphs and failures.",
+        "event_text": "Through the long, cold night, m_c brings the young scavengers of the Clan with {PRONOUN/m_c/object} down into the bowels of the tower. {PRONOUN/m_c/poss} words paint an enchanting picture of the ancestors of c_n as {PRONOUN/m_c/subject} {VERB/m_c/point/points} out the paintings of long dead heroes and villains, telling the Clan's triumphs and failures.",
         "cat_trait": null,
         "cat_skill": [
             "LORE,1"
