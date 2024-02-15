@@ -1,16 +1,16 @@
 {
     "born without a leg": [
-        "m_c mewls, snuggling up to {PRONOUN/m_c/poss} parent as {PRONOUN/m_c/subject} anxiously {VERB/m_c/await/awaits} the verdict, but r_c is confident that m_c's lack of a leg won't slow {PRONOUN/m_c/object} down, and the new family is left to bond, relieved and purring.",
-        "It's immediately clear that m_c might take longer to find {PRONOUN/m_c/poss} feet - {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been born without one of the usual set."
+        "Finally released from r_c's hands, m_c darts off into the spawning pool to find a hiding spot. After several moults, it's become clear that {PRONOUN/m_c/poss} limb will never grow in.",
+        "It's soon clear that m_c might take longer to find {PRONOUN/m_c/poss} feet - {PRONOUN/m_c/subject} {VERB/m_c/seem/seems} unable to grow one of the usual set."
 
     ],
     "weak leg": [
-        "As m_c toddles around the nursery, r_c watches and m_c's parent waits in suspense. Finally, r_c nods, and confirms that one of m_c's legs isn't developing at the same rate as the others.",
-        "m_c keeps falling to one side, and eventually it's clear that one of the legs on that side just isn't as strong as the others."
+        "As m_c emerges from the water and takes {PRONOUN/m_c/poss} first steps, r_c watches and m_c's parent waits in suspense. Finally, r_c nods, and confirms that one of m_c's legs isn't developing at the same rate as the others.",
+        "After taking {PRONOUN/m_c/poss} first steps on land, m_c keeps falling to one side. Eventually it's clear that that leg just isn't as strong as the other."
 
     ],
     "twisted leg": [
-        "r_c examines m_c as {PRONOUN/m_c/poss} parent holds {PRONOUN/m_c/object} by the scruff, checking on a leg that is becoming twisted as the kit grows.",
+        "r_c examines m_c as {PRONOUN/m_c/poss} parent holds {PRONOUN/m_c/object}, checking on a leg that is becoming twisted as the cub grows.",
         "When m_c tries to toddle around, {PRONOUN/m_c/subject} {VERB/m_c/seem/seems} to be slower than {PRONOUN/m_c/poss} siblings. A quick inspection reveals that one of {PRONOUN/m_c/poss} legs was born twisted and deformed, but {PRONOUN/m_c/subject} should find {PRONOUN/m_c/poss} footing in life soon enough."
 
     ],

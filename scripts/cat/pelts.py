@@ -686,7 +686,7 @@ class Pelt():
             par_antlers = set()
             for p in parents:
                 if p:
-                    par_antlers.append(p.pelt.antlers)
+                    par_antlers.add(p.pelt.antlers)
             
             if len(par_antlers) == 0:
                 # this shouldn't happen!
@@ -696,7 +696,7 @@ class Pelt():
             else:
                 # 50% chance one of the parents' antlers, 50% chance completely random
                 if random.randrange(2) == 0:
-                    self.antlers = random.choice(par_antlers)
+                    self.antlers = random.choice(list(par_antlers))
                     return
 
         # pick at random if we either can't or haven't chosen from parents 
