@@ -630,7 +630,7 @@ class Pelt():
             par_antlers = set()
             for p in parents:
                 if p:
-                    par_antlers.append(p.pelt.antlers)
+                    par_antlers.add(p.pelt.antlers)
             
             if len(par_antlers) == 0:
                 # this shouldn't happen!
