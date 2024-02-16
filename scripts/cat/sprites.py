@@ -115,7 +115,7 @@ class Sprites():
             'sokokecolours', 'speckledcolours', 'tabbycolours', 'tapircolours', 'tickedcolours',
             'chiselantlers', 'forkantlers', 'kittyantlers', 'spikeantlers',
             'sheepantlers', 'tineantlers', 'waveantlers', 'wedgeantlers', 'maskgloves', 'mouthparts',
-            'deadtineantlers', 'deadwedgeantlers', 'deadsheepantlers',
+            'deadtineantlers', 'deadwedgeantlers', 'deadsheepantlers', 'deadkittyantlers',
             'whitepatches', 'eyes', 'eyes2', 'skin', 'scars', 'missingscars',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars',
             'shadersnewwhite', 'lineartdead', 'tortiepatchesmasks', 
