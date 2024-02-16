@@ -20,7 +20,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The sunlight feels great and the cats have a successful discussion, talking about what came up at the last half-moon meetings and whether it'll affect c_n.",
+                "text": "The sunlight feels great and the scavengers have a successful discussion, talking about what came up at the last half-moon meetings and whether it'll affect c_n.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -35,7 +35,7 @@
                 ]
             },
             {
-                "text": "The sunlight energizes the cats for their herb-gathering.",
+                "text": "The sunlight energizes the scavengers for their herb-gathering.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -50,7 +50,7 @@
                 ]
             },
             {
-                "text": "s_c makes sure everyone gets a good basking spot as the cats pause for a little break before resuming their herb-gathering.",
+                "text": "s_c makes sure everyone gets a good basking spot as the scavengers pause for a little break before resuming their herb-gathering.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -145,8 +145,8 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the medicine cats' patrol pads out into c_n territory, r_c tells p_l about the dream {PRONOUN/r_c/subject} had last night, and what the StarClan vision could mean for c_n.",
-        "decline_text": "The cats don't talk about the vision, mouths too full of herbs.",
+        "intro_text": "As the healers' patrol pads out into c_n territory, r_c tells p_l about the dream {PRONOUN/r_c/subject} had last night, and what the StarClan vision could mean for c_n.",
+        "decline_text": "The scavengers don't talk about the vision, too distracted watching for danger.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -172,7 +172,7 @@
                 ]
             },
             {
-                "text": "p_l takes r_c aside, giving {PRONOUN/r_c/object} the full benefits of p_l's experience as they discuss r_c's vision. As a medicine cat, {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} take the responsibility lightly, and both of them work together to divine the vision's meaning.",
+                "text": "p_l takes r_c aside, giving {PRONOUN/r_c/object} the full benefits of p_l's experience as they discuss r_c's vision. As a healer, {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} take the responsibility lightly, and both of them work together to divine the vision's meaning.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -194,7 +194,7 @@
                 ]
             },
             {
-                "text": "s_c chooses to pad pelt-to-pelt with r_c, the spiritual medicine cat gently guiding the conversation. r_c feels deeply privileged, and far more at peace, after confiding in {PRONOUN/s_c/object}, and {PRONOUN/r_c/subject} {VERB/r_c/know/knows} that c_n is in safe paws.",
+                "text": "s_c chooses to walk side by side with r_c, the spiritual healer gently guiding the conversation. r_c feels deeply privileged, and far more at peace, after confiding in {PRONOUN/s_c/object}, and {PRONOUN/r_c/subject} {VERB/r_c/know/knows} that c_n is in safe hands.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -278,8 +278,8 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the medicine cats' patrol pads out into c_n territory, r_c tells p_l about the dream {PRONOUN/r_c/subject} had last night, and what the StarClan vision could mean for c_n.",
-        "decline_text": "The cats don't talk about the vision, mouths too full of herbs.",
+        "intro_text": "As the healers' patrol heads out into c_n territory, r_c tells p_l about the dream {PRONOUN/r_c/subject} had last night, and what the StarClan vision could mean for c_n.",
+        "decline_text": "The scavengers don't talk about the vision, too distracted watching for danger.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -305,7 +305,7 @@
                 ]
             },
             {
-                "text": "p_l takes r_c aside, giving {PRONOUN/r_c/object} the full benefits of p_l's seniority and experience as they discuss r_c's vision. As a medicine cat, {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} take the responsibility lightly, and both of them work together to divine the vision's meaning.",
+                "text": "p_l takes r_c aside, giving {PRONOUN/r_c/object} the full benefits of p_l's seniority and experience as they discuss r_c's vision. As a healer, {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} take the responsibility lightly, and both of them work together to divine the vision's meaning.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -420,13 +420,13 @@
                 "weight": 20
             },
             {
-                "text": "Somehow cobweb-gathering brings p_l to an almost-meditative state. Not only {VERB/p_l/are/is} {PRONOUN/p_l/subject} fairly confident of {PRONOUN/p_l/poss} next steps, having been given this vision, but {PRONOUN/p_l/subject} also {VERB/p_l/bring/brings} back a good haul to the medicine den stocks.",
+                "text": "Somehow cobweb-gathering brings p_l to an almost-meditative state. Not only {VERB/p_l/are/is} {PRONOUN/p_l/subject} fairly confident of {PRONOUN/p_l/poss} next steps, having been given this vision, but {PRONOUN/p_l/subject} also {VERB/p_l/bring/brings} back a good haul to the healer's den stocks.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["cobwebs"]
             },
             {
-                "text": "s_c often feels like StarClan walks with {PRONOUN/s_c/object}, and this is just another instance on the path. {PRONOUN/s_c/subject/CAP} {VERB/s_c/use/uses} the solo patrol to collect {PRONOUN/s_c/poss} thoughts, and by the time {PRONOUN/s_c/subject} {VERB/s_c/pad/pads} home with a good bundle of cobwebs, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ready for the next step {PRONOUN/s_c/poss} vision hinted at.",
+                "text": "s_c often feels like StarClan walks with {PRONOUN/s_c/object}, and this is just another instance on the path. {PRONOUN/s_c/subject/CAP} {VERB/s_c/use/uses} the solo patrol to collect {PRONOUN/s_c/poss} thoughts, and by the time {PRONOUN/s_c/subject} {VERB/s_c/walk/walks} home with a good bundle of cobwebs, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ready for the next step {PRONOUN/s_c/poss} vision hinted at.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["STAR,1"],
@@ -452,8 +452,8 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the patrol pads out into c_n territory, r_c tells p_l about the dream {PRONOUN/r_c/subject} had last night, and what the StarClan vision could mean for c_n.",
-        "decline_text": "The cats don't talk about the vision, mouths too full of herbs.",
+        "intro_text": "As the patrol heads out into c_n territory, r_c tells p_l about the dream {PRONOUN/r_c/subject} had last night, and what the StarClan vision could mean for c_n.",
+        "decline_text": "The scavengers don't talk about the vision, too distracted watching for danger.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -604,19 +604,19 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "With a respectful nod, p_l pauses, tucks {PRONOUN/p_l/poss} paws together neatly, and sits to converse with the StarClan cat.",
+                "text": "With a respectful nod, p_l pauses, tucks {PRONOUN/p_l/poss} paws together neatly, and sits to converse with the StarClan scavenger.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["random_herbs"]
             },
             {
-                "text": "The scent of a familiar pelt reaches p_l's nose - {PRONOUN/p_l/subject} {VERB/p_l/know/knows} this cat! With a friendly purr, {PRONOUN/p_l/subject} {VERB/p_l/turn/turns} to greet {PRONOUN/p_l/poss} friend from beyond the grave.",
+                "text": "The scent of a familiar pelt reaches p_l's nose - {PRONOUN/p_l/subject} {VERB/p_l/know/knows} this scavenger! With a friendly gesture, {PRONOUN/p_l/subject} {VERB/p_l/turn/turns} to greet {PRONOUN/p_l/poss} friend from beyond the grave.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": ["random_herbs"]
             },
             {
-                "text": "With the familiarity brought by {PRONOUN/s_c/poss} connection to StarClan, s_c turns to the ghost haunting {PRONOUN/p_l/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a purr and quiet confidence.",
+                "text": "With the familiarity brought by {PRONOUN/s_c/poss} connection to StarClan, s_c turns to the ghost haunting {PRONOUN/p_l/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a wave and quiet confidence.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["CLAIRVOYANT,2"],
@@ -638,14 +638,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "r_c feels hounded, never given a moment's peace, and {PRONOUN/r_c/subject} {VERB/r_c/hiss/hisses} at the StarClan cat. But when {PRONOUN/r_c/subject} {VERB/r_c/turn/turns} around, there's only a rather upset looking Clanmate, there to fetch {PRONOUN/r_c/object} to camp to help with an emergency.",
+                "text": "r_c feels hounded, never given a moment's peace, and {PRONOUN/r_c/subject} {VERB/r_c/point/points} {PRONOUN/r_c/poss} spear at the StarClan scavenger. But when {PRONOUN/r_c/subject} {VERB/r_c/turn/turns} around, there's only a rather upset looking Troopmate, there to fetch {PRONOUN/r_c/object} to camp to help with an emergency.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "r_c feels hounded, never given a moment's peace, and {PRONOUN/r_c/subject} {VERB/r_c/hiss/hisses} at the StarClan cat. The ghost vanishes like a puff of fog in the morning sun, hopefully not to return.",
+                "text": "r_c feels hounded, never given a moment's peace, and {PRONOUN/r_c/subject} {VERB/r_c/point/points} {PRONOUN/r_c/poss} spear at the StarClan scavenger. The ghost vanishes like a puff of fog in the morning sun, hopefully not to return.",
                 "exp": 30,
                 "weight": 20
             }
@@ -665,12 +665,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As p_l pads through c_n territory with their entourage, {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} a presence join {PRONOUN/p_l/object}.",
+        "intro_text": "As p_l walks through c_n territory with their entourage, {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} a presence join {PRONOUN/p_l/object}.",
         "decline_text": "{PRONOUN/p_l/poss/CAP} companion stays with {PRONOUN/p_l/object} as silent support while {PRONOUN/p_l/subject} {VERB/p_l/continue/continues} on.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l softly alerts the rest of the patrol of their visitor. With respectful nods, the patrol pauses, tucks their paws together neatly, and sit to converse with the StarClan cat.",
+                "text": "p_l softly alerts the rest of the patrol of their visitor. With respectful nods, the patrol pause, tuck their paws together neatly, and sit to converse with the StarClan cat.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -685,7 +685,7 @@
                 ]
             },
             {
-                "text": "The scent of a familiar pelt reaches r_c's nose - {PRONOUN/r_c/subject} {VERB/r_c/know/knows} this cat! With a friendly purr, {PRONOUN/r_c/subject} {VERB/r_c/turn/turns} to greet {PRONOUN/r_c/poss} friend from beyond the grave. The rest of the patrol gives them some space.",
+                "text": "The scent of a familiar pelt reaches r_c's nose - {PRONOUN/r_c/subject} {VERB/r_c/know/knows} this cat! With a friendly wave, {PRONOUN/r_c/subject} {VERB/r_c/turn/turns} to greet {PRONOUN/r_c/poss} friend from beyond the grave. The rest of the patrol gives them some space.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -700,7 +700,7 @@
                 ]
             },
             {
-                "text": "With the familiarity brought by {PRONOUN/s_c/poss} connection to StarClan, s_c turns to the ghost haunting {PRONOUN/p_l/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a purr and quiet confidence.",
+                "text": "With the familiarity brought by {PRONOUN/s_c/poss} connection to StarClan, s_c turns to the ghost haunting {PRONOUN/p_l/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a wave and quiet confidence.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["CLAIRVOYANT,2"],
@@ -749,14 +749,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l feels hounded, never given a moment's peace, and {PRONOUN/p_l/subject} {VERB/p_l/hiss/hisses} at the StarClan cat. But when {PRONOUN/p_l/subject} {VERB/p_l/turn/turns} around, there's only a rather upset looking Clanmate, there to fetch {PRONOUN/p_l/object} to camp to help with an emergency.",
+                "text": "p_l feels hounded, never given a moment's peace, and {PRONOUN/p_l/subject} {VERB/r_c/point/points} {PRONOUN/r_c/poss} spear at the StarClan cat. But when {PRONOUN/p_l/subject} {VERB/p_l/turn/turns} around, there's only a rather upset looking Troopmate, there to fetch {PRONOUN/p_l/object} to camp to help with an emergency.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l feels hounded, never given a moment's peace, and {PRONOUN/p_l/subject} {VERB/p_l/hiss/hisses} at the StarClan cat. The ghost vanishes like a puff of fog in the morning sun, hopefully not to return.",
+                "text": "p_l feels hounded, never given a moment's peace, and {PRONOUN/p_l/subject} {VERB/r_c/point/points} {PRONOUN/r_c/poss} spear at the StarClan cat. The ghost vanishes like a puff of fog in the morning sun, hopefully not to return.",
                 "exp": 30,
                 "weight": 20
             }
@@ -782,13 +782,13 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "This is utterly unnerving, but with a respectful and shaky nod, app1 pauses, tucks {PRONOUN/app1/poss} paws together neatly, and sits to converse with the StarClan cat.",
+                "text": "This is utterly unnerving, but with a respectful and shaky nod, app1 pauses, tucks {PRONOUN/app1/poss} paws together neatly, and sits to converse with the StarClan scavenger.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["random_herbs"]
             },
             {
-                "text": "The scent of a familiar pelt reaches app1's nose - {PRONOUN/app1/subject} {VERB/app1/know/knows} this cat! {PRONOUN/app1/subject/CAP} {VERB/app1/wheel/wheels} around and {VERB/app1/bury/buries} {PRONOUN/app1/poss} face in sparkling fur, purring frantically.",
+                "text": "The scent of a familiar pelt reaches app1's nose - {PRONOUN/app1/subject} {VERB/app1/know/knows} this scavenger! {PRONOUN/app1/subject/CAP} {VERB/app1/wheel/wheels} around and {VERB/app1/wrap/wraps} {PRONOUN/app1/poss} arms around the sparkling silhouette, chest warm.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": ["random_herbs"]
@@ -796,12 +796,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The connection wavers, and as quickly as the feeling of company appears, it vanishes. app1 pads uncertainly back to camp, wondering if it was even real in the first place.",
+                "text": "The connection wavers, and as quickly as the feeling of company appears, it vanishes. app1 heads uncertainly back to camp, wondering if it was even real in the first place.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "app1 turns to the ghost with a smile, but the StarClan cat meets {PRONOUN/app1/poss} eyes with fire in their gaze. StarClan is unhappy with {PRONOUN/app1/object}, and things must change. app1 cowers in front of them, wishing {PRONOUN/app1/subject} {VERB/app1/were/was} anywhere else.",
+                "text": "app1 turns to the ghost with a smile, but the StarClan scavenger meets {PRONOUN/app1/poss} eyes with fire in their gaze. StarClan is unhappy with {PRONOUN/app1/object}, and things must change. app1 cowers in front of them, wishing {PRONOUN/app1/subject} {VERB/app1/were/was} anywhere else.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "vengeful", "sneaky"]
@@ -809,14 +809,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "app1 feels hounded, never given a moment's peace, and {PRONOUN/app1/subject} {VERB/app1/hiss/hisses} at the StarClan cat. But when {PRONOUN/app1/subject} {VERB/app1/turn/turns} around, there's only a rather upset looking Clanmate, there to fetch {PRONOUN/app1/object} to camp to help with an emergency.",
+                "text": "app1 feels hounded, never given a moment's peace, and {PRONOUN/app1/subject} {VERB/r_c/point/points} {PRONOUN/r_c/poss} spear at the StarClan scavenger. But when {PRONOUN/app1/subject} {VERB/app1/turn/turns} around, there's only a rather upset looking Troopmate, there to fetch {PRONOUN/app1/object} to camp to help with an emergency.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "app1 feels hounded, never given a moment's peace, and {PRONOUN/app1/subject} {VERB/app1/hiss/hisses} at the StarClan cat. The ghost vanishes like a puff of fog in the morning sun, hopefully not to return.",
+                "text": "app1 feels hounded, never given a moment's peace, and {PRONOUN/app1/subject} {VERB/r_c/point/points} {PRONOUN/r_c/poss} spear at the StarClan scavenger. The ghost vanishes like a puff of fog in the morning sun, hopefully not to return.",
                 "exp": 30,
                 "weight": 20
             }
@@ -839,12 +839,12 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "As app1 pads through c_n territory, {PRONOUN/app1/subject} {VERB/app1/feel/feels} a presence join {PRONOUN/app1/object}.",
+        "intro_text": "As app1 walks through c_n territory, {PRONOUN/app1/subject} {VERB/app1/feel/feels} a presence join {PRONOUN/app1/object}.",
         "decline_text": "{PRONOUN/app1/poss/CAP} companion stays with {PRONOUN/app1/object} as silent support while {PRONOUN/p_l/subject} work.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "With respectful nods, the patrol pauses. app1 takes {PRONOUN/app1/poss} lead from p_l and tucks {PRONOUN/app1/poss} paws together neatly, sitting to converse with the StarClan cat.",
+                "text": "With respectful nods, the patrol pauses. app1 takes {PRONOUN/app1/poss} lead from p_l and tucks {PRONOUN/app1/poss} paws together neatly, sitting to converse with the StarClan scavenger.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -859,7 +859,7 @@
                 ]
             },
             {
-                "text": "The scent of a familiar pelt reaches app1's nose - {PRONOUN/app1/subject} {VERB/app1/know/knows} this cat! {PRONOUN/app1/subject/CAP} {VERB/app1/wheel/wheels} around and {VERB/app1/bury/buries} {PRONOUN/app1/poss} face in sparkling fur, purring frantically.",
+                "text": "The scent of a familiar pelt reaches app1's nose - {PRONOUN/app1/subject} {VERB/app1/know/knows} this scavenger! {PRONOUN/app1/subject/CAP} {VERB/app1/wheel/wheels} around and {VERB/app1/wrap/wraps} {PRONOUN/app1/poss} arms around the sparkling silhouette, heart warm.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -874,7 +874,7 @@
                 ]
             },
             {
-                "text": "With the familiarity brought by their connection to StarClan, s_c turns to the ghost haunting {PRONOUN/s_c/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a purr and quiet confidence. app1 watches with eyes as round and dark as the new moon.",
+                "text": "With the familiarity brought by their connection to StarClan, s_c turns to the ghost haunting {PRONOUN/s_c/poss} path, meeting {PRONOUN/s_c/poss} star-walking ancestor with a wave and quiet confidence. app1 watches with eyes as round and dark as the new moon.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["CLAIRVOYANT,2"],
@@ -907,7 +907,7 @@
                 ]
             },
             {
-                "text": "s_c turns to the ghost with a smile, but the StarClan cat meets {PRONOUN/s_c/poss} eyes with fire in their gaze. StarClan is unhappy with {PRONOUN/s_c/object}, and things must change.",
+                "text": "s_c turns to the ghost with a smile, but the StarClan scavenger meets {PRONOUN/s_c/poss} eyes with fire in their gaze. StarClan is unhappy with {PRONOUN/s_c/object}, and things must change.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "vengeful", "sneaky"],
@@ -925,14 +925,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "app1 feels hounded, never given a moment's peace, and {PRONOUN/app1/subject} {VERB/app1/hiss/hisses} at the StarClan cat. But when {PRONOUN/app1/subject} {VERB/app1/turn/turns} around, there's only a rather upset looking Clanmate, there to fetch {PRONOUN/app1/object} to camp to help with an emergency.",
+                "text": "app1 feels hounded, never given a moment's peace, and {PRONOUN/app1/subject} {VERB/r_c/point/points} {PRONOUN/r_c/poss} spear at the StarClan scavenger. But when {PRONOUN/app1/subject} {VERB/app1/turn/turns} around, there's only a rather upset looking Troopmate, there to fetch {PRONOUN/app1/object} to camp to help with an emergency.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "app1 feels hounded, never given a moment's peace, and {PRONOUN/app1/subject} {VERB/app1/hiss/hisses} at the StarClan cat. The ghost vanishes like a puff of fog in the morning sun, hopefully not to return.",
+                "text": "app1 feels hounded, never given a moment's peace, and {PRONOUN/app1/subject} {VERB/r_c/point/points} {PRONOUN/r_c/poss} spear at the StarClan scavenger. The ghost vanishes like a puff of fog in the morning sun, hopefully not to return.",
                 "exp": 30,
                 "weight": 20
             }
@@ -989,7 +989,7 @@
                 ]
             },
             {
-                "text": "p_l had seen before how connected r_c was to StarClan, and began telling {PRONOUN/p_l/object} more than they would have told any other Clan cat about their ancestors. p_l and r_c spend much of their patrol gathering herbs and discussing the hard-hitting questions on prophecies and StarClan's gifts.",
+                "text": "p_l had seen before how connected r_c was to StarClan, and began telling {PRONOUN/p_l/object} more than they would have told any other Troop scavenger about their ancestors. p_l and r_c spend much of their patrol gathering herbs and discussing the hard-hitting questions on prophecies and StarClan's gifts.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["LORE,1", "STAR,1"],
@@ -1043,7 +1043,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l and r_c spend their time on the patrol discussing how, to StarClan, the end of their life did not mean it was the true end. Even in StarClan, cats had their role to play. r_c's legacy would shine brighter than any star. Comforted by these words, r_c thanks p_l and helps bring back the herbs.",
+                "text": "p_l and r_c spend their time on the patrol discussing how, to StarClan, the end of their life did not mean it was the true end. Even in StarClan, scavengers had their role to play. r_c's legacy would shine brighter than any star. Comforted by these words, r_c thanks p_l and helps bring back the herbs.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -1058,7 +1058,7 @@
                 ]
             },
             {
-                "text": "p_l knows why this bothers s_c so much. A powerful connection to StarClan allows them to understand how their legacy would be told again and again to kits in the future. But p_l does {PRONOUN/p_l/poss} best to ease s_c's worries. To c_n, s_c would be a legend worth remembering one day. s_c brightens up at that remark, and the two go back to their herb hunt.",
+                "text": "p_l knows why this bothers s_c so much. A powerful connection to StarClan allows them to understand how their legacy would be told again and again to cubs in the future. But p_l does {PRONOUN/p_l/poss} best to ease s_c's worries. To c_n, s_c would be a legend worth remembering one day. s_c brightens up at that remark, and the two go back to their herb hunt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["ambitious", "bloodthirsty", "insecure"],
@@ -1130,7 +1130,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c splashes water from a puddle at p_l. p_l turns around and hisses at r_c that {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} have time for kit games! The two continue their patrol, but p_l's sour mood distracts them from any usable herbs they could find.",
+                "text": "r_c splashes water from a puddle at p_l. p_l turns around and snaps at r_c that {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} have time for cub games! The two continue their patrol, but p_l's sour mood distracts them from any usable herbs they could find.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1161,12 +1161,12 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "The gaggle of medicine cats strolls through c_n's territory, chatting amicably amongst themselves. It's a rare opportunity, for all of them to be out like this together, and each cat plans to make the most of it.",
-        "decline_text": "Before they get very far, one of their Clanmates catches up to inform them of a small emergency back at camp that needs their attention. Oh well, maybe they'll get the chance again another day.",
+        "intro_text": "The gaggle of healers strolls through c_n's territory, chatting amicably amongst themselves. It's a rare opportunity, for all of them to be out like this together, and each scavenger plans to make the most of it.",
+        "decline_text": "Before they get very far, one of their Troopmates catches up to inform them of a small emergency back at camp that needs their attention. Oh well, maybe they'll get the chance again another day.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "The cats take turns veering off for herbs, allowing the others time to chat with each other. By the time they loop back to camp, each cat has a small bundle of herbs in their jaws, and a small bundle of contentment in their hearts.",
+                "text": "The scavengers take turns veering off for herbs, allowing the others time to chat with each other. By the time they loop back to camp, each of them has a small bundle of herbs to in their hands, and a small bundle of contentment in their hearts.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -1181,7 +1181,7 @@
                 ]
             },
             {
-                "text": "The patrol decides to collect herbs first, so they have time to idle and chat before heading back to camp. They spend some time in a warm sunbeam, sharing tongues and sunning themselves, and by the time they're ready to go home, every cat is feeling closer to one another.",
+                "text": "The patrol decides to collect herbs first, so they have time to idle and chat before heading back to camp. They spend some time in a warm sunbeam, grooming each other and sunning themselves, and by the time they're ready to go home, every scavenger is feeling closer to one another.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -1196,7 +1196,7 @@
                 ]
             },
             {
-                "text": "As the cats walk and chat, s_c begins to lag behind. r_c looks back to ask {PRONOUN/s_c/object} what's up, and spots {PRONOUN/s_c/object} veering down a side path. r_c motions for the others as {PRONOUN/r_c/subject} {VERB/r_c/follow/follows} s_c, and {VERB/r_c/find/finds} {PRONOUN/s_c/object} purring loudly at the sight of a huge herb patch! There's far more than the patrol can carry, and {PRONOUN/r_c/subject} {VERB/r_c/know/knows} this will keep the Clan healthy for ages.",
+                "text": "As the scavengers walk and chat, s_c begins to lag behind. r_c looks back to ask {PRONOUN/s_c/object} what's up, and spots {PRONOUN/s_c/object} veering down a side path. r_c motions for the others as {PRONOUN/r_c/subject} {VERB/r_c/follow/follows} s_c, and {VERB/r_c/find/finds} {PRONOUN/s_c/object} beaming at the sight of a huge herb patch! There's far more than the patrol can carry, and {PRONOUN/r_c/subject} {VERB/r_c/know/knows} this will keep the Troop healthy for ages.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,2"],
@@ -1214,7 +1214,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The medicine cats are too caught up in chatting with one another - they don't collect a single leaf.",
+                "text": "The healers are too caught up in chatting with one another - they don't collect a single leaf.",
                 "exp": 0,
                 "weight": 20
             }
@@ -1236,12 +1236,12 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "The gaggle of medicine cats strolls through c_n's territory, chatting amicably amongst themselves. It's a rare opportunity, for all of them to be out like this together, and though the weather is poor and not really ideal for herb-gathering, each cat plans to make the most of it.",
-        "decline_text": "Before they get very far, it starts pouring rain, and none of the cats feel like getting soaked today. At least they can spend time together organizing the herb stores instead!",
+        "intro_text": "The gaggle of healers strolls through c_n's territory, chatting amicably amongst themselves. It's a rare opportunity, for all of them to be out like this together, and though the weather is poor and not really ideal for herb-gathering, each scavenger plans to make the most of it.",
+        "decline_text": "Before they get very far, it starts pouring rain, and none of the scavengers feel like getting soaked today. At least they can spend time together organizing the herb stores instead!",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The cats take turns veering off for herbs, allowing the others time to chat with each other. They manage to avoid any rain, and by the time they loop back to camp, each cat has a small bundle of herbs in their jaws, and a small bundle of contentment in their hearts.",
+                "text": "The scavengers take turns veering off for herbs, allowing the others time to chat with each other. They manage to avoid any rain, and by the time they loop back to camp, each scavenger has a small bundle of herbs in their jaws, and a small bundle of contentment in their hearts.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -1256,7 +1256,7 @@
                 ]
             },
             {
-                "text": "The patrol decides to collect herbs first, so they have time to idle and chat before heading back to camp. They sit themselves in the cover of a tree to share tongues and chat out of the rain, and by the time they're ready to go home, every cat is feeling closer to one another.",
+                "text": "The patrol decides to collect herbs first, so they have time to idle and chat before heading back to camp. They sit themselves in the cover of a tree to share tongues and chat out of the rain, and by the time they're ready to go home, every scavenger is feeling closer to one another.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -1271,7 +1271,7 @@
                 ]
             },
             {
-                "text": "As the cats walk and chat, s_c begins to lag behind. r_c looks back to ask {PRONOUN/s_c/object} what's up, and spots {PRONOUN/s_c/object} veering down a side path. r_c motions for the others as {PRONOUN/r_c/subject} {VERB/r_c/follow/follows} s_c, and {VERB/r_c/find/finds} {PRONOUN/s_c/object} purring loudly at the sight of a huge herb patch! There's far more than the patrol can carry, and {PRONOUN/r_c/subject} {VERB/r_c/know/knows} this will keep the Clan healthy for ages.",
+                "text": "As the scavengers walk and chat, s_c begins to lag behind. r_c looks back to ask {PRONOUN/s_c/object} what's up, and spots {PRONOUN/s_c/object} veering down a side path. r_c motions for the others as {PRONOUN/r_c/subject} {VERB/r_c/follow/follows} s_c, and {VERB/r_c/find/finds} {PRONOUN/s_c/object} purring loudly at the sight of a huge herb patch! There's far more than the patrol can carry, and {PRONOUN/r_c/subject} {VERB/r_c/know/knows} this will keep the Troop healthy for ages.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,2"],
@@ -1312,8 +1312,8 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "The trio of apprentices strolls through c_n's territory, chatting amicably amongst themselves. The senior medicine cats are all busy back at camp, so the young cats get the chance to be out on their own today, which has everyone excited!",
-        "decline_text": "Before they get very far, one of their Clanmates catches up to inform them that they're wanted back at camp. Oh well, maybe they'll get the chance again another day.",
+        "intro_text": "The trio of apprentices strolls through c_n's territory, chatting amicably amongst themselves. The senior healers are all busy back at camp, so the young scavengers get the chance to be out on their own today, which has everyone excited!",
+        "decline_text": "Before they get very far, one of their Troopmates catches up to inform them that they're wanted back at camp. Oh well, maybe they'll get the chance again another day.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -1332,7 +1332,7 @@
                 ]
             },
             {
-                "text": "app1 is the first to find some herbs, and smugly waves them in the faces of app2 and app3 - after that it's a bit of a competition, with each cat trying to out-compete the others. It's great for the Clan - in the end, they come back to camp with a sizeable haul!",
+                "text": "app1 is the first to find some herbs, and smugly waves them in the faces of app2 and app3 - after that it's a bit of a competition, with each scavenger trying to out-compete the others. It's great for the Troop - in the end, they come back to camp with a sizeable haul!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "random_herbs"],
@@ -1372,8 +1372,8 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "The quartet of apprentices strolls through c_n's territory, chatting amicably amongst themselves. The senior medicine cats are all busy back at camp, so the young cats get the chance to be out on their own today, which has everyone excited!",
-        "decline_text": "Before they get very far, one of their Clanmates catches up to inform them that they're wanted back at camp. Oh well, maybe they'll get the chance again another day.",
+        "intro_text": "The quartet of apprentices strolls through c_n's territory, chatting amicably amongst themselves. The senior healers are all busy back at camp, so the young scavengers get the chance to be out on their own today, which has everyone excited!",
+        "decline_text": "Before they get very far, one of their Troopmates catches up to inform them that they're wanted back at camp. Oh well, maybe they'll get the chance again another day.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -1392,7 +1392,7 @@
                 ]
             },
             {
-                "text": "app1 is the first to find some herbs, and smugly waves them in the faces of the other three - after that it's a bit of a competition, with each cat trying to out-compete the others. It's great for the Clan - in the end, they come back to camp with a sizeable haul!",
+                "text": "app1 is the first to find some herbs, and smugly waves them in the faces of the other three - after that it's a bit of a competition, with each scavenger trying to out-compete the others. It's great for the Troop - in the end, they come back to camp with a sizeable haul!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "random_herbs"],
@@ -1432,8 +1432,8 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "The quintet of apprentices strolls through c_n's territory, chatting amicably amongst themselves. The senior medicine cats are all busy back at camp, so the young cats get the chance to be out on their own today, which has everyone excited!",
-        "decline_text": "Before they get very far, one of their Clanmates catches up to inform them that they're wanted back at camp. Oh well, maybe they'll get the chance again another day.",
+        "intro_text": "The quintet of apprentices strolls through c_n's territory, chatting amicably amongst themselves. The senior healers are all busy back at camp, so the young scavengers get the chance to be out on their own today, which has everyone excited!",
+        "decline_text": "Before they get very far, one of their Troopmates catches up to inform them that they're wanted back at camp. Oh well, maybe they'll get the chance again another day.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -1452,7 +1452,7 @@
                 ]
             },
             {
-                "text": "app1 is the first to find some herbs, and smugly waves them in the faces of the other four - after that it's a bit of a competition, with each cat trying to out-compete the others. It's great for the Clan - in the end, they come back to camp with a sizeable haul!",
+                "text": "app1 is the first to find some herbs, and smugly waves them in the faces of the other four - after that it's a bit of a competition, with each scavenger trying to out-compete the others. It's great for the Troop - in the end, they come back to camp with a sizeable haul!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "random_herbs"],
@@ -1491,8 +1491,8 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "The gaggle of apprentices strolls through c_n's territory, chatting amicably amongst themselves. The senior medicine cats are all busy back at camp, so the young cats get the chance to be out on their own today, which has everyone excited!",
-        "decline_text": "Before they get very far, one of their Clanmates catches up to inform them that they're wanted back at camp. Oh well, maybe they'll get the chance again another day.",
+        "intro_text": "The gaggle of apprentices strolls through c_n's territory, chatting amicably amongst themselves. The senior healers are all busy back at camp, so the young scavengers get the chance to be out on their own today, which has everyone excited!",
+        "decline_text": "Before they get very far, one of their Troopmates catches up to inform them that they're wanted back at camp. Oh well, maybe they'll get the chance again another day.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -1511,7 +1511,7 @@
                 ]
             },
             {
-                "text": "app1 is the first to find some herbs, and smugly waves them in the faces of the other five - after that it's a bit of a competition, with each cat trying to out-compete the others. It's great for the Clan - in the end, they come back to camp with a sizeable haul!",
+                "text": "app1 is the first to find some herbs, and smugly waves them in the faces of the other five - after that it's a bit of a competition, with each scavenger trying to out-compete the others. It's great for the Troop - in the end, they come back to camp with a sizeable haul!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "random_herbs"],
@@ -1550,11 +1550,11 @@
         },
         "weight": 20,
         "intro_text": "p_l eyes the warrior chosen to escort {PRONOUN/p_l/object} to fetch herbs, feeling a little bit giddy. Apprentices getting to boss around warriors is something that almost never happens, and p_l is going to make sure {PRONOUN/p_l/subject} {VERB/p_l/make/makes} the most of it.",
-        "decline_text": "Just as they're about to leave, r_c is called off to help on a hunting patrol instead. p_l lashes {PRONOUN/p_l/poss} tail in frustration, but doesn't protest, and heads back to the medicine cat's den alone.",
+        "decline_text": "Just as they're about to leave, r_c is called off to help on a hunting patrol instead. p_l clenches {PRONOUN/p_l/poss} fists in frustration, but doesn't protest, and heads back to the healer's den alone.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l has a grand time, directing r_c around with {PRONOUN/p_l/poss} tail to various herb patches. If the warrior is annoyed, {PRONOUN/r_c/subject} {VERB/r_c/don't/doesn't} say it, quietly complying and doing as p_l says.",
+                "text": "p_l has a grand time, directing r_c around to various herb patches. If the warrior is annoyed, {PRONOUN/r_c/subject} {VERB/r_c/don't/doesn't} say it, quietly complying and doing as p_l says.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -1586,7 +1586,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l and r_c just can't see eye-to-eye, and they end up getting nothing done, much to each cat's frustration.",
+                "text": "p_l and r_c just can't see eye-to-eye, and they end up getting nothing done, much to each scavenger's frustration.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1616,12 +1616,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "r_c eyes p_l as the younger cat approaches, ears slightly drawn back. The prospect of being bossed around by an apprentice is downright humiliating, and the warrior is <i>not</i> looking forward to this experience.",
-        "decline_text": "Just as they're about to leave, r_c is called off to help on a hunting patrol instead, and eagerly rushes off, not sparing a second glance back at the young medicine cat.",
+        "intro_text": "r_c eyes p_l as the younger scavenger approaches, ears slightly drawn back. The prospect of being bossed around by an apprentice is downright humiliating, and the warrior is <i>not</i> looking forward to this experience.",
+        "decline_text": "Just as they're about to leave, r_c is called off to help on a hunting patrol instead, and eagerly rushes off, not sparing a second glance back at the young healer.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l has a grand time, directing r_c around with {PRONOUN/p_l/poss} tail to various herb patches. r_c grumbles beneath {PRONOUN/r_c/poss} breath, making sure the apprentice knows how frustrated {PRONOUN/r_c/subject} {VERB/r_c/are/is}, but does as {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} told, not wanting to risk getting in trouble back at camp.",
+                "text": "p_l has a grand time, directing r_c around to various herb patches. r_c grumbles beneath {PRONOUN/r_c/poss} breath, making sure the apprentice knows how frustrated {PRONOUN/r_c/subject} {VERB/r_c/are/is}, but does as {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} told, not wanting to risk getting in trouble back at camp.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"]
@@ -1635,7 +1635,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c scowls at p_l as {PRONOUN/p_l/subject} {VERB/p_l/try/tries} to direct the older cat around, standing stock-still and staring the apprentice down. r_c is <i>not</i> in the mood for an apprentice to lord {PRONOUN/p_l/poss} authority over them, and {PRONOUN/r_c/subject} {VERB/r_c/spend/spends} the entire patrol refusing to do anything useful.",
+                "text": "r_c scowls at p_l as {PRONOUN/p_l/subject} {VERB/p_l/try/tries} to direct the older scavenger around, standing stock-still and staring the apprentice down. r_c is <i>not</i> in the mood for an apprentice to lord {PRONOUN/p_l/poss} authority over them, and {PRONOUN/r_c/subject} {VERB/r_c/spend/spends} the entire patrol refusing to do anything useful.",
                 "exp": 0,
                 "weight": 20
             }
@@ -1657,13 +1657,13 @@
             "all apprentices": [2, 2]
         },
         "weight": 20,
-        "intro_text": "app2 trots over to p_l, the two apprentices grinning at each other with raised tails. p_l needs an escort to gather herbs, and as luck would have it, the only cat free at the moment is {PRONOUN/p_l/poss} sibling, app2!",
-        "decline_text": "... Or so they thought. app2 is called away by {PRONOUN/app2/poss} mentor for training, and {PRONOUN/app2/subject} {VERB/app2/scamper/scampers} off with an apologetic glance back, leaving p_l by {PRONOUN/p_l/self} with {PRONOUN/p_l/poss} tail sagging to the ground.",
+        "intro_text": "app2 trots over to p_l, the two apprentices grinning at each other. p_l needs an escort to gather herbs, and as luck would have it, the only scavenger free at the moment is {PRONOUN/p_l/poss} sibling, app2!",
+        "decline_text": "... Or so they thought. app2 is called away by {PRONOUN/app2/poss} mentor for training, and {PRONOUN/app2/subject} {VERB/app2/scamper/scampers} off with an apologetic glance back, leaving p_l by {PRONOUN/p_l/self} with shoulders slumped.",
         "chance_of_success": 40,
         "relationship_constraint": ["siblings", "platonic_20"],
         "success_outcomes": [
             {
-                "text": "p_l and app2 walk with their tails entwined and pelts brushing together, thrilled to be able to patrol together. p_l doesn't regret becoming a medicine cat, but {PRONOUN/p_l/subject} {VERB/p_l/do/does} feel secluded at times, watching app2 train and patrol with everyone. The siblings make the most of their time together, returning home side-by-side with their jaws full of herbs.",
+                "text": "p_l and app2 hold hands as they walk, thrilled to be able to patrol together. p_l doesn't regret becoming a healer, but {PRONOUN/p_l/subject} {VERB/p_l/do/does} feel secluded at times, watching app2 train and patrol with everyone. The siblings make the most of their time together, returning home side-by-side with their arms full of herbs.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -1725,7 +1725,7 @@
                 ]
             },
             {
-                "text": "s_c seems a little distracted, deep in thought about something. When app2 asks what's up, s_c blinks slowly at {PRONOUN/app2/object} before confessing how much {PRONOUN/s_c/subject} {VERB/s_c/miss/misses} spending time together. app2 tries to comfort {PRONOUN/s_c/object}, but s_c shakes {PRONOUN/s_c/poss} head, knowing that no matter what {PRONOUN/app2/subject} {VERB/app2/say/says}, their roles are just too different. Both cats are too upset to gather herbs.",
+                "text": "s_c seems a little distracted, deep in thought about something. When app2 asks what's up, s_c blinks slowly at {PRONOUN/app2/object} before confessing how much {PRONOUN/s_c/subject} {VERB/s_c/miss/misses} spending time together. app2 tries to comfort {PRONOUN/s_c/object}, but s_c shakes {PRONOUN/s_c/poss} head, knowing that no matter what {PRONOUN/app2/subject} {VERB/app2/say/says}, their roles are just too different. Both scavengers are too upset to gather herbs.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["lonesome", "insecure"],
@@ -1756,13 +1756,13 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "r_c trots over to p_l, the two cats grinning at each other with raised tails. p_l wants an escort to gather herbs, and as luck would have it, the only cat free at the moment is {PRONOUN/p_l/poss} sibling, r_c!",
-        "decline_text": "... Or so they thought. r_c is called away by the deputy, and {PRONOUN/r_c/subject} {VERB/r_c/rush/rushes} off with an apologetic glance back, leaving p_l by {PRONOUN/p_l/self} with {PRONOUN/p_l/poss} tail sagging to the ground.",
+        "intro_text": "r_c trots over to p_l, the two scavengers grinning at each other. p_l wants an escort to gather herbs, and as luck would have it, the only scavenger free at the moment is {PRONOUN/p_l/poss} sibling, r_c!",
+        "decline_text": "... Or so they thought. r_c is called away by the deputy, and {PRONOUN/r_c/subject} {VERB/r_c/rush/rushes} off with an apologetic glance back, leaving p_l by {PRONOUN/p_l/self} with {PRONOUN/p_l/poss} shoulders slumped.",
         "chance_of_success": 50,
         "relationship_constraint": ["siblings", "platonic_20"],
         "success_outcomes": [
             {
-                "text": "p_l and r_c walk with their tails entwined and pelts brushing together, thrilled to be able to patrol together. p_l doesn't regret becoming a medicine cat, but {PRONOUN/p_l/subject} {VERB/p_l/do/does} feel secluded at times, watching r_c train and patrol with everyone. The siblings make the most of their time together, returning home side-by-side with their jaws full of herbs.",
+                "text": "p_l and r_c hold hands as they walk, thrilled to be able to patrol together. p_l doesn't regret becoming a healer, but {PRONOUN/p_l/subject} {VERB/p_l/do/does} feel secluded at times, watching r_c train and patrol with everyone. The siblings make the most of their time together, returning home side-by-side with their arms full of herbs.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -1840,7 +1840,7 @@
                 ]
             },
             {
-                "text": "s_c seems a little distracted, deep in thought about something. When r_c asks what's up, s_c blinks slowly at {PRONOUN/r_c/object} before confessing how much {PRONOUN/s_c/subject} {VERB/s_c/miss/misses} spending time together. r_c tries to comfort {PRONOUN/s_c/object}, but s_c shakes {PRONOUN/s_c/poss} head, knowing that no matter what {PRONOUN/r_c/subject} {VERB/r_c/say/says}, their roles are just too different. Both cats are too upset to gather herbs.",
+                "text": "s_c seems a little distracted, deep in thought about something. When r_c asks what's up, s_c blinks slowly at {PRONOUN/r_c/object} before confessing how much {PRONOUN/s_c/subject} {VERB/s_c/miss/misses} spending time together. r_c tries to comfort {PRONOUN/s_c/object}, but s_c shakes {PRONOUN/s_c/poss} head, knowing that no matter what {PRONOUN/r_c/subject} {VERB/r_c/say/says}, their roles are just too different. Both scavengers are too upset to gather herbs.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["lonesome", "insecure"],
@@ -1874,7 +1874,7 @@
         },
         "weight": 20,
         "intro_text": "p_l leads app1 through c_n's territory, enjoying the nice day. {PRONOUN/p_l/subject/CAP} {VERB/p_l/glance/glances} back, and {VERB/p_l/realize/realizes} app1 looks like {PRONOUN/app1/subject} {VERB/app1/want/wants} to ask {PRONOUN/p_l/object} a question.",
-        "decline_text": "Just as app1 opens {PRONOUN/app1/poss} mouth to speak, p_l spots a Clanmate trying to remove a thorn from their paw over app1's shoulder, and {PRONOUN/p_l/subject} {VERB/p_l/hurry/hurries} away to help.",
+        "decline_text": "Just as app1 opens {PRONOUN/app1/poss} mouth to speak, p_l spots a Troopmate trying to remove a thorn from their foot over app1's shoulder, and {PRONOUN/p_l/subject} {VERB/p_l/hurry/hurries} away to help.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -1893,7 +1893,7 @@
                 ]
             },
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, tail curled around {PRONOUN/app1/poss} leg in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} feet, body hunched in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -1926,7 +1926,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, tail curled around {PRONOUN/app1/poss} leg in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. The apprentice unfortunately isn't much help from then on, and the patrol returns home empty-pawed.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} feet, body hunched in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. The apprentice unfortunately isn't much help from then on, and the patrol returns home empty-handed.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1940,7 +1940,7 @@
                 ]
             },
             {
-                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger cat to stay focused and stop distracting {PRONOUN/s_c/object}. app1 draws {PRONOUN/app1/poss} ears back and looks away, and the two cats studiously refuse to interact the rest of the patrol, returning to camp with no herbs.",
+                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger scavenger to stay focused and stop distracting {PRONOUN/s_c/object}. app1 draws {PRONOUN/app1/poss} ears back and looks away, and the two scavengers studiously refuse to interact the rest of the patrol, returning to camp with no herbs.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["cold", "strict"],
@@ -1974,11 +1974,11 @@
         },
         "weight": 20,
         "intro_text": "p_l leads app1 through c_n's territory, enjoying the nice day. {PRONOUN/p_l/subject/CAP} {VERB/p_l/glance/glances} back, and {VERB/p_l/realize/realizes} app1 looks like they want to ask them a question.",
-        "decline_text": "Just as app1 opens {PRONOUN/app1/poss} mouth to speak, p_l spots a Clanmate trying to remove a thorn from their paw over app1's shoulder, and {PRONOUN/p_l/subject} {VERB/p_l/hurry/hurries} away to help.",
+        "decline_text": "Just as app1 opens {PRONOUN/app1/poss} mouth to speak, p_l spots a Troopmate trying to remove a thorn from their foot over app1's shoulder, and {PRONOUN/p_l/subject} {VERB/p_l/hurry/hurries} away to help.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about how visits from StarClan work. p_l feels slightly conflicted, but explains that their ancestors only visit when they need to tell a cat something important. Not the answer {PRONOUN/app1/subject} wanted, but app1 is grateful anyways.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about how visits from StarClan work. p_l feels slightly conflicted, but explains that their ancestors only visit when they need to tell the living something important. Not the answer {PRONOUN/app1/subject} wanted, but app1 is grateful anyways.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -1993,7 +1993,7 @@
                 ]
             },
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, tail curled around {PRONOUN/app1/poss} leg in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} feet, body hunched in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2008,7 +2008,7 @@
                 ]
             },
             {
-                "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about how visits from StarClan work. s_c is probably the best cat {PRONOUN/app1/subject} could have asked that question to. The older cat takes pride in the way app1 listens to {PRONOUN/s_c/object} talk, wonder shining in {PRONOUN/app1/poss} eyes.",
+                "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about how visits from StarClan work. s_c is probably the best person {PRONOUN/app1/subject} could have asked. The older scavenger takes pride in the way app1 listens to {PRONOUN/s_c/object} talk, wonder shining in {PRONOUN/app1/poss} eyes.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["STAR,2"],
@@ -2026,7 +2026,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, tail curled around {PRONOUN/app1/poss} leg in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. The apprentice unfortunately isn't much help from then on, and the patrol returns home empty-pawed.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} feet, body hunched in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. The apprentice unfortunately isn't much help from then on, and the patrol returns home empty-handeded.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2040,7 +2040,7 @@
                 ]
             },
             {
-                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger cat to stay focused and stop distracting {PRONOUN/s_c/object}. app1 draws {PRONOUN/app1/poss} ears back and looks away, and the two cats studiously refuse to interact the rest of the patrol, returning to camp with no herbs.",
+                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer, it's to snap at the younger scavenger to stay focused and stop distracting {PRONOUN/s_c/object}. app1 hunches {PRONOUN/app1/poss} shoulders and looks away, and the two scavengers refuse to interact the rest of the patrol, returning to camp with no herbs.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["cold", "strict"],
@@ -2074,11 +2074,11 @@
         },
         "weight": 20,
         "intro_text": "p_l leads app1 through c_n's territory, enjoying the nice day. {PRONOUN/p_l/subject/CAP} {VERB/p_l/glance/glances} back, and {VERB/p_l/realize/realizes} app1 looks like they want to ask them a question.",
-        "decline_text": "Just as app1 opens {PRONOUN/app1/poss} mouth to speak, p_l spots a Clanmate trying to remove a thorn from their paw over app1's shoulder, and {PRONOUN/p_l/subject} {VERB/p_l/hurry/hurries} away to help.",
+        "decline_text": "Just as app1 opens {PRONOUN/app1/poss} mouth to speak, p_l spots a Clanmate trying to remove a thorn from their foot over app1's shoulder, and {PRONOUN/p_l/subject} {VERB/p_l/hurry/hurries} away to help.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about what it's like to get a vision from StarClan. p_l ponders how to explain it, and settles for a vague description and iterating that it's different for every cat who has one. app1 seems a bit confused, but grateful.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about what it's like to get a vision from StarClan. p_l ponders how to explain it, and settles for a vague description and iterating that it's different for every scavenger who has one. app1 seems a bit confused, but grateful.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2093,7 +2093,7 @@
                 ]
             },
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, tail curled around {PRONOUN/app1/poss} leg in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} feet, shoulders hunched in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2108,7 +2108,7 @@
                 ]
             },
             {
-                "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about how visits from StarClan work. s_c is probably the best cat {PRONOUN/app1/subject} could have asked that question to. The older cat takes pride in the way app1 listens to {PRONOUN/s_c/object} talk, wonder shining in {PRONOUN/app1/poss} eyes.",
+                "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about how visits from StarClan work. s_c is probably the best person {PRONOUN/app1/subject} could have asked. The older scavenger takes pride in the way app1 listens to {PRONOUN/s_c/object} talk, wonder shining in {PRONOUN/app1/poss} eyes.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["STAR,2"],
@@ -2126,7 +2126,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, tail curled around {PRONOUN/app1/poss} leg in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. The apprentice unfortunately isn't much help from then on, and the patrol returns home empty-pawed.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} feet, body hunched in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. The apprentice unfortunately isn't much help from then on, and the patrol returns home empty-handed.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2140,7 +2140,7 @@
                 ]
             },
             {
-                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger cat to stay focused and stop distracting {PRONOUN/s_c/object}. app1 draws {PRONOUN/app1/poss} ears back and looks away, and the two cats studiously refuse to interact the rest of the patrol, returning to camp with no herbs.",
+                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger scavenger to stay focused and stop distracting {PRONOUN/s_c/object}. app1 hunches {PRONOUN/app1/poss} shoulders and looks away, and the two scavengers refuse to interact the rest of the patrol, returning to camp with no herbs.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["cold", "strict"],
@@ -2178,7 +2178,7 @@
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, tail curled around {PRONOUN/app1/poss} leg in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, body hunched in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2193,7 +2193,7 @@
                 ]
             },
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where kits come from. p_l sputters, but quickly gathers themself and gently tells app1 that this isn't really the best place to ask, and it might be best to wait until {PRONOUN/app1/subject}{VERB/app1/'re/'s} a bit older. app1 huffs, but relents.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where cubs come from. p_l sputters, but quickly gathers themself and gently tells app1 that this isn't really the best place to ask, and it might be best to wait until {PRONOUN/app1/subject}{VERB/app1/'re/'s} a bit older. app1 huffs, but relents.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2208,7 +2208,7 @@
                 ]
             },
             {
-                "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where kits come from. s_c takes a breath before answering, gently telling app1 that {PRONOUN/s_c/subject} {VERB/s_c/understand/understands} {PRONOUN/app1/poss} curiosity, but this might not be the right place and time. app1 is disappointed, but understands.",
+                "text": "s_c sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where cubs come from. s_c takes a breath before answering, gently telling app1 that {PRONOUN/s_c/subject} {VERB/s_c/understand/understands} {PRONOUN/app1/poss} curiosity, but this might not be the right place and time. app1 is disappointed, but understands.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["compassionate", "empathetic"],
@@ -2226,7 +2226,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where kits come from. p_l sputters and stammers, looking up and away to try to avoid answering. app1 stares at {PRONOUN/p_l/object} intently, and {PRONOUN/p_l/subject} {VERB/p_l/know/knows} {PRONOUN/p_l/subject}'ll have to relent sooner or later. This should be interesting...",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 tentatively explains that {PRONOUN/app1/subject}{VERB/app1/'re/'s} curious about where cubs come from. p_l sputters and stammers, looking up and away to try to avoid answering. app1 stares at {PRONOUN/p_l/object} intently, and {PRONOUN/p_l/subject} {VERB/p_l/know/knows} {PRONOUN/p_l/subject}'ll have to relent sooner or later. This should be interesting...",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2240,7 +2240,7 @@
                 ]
             },
             {
-                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger cat to stay focused and stop distracting {PRONOUN/s_c/object}. app1 draws {PRONOUN/app1/poss} ears back and looks away, and the two cats studiously refuse to interact the rest of the patrol, returning to camp with no herbs.",
+                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger scavenger to stay focused and stop distracting {PRONOUN/s_c/object}. app1 hunches {PRONOUN/app1/poss} shoulders and looks away, and the two scavengers refuse to interact the rest of the patrol, returning to camp with no herbs.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["cold", "strict"],
@@ -2274,11 +2274,11 @@
         },
         "weight": 20,
         "intro_text": "p_l leads app1 through c_n's territory, enjoying the nice day. {PRONOUN/p_l/subject/CAP} {VERB/p_l/glance/glances} back, and {VERB/p_l/realize/realizes} app1 looks like they want to ask them a question.",
-        "decline_text": "Just as app1 opens {PRONOUN/app1/poss} mouth to speak, p_l spots a Clanmate trying to remove a thorn from their paw over app1's shoulder, and {PRONOUN/p_l/subject} {VERB/p_l/hurry/hurries} away to help.",
+        "decline_text": "Just as app1 opens {PRONOUN/app1/poss} mouth to speak, p_l spots a Clanmate trying to remove a thorn from their foot over app1's shoulder, and {PRONOUN/p_l/subject} {VERB/p_l/hurry/hurries} away to help.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} paws, tail curled around {PRONOUN/app1/poss} leg in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
+                "text": "p_l sits down and motions for app1 to join {PRONOUN/p_l/object}, looking at {PRONOUN/app1/object} inquisitively. app1 studiously looks at {PRONOUN/app1/poss} feed, body hunched in shame, and mutters that {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} want to talk about it. p_l gently reassures {PRONOUN/app1/object} that it's okay to ask questions, and though app1 doesn't ask, {PRONOUN/app1/subject} {VERB/app1/seem/seems} more chipper, and {PRONOUN/app1/subject}{VERB/app1/'re/'s} a big help anyways.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2340,7 +2340,7 @@
                 ]
             },
             {
-                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger cat to stay focused and stop distracting {PRONOUN/s_c/object}. app1 draws {PRONOUN/app1/poss} ears back and looks away, and the two cats studiously refuse to interact the rest of the patrol, returning to camp with no herbs.",
+                "text": "app1 tries a few times to strike up conversation, but s_c barely acknowledges {PRONOUN/app1/object} at all. When {PRONOUN/s_c/subject} finally {VERB/s_c/do/does} answer back, it's to snap at the younger scavenger to stay focused and stop distracting {PRONOUN/s_c/object}. app1 hunches {PRONOUN/app1/poss} shoulders and looks away, and the two scavengers refuse to interact the rest of the patrol, returning to camp with no herbs.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["cold", "strict"],
@@ -2378,7 +2378,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c makes a humming sound, and asks p_l what {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} the nature of StarClan is. p_l swishes {PRONOUN/p_l/poss} tail, and answers that {PRONOUN/p_l/subject}'d never really thought about it, past the fact that they're ancestral spirits. It certainly makes for interesting conversation, and it's all too soon that they pick the herbs and have their mouths too full to continue.",
+                "text": "r_c makes a humming sound, and asks p_l what {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} the nature of StarClan is. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and answers that {PRONOUN/p_l/subject}'d never really thought about it, past the fact that they're ancestral spirits. It certainly makes for interesting conversation, and it's all too soon that they pick the herbs and have to head back.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2393,7 +2393,7 @@
                 ]
             },
             {
-                "text": "r_c, deep in thought, asks p_l what {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} the nature of StarClan is. p_l swishes {PRONOUN/p_l/poss} tail, and asks what brought this on. It's just something {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been dwelling on recently, r_c explains, and {PRONOUN/r_c/subject} wanted the opinion of someone {PRONOUN/r_c/subject} {VERB/r_c/trust/trusts}. p_l nods, and says {PRONOUN/p_l/subject}'ll think about it - but they've reached the herbs, and have to pick them now.",
+                "text": "r_c, deep in thought, asks p_l what {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} the nature of StarClan is. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and asks what brought this on. It's just something {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been dwelling on recently, r_c explains, and {PRONOUN/r_c/subject} wanted the opinion of someone {PRONOUN/r_c/subject} {VERB/r_c/trust/trusts}. p_l nods, and says {PRONOUN/p_l/subject}'ll think about it - but they've reached the herbs, and have to pick them now.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2408,7 +2408,7 @@
                 ]
             },
             {
-                "text": "r_c hums, and asks s_c what {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} the nature of StarClan is. s_c doesn't hesitate before answering, {PRONOUN/s_c/poss} deep connection to {PRONOUN/s_c/poss} ancestors granting {PRONOUN/s_c/object} knowledge and insight r_c doesn't necessarily have. r_c is enthralled, and it feels all too soon that they pick the herbs and have their mouths too full to continue talking.",
+                "text": "r_c hums, and asks s_c what {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} the nature of StarClan is. s_c doesn't hesitate before answering, {PRONOUN/s_c/poss} deep connection to {PRONOUN/s_c/poss} ancestors granting {PRONOUN/s_c/object} knowledge and insight r_c doesn't necessarily have. r_c is enthralled, and it feels all too soon that they pick the herbs and have to head back.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["STAR,2"],
@@ -2426,7 +2426,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The two medicine cats walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since it's been so long. How embarrassing!",
+                "text": "The two healers walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since its been so long. How embarrassing!",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2463,7 +2463,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c makes a humming sound, and asks p_l if {PRONOUN/p_l/subject} {VERB/p_l/remember/remembers} a particular story the elders are fond of. p_l nods, and r_c asks what {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} the moral is. It eventually turns into talking about multiple old stories, which certainly makes for interesting conversation, and it's all too soon that they have their mouths too full of herbs to continue.",
+                "text": "r_c makes a humming sound, and asks p_l if {PRONOUN/p_l/subject} {VERB/p_l/remember/remembers} a particular story the elders are fond of. p_l nods, and r_c asks what {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} the moral is. It eventually turns into talking about multiple old stories, which certainly makes for interesting conversation, and it's all too soon that they have to head back with armfuls of herbs.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2478,7 +2478,7 @@
                 ]
             },
             {
-                "text": "r_c, deep in thought, asks p_l if {PRONOUN/p_l/subject} {VERB/p_l/remember/remembers} a particular story the elders are fond of. p_l swishes {PRONOUN/p_l/poss} tail, and asks why. It's just something {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been dwelling on  recently, r_c explains, and {PRONOUN/r_c/subject} wanted to know what p_l thought of it. p_l nods, and says {PRONOUN/p_l/subject}'ll answer at camp - but they've reached the herbs, and have to pick them now.",
+                "text": "r_c, deep in thought, asks p_l if {PRONOUN/p_l/subject} {VERB/p_l/remember/remembers} a particular story the elders are fond of. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and asks why. It's just something {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been dwelling on  recently, r_c explains, and {PRONOUN/r_c/subject} wanted to know what p_l thought of it. p_l nods, and says {PRONOUN/p_l/subject}'ll answer at camp - but they've reached the herbs, and have to pick them now.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2493,7 +2493,7 @@
                 ]
             },
             {
-                "text": "r_c asks s_c if {PRONOUN/s_c/subject} {VERB/p_l/remember/remembers} a particular story the elders are fond of. s_c nods eagerly, and launches into recanting it. r_c is pleasantly surprised at how readily s_c recites the tale, listening to {PRONOUN/s_c/object} talk in content silence. s_c's thrilled to share {PRONOUN/s_c/poss} knowledge, and it's all too soon that they have their jaws too full of herbs to continue.",
+                "text": "r_c asks s_c if {PRONOUN/s_c/subject} {VERB/p_l/remember/remembers} a particular story the elders are fond of. s_c nods eagerly, and launches into recanting it. r_c is pleasantly surprised at how readily s_c recites the tale, listening to {PRONOUN/s_c/object} talk in content silence. s_c's thrilled to share {PRONOUN/s_c/poss} knowledge, and it's all too soon that they have their arms full of herbs and have to head back.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2511,7 +2511,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The two medicine cats walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since it's been so long. How embarrassing!",
+                "text": "The two healers walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since its been so long. How embarrassing!",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2548,7 +2548,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c makes a humming sound, and asks p_l if {PRONOUN/p_l/subject} ever {VERB/p_l/ponder/ponders} {PRONOUN/p_l/poss} own mortality. p_l swishes {PRONOUN/p_l/poss} tail, and answers that {PRONOUN/p_l/subject}'d never really thought about it, past knowing {PRONOUN/p_l/subject}'ll go to StarClan when {PRONOUN/p_l/subject} {VERB/p_l/die/dies}. It certainly makes for interesting conversation, and it's all too soon that they pick the herbs and have their mouths too full to continue.",
+                "text": "r_c makes a humming sound, and asks p_l if {PRONOUN/p_l/subject} ever {VERB/p_l/ponder/ponders} {PRONOUN/p_l/poss} own mortality. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and answers that {PRONOUN/p_l/subject}'d never really thought about it, past knowing {PRONOUN/p_l/subject}'ll go to StarClan when {PRONOUN/p_l/subject} {VERB/p_l/die/dies}. It certainly makes for interesting conversation, and it's all too soon that they pick the herbs and have to head back.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2563,7 +2563,7 @@
                 ]
             },
             {
-                "text": "r_c, deep in thought, asks p_l if {PRONOUN/p_l/subject} ever {VERB/p_l/ponder/ponders} their own mortality. p_l swishes {PRONOUN/p_l/poss} tail, and asks what brought this on. It's just something {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been dwelling on recently, r_c explains, and {PRONOUN/r_c/subject} wanted the opinion of someone {PRONOUN/r_c/subject} {VERB/r_c/trust/trusts}. p_l nods, and says {PRONOUN/p_l/subject}'ll think about it - but they've reached the herbs, and have to pick them now.",
+                "text": "r_c, deep in thought, asks p_l if {PRONOUN/p_l/subject} ever {VERB/p_l/ponder/ponders} their own mortality. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and asks what brought this on. It's just something {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been dwelling on recently, r_c explains, and {PRONOUN/r_c/subject} wanted the opinion of someone {PRONOUN/r_c/subject} {VERB/r_c/trust/trusts}. p_l nods, and says {PRONOUN/p_l/subject}'ll think about it - but they've reached the herbs, and have to pick them now.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2580,7 +2580,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The two medicine cats walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since it's been so long. How embarrassing!",
+                "text": "The two healers walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since it's been so long. How embarrassing!",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2617,7 +2617,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c makes a humming sound, and asks p_l if {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} considered taking on another apprentice. p_l swishes {PRONOUN/p_l/poss} tail, and says {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} just been waiting for the right cat to show interest, but wonders if r_c has any preferences. It certainly makes for good conversation, and it's all too soon that they have their mouths too full of herbs to continue.",
+                "text": "r_c makes a humming sound, and asks p_l if {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} considered taking on another apprentice. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and says {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} just been waiting for the right person to show interest, but wonders if r_c has any preferences. It certainly makes for good conversation, and it's all too soon that they've finished gathering and have to head back.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2632,7 +2632,7 @@
                 ]
             },
             {
-                "text": "r_c, deep in thought, asks p_l if {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} considered taking on another apprentice. p_l swishes {PRONOUN/p_l/poss} tail, and asks what brought this on. {PRONOUN/r_c/subject/CAP} {VERB/r_c/were/was} honestly just wondering, r_c explains, as {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} not sure {PRONOUN/r_c/self} when {PRONOUN/r_c/subject} {VERB/r_c/want/wants} to. p_l nods, and says {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} been thinking about it - but they've reached the herbs, and have to pick them now.",
+                "text": "r_c, deep in thought, asks p_l if {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} considered taking on another apprentice. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and asks what brought this on. {PRONOUN/r_c/subject/CAP} {VERB/r_c/were/was} honestly just wondering, r_c explains, as {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} not sure {PRONOUN/r_c/self} when {PRONOUN/r_c/subject} {VERB/r_c/want/wants} to. p_l nods, and says {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} been thinking about it - but they've reached the herbs, and have to pick them now.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2649,7 +2649,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The two medicine cats walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since it's been so long. How embarrassing!",
+                "text": "The two healers walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since its been so long. How embarrassing!",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2686,7 +2686,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c makes a humming sound, and mentions that {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been considering taking on another apprentice. p_l swishes {PRONOUN/p_l/poss} tail, and asks if r_c has seen any cats in particular that would be a good fit. It certainly makes for good conversation, and it's all too soon that they have their mouths too full of herbs to continue.",
+                "text": "r_c makes a humming sound, and mentions that {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been considering taking on another apprentice. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and asks if r_c has seen anyone in particular that would be a good fit. It certainly makes for good conversation, and it's all too soon that they have their arms full of herbs and have to head back.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -2701,7 +2701,7 @@
                 ]
             },
             {
-                "text": "r_c, deep in thought, tells p_l {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been considering taking on another apprentice. p_l swishes {PRONOUN/p_l/poss} tail, and asks what brought this on. {PRONOUN/r_c/subject/CAP} just {VERB/r_c/feel/feels} like the time is right, r_c explains, and {PRONOUN/r_c/subject} wanted p_l's opinion. p_l nods, and says {PRONOUN/p_l/subject}'ll answer back at camp - but they've reached the herbs, and have to pick them now.",
+                "text": "r_c, deep in thought, tells p_l {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} been considering taking on another apprentice. p_l drums {PRONOUN/p_l/poss} fingers on the ground, and asks what brought this on. {PRONOUN/r_c/subject/CAP} just {VERB/r_c/feel/feels} like the time is right, r_c explains, and {PRONOUN/r_c/subject} wanted p_l's opinion. p_l nods, and says {PRONOUN/p_l/subject}'ll answer back at camp - but they've reached the herbs, and have to pick them now.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -2718,7 +2718,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The two medicine cats walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since it's been so long. How embarrassing!",
+                "text": "The two healers walk in circles for a while, before realizing that they've completely forgotten where the herb patch is since its been so long. How embarrassing!",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2925,7 +2925,7 @@
         },
         "weight": 20,
         "intro_text": "p_l and r_c decide to look for herbs whilst discussing the latest news.",
-        "decline_text": "It seems like some mischievous cat has gotten into the herb storage and they have to sort it all over again.",
+        "decline_text": "It seems like some mischievous nuisance has gotten into the herb storage and they have to sort it all over again.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -2992,11 +2992,11 @@
         },
         "weight": 20,
         "intro_text": "p_l and r_c take a look at their dwindling supply of herbs and decide to combine their efforts into searching for more.",
-        "decline_text": "Unfortunately, they are interrupted by a cat claiming that they have an emergency.",
+        "decline_text": "Unfortunately, they are interrupted by someone claiming that they have an emergency.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l and r_c search and harvest any herbs they can get their paws on. Later that day they reunite in front of the camp, just as the sun is setting, both their mouths stuffed full of herbs.",
+                "text": "p_l and r_c search and harvest any herbs they can get their hands on. Later that day they reunite in front of the camp, just as the sun is setting, both their hands full of herbs.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["random_herbs"],
@@ -3011,7 +3011,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c decide to make a game of who can hunt the most herbs. They reunite when the sun is going down, and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
+                "text": "p_l and r_c decide to make a game of who can hunt the most herbs. They reunite when the sun is going down, and walk into camp smiling and playfully shoving each other with both their hands full of herbs.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -3183,7 +3183,7 @@
     	],
     	"fail_outcomes": [
         	{
-            	"text": "Surely, surely it's nothing - but p_l can't deny {PRONOUN/p_l/poss} instincts. This Death's Head Moth is an omen, and {PRONOUN/p_l/subject} {VERB/p_l/take/takes} off running, sprinting towards the training arena where {PRONOUN/p_l/poss} Clanmates said they'd be. But it's too late. By the time p_l arrives, r_c is choking on {PRONOUN/r_c/poss} last breaths, victim of a terrible accident.",
+            	"text": "Surely, surely it's nothing - but p_l can't deny {PRONOUN/p_l/poss} instincts. This Death's Head Moth is an omen, and {PRONOUN/p_l/subject} {VERB/p_l/take/takes} off running, sprinting towards the training arena where {PRONOUN/p_l/poss} Troopmates said they'd be. But it's too late. By the time p_l arrives, r_c is choking on {PRONOUN/r_c/poss} last breaths, victim of a terrible accident.",
             	"exp": 0,
             	"weight": 20,
                 "dead_cats": ["r_c"],
@@ -3231,7 +3231,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The two trot towards the field, tails raised nonchalantly. Suddenly, p_l hears a shriek and manages to duck out of the way as a crow swoops close. Angry caws ring across the field. r_c calls for retreat as more crows converge on them. The two cats run away from the field, fur fluffed in both terror and embarrassment.",
+                "text": "The two trot towards the field, looking around idly. Suddenly, p_l hears a shriek and manages to duck out of the way as a crow swoops close. Angry caws ring across the field. r_c calls for retreat as more crows converge on them. The two scavengers run away from the field, fur fluffed in both terror and embarrassment.",
                 "exp": 0,
                 "weight": 20
             }
@@ -3272,7 +3272,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The two trot towards the field, tails raised nonchalantly. Suddenly, p_l hears a shriek and manages to duck out of the way as a crow swoops close. Angry caws ring across the field. r_c calls for retreat as more crows converge on them. The two cats run away from the field, fur fluffed in both terror and embarrassment.",
+                "text": "The two trot towards the field, looking around nonchalantly. Suddenly, p_l hears a shriek and manages to duck out of the way as a crow swoops close. Angry caws ring across the field. r_c calls for retreat as more crows converge on them. The two cats run away from the field, fur fluffed in both terror and embarrassment.",
                 "exp": 0,
                 "weight": 20
             }
@@ -3289,18 +3289,18 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While out gathering herbs alone at night, r_c notices a faint glow coming from deeper within the Clan's territory. As {PRONOUN/r_c/subject} {VERB/r_c/peer/peers} into the gloom, {PRONOUN/r_c/subject} {VERB/r_c/see/sees} that it slightly resembles a cat.",
+        "intro_text": "While out gathering herbs alone at night, r_c notices a faint glow coming from deeper within the Troop's territory. As {PRONOUN/r_c/subject} {VERB/r_c/peer/peers} into the gloom, {PRONOUN/r_c/subject} {VERB/r_c/see/sees} that it slightly resembles a scavenger.",
         "decline_text": "r_c decides herbs are more important than chasing random glowing figures through the territory.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Despite being alone, r_c decides to follow the figure. Perhaps it's a StarClan cat. As {PRONOUN/r_c/subject} {VERB/r_c/get/gets} closer, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} that no, this cat doesn't have stars in its fur. But it doesn't seem malicious either. The ghostly cat beckons r_c closer and, to {PRONOUN/r_c/poss} surprise, the ghost has led {PRONOUN/r_c/object} to a giant patch of herbs! r_c thanks the spirit and it seems to smile as r_c begins to collect the herbs.",
+                "text": "Despite being alone, r_c decides to follow the figure. Perhaps it's a StarClan cat. As {PRONOUN/r_c/subject} {VERB/r_c/get/gets} closer, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} that no, this scavenger doesn't have stars in its fur. But it doesn't seem malicious either. The ghostly scavenger beckons r_c closer and, to {PRONOUN/r_c/poss} surprise, the ghost has led {PRONOUN/r_c/object} to a giant patch of herbs! r_c thanks the spirit and it seems to smile as r_c begins to collect the herbs.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["many_herbs", "random_herbs"]
             },
             {
-                "text": "Despite being alone, r_c decides to follow the figure. Perhaps it's a StarClan cat. As {PRONOUN/r_c/subject} {VERB/r_c/get/gets} closer, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} that no, this cat doesn't have stars in {PRONOUN/r_c/poss} fur. But it doesn't seem malicious either. The ghost waves its tail as if to say 'hello'. r_c nods back at it, and continues {PRONOUN/r_c/poss} herb gathering with the friendly ghost flitting about.",
+                "text": "Despite being alone, r_c decides to follow the figure. Perhaps it's a StarClan cat. As {PRONOUN/r_c/subject} {VERB/r_c/get/gets} closer, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} that no, this scavenger doesn't have stars in {PRONOUN/r_c/poss} fur. But it doesn't seem malicious either. The ghost waves as if to say 'hello'. r_c nods back at it, and continues {PRONOUN/r_c/poss} herb gathering with the friendly ghost flitting about.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["random_herbs"]
@@ -3313,7 +3313,7 @@
                 "weight": 10
             },
             {
-                "text": "The ghostly cat suddenly moves towards r_c, and the fur on r_c's back spikes. r_c backs away, terrified, trying {PRONOUN/r_c/poss} best to remember {PRONOUN/r_c/poss} battle training. The ghost seems to notice {PRONOUN/r_c/poss} fear and frowns, drifting back away into the territory with its head down and tail dragging.",
+                "text": "The ghostly cat suddenly moves towards r_c, and the fur on r_c's back spikes. r_c backs away, terrified, trying {PRONOUN/r_c/poss} best to remember {PRONOUN/r_c/poss} battle training. The ghost seems to notice {PRONOUN/r_c/poss} fear and frowns, drifting back away into the territory with its head down.",
                 "exp": 0,
                 "weight": 10
             }
@@ -3335,7 +3335,7 @@
         },
         "weight": 20,
         "intro_text": "As r_c follows a trail into a darkly shadowed part of the territory on the hunt for herbs, night shadows begin to play with {PRONOUN/r_c/poss} vision. Was that movement up ahead? r_c spots the undisguisable silhouette of a cat ahead. Malicious eyes and bristled fur meet {PRONOUN/r_c/object} as {PRONOUN/r_c/subject} {VERB/r_c/walk/walks} amongst the shadows. The stranger's fur is translucent, and it moves as though made from a strange dark mist.",
-        "decline_text": "r_c's tail bristles with fear, a cold shiver creeping along {PRONOUN/r_c/poss} back. This is definitely not a StarClan cat, and {PRONOUN/r_c/subject} quickly {VERB/r_c/turn/turns} the back to camp - herbs can wait until morning.",
+        "decline_text": "r_c's fur bristles with fear, a cold shiver creeping along {PRONOUN/r_c/poss} back. This is definitely not a Starclan scavenger, and {PRONOUN/r_c/subject} quickly {VERB/r_c/turn/turns} the back to camp - herbs can wait until morning.",
         "chance_of_success": 50,
         "success_outcomes": [
             {

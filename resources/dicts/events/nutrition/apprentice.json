@@ -8,7 +8,7 @@
             "Leaf-bare",
             "malnourished"
         ],
-        "death_text": "m_c feels the rumbling of {PRONOUN/m_c/poss} stomach, but {PRONOUN/m_c/subject} {VERB/m_c/try/tries} to stay strong for the Clan.",
+        "death_text": "m_c feels the rumbling of {PRONOUN/m_c/poss} stomach, but {PRONOUN/m_c/subject} {VERB/m_c/try/tries} to stay strong for the Troop.",
         "history_text": [
             null,
             null

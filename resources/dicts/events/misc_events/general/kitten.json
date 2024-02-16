@@ -191,7 +191,7 @@
             "comfort",
             "trust"
         ],
-        "event_text": "m_c and r_c sneak out of camp to chase butterflies.",
+        "event_text": "m_c and r_c sneak out of camp to chase wasps.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -208,7 +208,7 @@
             "comfort",
             "trust"
         ],
-        "event_text": "m_c and r_c play with the leaves around the camp.",
+        "event_text": "m_c and r_c play with the rubble around the camp.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -242,7 +242,7 @@
             "comfort",
             "trust"
         ],
-        "event_text": "m_c and r_c make little snow lumps at the entrance to the camp.",
+        "event_text": "m_c and r_c make little rubble sculptures at the entrance to the camp.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -259,7 +259,7 @@
             "comfort",
             "trust"
         ],
-        "event_text": "m_c and r_c flick snow at the older warriors, giggling as they hide behind the nursery.",
+        "event_text": "m_c and r_c flick pebbles at the older warriors, giggling as they hide behind the nursery.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -287,7 +287,7 @@
             "Greenleaf",
             "Newleaf"
         ],
-        "event_text": "m_c picks some flowers around the camp to bring back to the medicine den.",
+        "event_text": "m_c picks some flowers around the camp to bring back to the healer's den.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -298,7 +298,7 @@
         "tags": [
             "Greenleaf"
         ],
-        "event_text": "m_c chases fireflies around the camp, while the older warriors sleep.",
+        "event_text": "m_c chases fireflies around the camp while the older warriors sleep.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -315,7 +315,7 @@
             "comfort",
             "trust"
         ],
-        "event_text": "m_c and r_c lead a small leaf-gathering hunt, which the adult cats watch with amused purrs.",
+        "event_text": "m_c and r_c lead a small leaf-gathering hunt, which the adult cats watch with amusement.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,

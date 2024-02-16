@@ -8,7 +8,7 @@
             "Leaf-bare",
             "war"
         ],
-        "event_text": "The apprentices of the Clan are taking special training to learn how to land on enemies when jumping from trees."
+        "event_text": "The apprentices of the Troop are taking special training to learn how to land on enemies when jumping from trees."
     },
 
 
@@ -42,7 +42,7 @@
             "Leaf-bare",
             "other_cat"
         ],
-        "event_text": "m_c eyes a pink-nosed rat that wandered into the apprentice's den. Before r_c can even think about stopping {PRONOUN/m_c/object}, m_c befriends the weird little thing with a few leftover acorns.",
+        "event_text": "m_c eyes a pink lantern mouse that wandered into the apprentice's den. Before r_c can even think about stopping {PRONOUN/m_c/object}, m_c befriends the weird little thing with a few leftover acorns.",
         "accessories": ["RAT"]
     },
     {

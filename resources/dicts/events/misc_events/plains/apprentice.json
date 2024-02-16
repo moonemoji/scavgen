@@ -8,7 +8,7 @@
             "Leaf-bare",
             "war"
         ],
-        "event_text": "The apprentices of the Clan are taking special training to learn how to survive in underground tunnels long-term, in the case of a siege conducted by o_c."
+        "event_text": "The apprentices of the Troop are taking special training to learn how to survive in underground tunnels long-term, in the case of a siege conducted by o_c."
     },
 
 
@@ -51,7 +51,7 @@
             "Leaf-bare",
             "other_cat"
         ],
-        "event_text": "m_c eyes a pink-nosed rat that wandered into the apprentice's den. Before r_c can even think about stopping {PRONOUN/m_c/object}, m_c befriends the weird little thing with a piece of grass.",
+        "event_text": "m_c eyes a pink lantern mouse that wandered into the apprentice's den. Before r_c can even think about stopping {PRONOUN/m_c/object}, m_c befriends the weird little thing with a piece of grass.",
         "accessories": ["RAT"]
     }
 ]

@@ -8,7 +8,7 @@
             "Leaf-bare",
             "war"
         ],
-        "event_text": "The apprentices of the Clan are taking special strength training to learn how to weaponize stones and boulders in the mountain landscape."
+        "event_text": "The apprentices of the Troop are taking special strength training to learn how to weaponize stones and boulders in the mountain landscape."
     },
 
 
@@ -73,7 +73,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c finds paths and twists of healthy green ivy growing down just above the leader's den. Looking left and right for any cat paying attention to them, {PRONOUN/m_c/subject} quickly snap a pair of leaves off of one of the lower branches. m_c is seen wearing the ivy shortly after.",
+        "event_text": "m_c finds paths and twists of healthy green ivy growing down just above the leader's den. Looking left and right for any scavenger paying attention to them, {PRONOUN/m_c/subject} quickly snap a pair of leaves off of one of the lower branches. m_c is seen wearing the ivy shortly after.",
         "accessories": ["IVY"]
     },
     {
@@ -221,7 +221,7 @@
             "Leaf-bare",
             "other_cat"
         ],
-        "event_text": "m_c eyes a pink-nosed rat that wandered into the apprentice's den. Before r_c can even think about stopping {PRONOUN/m_c/object}, m_c befriends the weird little thing with a piece of grass.",
+        "event_text": "m_c eyes a pink lantern mouse that wandered into the apprentice's den. Before r_c can even think about stopping {PRONOUN/m_c/object}, m_c befriends the weird little thing with a piece of grass.",
         "accessories": ["RAT"]
     },
     {
@@ -232,7 +232,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c grins toothily at a acc_singular that wandered into camp! Instead of diving toward it like anyone would expect a cat to do, m_c decides to befriend it with seeds and nuts.",
+        "event_text": "m_c grins toothily at a acc_singular that wandered into camp! Instead of diving toward it like anyone would expect a scavenger to do, m_c decides to befriend it with seeds and nuts.",
         "accessories": ["WHITE MOUSE", "BLACK MOUSE", "GRAY MOUSE", "BROWN MOUSE"]
     },
     {
@@ -248,7 +248,7 @@
             "jealousy",
             "neg_trust"
         ],
-        "event_text": "r_c's eyes dilate as {PRONOUN/r_c/subject} {VERB/r_c/hunch/hunches} down to watch a mouse nibble at a fat seed! m_c stops r_c before {PRONOUN/r_c/subject} pounce, and manages to.. befriend the mouse! r_c rolls {PRONOUN/r_c/poss} eyes, grumbling about wasted food.",
+        "event_text": "r_c's eyes dilate as {PRONOUN/r_c/subject} {VERB/r_c/hunch/hunches} down to watch a lantern mouse nibble at a fat seed! m_c stops r_c before {PRONOUN/r_c/subject} pounce, and manages to.. befriend the mouse! r_c rolls {PRONOUN/r_c/poss} eyes, grumbling about wasted food.",
         "other_cat_trait": ["bloodthirsty", "vengeful", "cold", "fierce", "shameless", "righteous", "strange"],
         "accessories": ["WHITE MOUSE", "BLACK MOUSE", "GRAY MOUSE", "BROWN MOUSE"]
     },

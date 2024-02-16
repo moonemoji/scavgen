@@ -8,7 +8,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was climbing a tree when {PRONOUN/m_c/subject} fell. Luckily, {PRONOUN/m_c/subject} {VERB/m_c/were/was} only bruised by the incident.",
+        "event_text": "m_c was climbing a pole when {PRONOUN/m_c/subject} fell. Luckily, {PRONOUN/m_c/subject} {VERB/m_c/were/was} only bruised by the incident.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -23,7 +23,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c stepped on some sharp stones while walking along the shoreline.",
+        "event_text": "m_c stepped on some sharp metal while walking along the shoreline.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -38,7 +38,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was climbing a tree and got a splinter from one of the branches.",
+        "event_text": "m_c was climbing a tower and got a scrape from a bit of jagged metal.",
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,

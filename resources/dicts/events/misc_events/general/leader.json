@@ -27,7 +27,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c calls a Clan meeting to give an important announcement."
+        "event_text": "m_c calls a Troop meeting to give an important announcement."
     },
     {
         "camp": "any",
@@ -72,7 +72,7 @@
             "Leaf-bare",
             "war"
         ],
-        "event_text": "m_c's relationships with {PRONOUN/m_c/poss} Clanmates are strained, with some questioning {PRONOUN/m_c/poss} decisions and others relying on {PRONOUN/m_c/object} more heavily than ever."
+        "event_text": "m_c's relationships with {PRONOUN/m_c/poss} Troopmates are strained, with some questioning {PRONOUN/m_c/poss} decisions and others relying on {PRONOUN/m_c/object} more heavily than ever."
     },
     {
         "camp": "any",
@@ -83,7 +83,7 @@
             "Leaf-bare",
             "war"
         ],
-        "event_text": "m_c is forced to be a symbol of strength and unity for {PRONOUN/m_c/poss} Clan, even in the face of {PRONOUN/m_c/poss} own doubts and fears."
+        "event_text": "m_c is forced to be a symbol of strength and unity for {PRONOUN/m_c/poss} Troop, even in the face of {PRONOUN/m_c/poss} own doubts and fears."
     },
 
 
