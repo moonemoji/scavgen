@@ -9567,7 +9567,7 @@
         "decline_text": "It wouldn't help to talk to app1 while {PRONOUN/app1/subject} {VERB/app1/are/is} in this state. p_l tells {PRONOUN/app1/object} {PRONOUN/p_l/subject}'ll leave {PRONOUN/app1/object} alone, and to come find {PRONOUN/p_l/object} if {PRONOUN/app1/subject}'d like to keep training today. app1 never does.",
         "success_outcomes": [
             {
-                "text": "s_c waits patiently for app1 to calm down. Once {PRONOUN/app1/subject} can listen, s_c tells {PRONOUN/app1/object} a secret: no warrior has ever felt like a warrior. Not even s_c. You will always feel like you, s_c says, but don't be afraid. You <i>must</i> be you before you are a warrior. That is what c_n truly needs. You. ",
+                "text": "p_l waits patiently for app1 to calm down. Once {PRONOUN/app1/subject} can listen, p_l tells {PRONOUN/app1/object} a secret: no warrior has ever felt like a warrior. Not even p_l. You will always feel like you, p_l says, but don't be afraid. You <i>must</i> be you before you are a warrior. That is what c_n truly needs. You. ",
                 "exp": 10,
                 "can_have_stat": ["p_l"],
                 "stat_trait": ["loving","compassionate","wise","calm","thoughtful","faithful","loyal","sincere","righteous"],
@@ -9581,7 +9581,7 @@
                 "weight": 20
             },
             {
-                "text": "app1 sniffles alone for a few moments before facing {PRONOUN/app1/poss} mentor. app1's eyes widen at s_c standing over {PRONOUN/app1/object} with flattened ears and bristling fur. <i>That</i> is weakness. c_n, and more importantly, s_c will not tolerate weakness. Get back into training, app1, and do not let s_c see you act in this way again.",
+                "text": "app1 sniffles alone for a few moments before facing {PRONOUN/app1/poss} mentor. app1's eyes widen at p_l standing over {PRONOUN/app1/object} with flattened ears and bristling fur. <i>That</i> is weakness. c_n, and more importantly, p_l will not tolerate weakness. Get back into training, app1, and do not let p_l see you act in this way again.",
                 "exp": 10,
                 "can_have_stat": ["p_l"],
                 "stat_trait": ["bloodthirsty","vengeful","arrogant","troublesome"],
@@ -9601,7 +9601,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c's whiskers twitch in annoyance at this childish outburst. If app1 doesn't <i>want</i> to be a warrior, that's fine by s_c. {PRONOUN/p_l/subject/CAP}'ll be in the training grounds, waiting to train the greatest warrior c_n's ever seen. {PRONOUN/s_c/subject/CAP} {VERB/s_c/walk/walks} away from app1, and a hidden smile dashes across {PRONOUN/s_c/poss} muzzle as {PRONOUN/s_c/subject} {VERB/s_c/hear/hears} app1 start to chase after {PRONOUN/s_c/object}.",
+                "text": "p_l's whiskers twitch in annoyance at this childish outburst. If app1 doesn't <i>want</i> to be a warrior, that's fine by p_l. {PRONOUN/p_l/subject/CAP}'ll be in the training grounds, waiting to train the greatest warrior c_n's ever seen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/walk/walks} away from app1, and a hidden smile dashes across {PRONOUN/p_l/poss} muzzle as {PRONOUN/p_l/subject} {VERB/p_l/hear/hears} app1 start to chase after {PRONOUN/p_l/object}.",
                 "exp": 10,
                 "can_have_stat": ["p_l"],
                 "stat_trait": ["cold","strict","grumpy","lonesome","gloomy"],
@@ -9615,7 +9615,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c clicks {PRONOUN/s_c/poss} mandibles. Of course app1 will never be a warrior if {PRONOUN/app1/subject} {VERB/app1/think/thinks} like <i>that.</i> c_n doesn't want warriors who think like <i>that.</i> Half of glory, {PRONOUN/s_c/subject} {VERB/p_l/explain/explains}, is believing you deserve it. s_c challenges app1: focus on <i>that</i>. When s_c and app1 return to the training grounds, the other trainees notice app1 fighting with a newfound vigor.",
+                "text": "p_l clicks {PRONOUN/p_l/poss} mandibles. Of course app1 will never be a warrior if {PRONOUN/app1/subject} {VERB/app1/think/thinks} like <i>that.</i> c_n doesn't want warriors who think like <i>that.</i> Half of glory, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}, is believing you deserve it. p_l challenges app1: focus on <i>that</i>. When p_l and app1 return to the training grounds, the other trainees notice app1 fighting with a newfound vigor.",
                 "exp": 10,
                 "can_have_stat": ["p_l"],
                 "stat_trait": ["fierce","bold","confident","competitive","ambitious","rebellious","daring","adventurous","cunning"],
@@ -9629,7 +9629,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c's heart lurches seeing the apprentice so low. Could s_c have done something to make app1 feel this way? Not having any words s_c sits close to app1, wrapping {PRONOUN/p_l/poss} arm around {PRONOUN/app1/object}. s_c crinkles {PRONOUN/p_l/poss} eyes at app1 and rubs {PRONOUN/app1/poss} back reassuringly, until app1 smiles back, grateful. ",
+                "text": "p_l's heart lurches seeing the apprentice so low. Could p_l have done something to make app1 feel this way? Not having any words p_l sits close to app1, wrapping {PRONOUN/p_l/poss} arm around {PRONOUN/app1/object}. p_l crinkles {PRONOUN/p_l/poss} eyes at app1 and rubs {PRONOUN/app1/poss} back reassuringly, until app1 smiles back, grateful. ",
                 "exp": 10,
                 "can_have_stat": ["p_l"],
                 "stat_trait": ["insecure","nervous","oblivious","careful","responsible"],
@@ -9643,7 +9643,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c shifts awkwardly at app1's side until {PRONOUN/s_c/subject} can't stand the silence any longer. s_c drops into a crouch and nudges app1 with {PRONOUN/s_c/poss} paw. App1 looks back, confused as s_c keeps bouncing and poking at {PRONOUN/s_c/object} with a goofy expression on {PRONOUN/s_c/poss} face, until app1 gives in. The warrior and apprentice play like cubs, and the smile on app1's face says {PRONOUN/app1/subject}{VERB/app1/'ve/'s} forgotten all about {PRONOUN/app1/poss} doubt.",
+                "text": "p_l shifts awkwardly at app1's side until {PRONOUN/p_l/subject} can't stand the silence any longer. p_l drops into a crouch and nudges app1 with {PRONOUN/p_l/poss} paw. App1 looks back, confused as p_l keeps bouncing and poking at {PRONOUN/p_l/object} with a goofy expression on {PRONOUN/p_l/poss} face, until app1 gives in. The warrior and apprentice play like cubs, and the smile on app1's face says {PRONOUN/app1/subject}{VERB/app1/'ve/'s} forgotten all about {PRONOUN/app1/poss} doubt.",
                 "exp": 10,
                 "can_have_stat": ["p_l"],
                 "stat_trait": ["charismatic","flamboyant","playful","childish","shameless","strange","sneaky"],
@@ -9659,7 +9659,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "s_c tries to think of something to say or do, anything, but {PRONOUN/s_c/subject} {VERB/s_c/fumble/fumbles} as app1 becomes more and more unconsolable. Finally, s_c gives up, leaving app1 alone with {PRONOUN/app1/poss} thoughts.",
+                "text": "p_l tries to think of something to say or do, anything, but {PRONOUN/p_l/subject} {VERB/p_l/fumble/fumbles} as app1 becomes more and more unconsolable. Finally, p_l gives up, leaving app1 alone with {PRONOUN/app1/poss} thoughts.",
                 "exp": 0,
                 "can_have_stat": ["p_l"],
                 "relationships": [
