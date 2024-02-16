@@ -9,38 +9,162 @@
     "leader": "star"
     },
   "normal_suffixes" : [
-    "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur",
-    "tuft", "tuft", "tuft", "tuft", "tuft", "tooth", "tooth", "tooth", "tooth", "tooth",
-    "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", "pelt", 
-    "tail", "tail", "tail", "tail", "tail", "tail", "tail", "claw", "claw", "claw", "claw", "claw", "claw",
-    "foot", "foot", "foot", "foot", "foot", "whisker", "whisker", "whisker", "whisker", "whisker", "whisker",
-    "heart", "heart", "heart", "heart", "heart", "heart", "heart", "heart",
-    "arch", "ash", "aster", "back", "badger", "bark", "bat", "beak", "beam", "bee", "beetle", "bellow", "belly", "berry", 
-    "billow", "bird", "bite", "blaze", "blink", "bloom", "blossom", "blotch", "blur", "bone", "bounce", "bracken", "bramble", 
-    "branch", "break", "breeze", "briar", "bright", "brook", "bubble", "bud", "bumble", "burn", "burr", "burst", "bush", "buzz", 
-    "call", "catcher", "chase", "chaser", "chasm", "chest", "chill", "chirp", "chomp", "cinder", "clash", "cloud", "clover",
-    "crackle", "crash", "crawl", "creek", "crest", "cry", "curl", "current", "daisy", "dance", "dapple", "dart", "dash", "dawn", 
-    "daze", "dazzle", "dew", "dream", "drift", "drizzle", "drop", "dusk", "dust", "eagle", "ear", "ears", "echo", "egg", "ember", 
-    "eye", "eyes", "face", "falcon", "fall", "fang", "feather", "fern", "fin", "fire", "fish", "flake", "flame", "flare", "flash", 
-    "fleck", "flick", "flicker", "flight", "flip", "flit", "flood", "flow", "flower", "fluff", "fog", "fox", "freeze", "frost", "fruit", 
-    "fuzz", "gale", "gaze", "ghost", "glare", "gleam", "glide", "glint", "goose", "gorse", "grass", "growl", "hail", "hare", 
-    "haven", "hawk", "haze", "heather", "hiss", "hollow", "holly", "honey", "hope", "howl", "husk", "ice", "iris", "ivy", "jaw", 
-    "jay", "joy", "jumble", "jump", "kestrel", "kick", "kite", "knoll", "lake", "larch", "laurel", "leaf", "leap", "leg", "leopard", 
-    "light", "lightning", "lilac", "lily", "lion", "lotus", "mallow", "mane", "mark", "mask", "meadow", "mimic", "minnow", "mist", 
-    "moon", "moor", "moss", "moth", "mouse", "munch", "murk", "muzzle", "needle", "nest", "nettle", "newt", "nibble", "night", "nip", 
-    "noise", "nose", "nudge", "nut", "pad", "patch", "path", "peak", "petal", "plume", "pond", "pool", "poppy", "pounce", "prance", 
-    "prickle", "puddle", "purr", "quill", "quiver", "rain", "rapid", "raven", "reed", "rip", "ripple", "rise", "rise", "river", 
-    "roach", "roar", "rock", "root", "rose", "rumble", "rump", "run", "runner", "rush", "rustle", "scar", "scratch", "screech", 
-    "seed", "seeker", "shade", "shadow", "shard", "shell", "shimmer", "shine", "shiver", "shock", "shriek", "sight", "silk", "skip", 
-    "skitter", "sky", "slash", "slip", "snap", "snarl", "snout", "snow", "soar", "song", "spark", "speck", "speckle", "spider", 
-    "spike", "spirit", "splash", "splinter", "spore", "spot", "spots", "spring", "sprout", "stalk", "stem", "step", "sting", "stone", 
-    "storm", "streak", "stream", "strike", "stripe", "sun", "swarm", "swipe", "swoop", "talon", "tangle",
-    "thistle", "thorn", "thrift", "throat", "thrush", "thud", "thunder", "tiger", "timber", "toe", "tooth", "trail", "tree", 
-    "trot", "tumble", "twist", "valley", "watcher", "water", "wave", "web", "whisper", "whistle", "willow", "wind", "wing", "wish", "wisp", 
-    "zoom"
+    "Adoring", "Alone", "Ashen", "Apparent", "Actual", "Adorable", "Adventurous", "Aggressive", "Agreeable", "Alert", "Alive", "Amused", "Amusing", "Angry", "Annoyed", "Annoying", "Ashamed", "Attractive", "Average", "Awful", "Abundant", "Accurate", "Addicted", "Addictive",
+
+    "Afraid", "Aloof", "Ambitious", "Ancient", "Animated", "Arrogant", "Auspicious", "Abandoned", "Abashed", "Abiding", "Ambient", "Analytical", "Assertive", "Authoritative", "Authentic", "Apprehensive", "Amazing", "Ample", "Artistic", "Astonishing", "Alluring", "Acrobatic", "Agile",
+    
+    "Able", "Accepting", "Absurd", "Accused", "Accursed", "Adaptable", "Addled", "Aged", "Ageless", "Aggrieved", "Alarming", "Alike", "Amicable", "Animalistic", "Apathetic", "Aware", "Absolute", "Active", "Appealing", "Astute", "Affable", "Accomplished", "Affectionate", "Amiable",
+    
+    "Articulate", "Attentive", "Abounding", "Acclaimed", "Acute", "Adroit", "Airy", "Almighty", "Artful",  "Abrupt", "Acerbic", "Admirable", "Aghast", "Ambiguous", "Antsy", "Astonished", "Astonishing", "Audacious", "Abject", "Absent", "Alien", "Angular", "Ardent", "Armed", "Armoured", "Arrested", "Awake", "Awkward", "Arid", 
+    
+    "Aligned", "Ascending", "Austere", "Apologetic", "Appreciated", "Appreciative", "Avid",  "Abrasive", "Abysmal", "Abyssal", "Acidic", "Afflicted", "Agonised", "Ailing", "Aimless", "Amok", "Askance", "Avoidant",
+
+    "Bellowing", "Beloved", "Bright", "Brilliant",  "Bleak", "Biting", "Blossoming", "Brutal", "Barbed", "Breaking", "Broken",  "Burnt", "Burned", "Burning", "Blazing",  "Bumbling", "Bubbling", "Bursting", "Buzzing", "Belligerent", "Brittle", "Bumpy", "Bustling", "Beaming", "Beatific", "Beauteous", "Beguiling",
+    
+    "Blooming", "Barking", "Bestial", "Beastlike", "Billowing", "Barking", "Bitter", "Bouncy", "Bouncing", "Brave",  "Big", "Bound", "Bounding", "Blank", "Blurry", "Blurred", "Bleached", "Blotched", "Budding", "Barren", "Barricaded", "Baseless", "Biased", "Blunt", "Blameless", "Bejeweled", "Benign", "Bigger", 
+    
+    "Boundless", "Beautiful", "Bad", "Baked", "Better", "Bewildered", "Bloody", "Blushing", "Bashful", "Bored", "Boring", "Busy", "Balanced", "Balancing", "Bold", "Breezy", "Blissful", "Baffled", "Baffling", "Balmy", "Battered", "Beckoning", "Bent", "Betrayed",  "Bland", "Blaring", "Blessed", "Bloated", "Brief", "Bossy", "Breathtaking",
+    
+    "Bubbly", "Benevolent", "Bare", "Bared", "Barred", "Barbaric", "Bated", "Beaten", "Belittling", "Bellicose", "Bereaved", "Bereft", "Berserk", "Bloodied", "Boastful", "Baleful", "Bewitching", "Bizarre", "Blasphemous", "Blatant", "Blithe", "Blistering", "Boisterous", "Boorish", "Brass", "Brassy", "Bristly", "Babbling", "Baritone", "Bawling", "Bearded", 
+    
+    "Bloody", "Bronze", "Bronzed", "Burly", "Bushy", "Brazen", "Brooding", "Blustery", "Blustering", "Burdensome", "Burnished", "Brief", "Begrudging",
+    
+    "Calm", "Crafty", "Clever", "Chasing",  "Cheated", "Chirping", "Checked", "Clawed", "Cursed", "Crying", "Cowardly", "Cruel", "Cold-hearted",  "Contrary",  "Chomping", "Climbing", "Crumbled", "Cracked", "Chilled", "Chilly", "Cold", "Caramel", "Clay",
+    
+    "Clouded", "Cloudy", "Calling", "Clashing", "Crackling", "Crashing", "Crawling", "Cresting", "Creepy", "Callous", "Curious", "Cool", "Calm", "Careful", "Cautious", "Charming", "Cheerful", "Cheery", "Cheering", "Clean", "Cleanly", "Clear", "Colourful", "Combative", "Comfortable",
+    
+    "Comforting", "Concerned", "Concerning", "Condemned", "Confused", "Cooperative", "Courageous", "Crowded", "Cute", "Capable", "Caring", "Careless", "Clever", "Clumsy", "Confident", "Considerate", "Creative", "Compassionate", "Caustic", "Cackling", "Cagey", "Calculating", "Callow",
+    
+    "Carved", "Ceaseless", "Chaotic", "Chipper", "Circular", "Cyclical", "Clamorous", "Civil", "Clandestine", "Climactic", "Coarse", "Colossal", "Committed", "Crazed", "Crisp", "Cursed", "Cutthroat", "Cynical", "Candid", "Canny", "Capricious", "Carefree", "Captivating", "Certain", "Cherished", "Chivalrous", "Classy", "Clearhead", "Close", "Collected",
+    
+    "Comely", "Concise", "Congenial", "Conscious", "Constant", "Consistent", "Content", "Cordial", "Courteous", "Cuddly", "Cultured", "Cheeky", "Cheerless", "Childish", "Clueless", "Conceited", "Corrosive", "Corrupt", "Coveted", "Coveting", "Crabby", "Crafty", "Cranky", "Crass", "Crestfallen", "Crooked", "Cross", "Crude", "Crushed", "Cryptic", "Cumbersome", "Cunning",
+    
+    "Cavalier", "Centred", "Charismatic", "Chattering", "Chatty", "Chauvinistic", "Chanting", "Chubby", "Clinical", "Craggy", "Compelled",
+
+    "Daydreaming", "Dull", "Dark", "Dextrous", "Dreaming", "Dancing", "Dappled", "Drizzling", "Defensive", "Downy",  "Dazzling", "Dazed", "Dyed",  "Drawn", "Darting", "Dashing", "Dawning", "Drifting", "Dusty", "Dusted", "Dull", "Daft", "Deadly", "Decadent", "Diabolical",
+    
+    "Dozing", "Dozey", "Darling", "Devious", "Deviant", "Deepening", "Deep", "Dangerous", "Dark", "Defeated", "Defiant", "Delightful", "Depressed", "Depressing", "Determined", "Different", "Difficult", "Disgusted", "Disgusting", "Distinct", "Disturbed", "Disturbing", "Dizzy", "Dizzying", "Doubtful", "Doubted", "Drab", "Diving",
+    
+    "Dry", "Dainty", "Damned", "Damp", "Dauntless", "Daylong", "Dependable",  "Diligent", "Disciplined", "Deceitful", "Deceptive", "Different", "Diffuse", "Diluted", "Dim", "Dire", "Disarming", "Discerning", "Disparate", "Distinct", "Docile", "Doddering", "Dogged", "Doleful", "Doomed", "Dormant", "Dour", "Double", "Down", "Drastic", "Dreadful",
+    
+    "Dreamless", "Dried", "Dry", "Drunken", "Dubious", "Duplicate", "Dying", "Daring", "Decent", "Decisive", "Dedicated", "Deft", "Demure", "Desired", "Desirous", "Devoted", "Dignified", "Direct", "Dominant", "Doting", "Driven", "Damp", "Dead", "Deafening", "Decaying", "Delirious", "Deferential", "Deliberate", "Delicate", "Detached", "Devout", "Diplomatic", 
+    
+    "Degraded", "Dejected", "Demanding", "Deplorable", "Depraved", "Deprived", "Despairing", "Despondent", "Devastated", "Devastating", "Devious", "Difficult", "Diminutive", "Disappearing", "Disastrous", "Diseased", "Discouraged", "Disdainful", "Disorderly", "Disreputable", "Disrespectful", "Dreaded", "Dreadful", "Dauntless", "Discreet", "Disgruntled", 
+    
+    "Dishonest", "Disillusioned", "Disruptive", "Dismayed", "Dissatisfied", "Distinguished", "Dramatic", "Dreamy", "Dear", "Dearest", "Decrepit", "Delinquent", "Dirty", "Discarded", "Dismal", "Divine", "Diverted", "Drained", "Drooping", "Droopy", "Decimated", "Deep-rooted", "Delayed", "Departing", "Dissolving", 
+    
+
+    "Elegant", "Enduring", "Elite", "Earthen", "Entwined", "Echoing", "Echoic", "Electric", "Evening", "Energising", "Energetic", "Enigmatic", "Eager", "Elated", "Embarrassed", "Embarrassing", "Enchanting", "Enchanted", "Encouraging", "Excited", "Exciting", "Exuberant", "Earnest", "Earthy", "Ecstatic", "Effortless", "Eloquent",
+    
+    "Early", "Educated", "Efficient", "Empty", "Enthusiastic", "Excellent", "Envious", "Envied", "Easygoing", "Ecstatic", "Elusive", "Eccentric", "Extravagant", "Expressive", "Elaborate", "Early", "Eased", "Ebony", "Eerie", "Egotistical", "Egregious", "Elated", "Eminent", "Empty", "Endearing", "Engrossing", "Enviable", "Erratic", "Erupting", "Erosive", "Essential", "Eternal", "Endless", "Equal",
+    
+    "Evident", "Exact", "Exalted", "Expert", "Extraordinary", "Emptied", "Ended", "Entitled", "Enveloping", "Erased", "Eroded", "Eroding", "Errant", "Evasive", "Excessive", "Exiled", "Even", "Exemplary", "Experienced", "Exposed", "Exquisite", "Engorged", "Enmeshed", "Entangled", "Enlightened", "Explosive", "Ebbing",
+
+    "First", "Fanged", "Fearful", "Fierce", "Fearsome", "Flying", "Falling", "Fortunate", "Frozen", "Flat",  "Flying", "Fallen",  "Forgotten", "Flaming", "Fruiting", "Fruitless", "Faithful", "Fearless", "Fair", "Famous", "Fancy", "Fanciful", "Filthy", "Fine", "Foolish", "Flaming", "Flaring", "Flashy", "Folding", "Fractured", "Fragmented", "Fragmentary", "Fleet", "Fleet-footed",
+    
+    "Foggy", "Freckled", "Fuzzy", "Faithful", "Falling", "Feathery", "Finned",  "Flecked", "Flickering",  "Familiar", "Faceless", "Furious", "Fantastic", "Fantastical", "Fabulous", "Forgetful", "Fragile", "Frail", "Frantic", "Friendly", "Frightened", "Funny", "Fast", "Fat", "Fraught", "Freakish", "Freezing", "Frequent", "Fretful", "Frilled", "Frigid", "Frivolous", "Frosted",
+    
+    "Frustrated", "Frustrating", "Flexible", "Fit", "Fitted", "Fighting", "Frenzied", "Fading", "Faded", "Fresh", "Fluffy", "Free", "Frugal", "Flawless", "Frizzy", "Fabled", "Faceted", "Facetious", "Factual", "Faint", "Fatalistic", "Fateful", "Fathomless", "Faulty", "Feeble", "Fickle", "Fidgety", "Flagging", "Flagrant", "Fragrant", "Flaky", "Fruitless", "Fulfilled", "Full", "Fuming", "Fungal", "Further", "Furry", "Fussy", "Futile",
+    
+    "Fractal", "Feisty", "Fervent", "Fetching", "Fiery", "Fine", "Fit", "Firm", "Flourishing", "Flowing", "Focused", "Forceful", "Foremost", "Forgiving", "Formal", "Forthright", "Fortified", "Frank", "False", "Faltering", "Fawning", "Feckless", "Feigned", "Fiendish", "Finicky", "Fleeting", "Forbidden", "Forged", "Formidable", "Foul", "Fraught", "Frayed", "Fretful", "Famished", "Farcical", "Flustered", "Foolhardy", "Frightening", "Frivolous", "Far", "Far-flung", "Farsighted", "Fascinating",
+    
+    "Fell", "Few", "Foiled", "Famed", "Fasciated", "Favourite", "Feathered", "Featherless",  "Frolicking", "Final",
+
+    "Gentle", "Graceful", "Glowing", "Gleaming", "Gloomy", "Growling",  "Gusting", "Gilled",  "Glaring", "Groomed", "Gregarious", "Gallant", "Glorious", "Good", "Gorgeous", "Grieving", "Grotesque", "Grumpy", "Grateful", "Glamorous", "Great", "Generous", "Gathered", "Garish", "Gaudy", "Gaunt", "Genteel", "Gibbous", "Ghostly", "Giving", "Glossy", "Gloved", "Glowering", "Gone", "Gorey",
+    
+    "Gracious", "Genuine", "Grand", "Gargantuan", "Giddy", "Glistening", "Grouchy", "Growing", "Granted", "Gratifying", "Grooved", "Gruelling", "Grumbling", "Guarded", "Guiding", "Guileful", "Guilty", "Gushing", "Guttural", "Genial", "Giddy", "Giggling", "Giggly", "Gilded", "Gilt", "Glad", "Glazed", "Goodhearted", "Grandiose", "Gratuitous", "Gregarious", "Grounded", "Guiltless", "Gutsy", "Gaping", "Gauche", "Gawky", "Ghastly", "Glib", "Glum", "Gluttonous", "Gnarled", "Gnawing", "Goading", "Goofy", "Gossipping", 
+    
+    "Ghoulish", "Grating", "Grappling", "Greasy", "Greedy", "Grievous", "Griping", "Gritty", "Gruesome", "Gruff", "Gabby", "Galvanised", "Garrulous", "Genial", "Gleeful", "Gravelly", "Groggy", "Gullible", "Galling", "Gauzy", "Giant", "Gifted",  "Grimy", "Grizzled", "Groaning", "Groomed", "Growling", "Given", "Gay",
+
+    "Hard",  "Hazy", "Hopeful", "Hunted", "Happy", "Hot", "Heated",  "Howling",  "Hollow", "Haphazard", "Half-hearted", "Halfway", "Humorous", "Handsome", "Healthy", "Helpful", "Helpless", "Hilarious", "Homely", "Horrible", "Hungry", "Hurt", "Hurtful", "Huge", "Heedful", "Hefty", "Hesitant", "Hewn", "Hilly", "Hoary", "Holy",
+    
+    "Humble", "Honest", "Hearty", "Harmonious", "High-spirited", "Haughty", "Hasty", "Heavy", "Hypnotic", "Hyperactive", "Harsh", "Heartbroken", "Hostile", "Hardworking", "Heartfelt", "Habitual", "Half", "Halting", "Halved", "Hanging", "Hard", "Harmonic", "Headless", "Headlong", "Harsh", "Haunted", "Hushed", "Hypocritical",
+    
+    "Hale", "Handy", "Hallowed", "Hardy", "Harmless", "Heralded", "High-minded", "Honeyed", "Honourable", "Hospitable", "Huggable", "Hackneyed", "Haggard", "Hair-raising", "Hapless", "Hardhearted", "Harried", "Hasty", "Hateful", "Haywire", "Heavyset", "Heedless", "Hexed", "Hidden", "Hoarse", "Hedonistic", "Hot-blooded", "Hot-headed", "Huffy", "Humdrum", "Hairy", "Hairless", "Heroic", "Hulking", 
+
+    "Icy",  "Iron", "Indebted", "Infamous", "Ill", "Important", "Impossible", "Innocent", "Inquisitive", "Itchy", "Intelligent", "Inspiring", "Incredible", "Imaginative", "Impartial", "Ideal", "Immaculate", "Indispensable", "Impulsive", "Imperfect", "Imposing", "Impure", "Inclined", "Impromptu", "Indelible", "Indelicate", "Inelegant", "Inert", "Infrequent", "Inlaid",
+    
+    "Incomparable", "Inconsistent", "Ignorant", "Imaginary", "Impolite", "Inward", "Inquisitive", "Insightful", "Innovative", "Irritated", "Irritating", "Interesting", "Idealised", "Idle", "Idyllic", "Ignited", "Illicit", "Illusionary", "Illusory", "Immune", "Immovable", "Impatient", "Impervious", "Impish", "Imploring", "Impressed", "Impressive", "Immense", "Immortal",
+    
+    "Impassioned", "Incandescent", "Incredulous", "Individual", "Indomitable", "Infallible", "Infinite", "Inseparable", "Insightful", "Instant", "Instinctive", "Instinctual", "Integral", "Intimate", "Intrepid", "Inventive", "Invincible", "Irresistible", "Ill-fated", "Illogical", "Immature", "Immodest", "Impatient", "Impetuous", "Impure", "Improper", "Inane", "Insulting", "Idealistic", "Ingenious", "Irate", "Irreverent", "Irritable", "Ironclad",
+
+    "Jagged", "Joyful", "Jealous", "Jolly", "Jittery", "Joyous", "Jovial", "Jumpy", "Jumbled", "Jarring", "Jaunty", "Judicious", "Judgemental", "Jaded", "Jubilant", "Jangling", "Jeering", "Jointed", "Just", "Jabbering", "Jolting", "Joyless", "Jawed", "Jawless",
+
+    "Karmic", "King", "Kicking", "Known", "Killer", "Kind", "Keen", "Knowledgeable", "Knobbly", "Kindly", "Kindhearted", "Kindred", "Knotted", "Kempt", "Knuckled",
+
+    "Little", "Loving", "Loud", "Lucky", "Lonesome",  "Lonely", "Leaping",  "Leafy", "Lazy", "Light", "Lively", "Lonely", "Long", "Lovely",  "Loved", "Low", "Lasting", "Luxurious", "Literal", "Learned", "Labouring", "Laborious", "Lacking", "Languid", "Languishing", "Lanky", "Large", "Last", "Late", "Latent", "Laudable", "Laughing", "Lavish", "Lawful", "Lawless", "Lax", "Leading", "Leaky", "Leaking",
+    
+    "Least", "Leathery", "Leafless", "Leering", "Legendary", "Lenient", "Lethargic", "Lifeless", "Likeable", "Likely", "Limber", "Limitless", "Limp", "Lingering", "Liquid", "Listless", "Literal", "Lithe", "Livid", "Living", "Loaded", "Locked", "Lodged", "Logical", "Lopsided", "Loose", "Lost", "Lousy", "Loving", "Loyal", "Lowly", "Luminous", "Lumpy", "Lush", "Lustrous", "Lying", "Lean", "Late", "Lesser", "Limping", 
+    
+    "Lighthearted", "Lackadaisical", "Laudable", "Larval", "Layered", "Leaning", "Leaving", "Leechlike", "Leeching", "Leaching", "Leery", "Leftover", "Least", "Lethal", "Lyrical", "Last-ditch", "Last",
+
+     "Maimed", "Maiming", "Mottled", "Mumbling", "Murmuring", "Murky", "Metal", "Mossy",  "Moonlit", "Mourning", "Morning", "Magnificent", "Misty", "Motionless", "Moving", "Muddy", "Mushy", "Mysterious", "Magnificent", "Majestic", "Mindful", "Memorable", "Moral", "Majestic", "Mellow", "Modest", "Melodic", "Mature",
+    
+    "Magic", "Magical", "Melodic", "Mischievous", "Mindful", "Mighty", "Mythical", "Massive", "Mean", "Messy", "Melancholy", "Muddled", "Muddied", "Musical", "Macabre", "Mad", "Maddening", "Magnetic", "Malignant", "Manipulative", "Mannered", "Marbled", "Marked", "Marvellous", "Masked", "Matching", "Matted", "Medium", "Melting", "Merciless", "Minor", "Morbid", "Migratory", 
+    
+    "Mere", "Merging", "Meshed", "Metallic", "Miasmal", "Muffled", "Manicured", "Meek","Merciful", "Merry", "Mesmerised", "Momentous", "Monumental", "Motivated", "Motivating", "Makeshift", "Malfunctioning", "Malodorous", "Mangled", "Mangy", "Maniacal", "Marauding", "Marred", "Meagre", "Meddlesome", "Meddling", "Mocking", "Mucky", 
+    
+    "Measured", "Mercurial", "Methodical", "Meticulous", "Mirthful", "Mischievous", "Morose", "Mundane", "Massive", "Mediocre", "Moving", "Murderous", "Missing",
+
+    "Narrow", "Nervous", "Noisy", "Numerous",  "Nimble", "Noonday", "Noon", "Nighttime", "Nasty", "Naughty", "Nice", "Napping", "Numinous", "Nice", "Neat", "Noble", "Nurturing", "Notable", "Numbing", "Nurtured", "Numb", "New", "Nonchalant", "Needy", "Negative", "Noteworthy", "Nifty", "Nagging", "Naive", "Naked", "Nameless",
+    
+    "Nary", "Nascent", "Nasty", "Nauseous", "Nauseating", "Nearby", "Nebulous", "Needed", "Needled", "Needling", "Neglectful", "Negligent", "Neither", "Nerveless", "Nestled", "Netted", "Next", "Nosy", "Noxious", "Nourishing", "Notorious", "Necessary", "Noble", "Noiseless", "Nonpareil", "Normal", "Novel", "Niggling", "Nippy", "Nubby", "Nettled", "Nettlesome", "Nonplussed", "Noticeable", 
+    
+    "Obstinate", "Obsessed", "Opportunistic", "One", "Outnumbered", "Outlasting", "Odd", "Obvious", "Oblivious", "Obedient", "Old-fashioned", "Open", "Outrageous", "Outstanding", "Old", "Optimistic", "Open-minded", "Observant", "Obliging", "Oily", "Opaque", "Ornate", "Outgoing", "Overjoyed", "Outward", "Overwhelmed", "Original",
+    
+    "Ordinary", "Obligated", "Obscure", "Obtuse", "Occupied", "Odious", "Oncoming", "Offshore", "Opinionated", "Opposite", "Other", "Outside", "Overall", "Overly", "Overt", "Open-hearted", "Open-minded", "Opportune", "Opulent", "Orderly", "Overjoyed", "Oafish", "Obsolete", "Oozing", "Outcast", "Outlaw", "Owed", "Overbearing", "Overburdened", "Overzealous",
+
+    "Paranoid", "Polite", "Pointed", "Powerful", "Ponderous", "Pensive",  "Pouring", "Patchy",  "Peculiar", "Peaceful", "Pearl", "Placid", "Pinned", "Peaked", "Pouncing",  "Painted", "Perfect", "Pitiful", "Panicking", "Panicky", "Plain", "Pleasant", "Pleasing",  "Poised", "Patient", "Practical", "Painful", "Pained", "Pliable", "Primal", "Prevailing", "Pristine", "Promising", "Pallid", "Paltry", "Peevish",
+    
+    "Precious", "Prickly", "Proud", "Prideful", "Putrid", "Puzzled", "Puzzling", "Passionate", "Playful", "Positive", "Precise", "Pretty", "Profound", "Pure", "Perky", "Petite", "Phenomenal", "Plucky", "Polished", "Popular", "Poor", "Poisonous", "Passive", "Parched", "Parallel", "Permissive", "Perpetual", "Perplexing", "Persistent", "Personable", "Pesky", "Petrified", "Prying",
+    
+    "Petulant", "Plausible", "Pleasing", "Poetic", "Pompous", "Portly", "Possible", "Potent", "Powerless", "Precocious", "Predictable", "Preferable", "Present", "Profuse", "Prominent", "Proper", "Prosperous", "Prophetic", "Prudent", "Prudish", "Punchy", "Punching", "Puny", "Pushy", "Peppy", "Perceptive", "Persuasive", "Pioneering", "Pious",
+
+    "Quiet", "Quick", "Quivering",  "Quaint", "Querulous", "Quizzical", "Quarrelsome", "Queasy", "Quaky", "Quarreling", "Quick-tempered", "Quick-witted",
+
+    "Raging",  "Ragged", "Restless", "Restful", "Reckless", "Rising", "Ripping", "Roaring", "Rotting", "Rotten", "Rough", "Round", "Running", "Ruined", "Rock",   "Resounding", "Real", "Relieved", "Relieving", "Repulsive", "Rapid", "Rare", "Remarkable", "Responsible", "Romantic", "Royal", "Rude", "Radiant", "Resentful",
+    
+    "Reliable", "Royal", "Respectful", "Rational", "Robust", "Ready", "Rainy", "Rampant", "Rambling", "Rash", "Rasping", "Raspy", "Ravenous", "Raving", "Raw", "Reactive", "Realistic", "Rebellious", "Receding", "Recent", "Reciprocal", "Recognised", "Reflective", "Regretful", "Remedial", "Rescued", "Reserved", "Rested",
+    
+    "Restored", "Restrained", "Rhythmic", "Ribbed", "Rickety", "Right", "Ripe", "Rigid", "Rocky", "Rolling", "Rocketing", "Rounded", "Rugged", "Ruling", "Ruptured", "Rushed", "Rushing", "Rustling", "Rakish", "Rapturous", "Raucous", "Ravishing", "Reassuring", "Redolent", "Regal", "Relaxed", "Reclusive", "Relentless", "Remorseless", "Reviled", "Riotous", "Risky", "Rueful", "Ruinous", "Rusted", "Rusty",
+
+    "Sad", "Scared", "Scattered", "Shining", "Sparking", "Sweet", "Skittering", "Scuttling",  "Soft", "Small", "Slow", "Slicing", "Spotted", "Striped", "Swirling", "Sharp", "Straight", "Sleepy", "Sporting", "Shameful", "Shameless", "Shadowed",
+    
+    "Smitten",  "Stubborn",  "Second",  "Swinging",  "Scarred",  "Still", "Sleeping", "Strange", "Spitting", "Strawberry", "Steel", "Stone", "Slouched", "Slouching",  "Slashing", "Shivering", "Short", "Shy", "Spellbound", "Scary", "Splendid", "Silly",
+    
+    "Silent", "Sharp", "Struck", "Scorched", "Sleek", "Slick", "Sleepy", "Sneezy", "Snowy", "Singing", "Sunlit", "Starlit",  "Shielded",  "Striking", "Scribbled", "Sketched",  "Sweet", "Sour", "Swift", "Stumpy", "Sunny", "Stubby", "Splashing", "Simple", "Suspicious", "Sick", "Sickening", "Sappy", "Smoky",
+    
+    "Smiling", "Spotless", "Strange", "Successful", "Sublime", "Secretive", "Selfish", "Serious", "Shocking",  "Skinny", "Slim", "Slow", "Spicy", "Spiritual", "Splendid", "Strong", "Slender", "Surprised", "Surprising", "Startled", "Startling", "Stunning", "Sundered", "Sundering", "Stringent", "Sarcastic", "Sharp-tongued", "Smaller",
+
+    "Tired", "Third", "Trapped",  "Tearing", "Trotting", "Tumbling", "Toppled", "Thundering",  "Thoughtful", "Twined", "Tied", "Torn", "Trembling", "Tiny", "Tufted", "Thorny", "Tawny", "Tall", "Temperamental", "Torched", "Tapping", "Taciturn", "Tactical", "Tactless", "Tailored", "Tan", "Tangled", "Tangling", "True", "Theatrical", "Transcendent",
+    
+    "Talented", "Tame", "Tender", "Tense", "Terrible", "Thankful", "Thoughtless", "Tired", "Tough", "Troubled", "Teaching", "Thick", "Thin", "Tactful", "Tangible", "Teeming", "Temperate", "Tenable", "Tenacious", "Tender", "Tender-hearted", "Terrific", "Thorough", "Timely", "Trustworthy", "Tricky", "Tricksy", "Tolerant", "Tapered", "Taunting", "Teary", "Teary-eyed",
+    
+    "Tedious", "Telling", "Telltale", "Tenfold", "Testy", "Textured", "Thornless", "Thorned", "Thwarted", "Tidal", "Tidebound", "Tinted", "Tiptoeing", "Tiresome", "Toothy", "Torturous", "Towering", "Thrilling", "Tireless", "Transformed", "Triumphant", "Trusting", "Twinkling", "Tepid", "Terse", "Thieving", "Threatened", "Threatening", "Toneless", "Torpid", "Torrential", "Toxic", "Treacherous", "Trivial", "Twitchy",
+
+    "Unfortunate", "Unmoving", "Unique", "Unseen", "Untouched", "Unknown", "Unfamiliar", "Ugly", "Unusual", "Upset", "Uptight", "Ubiquitous", "Unabashed", "Unafraid", "Unassuming", "Unaware", "Understated", "Undaunted", "Unhappy", "Unkempt", "Uncertain", "Uncommon", "Understanding", "United", "Upbeat", "Uplifting", "Urgent", "Unasked", "Unbecoming", "Unbidden",
+    
+    "Unarmed", "Unborn", "Uncanny", "Uncompromising", "Uncontested", "Uncut", "Underhanded", "Undone", "Undue", "Unearthed", "Unerring", "Unfulfilled", "Unjust", "Unkind", "Unnatural", "Unremitting", "Unrivalled", "Unruly", "Unstable", "Unwieldy", "Unwilling", "Unwritten", "Unadorned", "Unaffected", "Unbeaten", "Unceasing", "Untainted", "Untroubled", "Upmost", "Upright", "Utter", 
+    
+    "Unfeeling", "Undefined", "Unsettled", "Unsettling", "Untamed", "Unthinking", "Untrue", "Unworried", "Unyielding", "Uproarious", "Uptight", "Unblinking", "Unmatched", "Unscathed", "Useful", "Umber", 
+    
+    "Visceral", "Vague", "Victorious", "Vexed", "Vexing", "Vast", "Vivacious", "Valiant", "Vibrant", "Vigorous", "Versatile", "Vengeful", "Venomous", "Viable", "Vigilant", "Vindictive", "Violent", "Virtuous", "Vocal", "Volatile", "Vulnerable", "Vulgar", "Venerated", "Various", "Vital", "Villainous", "Voracious", "Velvet", "Velvety", "Vain", "Valued", "Vapid", "Vapory", "Variable", "Vaulty", "Vaulting", "Verbose", "Verdant", "Versed", "Vivid", "Visible", "Voiceless", 
+    
+    "Vacant", "Vile", "Vulgar", "Vainglorious", "Vanished", "Vanishing",
+    
+    "Warm", "Weeping", "Wide",  "Wonderful", "Wondrous", "Whispering",  "Waxing", "Waning", "Winged",  "Wild",  "Wishful", "Wet", "Well-groomed", "Wooden", "Wandering", "Waving", "Washing", "Weary", "Wicked", "Wide-eyed", "Witty", "Worried", "Worrisome", "Wrong", "Whimsical", "Weak", "Wholesome", "Willful", "Winsome", "Well-versed",
+    
+    "Wavy", "Wary", "Wakeful", "Walloping", "Wan", "Wanton", "Warlike", "Warring", "Warning", "Wasted", "Wasteful", "Watery", "Wavering", "Weakened", "Weak-willed", "Weathered", "Weedy", "Weighted", "Weightless", "Welcoming", "Whimpering", "Whiskered", "Whiskery", "Whistling", "Wiggly", "Wiggling", "Wriggly", "Wriggling", "Willing", "Willsome", "Wily", "Wishful", "Woeful",
+    
+    "Wooded", "Wordy", "Worldly", "Wormy", "Worming", "Worse", "Worthy", "Wounded", "Wrought", "Well-spoken", "Wailing", "Waiting", "Wanting", "Waxen", "Wearisome", "Weird", "Whining", "Wicked", "Withering", "Witless", "Wrathful", "Wrinkled", "Wrong", "Wrongful", "Whiny", "Wry",
+
+    "Youthful", "Yellow", "Yearning", "Yielding", "Young", "Yearlong", "Yawning", "Yowling", "Yielding", "Yammering", "Yappy", "Yieldless", "Yonder", 
+
+    "Zealous", "Zipping", "Zapping", "Zestful", "Zesty", "Zealess"
+    
   ],
   "pelt_suffixes": {
-    "TwoColour": ["patch", "spot", "splash", "patch", "spots", "swan"],
+    "TwoColour": ["patch", "spot", "splash", "spots"],
     "Tabby": ["stripe", "feather", "leaf", "stripe", "shade"],
     "Marbled": ["stripe", "feather", "leaf", "stripe", "shade"],
     "Speckled": ["dapple", "speckle", "spot", "speck", "freckle", "fleck"],
@@ -74,45 +198,98 @@
   },
 
   "normal_prefixes": [
-    "Adder", "Alder", "Ant", "Antler", "Aphid", "Apple", "Apricot", "Arch", "Aspen", "Aster", 
-    "Badger", "Barley", "Basil", "Bass", "Bay", "Beam", "Bear", "Beaver", "Bee", "Beech", "Beetle", "Berry", "Big", "Billow", "Birch", 
-    "Bird", "Bite", "Bitter", "Bittern", "Bliss", "Blizzard", "Bloom", "Blossom", "Blotch", "Bluebell", "Bluff", "Bog", "Borage", 
-    "Bough", "Boulder", "Bounce", "Bracken", "Bramble", "Brave", "Breeze", "Briar", "Bright", "Brindle", "Bristle", "Broken", "Brook", 
-    "Brush", "Bubbling", "Bud", "Bug", "Bumble", "Burdock", "Burr", "Burrow", "Bush", "Butterfly", "Buzzard", 
-    "Carnation", "Carp", "Caterpillar", "Cave", "Cedar", "Chaffinch", "Chasing", "Cherry", "Chervil", "Chestnut", "Chirp", "Chive",
-    "Cicada", "Claw", "Clay", "Clear", "Cliff", "Clover", "Comfrey", "Condor", "Cone", "Conifer", "Conker", "Copse", "Cougar", 
-    "Coyote", "Crag", "Crane", "Creek", "Cress", "Crest", "Crested", "Cricket", "Crooked", "Crouch", "Curl", "Curlew", "Curly", 
-    "Current", "Cypress", "Dahlia", "Daisy", "Dancing", "Dapple", "Dappled", "Dart", "Dash", "Dawn", "Dazzle", "Dew", "Dog", "Down", 
-    "Downy", "Dream", "Drift", "Drizzle", "Droplet", "Dry", "Duck", "Dusk", "Eagle", "Echo", "Edelweiss", "Egret", "Elder", "Elm", 
-    "Ermine", "Faith", "Falcon", "Fallen", "Falling", "Fallow", "Fawn", "Feather", "Fennel", "Fern", "Ferret", "Fickle", "Fidget", 
-    "Fierce", "Fin", "Finch", "Fir", "Fish", "Flail", "Flash", "Flax", "Fleck", "Fleet", "Flicker", "Flight", "Flint", "Flip", 
-    "Flit", "Flood", "Flower", "Fluff", "Fluffy", "Flutter", "Fly", "Fog", "Foggy", "Freckle", "Fringe", "Frog", "Frond", "Fruit", 
-    "Fumble", "Furled", "Furze", "Fuzz", "Fuzzy", "Gale", "Gander", "Gardenia", "Garlic", "Gentle", "Gill", "Glade", "Goose", "Gorge", 
-    "Gorse", "Grass", "Gravel", "Grouse", "Gull", "Guppy", "Gust", "Hail", "Half", "Hare", "Hatch", "Haven", "Hawk", "Hay", "Hazel", 
-    "Hazy", "Heart", "Heath", "Heavy", "Hemlock", "Heron", "Hill", "Hollow", "Holly", "Honey", "Hoot", "Hop", "Hope", "Hornet", 
-    "Hound", "Howl", "Hush", "Hyacinth", "Iris", "Ivy", "Jackdaw", "Jagged", "Jay", "Jumble", "Jump", "Junco", "Juniper", "Kestrel", 
-    "Kink", "Kite", "Lake", "Larch", "Lark", "Laurel", "Lavender", "Leaf", "Leap", "Leopard", "Lichen", "Light", "Lightning", "Lilac", 
-    "Lily", "Lion", "Little", "Lizard", "Locust", "Long", "Lotus", "Loud", "Low", "Luck", "Lupine", "Lynx", "Mallow", "Mantis", 
-    "Maple", "Marigold", "Marsh", "Meadow", "Midge", "Milk", "Milkweed", "Mink", "Minnow", "Mistle", "Mite", "Mole", "Moon", 
-    "Moor", "Morning", "Moss", "Mossy", "Moth", "Mottle", "Mottled", "Mouse", "Mumble", "Murk", "Myrtle", "Nectar", "Needle", 
-    "Nettle", "Newt", "Nightingale", "Nimble", "Nut", "Oak", "Oat", "Odd", "One", "Oriole", "Osprey", "Pansy", "Panther", "Parsley", 
-    "Partridge", "Patch", "Patchouli", "Peak", "Pear", "Peat", "Perch", "Petal", "Petunia", "Pheasant", "Pigeon", "Pike", "Pine", 
-    "Piper", "Plover", "Plum", "Pod", "Pond", "Pool", "Pop", "Poppy", "Posy", "Pounce", "Prance", "Prickle", "Prim", "Primrose", 
-    "Puddle", "Python", "Quail", "Quick", "Quiet", "Quill", "Quiver", "Rabbit", "Raccoon", "Ragged", "Rain", "Rainbow", "Rat", 
-    "Rattle", "Raven", "Reed", "Ridge", "Rift", "Rindle", "Ripple", "River", "Roach", "Roar", "Rook", "Root", "Rose", "Rosy", 
-    "Rowan", "Rubble", "Runnel", "Running", "Rush", "Rye", "Sable", "Sapling", "Scorch", "Scratch", "Seed", "Serpent", "Shard", 
-    "Sharp", "Shell", "Shimmer", "Shine", "Shining", "Shivering", "Short", "Shrew", "Shrub", "Shy", "Silent", "Silk", "Silt", "Skip", 
-    "Sky", "Slate", "Sleek", "Sleepy", "Sleet", "Slight", "Slip", "Sloe", "Slope", "Slumber", "Small", "Snail", "Snake", "Snap", 
-    "Sneeze", "Snip", "Snowy", "Soft", "Song", "Sorrel", "Spark", "Sparrow", "Speckle", "Spider", "Spike", "Splash", "Splinter", 
-    "Spore", "Spot", "Spotted", "Spring", "Sprout", "Spruce", "Squirrel", "Starling", "Stem", "Stoat", "Stork", "Streak", "Stream", 
-    "Strike", "Stumpy", "Sunny", "Swallow", "Swamp", "Swarm", "Sweet", "Swift", "Sycamore", "Tadpole", "Tall", "Talon", "Tangle", 
-    "Tansy", "Tawny", "Tempest", "Thistle", "Thorn", "Thrift", "Thrush", "Thunder", "Thyme", "Tiger", "Timber", "Tiny", "Toad", 
-    "Torn", "Tremble", "Trickle", "Trout", "Tuft", "Tulip", "Tumble", "Turtle", "Valley", "Vine", "Vixen", "Wasp", "Weasel", "Web", 
-    "Weed", "Weevil", "Wet", "Wheat", "Whimsy", "Whirl", "Whisker", "Whisper", "Whispering", "Whistle", "Whorl", "Wild", "Willow", 
-    "Wind", "Wing", "Wish", "Wisteria", "Wolf", "Wolverine", "Wood", "Worm", "Wren", "Yarrow", "Yew", 
-    "Zinnia"
-  ],
+      "Arch", "Antler", "Antlers", "Arm", "Arms", "Adversary", "Artist", "Aquapede", "Artwork", "Archaeologist", "Ant", "Apparition", "Act", "Art", "Aroma", "Abundance", "Affection", "Agony", "Adversity", "Ascension", "Assurance", "Aspiration", "Awakening", "Abyss", "Acclaim", "Acid", "Actor", "Advisor", "Age", "Aim", "Air", "Aide", "Ally", "Allure", "Apex", "Arc", "Archway", "Armful", "Arrow", "Artifice", "Avalanche", "Axis",
 
+      "Bubbleweed", "Bubble",  "Bulb",  "Bridge", "Bubble Fruit",  "Beak", "Belly", "Berry", "Bite", "Beehive", "Buzz",  "Bone", "Blink", "Blossom", "Branch", "Bush", "Blessing", "Blur",  "Body", "Box", "Basket", "Bounty", "Beacon", "Bracelet", "Ball", "Blaze",
+      "Brass", "Brush", "Blast",
+      
+      "Brain", "Burn", "Burst", "Beginning", "Birth", "Beast", "Blade", "Break", "Breeze", "Blotch", "Bounce", "Batfly", "Blood", "Breath", "Bridge", "Beauty", "Belief", "Bravery", "Bliss", "Bitterness", "Benevolence", "Blame", "Brevity", "Ballad", "Burden", "Betrayal", "Bond", "Brilliance", "Brightness", "Bulwark", "Border",
+      
+      "Brute", "Brother", "Beetle", "Brook", "Bud", "Bug", "Bloom", "Banner", "Brick", "Bolt", "Barb", "Barrier", "Belch", "Bell", "Bracket", "Buckle", "Brace", "Borer", "Blazer", "Brink", "Bearing", "Bale", "Brow", "Board", "Bar", "Bulk", "Bead", "Beads", "Barnacle", "Bucket", 
+
+       "Cable", "Chimney", "Climber", "Cherrybomb", "Curl", "Cry", "Call", "Crash", "Crawl", "Claw", "Crest",  "Chomp", "Chest", "Curse", "Cheer", "Cloud", "Cut", "Crackle", "Core", "Creation", "Cell", "Cries", "Claws", "Clouds", "Calls", "Cables", "Chimneys", "Coat", "Corner", "Corners", "Crane", "Cup", "Crown", "Care", "Calm",
+      
+      "Cold", "Cheater", "Clarity",  "Captive", "Chirp", "Captor", "Chasm", "Cavern", "Cave", "Champion", "Chill",  "Chase", "Copse", "Current", "Coalescipede", "Centipede", "Centiwing", "Calm", "Collector", "Creature", "Choice", "Charm", "Charity", "Changer", "Comfort", "Composure", "Conviction",
+      
+        "Cinder", "Clash", "Clap", "Courage", "Curiosity", "Chain", "Chains", "Cape", "Clank", "Clang", "Cuddle", "Cycle", "Clamour", "Circle",
+
+        "Daze", "Dew", "Dragon Slayer",  "Den",  "Drift", "Dart", "Dash", "Drizzle", "Dream", "Dreamer", "Dodger", "Dye", "Deer", "Dropwig", "Dandelion", "Dandelion Peach", "Defeat", "Deed", "Defiance",  "Drop", "Drip", "Deluge", "Delay", "Departure", "Door", "Device", "Disaster", "Dignity", "Doubt", "Delight", "Destiny", "Determination", "Despair", "Discovery", "Dance", "Darling", "Dabbler", "Dagger",
+      
+      "Dragonfly", "Day", "Daisy", "Dart", "Dawn", "Droplet", "Dusk", "Drum", "Doze", "Darling", "Depth", "Deep", "Debt", "Death", "Dam", "Daylight", "Daytime", "Deal", "Dearth", "Dear", "Decay", "Decrease", "Defeat", "Deficit", "Delirium", "Denial", "Dent", "Design", "Detail", "Devotion", "Dew", "Dig", "Din", "Dip", "Dirt", "Disc", "Distance", "Distaste", "Ditch", "Ditty", "Dive", "Diver", "Dock", "Dome", "Dot", "Drain", "Drag", "Dread", "Drawl", "Droves", "Duty", "Dwelling",
+      
+
+      "Egg",  "Ear", "Ears", "Eye", "Eyes", "Echo", "End", "Ends", "Exile", "Enemy", "Eggbug",  "Evening",  "Ember", "Engineer", "Engine", "Ease", "Eaves", "Edge", "Edges", "Elsewhere", "Energy", "Electricity", "Enlightenment", "Excellence", "Endurance", "Explorer", "Elegance", "Earthquake", "Ego", "Embrace", "Empire", "Enamel", "Endeavour", "Ending", "Enigma", "Enmity", "Envy", "Epoch", "Epic", "Equal", "Era", "Erosion", "Escape", "Eruption", "Essence", "Eternity", "Ebb",
+      
+
+      "Friend", "Fuzz",  "Fortress",  "Fence", "Fern", "Fire Egg", "Fruit",   "Flash", "Finger", "Fingers", "Fang", "Fangs",  "Feelers", "Finder", "Fortune", "Few", "Fury",  "Fighter", "Fire", "Fuel", "Fur", "Frond", "Fern", "Face", "Floor", "Fleet", "Fate", "Flair", "Flurry", "Fan", "Foot", "Feet", "Fray", "Forager", "Few", "Feint", "Froth", "Favour", "Fee", "Fare", "Frenzy", "Freedom", "Flesh", "Foe", "Fellow", "Fever", "Fountain",
+      
+          "Fly", "Firefly", "Flea", "Fabric", "Flag", "Flower", "Finder", "Fibre", "Father", "Fish", "Fleck", "Flicker", "Flight", "Flood", "Flower", "Fluff", "Flutter", "Fog", "Freckle", "Feather", "File", "Faith", "Fame", "Fear", "Focus", "Forgiveness", "Fortune", "Frustration", "Fervour",  "Future", "Ford", "Film", "Flow", "Flock", "Fool", "Form", "Fuss", "Frame", "Furnace", "Fright", "Friction", "Fissure", "Flint", "Floodlight", "Fender", "Fielder", "Ferocity", "Fragrance", "Foundling", "Forum", "Folly", "Figment", "Flame", "Feat", "Finery", "Footfall", "Flick", "Foreset", "Fable", "Forest", "Firelight", "Forever", "Farm", "Frontier", "Furor", "Fuse", "Flare", "Factory", "Farce", "Foil", "Fisher",
+      
+      "Flake", "Fetch", "Feaster", "Fibber", "Fib", 
+      
+       "Glyph", "Girder",  "Grower",  "Grenade", "Gaze", "Gust", "Guts", "Gut", "Gash", "Glare", "Ghost",  "Gatherer", "Gale", "Grunt", "Gate", "Garden", "Glory", "Glass", "Gift", "Grass", "Generosity", "Goodness", "Grace", "Greatness", "Greed", "Grief", "Genius", "Gluttony", "Glamour", "Growth", "Glee", "Greenery", "Gem", "Gear", "Generator", "Grasp", "Giggle", "Glen", "Grin", "Gulf", "Glaze", "Glare", "Glade", "Groove", "Gorge", 
+      
+      "Green", "Grappler", "Grasshopper", "Glow-Worm","Grappling Worm", "Guardian",  "Glow Weed", "Grub", "Gooieduck", "Guppy", "Gleam", "Gloss", "Gauze", "Getaway", "Gain", "Glitter", "Gravity", "Ground", "Glove", "Gloves", "Gutter", "Grate", "Game", "Graft", "Guile", "Gale", "Glut", "Glow", "Guilt", "Goodness", "Gage", "Gravel", "Gauntlet", "Gesture", "Growl", "Gloom", "Guide", "Goof", "Gnat", "Gnarl", 
+
+      "Haze", "Hill",  "Hall", "Horse Tail", "Horizon", "Hope", "Hero", "Heroine", "Hand", "Hands", "Horn", "Horns", "Howl", "Husk", "Heart",  "Helper", "Hollow", "Historian", "History", "Habit", "Halo", "Handle", "Handful", "Hailstorm", "Harm", "Hassle", "Haste", "Haunt", "Hardship", "Haul", "Hate", "Hearth", "Hearsay", "Helm", "Hem", "Herb", "Hole", "Home", "Hunger", "Harmony", "Health", "Happiness", "Honour", "Hug", "Hall", "Hair", "Handiwork", "Harvest", "Harvester", "Hedge", "Heed", "Hindsight", "Hold",
+      
+      "Hail", "Half", "Haven", "Hazel", "Haze", "Holly", "Honey", "Hunt", "Hazer", "Hoop", "Hook", "Hose", "Hose", "Hound", "Hue", "Hulk", "Hurdle", "Hurt", "Hilt",
+
+      "Iris", "Inception",  "Inspector", "Infinity", "Ice", "Image", "Impact", "Insect", "Inside", "Intention", "Idea", "Icon", "Identity", "Industry", "Integrity", "Instrument", "Instruction", "Independence", "Innocence", "Inspiration", "Instinct", "Intuition", "Ideal", "Idealist", "Idleness", "Ignorance", "Impulse", "Iron", "Ironwork", "Isle", "Island", "Itch", "Idler", "Ink", "Inscription",
+
+       "Jaw", "Jaws",  "Joy", "Jetfish", "Jellyfish", "Justice", "Judgement", "Jab", "Joint", "Jug", "Jot", "Jet", "Jealousy", "Jewel", "Joke", "Jokes", "Jingle", "Jaunt", 
+
+      "Karma Flower", "Kick", "Killer", "Knock", "Key", "Kiln", "Keep", "Knot", "Knowledge", "Kernel", "Karma", "Kindness", "Kiss", "Knee", "Keenness", "Kinship", "Kick", "Kelp", "Kindred", "Knack", "Keel", "Knuckle", "Knuckles", "Knell", "Keystone", "Knoll", "Kith", "Keyholder", "Kickoff", 
+
+      "Light", "Lamp", "Listener", "Leaf", "Legend", "Leg", "Legs", "Liver", "Lungs", "Later", "Limbs", "Lover", "Linguist", "Lick", "Leaper", "Lout", "Lizard Tamer","Lantern", "Lantern Mouse", "Leviathan", "Leech", "Lock", "Law", "Link", "Loss", "List", "Love", "Limp", "Lamp", "Land", "Lash", "Laugh", "Limit", "Loyalty", "Liberty", "Logic", "Laughter", "Likeness", "Longing", "Loudness", "Lead",
+      
+       "Leap", "Light", "Lightning", "Lilac", "Lizard", "Lilypuck", "Length", "Lotus", "Line", "Lines", "Lesson", "Lilt", "Lull", "Lesion", "Ligament", "Louse", "Lump", "Lure", "Legacy", "Lyric", "Listener", "Liar", "Leak", "Loneliness",
+
+      "Mask", "Mandible", "Mandibles", "Maw", "Mother", "Metal", "Mountain", "Mound", "Mystery", "Mouth", "Misfortune", "Many",  "Munch", "Murk", "Mumble", "Murmur", "Mauler", "Murderer", "Miros Bird", "Monster Kelp", "Martyr", "Machine", "Match", "Melody", "Majesty", "Mystery", "Mercy", "Melancholy", "Morale", "Mirth", "Momentum", "Machinery", "Machinist",
+      
+      "Morning", "Midnight", "Mushroom", "Marsh", "Meadow", "Mist", "Mite", "Mole", "Moth", "Monk", "Moon", "Moor", "Mourning", "Mourner", "Magic", "Maelstrom", "Malady", "Malaise", "Mantle", "Mark", "Marrow", "Moment", "Mural", "Muse", "Music", "Muzzle", "Mutiny", "Myth",
+
+       "Noise", "Nose", "Nibble", "Nip", "Now", "Never", "Nightmare", "Nomad", "Noodlefly", "Night", "Noon", "Nut",  "Needle", "Nature", "Nest", "Nail", "Nectar", "Necessity", "Novelty", "Nurture", "Notion", "Numbness", "Neatness", "Need", "Net", "Nerve", "Neuronfly", "Nod", "Null", "Nymph",
+
+      "Outlaw", "Outlander", "Overseer", "Outsider", "One", "Order", "Outside", "Oath", "Ocean", "Omen", "Other", "Offering", "Opportunity", "Outcome", "Ornament", "Offal", "Ooze", "Orbit", "Origin", 
+      
+      "Pillar", "Pipe", "Pit", "Popcorn",  "Popcorn Plant", "Pessimist", "Philosopher", "Prisoner", "Painter", "Painting", "Paint", "Protector", "Pilgrim", "Pink", "Pearl-collector", "Peach", "Pole Plant",  "Pond", "Pool", "Pouncer", "Puddle", "Peak", "Perch", "Petal", "Past", "Post", "Poet", "Peace", "Power", "Passion", "Prosperity", "Purity", "Panic", "Prudence", "Pacifist", "Pact", "Pad", "Pall", "Patrol", "Patter", "Pattern", "Peck", "Peril", "Piety", "Pin", "Pity", "Place", "Plea", "Pledge", "Plume", "Poise", "Pose", "Praise", "Precipice", "Premonition", "Presence", "Pressure", "Pretense", "Prestige", "Pride", "Pull", "Punch", "Pursuit", "Pebble",
+      
+      "Quill", "Question", "Quality", "Quagmire", "Quiet", "Quicksilver", "Quiver", "Quirk", "Quest", 
+      
+      "Ruin", "Roller", "Rain Moss", "Root Grass", "Root", "Runaway", "Reflection", "Razor", "Ruffian", "Red", "Rock Flea", "Red Swarmer", "Rot",  "Rain", "Rattling", "Rift", "Ripple", "River", "Rivulet", "Roar", "Root", "Rubble", "Runner",
+      
+      "Rope", "Rise", "Ribbon", "Risk", "Rise", "Room", "Role", "Rule", "Rock", "Reason", "Race", "Rainbow", "Rage", "Raft", "Railroad", "Rake", "Ramp", "Range", "Rank", "Rattle", "Radiance", "Reality", "Regret", "Relief", "Repose", "Renewal", "Reprieve", "Respect", "Rest", "Revelation", "Rhythm", "Rigour", "Revival", "Romance", "Regard", "Resolve", "Ribs", "Rib", "Roarer", 
+
+      "Scholar", "Spear", "Shield", "Spire",  "Symbol", "Steel", "Sheet", "Slime", "Seed Pod", "Seed", "Spiral", "Shadow Plant", "Slime Mold", "Spore Puff", "Sky", "Sound", "Shout", "Stem", "Stalk", "Shrub", "Story", "Salt", "Sand", "Screen", "Sea", "Shadow", "Shell", "Shift", "Shore", "Shower", "Side", "Silk", "Sight", "Sky", "Smile",
+      
+      "Storyteller", "Speaker", "Spine", "Spines",  "Stomach", "Shelter", "Seeker", "Sorrow",  "Spore", "Scar", "Soon", "Someday", "Start",  "Skeptic", "Slash", "Strike", "Success", "Serenity", "Sympathy", "Solitude", "Strength", "Sunlight", "Sparkle", "Spark", "Security", "Simplicity", "Stability", "Safety", "Sabre", "Scuffle", "Sense", "Senses", "Sentry", "Shaker",
+      
+       "Stranger", "Spectre", "Shield", "Sketcher", "Scribbler", "Song", "Slugcat", "Scratched", "Seed", "Serpent", "Shard", "Shell", "Shimmer", "Shine", "Silence", "Shame", "Shed", "Shelf", "Shine", "Shiver", "Shout", "Shred", "Shrug", "Siding", "Silo", "Siren", "Skull", "Skirmish", "Slide", "Slit", "Sneer", 
+          
+      "Silk", "Slumberer", "Snail", "Snap", "Snapper", "Singer", "Spark", "Spike", "Sprout", "Stem", "Sapling", "Spell", "Shame", "Sport", "Spout", "Scent", "Sniffer", "Sniffler", "Soul", "Sound", "Spire", "Spirit", "Spit", "Spite", "Split", "Sprawl", "Stake", "Stare", "Steam", "Stone", "Stoop", "Streak", "Stretch", 
+          
+      "Stream", "Sun", "Survivor", "Swallower", "Swamp", "Squidcada", "Spitter",  "Stowaway", "Saviour",  "Seed", "Slime",  "Sting", "Stinger", "String", "Seer", "Stub", "Sufferer", "Sunshine", "Swath", "Swing", "Swipe", "Swarm", "Swig", "Swerve", "Swivel", "Syrup",
+
+      "Tower", "Tunnel", "Temple",  "Thorn", "Tail", "Tongue", "Teeth", "Tooth", "Trinket", "Treasure", "Thinker", "Trapper", "Tamer", "Thief", "Tormentor", "Twine", "Tadpole", "Tempest", "Thunder", "Temper", "Torch", "Tap", "Tree", "Tree Fern", "Tradition", "Talent", "Time", "Test", "Thrill", "Tact", "Tolerance", "Tenacity", "Tranquility", "Trust", "Truth", "Thought", "Touch", "Triumph", "Turmoil", "Thirst", "Tenderness", "Togetherness", "Toe", "Toes", "Trade", "Trial", "Tack", "Tackle", "Tactic", "Tale", "Talker", "Tear", 
+      
+      "Thaw", "Thicket", "Thigh", "Throng", "Tide", "Tin", "Tinder", "Timidity", "Tint", "Toil", "Toxin", "Trance", "Trench", "Trickle", "Trill", "Trim", "Trifle", "Trick", "Tug", "Tumble", "Tube", "Turn", "Twinge", "Twister", "Typhoon", "Tick", "Tracker", "Twig", "Tilt", "Twain",
+
+      "Utopia", "Urn", "Urge", "Uproar", "Urgency", "Unity", "Unison", "Undoing", "Undertow", "Untruth", "Unrest", "Upheaval", 
+      
+
+      "Vine", "Victor", "Vagabond",  "Void", "Vulture", "Viscera", "Valley", "Vanity", "Vanguard", "Vault", "Veil", "Verdict", "Vice", "Violence", "Victory", "Virtue", "Vitality", "Volume", "Vagrant", "Valve", "Vase", "Venom", "Verge", "Verse", 
+
+      "Wanderer", "Wall",  "Wire", "Watcher",  "Wing", "Wind",  "Whisper", "Word", "White", "Wasp",  "Whistler", "Wind", "Worm", "World",  "Whimsy", "Well", "Water", "Wave", "Wash", "War", "Weakness", "Writer", "While", "Window", "Wheel", "Whistle", "Web", "Weather", "Walk", "Whisker", "Whiskers", "Warbler", "Wisdom", "Willpower", "Wit", "Weariness", "Weight", "Worth", "Wistfulness", "Wonder", "Windfall", "Wail", "Wager", "Wait", "Walloper", "Warfare", "Warp", "Waste", "Wasteland", "Wax", "Weapon",
+      
+      "Whim", "Whiplash", "Whirlwind", "Whirl", "Whole", "Winder", "Wiring", "Wisp", "Worship", "Wrinkle", "Wrong",
+
+      "Yellow", "Yeek", "Youth", "Yearning", "Yoke", "Yip", "Yowl", "Yawn", "Yielder", "Yell", 
+
+      "Zip", "Zap", "Zephyr"
+      
+        ],
+      
   "colour_prefixes": {
     "WHITE": [
     "White", "White", "Pale", "Snow", "Cloud", "Cloudy", "Milk", "Hail", "Frost", "Frozen", "Freeze", "Ice", "Icy", "Icicle",
