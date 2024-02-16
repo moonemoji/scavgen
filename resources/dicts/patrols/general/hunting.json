@@ -1028,7 +1028,7 @@
                 "weight": 20,
                 "relationships": [
                     {
-                        "cats_to": ["patrol"],
+                        "cats_to": ["patrol", "p_1"],
                         "cats_from": ["clan"],
                         "mutual": false,
                         "values": ["respect", "trust"],
