@@ -513,7 +513,7 @@
 
     "mangled tail":{
         "duration": 3,
-        "severity": "severe",
+        "severity": "major",
         "medicine_duration": 3,
         "mortality": {
             "newborn": 15,
@@ -811,8 +811,7 @@
         ],
         "also_got": [],
         "cause_permanent": [
-            "lost a leg",
-            "lost their tail"
+            "lost a leg"
         ],
         "herbs": [
             "juniper",
@@ -961,7 +960,6 @@
         ],
         "also_got": [],
         "cause_permanent": [
-            "lost their tail",
             "lost a leg"
         ],
         "herbs": [
