@@ -177,7 +177,7 @@ class Name():
             return self.prefix.title()
         else:
             if game.config['fun']['april_fools']:
-                return self.prefix + 'egg'
+                return self.suffix.title() + 'Egg'
             return self.suffix.title() + " " + self.prefix
 
 
