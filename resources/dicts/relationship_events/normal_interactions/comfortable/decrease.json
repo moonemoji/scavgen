@@ -74,7 +74,7 @@
 	{
 		"id": "comfort_de_med5",
 		"interactions": [
-			"r_c hissed at m_c.",
+			"r_c snapped at m_c.",
 			"r_c tells m_c to leave {PRONOUN/r_c/object} alone.",
 			"r_c is glaring at m_c from across the camp."
 		],
@@ -105,7 +105,7 @@
 		"intensity": "high",
 		"interactions": [
 			"m_c is telling jokes about r_c.",
-			"m_c hisses at r_c over something small."
+			"m_c scowls at r_c over something small."
 		],
 		"reaction_random_cat": {
 			"comfortable": "decrease"
@@ -119,7 +119,7 @@
 			"m_c feels a chill after noticing r_c is nearby.",
 			"Watching r_c stalk silently around camp makes m_c feel uneasy.",
 			"m_c doesn't like the way r_c seems to overwhelm the camp with {PRONOUN/r_c/poss} presence.",
-			"Even though r_c is a respectable clanmate, m_c can't help but think {PRONOUN/r_c/subject} might be up to no good..."
+			"Even though r_c is a respectable troopmate, m_c can't help but think {PRONOUN/r_c/subject} might be up to no good..."
 		],
 		"random_trait_constraint": [
 			"bloodthirsty",
@@ -131,10 +131,10 @@
 		"id": "comfort_de_high4",
 		"intensity": "high",
 		"interactions": [
-			"m_c doesn't like the way that r_c seems to enjoy {PRONOUN/r_c/poss} influence over the Clan.",
+			"m_c doesn't like the way that r_c seems to enjoy {PRONOUN/r_c/poss} influence over the Troop.",
 			"Much to m_c's dismay, r_c has asked {PRONOUN/m_c/object} to do another difficult task.",
-			"m_c thinks that r_c is casting a dark shadow over the whole Clan's reputation.",
-			"m_c is worried that r_c might be sending the Clan down a dark path."
+			"m_c thinks that r_c is casting a dark shadow over the whole Troop's reputation.",
+			"m_c is worried that r_c might be sending the Troop down a dark path."
 		],
 		"random_trait_constraint": [
 			"bloodthirsty",
@@ -151,8 +151,8 @@
 		"intensity": "high",
 		"interactions": [
 			"m_c notices that r_c doesn't seem to care if {PRONOUN/r_c/poss} treatments hurt.",
-			"m_c overhears r_c complaining about giving herbs to cats that don't 'deserve' them.",
-			"m_c is startled at r_c's views on sharing herbs with other Clans.",
+			"m_c overhears r_c complaining about giving herbs to people who don't 'deserve' them.",
+			"m_c is startled at r_c's views on sharing herbs with other Troops.",
 			"m_c bristles after seeing r_c add more deathberries to {PRONOUN/r_c/poss} herb storage."
 		],
 		"random_trait_constraint": [

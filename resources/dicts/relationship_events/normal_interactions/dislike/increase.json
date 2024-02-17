@@ -31,7 +31,10 @@
 		"interactions": [
 			"m_c ignores r_c.",
 			"m_c had a huge argument with r_c.",
-			"m_c had a spat with r_c over a piece of prey on the fresh-kill pile."
+			"m_c had a spat with r_c over a some food in the store.",
+			"m_c and r_c had an argument over who owned a particular spear.",
+			"m_c and r_c had an argument over who owned a particular pearl.",
+			"r_c took the credit for a painting m_c made!"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase"
@@ -41,7 +44,7 @@
 		"id": "dislike_inc_med3",
 		"interactions": [
 			"m_c had a disagreement with r_c while on patrol earlier.",
-			"m_c stole r_c's catch right out from under {PRONOUN/r_c/poss} claws.",
+			"m_c stole r_c's catch right out from under {PRONOUN/r_c/poss} hands.",
 			"m_c prays that {PRONOUN/m_c/subject} {VERB/m_c/aren't/isn't} on patrol with r_c tomorrow.",
 			"m_c sighs loudly every time r_c does anything on patrol."
 		],

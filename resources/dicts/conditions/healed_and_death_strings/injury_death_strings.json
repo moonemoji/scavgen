@@ -6,16 +6,16 @@
         "m_c died from a bite-wound."
     ],
     "cat bite": [
-        "m_c died from a cat bite."
+        "m_c died from a scavenger bite."
     ],
     "beak bite": [
         "m_c died from a beak bite."
     ],
     "snake bite": [
-        "m_c died from a snake bite."
+        "m_c died from a bite."
     ],
     "rat bite": [
-        "m_c died from a rat bite."
+        "m_c died from a bite."
     ],
     "blood loss": [
         "m_c died from blood loss."
@@ -30,7 +30,7 @@
         "m_c died from a mangled leg."
     ],
     "mangled tail": [
-        "m_c died from a mangled tail."
+        "m_c died from a mangled antler."
     ],
     "frostbite": [
         "m_c died from frostbite."
@@ -48,7 +48,7 @@
         "m_c died from shock."
     ],
     "shivering": [
-        "m_c got too cold and died."
+        "m_c got died from cold."
     ],
     "dehydrated": [
         "m_c died from dehydration."
@@ -60,7 +60,7 @@
         "m_c's eyes were too badly damaged and {PRONOUN/m_c/subject} died."
     ],
     "quilled by a porcupine": [
-        "m_c died from {PRONOUN/m_c/poss} wounds after being quilled by a porcupine."
+        "m_c died from {PRONOUN/m_c/poss} wounds after being stuck with quills."
     ],
     "poisoned": [
         "m_c died from the poison in {PRONOUN/m_c/poss} body."
@@ -69,6 +69,6 @@
         "m_c couldn't survive {PRONOUN/m_c/poss} broken back."
     ],
     "bee sting": [
-        "m_c seemed to have a horrible reaction to {PRONOUN/m_c/poss} bee sting. Cats usually don't die from a sting, but it seems this time was different."
+        "m_c seemed to have a horrible reaction to {PRONOUN/m_c/poss} bee sting. Scavenger usually don't die from a sting, but it seems this time was different."
     ]
 }

@@ -117,6 +117,7 @@ class Sprites():
             'chiselantlers', 'forkantlers', 'kittyantlers', 'spikeantlers',
             'sheepantlers', 'tineantlers', 'waveantlers', 'wedgeantlers', 'maskgloves', 'mouthparts',
             'deadtineantlers', 'deadwedgeantlers', 'deadsheepantlers', 'deadkittyantlers',
+            'deadchiselantlers', 'deadspikeantlers',
             'whitepatches', 'eyes', 'eyes2', 'skin', 'scars', 'missingscars',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars',
             'shadersnewwhite', 'lineartdead', 'tortiepatchesmasks', 
@@ -391,6 +392,13 @@ class Sprites():
         # =========================================
         # dead antlers
         # =========================================
+       # chisel
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('deadchiselantlers', (a, 0), f'deadchiselantlers{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('deadchiselantlers', (a, 1), f'deadchiselantlers{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('deadchiselantlers', (a, 2), f'deadchiselantlers{i}')
        # kitty
         for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
             self.make_group('deadkittyantlers', (a, 0), f'deadkittyantlers{i}')
@@ -404,7 +412,14 @@ class Sprites():
         for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
             self.make_group('deadsheepantlers', (a, 1), f'deadsheepantlers{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
-            self.make_group('deadsheepantlers', (a, 2), f'deadsheepantlers{i}')  
+            self.make_group('deadsheepantlers', (a, 2), f'deadsheepantlers{i}') 
+        # spike
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('deadspikeantlers', (a, 0), f'deadspikeantlers{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('deadspikeantlers', (a, 1), f'deadspikeantlers{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('deadspikeantlers', (a, 2), f'deadspikeantlers{i}')
         # tine
         for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
             self.make_group('deadtineantlers', (a, 0), f'deadtineantlers{i}')

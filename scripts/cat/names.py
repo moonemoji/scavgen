@@ -178,10 +178,9 @@ class Name():
         # Handles predefined suffixes (such as newborns being kit), then suffixes based on ages (fixes #2004, just trust me)
         if self.status in self.names_dict["special_suffixes"] and not self.specsuffix_hidden and self.status != "leader":
             return self.prefix.title()
-        if self.status in ['loner'] and not self.specsuffix_hidden and self.moons is not None and self.moons < 12:
-            return self.prefix
-        if game.config['fun']['april_fools']:
-            return self.prefix + ' Egg'
-        return self.suffix.title() + " " + self.prefix
+        else:
+            if game.config['fun']['april_fools']:
+                return self.suffix.title() + 'Egg'
+            return self.suffix.title() + " " + self.prefix
 
 names = Name()

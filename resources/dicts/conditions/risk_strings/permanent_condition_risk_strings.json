@@ -6,12 +6,12 @@
             "Losing the leg was bad enough, but now it feels like there's fire in m_c's veins.  Something is definitely wrong with {PRONOUN/m_c/poss} stump."
         ],
         "phantom pain": [
-            "m_c reports to r_c in the medicine den - {PRONOUN/m_c/subject} could swear {PRONOUN/m_c/poss} toes feel cramped and in spasm, but it's on the limb {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't have anymore.",
+            "m_c reports to r_c in the healer's den - {PRONOUN/m_c/subject} could swear {PRONOUN/m_c/poss} toes feel cramped and in spasm, but it's on the limb {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't have anymore.",
             "Groaning, m_c lies in the sunshine as one of {PRONOUN/m_c/poss} friends massages the stump of {PRONOUN/m_c/poss} missing leg. {PRONOUN/m_c/subject/CAP} just don't understand how something that's not even there any more can hurt so much.",
-            "m_c sinks {PRONOUN/m_c/poss} claws into a branch, hoping that ripping something up will at least distract {PRONOUN/m_c/object} from the sparking pain coming from the leg {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} even have any more."
+            "m_c sinks {PRONOUN/m_c/poss} mandibles into some tree bark, hoping that ripping something up will at least distract {PRONOUN/m_c/object} from the sparking pain coming from the leg {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} even have any more."
         ],
         "sore": [
-            "While {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} adapted well to life with a missing limb, the strain of walking with only three legs has left m_c feeling sore all over. r_c devises a list of exercises that will ease the pain, not helping m_c's mood.",
+            "While {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} adapted well to life with a missing limb, the strain of walking with a crutch has left m_c feeling sore all over. r_c devises a list of exercises that will ease the pain, not helping m_c's mood.",
             "m_c just hasn't been sleeping right, and feels bruised and tender on the side of {PRONOUN/m_c/poss} body where {PRONOUN/m_c/poss} limb used to be.",
             "The muscles in m_c's stump don't seem to understand they aren't connected to anything any more - m_c purrs gratefully when a Clanmate helps massage them."
 
@@ -20,7 +20,7 @@
     "born without a leg": {
         "sore": [
             "m_c reports to r_c with the ease of familiarity, asking for help sleeping at night - {PRONOUN/m_c/poss} missing limb is giving {PRONOUN/m_c/object} a bit of pain on that side of {PRONOUN/m_c/poss} body.",
-            "m_c has spent {PRONOUN/m_c/poss} whole life with only three legs, but that doesn't mean {PRONOUN/m_c/subject} never {VERB/m_c/feel/feels} the strain of moving in a way {PRONOUN/m_c/poss} body wasn't meant to.  This moon's activities have left m_c particularly sore."
+            "m_c has spent {PRONOUN/m_c/poss} whole life with a limb missing, but that doesn't mean {PRONOUN/m_c/subject} never {VERB/m_c/feel/feels} the strain of getting around without it.  This moon's activities have left m_c particularly sore."
 
         ],
         "joint pain": [
@@ -51,26 +51,22 @@
     },
     "lost their tail": {
         "an infected wound": [
-            "r_c drags m_c into the medicine cat den, to apply a herbal salve despite m_c's protests - {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} begun to smell infection in the tail stump.",
-            "The stump where m_c's tail used to be has become infected."
-        ],
-        "phantom pain": [
-            "r_c can't give m_c answers - {PRONOUN/m_c/poss} tail is gone, and yet the pain in it remains.",
-            "m_c can't understand how an appendage that isn't there can possibly itch so badly, but it's driving {PRONOUN/m_c/object} insane."
+            "r_c drags m_c into the healer's den, to apply a herbal salve despite m_c's protests - {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} begun to smell infection in the antler stump.",
+            "The stump where m_c's antler used to be has become infected."
         ]
     },
     "paralyzed": {
         "an infected wound": [
-            "r_c brings m_c into the medicine cat den and starts searching - the sick stink of infection is coming from {PRONOUN/m_c/object}, but m_c hasn't noticed anything that could cause it.",
+            "r_c brings m_c into the healer's den and starts searching - the sick stink of infection is coming from {PRONOUN/m_c/object}, but m_c hasn't noticed anything that could cause it.",
             "It seems that m_c has gotten a scratch on the part of {PRONOUN/m_c/poss} body {PRONOUN/m_c/subject} can't feel. The wound went unnoticed until the stench of infection began to waft from it."
         ],
         "joint pain": [
             "m_c has been ordered by r_c to sit still and let {PRONOUN/m_c/poss} joints recover - it's the only way the joint pain in {PRONOUN/m_c/poss} front half will ease up.",
-            "The effort of dragging {PRONOUN/m_c/poss} paralyzed half across camp has left m_c's joints aching and sore."
+            "The effort of using {PRONOUN/m_c/poss} walking frame has left m_c's joints aching and sore."
         ],
         "sore": [
             "m_c stares, curious. {PRONOUN/m_c/subject/CAP} can't feel the spasms wracking {PRONOUN/m_c/poss} paralysed half, but r_c seems worried anyway, completely focused on massaging them out.",
-            "Despite all the work {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} put into strengthening {PRONOUN/m_c/poss} front half, today m_c is sore and uncomfortable from the effort it takes to get anywhere."
+            "Despite all the work {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} put into strengthening {PRONOUN/m_c/poss} upper body, today m_c is sore and uncomfortable from the effort it takes to use a walking frame."
         ],
         "torn pelt": [
             "m_c licks the scrape on {PRONOUN/m_c/poss} pelt fastidiously. {PRONOUN/m_c/subject/CAP} might not be able to feel it, but {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been warned of the danger of infection by r_c.",
@@ -142,10 +138,10 @@
     },
     "lasting grief": {
         "grief stricken": [
-            "r_c presses {PRONOUN/r_c/self} against m_c's side and purrs in the most comforting way {PRONOUN/r_c/subject} can. m_c remains still and staring, {PRONOUN/m_c/poss} eyes full of a deep sadness.",
-            "m_c stalks angrily from camp, the grief welling up in {PRONOUN/m_c/poss} throat feels like it will choke {PRONOUN/m_c/object} and m_c can't help but find it unfair that this sadness won't go away.",
-            "m_c breathes deeply, trying not to let this sudden wave of grief overtake {PRONOUN/m_c/object}, but it's hard and it never really goes away.",
-            "m_c wakes and nearly wails at the wave of grief that hits {PRONOUN/m_c/object}. Today isn't starting well."
+            "r_c gathers m_c into {PRONOUN/r_c/poss} arms and holds m_c tight. m_c remains still and staring, {PRONOUN/m_c/poss} mind miles away in an ocean of grief.",
+            "m_c storms out of camp, stabbing {PRONOUN/r_c/poss} spear into the ground with every step. The grief welling up in {PRONOUN/m_c/poss} throat feels like it will choke {PRONOUN/m_c/object} and m_c can't help but find it unfair that this sadness won't go away.",
+            "m_c breathes deeply, trying not to let this sudden wave of grief overtake {PRONOUN/m_c/object}, but it never really goes away.",
+            "m_c wakes up and nearly wails at the wave of grief that hits {PRONOUN/m_c/object}. Today isn't starting well."
         ]
     },
     "persistent headaches": {
@@ -154,7 +150,7 @@
             "m_c growls as another wave of head pain hits {PRONOUN/m_c/object}. It's on-and-off, and herbs have been helping, but StarClan help {PRONOUN/m_c/object}, having so many headaches gets annoying."
         ],
         "severe headache": [
-            "r_c sees m_c headed towards the medicine cat den, wincing with every step, and ducks inside to prepare a nest for {PRONOUN/m_c/object} in the darkest, quietest corner possible.",
+            "r_c sees m_c headed towards the healer's den, wincing with every step, and ducks inside to prepare a nest for {PRONOUN/m_c/object} in the darkest, quietest corner possible.",
             "m_c wakes up with pounding head pain and horrible light sensitivity. {PRONOUN/m_c/subject/CAP} {VERB/m_c/curl/curls} up as tightly in {PRONOUN/m_c/poss} nest as {PRONOUN/m_c/subject} can, screwing {PRONOUN/m_c/poss} eyes shut and flattening {PRONOUN/m_c/poss} ears. There's no way {PRONOUN/m_c/subject}'ll get work done today."
         ]
     }

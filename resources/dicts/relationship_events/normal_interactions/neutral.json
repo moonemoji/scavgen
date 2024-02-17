@@ -2,10 +2,10 @@
 	{
 		"id": "neutral_interaction1",
 		"interactions": [
-			"m_c saw r_c the other day, but didn't get a chance to meow hello.",
+			"m_c saw r_c the other day, but didn't get a chance to wave hello.",
 			"m_c bickered about something trivial with r_c.",
 			"m_c nods politely as r_c passes by.",
-			"m_c acknowledges r_c with a twitch of {PRONOUN/m_c/poss} whiskers."
+			"m_c acknowledges r_c with a two-fingered wave."
 		]
 	},
 	{
@@ -62,7 +62,7 @@
 		"id": "neutral_interaction6",
 		"interactions": [
 			"r_c seems to be oblivious to m_c glaring at {PRONOUN/r_c/object} from across camp.",
-			"m_c is sharpening {PRONOUN/m_c/poss} claws near r_c.",
+			"m_c is sharpening {PRONOUN/m_c/poss} spear near r_c.",
 			"m_c asks r_c to compare the size and sharpness of their claws together."
 		],
 		"main_trait_constraint": [
@@ -73,7 +73,7 @@
 		"id": "neutral_interaction7",
 		"interactions": [
 			"m_c doesn't notice r_c leaving camp.",
-			"m_c doesn't notice r_c twitching {PRONOUN/r_c/poss} whiskers at {PRONOUN/m_c/object}."
+			"m_c doesn't notice r_c waving at {PRONOUN/m_c/object}."
 		],
 		"main_trait_constraint": [
 			"oblivious"
@@ -83,7 +83,7 @@
 		"id": "neutral_interaction8",
 		"interactions": [
 			"r_c notices m_c sulking around camp again.",
-			"r_c meows hello to m_c, but {PRONOUN/m_c/subject} {VERB/m_c/look/looks} pretty glum still."
+			"r_c waves hello to m_c, but {PRONOUN/m_c/subject} {VERB/m_c/look/looks} pretty glum still."
 		],
 		"main_trait_constraint": [
 			"gloomy",
@@ -95,7 +95,7 @@
 		"interactions": [
 			"m_c always seems to avoid r_c's attempts at small talk.",
 			"r_c is amused at how m_c manages to look so grumpy all the time.",
-			"m_c avoids running into any cat, but r_c interrupts {PRONOUN/m_c/poss} peaceful silence.",
+			"m_c avoids running into anyone, but r_c interrupts {PRONOUN/m_c/poss} peaceful silence.",
 			"m_c stares at r_c with an unreadable expression."
 		],
 		"main_trait_constraint": [
