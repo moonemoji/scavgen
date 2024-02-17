@@ -23,7 +23,7 @@
 	{
 		"id": "admire_de_medium1",
 		"interactions": [
-			"m_c saw r_c take the last piece of prey from the fresh-kill pile.",
+			"m_c saw r_c take the last piece of food in the store pile.",
 			"m_c thinks r_c has a strange sense of humor.",
 			"m_c is frustrated that r_c won't take {PRONOUN/r_c/poss} actions more seriously.",
 			"m_c feels like r_c isn't taking {PRONOUN/r_c/poss} own personal health seriously."
@@ -43,7 +43,7 @@
 	{
 		"id": "admire_de_medium3",
 		"interactions": [
-			"m_c and r_c had to fix something around camp and argued about how to fix it. It ended up being fixed by some other cat in the end.",
+			"m_c and r_c had to fix something around camp and argued about how to do it. It ended up being fixed by some other cat in the end.",
 			"m_c notices that r_c has been avoiding {PRONOUN/r_c/poss} responsibilities lately.",
 			"m_c and r_c were supposed to be working together today, but they can never agree long enough to accomplish anything.",
 			"m_c is frustrated after finishing a task that r_c was supposed to do."

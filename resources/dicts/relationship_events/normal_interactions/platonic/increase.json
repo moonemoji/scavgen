@@ -20,15 +20,15 @@
 	{
 		"id": "platonic_inc_med1",
 		"interactions": [
-			"m_c saw r_c the other day and did get a chance to meow hello!",
-			"m_c reminds r_c to grab something from the fresh-kill pile if {PRONOUN/r_c/subject} {VERB/r_c/have/has}n't already."
+			"m_c saw r_c the other day and got a chance to wave hello!",
+			"m_c reminds r_c to grab something from the food store if {PRONOUN/r_c/subject} {VERB/r_c/have/has}n't already."
 		]
 	},
 	{
 		"id": "platonic_inc_med2",
 		"interactions": [
 			"m_c is telling a story to r_c.",
-			"m_c is sharing prey with r_c.",
+			"m_c is sharing a meal with r_c.",
 			"m_c chats with r_c while grabbing something to eat."
 		],
 		"reaction_random_cat": {
@@ -38,9 +38,10 @@
 	{
 		"id": "platonic_inc_med3",
 		"interactions": [
-			"m_c waves to r_c with {PRONOUN/m_c/poss} tail as their patrols cross paths on the territory.",
-			"m_c calls to r_c to catch {PRONOUN/m_c/object} a fat mouse on {PRONOUN/r_c/poss} next hunting patrol.",
-			"m_c hopes {PRONOUN/m_c/subject} {VERB/m_c/are/is} assigned to patrol with r_c tomorrow."
+			"m_c waves to r_c as their patrols cross paths on the territory.",
+			"m_c calls to r_c to catch {PRONOUN/m_c/object} a fat lantern mouse on {PRONOUN/r_c/poss} next hunting patrol.",
+			"m_c hopes {PRONOUN/m_c/subject} {VERB/m_c/are/is} assigned to patrol with r_c tomorrow.",
+			"m_c and r_c spend some time carving spears together."
 		],
 		"main_status_constraint": [
 			"apprentice",

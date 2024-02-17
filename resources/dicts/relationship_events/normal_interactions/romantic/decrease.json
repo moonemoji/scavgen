@@ -7,7 +7,7 @@
 			"m_c gave a gift to r_c, but {PRONOUN/r_c/subject} turned up {PRONOUN/r_c/poss} nose at the offering.",
 			"m_c heard r_c express an ideal {PRONOUN/m_c/subject} cannot agree with.",
 			"m_c heard r_c talking badly about {PRONOUN/m_c/object}.",
-			"m_c catches r_c staring at another cat."
+			"m_c catches r_c staring at another scavenger."
 		]
 	},
 	{
@@ -15,7 +15,7 @@
 		"intensity": "medium",
 		"interactions": [
 			"m_c feels like r_c hasn't been paying much attention to {PRONOUN/m_c/object} lately.",
-			"m_c is upset that r_c tried to give {PRONOUN/m_c/object} {PRONOUN/m_c/poss} least favorite prey - surely {PRONOUN/r_c/subject} {VERB/r_c/know/knows} what {PRONOUN/m_c/subject} {VERB/m_c/like/likes}!",
+			"m_c is upset that r_c tried to give {PRONOUN/m_c/object} {PRONOUN/m_c/poss} least favorite food - surely {PRONOUN/r_c/subject} {VERB/r_c/know/knows} what {PRONOUN/m_c/subject} {VERB/m_c/like/likes}!",
 			"m_c wishes r_c would stop giving {PRONOUN/m_c/object} gifts, as {PRONOUN/m_c/poss} nest is getting too full.",
 			"m_c hates the gift r_c gave {PRONOUN/m_c/object}."
 		],
@@ -27,8 +27,8 @@
 		"id": "rom_dec_medium2",
 		"intensity": "medium",
 		"interactions": [
-			"m_c told r_c to stop padding after {PRONOUN/m_c/object} like a lost kit.",
-			"m_c worries that r_c isn't being honest with their relationship.",
+			"m_c told r_c to stop padding after {PRONOUN/m_c/object} like a lost cub.",
+			"m_c worries that r_c isn't being honest about their relationship.",
 			"m_c can't stand r_c's snoring in {PRONOUN/r_c/poss} nest."
 		],
 		"relationship_constraint": [
@@ -60,7 +60,7 @@
 		"id": "rom_dec_medium4",
 		"intensity": "medium",
 		"interactions": [
-			"m_c had a disagreement with r_c over kits."
+			"m_c had a disagreement with r_c over cubs."
 		],
 		"relationship_constraint": [
 			"mates"

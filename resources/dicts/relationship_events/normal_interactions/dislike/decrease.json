@@ -50,7 +50,7 @@
 		"id": "dislike_de_high2",
 		"intensity": "high",
 		"interactions": [
-			"m_c and r_c joke around about how bad the other Clans smell.",
+			"m_c and r_c joke around about how bad the other Troops smell.",
 			"r_c can't help but laugh when m_c tells a funny joke.",
 			"r_c thinks that m_c isn't so bad after all."
 		],
@@ -62,7 +62,7 @@
 		"id": "dislike_de_high3",
 		"intensity": "high",
 		"interactions": [
-			"m_c and r_c heckled another Clan at the gathering together."
+			"m_c and r_c heckled another Troop at the gathering together."
 		],
 		"reaction_random_cat": {
 			"dislike": "decrease"
