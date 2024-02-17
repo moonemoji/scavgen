@@ -74,8 +74,8 @@
     },
     "mangled tail": {
         "an infected wound": [
-            "m_c's poor mangled antler is swollen and hot the touch, and r_c searches the herb stores for those that fight infection.",
-            "As if the injury wasn't bad enough, the skin of m_c's mangled antler has started to swell and feel feverish."
+            "m_c's poor broken antler is swollen and hot the touch, and r_c searches the herb stores for those that fight infection.",
+            "As if the injury wasn't bad enough, the base of m_c's broken antler has started to swell and feel feverish."
 
         ]
     },
@@ -184,9 +184,9 @@
     },
     "quilled by a porcupine": {
         "an infected wound": [
-            "r_c was careful when removing the quills from m_c's face, but unfortunately infection still found it's way in.",
-            "The wounds left behind on m_c by the quills have become infected.",
-            "m_c is distraught to find that infection has set in on {PRONOUN/m_c/poss} quill wounds."
+            "r_c was careful when removing the dart maggots from m_c's body, but unfortunately infection still found its way in.",
+            "The wounds left behind on m_c by the dart maggots have become infected.",
+            "m_c is distraught to find that infection has set in on {PRONOUN/m_c/poss} dart maggot wounds."
         ]
     },
     "poisoned": {

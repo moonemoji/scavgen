@@ -30,7 +30,7 @@
         "m_c died from a mangled leg."
     ],
     "mangled tail": [
-        "m_c died from a mangled antler."
+        "m_c died from a broken antler."
     ],
     "frostbite": [
         "m_c died from frostbite."
@@ -60,7 +60,7 @@
         "m_c's eyes were too badly damaged and {PRONOUN/m_c/subject} died."
     ],
     "quilled by a porcupine": [
-        "m_c died from {PRONOUN/m_c/poss} wounds after being stuck with quills."
+        "m_c died from {PRONOUN/m_c/poss} wounds after being stuck with darts by a spitting spider."
     ],
     "poisoned": [
         "m_c died from the poison in {PRONOUN/m_c/poss} body."

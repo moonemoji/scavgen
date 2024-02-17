@@ -8,9 +8,9 @@
             "Leaf-bare",
             "no_body"
         ],
-        "death_text": "m_c was taken by a hawk, never to be seen again.",
+        "death_text": "m_c was snatched away by a cicadafly, never to be seen again.",
         "history_text": {
-            "reg_death": "m_c was taken by a hawk."
+            "reg_death": "m_c was snatched away by a cicadafly."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -44,9 +44,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c fell into the river and drowned.",
+        "death_text": "m_c fell into leech-infested water and drowned.",
         "history_text": {
-            "reg_death": "m_c fell into the river and drowned."
+            "reg_death": "m_c fell into leech-infested water and drowned."
         },
         "cat_trait": [
             "daring",
@@ -108,9 +108,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was killed in {PRONOUN/m_c/poss} sleep by a snake that had snuck into camp.",
+        "death_text": "m_c was killed in {PRONOUN/m_c/poss} sleep by a centipede that had snuck into camp.",
         "history_text": {
-            "reg_death": "m_c was killed by a snake."
+            "reg_death": "m_c was killed by a centipede."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -124,9 +124,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c died of kittencough.",
+        "death_text": "m_c died of cubcough.",
         "history_text": {
-            "reg_death": "m_c died of kittencough."
+            "reg_death": "m_c died of cubcough."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -192,9 +192,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "r_c and m_c die from a bout of kittencough.",
+        "death_text": "r_c and m_c die from a bout of cubcough.",
         "history_text": {
-            "reg_death": "m_c died of kittencough."
+            "reg_death": "m_c died of cubcough."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -254,7 +254,7 @@
             "neg_platonic",
             "dislike"
         ],
-        "death_text": "m_c excitedly follows r_c a short distance from camp to begin the promised battle training. r_c says something about how real warriors don't hold back, even in a spar. m_c nods eagerly. {PRONOUN/m_c/subject/CAP} barely {VERB/m_c/have/has} time to duck as r_c's paw whistles past {PRONOUN/m_c/poss} head. The kit stumbles backwards, tripping over {PRONOUN/m_c/poss} paws, {PRONOUN/m_c/poss} head landing squarely on a rock.",
+        "death_text": "m_c excitedly follows r_c a short distance from camp to begin the promised battle training. r_c says something about how real warriors don't hold back, even in a spar. m_c nods eagerly. {PRONOUN/m_c/subject/CAP} barely {VERB/m_c/have/has} time to duck as r_c's spear whistles past {PRONOUN/m_c/poss} head. The cub stumbles backwards, tripping over {PRONOUN/m_c/poss} paws, {PRONOUN/m_c/poss} head landing squarely on a rock.",
         "history_text": {
             "reg_death": "m_c was killed in battle training with r_c.",
             "reg_murder_unrevealed": "m_c was killed in battle training with r_c."
@@ -277,7 +277,7 @@
             "neg_platonic",
             "dislike"
         ],
-        "death_text": "m_c quietly pads after r_c, eyes bright with the promise of exploring the territory. r_c suddenly comes to a stop beside a spiky bush, pointing at it with a claw. Apparently the shiny red berries taste just like fresh prey, and r_c is offering one to m_c! The kit excitedly nods and grabs a berry with {PRONOUN/m_c/poss} teeth. It's not exactly like prey... the kit's thought trails off as darkness takes over {PRONOUN/m_c/poss} vision.",
+        "death_text": "m_c quietly pads after r_c, eyes bright with the promise of exploring the territory. r_c suddenly comes to a stop beside a spiky bush, pointing at it. Apparently the shiny red berries taste just like fresh prey, and r_c is offering one to m_c! The cub excitedly nods and grabs a berry with both hands. It's not exactly like prey... the cub's thought trails off as darkness takes over {PRONOUN/m_c/poss} vision.",
         "history_text": {
             "reg_death": "m_c ate deathberries and succumbed to the poison.",
             "reg_murder_unrevealed": "m_c was fed deathberries by r_c."
@@ -296,7 +296,7 @@
             "neg_platonic",
             "dislike"
         ],
-        "death_text": "m_c sneaks out of camp, wondering what all is out there. {PRONOUN/m_c/subject/CAP} {VERB/m_c/come/comes} to a small stream and {VERB/m_c/attempt/attempts} to leap across. {PRONOUN/m_c/subject/CAP} misjudged the distance and {PRONOUN/m_c/poss} paws scrabble on the bank for purchase. m_c is losing {PRONOUN/m_c/poss} grip when {PRONOUN/m_c/subject} {VERB/m_c/think/thinks} {PRONOUN/m_c/subject} {VERB/m_c/catch/catches} a glimpse of r_c's pelt. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} about to call for help when {PRONOUN/m_c/poss} grip fails.",
+        "death_text": "m_c sneaks out of camp, wondering what could be out there. {PRONOUN/m_c/subject/CAP} {VERB/m_c/come/comes} to a small stream and {VERB/m_c/attempt/attempts} to leap across. {PRONOUN/m_c/subject/CAP} misjudged the distance and {PRONOUN/m_c/poss} paws scrabble on the bank for purchase. m_c is losing {PRONOUN/m_c/poss} grip when {PRONOUN/m_c/subject} {VERB/m_c/think/thinks} {PRONOUN/m_c/subject} {VERB/m_c/catch/catches} a glimpse of r_c's pelt. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} about to call for help when {PRONOUN/m_c/poss} grip fails.",
         "history_text": {
             "reg_death": "m_c drowned in a stream while r_c watched.",
             "reg_murder_unrevealed": "m_c drowned in a stream."

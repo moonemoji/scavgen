@@ -19,9 +19,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was mortally wounded by a fox, and lost a life.",
+        "death_text": "m_c was mortally wounded by a lizard and lost a life.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} wounded by a fox"
+            "lead_death": "{VERB/m_c/were/was} wounded by a lizard"
         },
         "cat_negate_skill": [
             "FIGHTER,2"
@@ -35,9 +35,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c lost a life to a dog.",
+        "death_text": "m_c lost a life to a centipede.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} mauled by a dog"
+            "lead_death": "{VERB/m_c/were/was} shocked by a centipede"
         },
         "cat_negate_skill": [
             "FIGHTER,2"
@@ -51,9 +51,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c lost a life to a badger.",
+        "death_text": "m_c lost a life to a vulture.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} killed by a badger"
+            "lead_death": "{VERB/m_c/were/was} killed by a vulture"
         },
         "cat_negate_skill": [
             "FIGHTER,2"
@@ -96,9 +96,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was bit by a venomous snake, and lost a life.",
+        "death_text": "m_c was grabbed by a pole plant, and lost a life.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} bit by a venomous snake"
+            "lead_death": "{VERB/m_c/were/was} grabbed by a pole plant"
         }
     },
     {
@@ -109,9 +109,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c ate tainted fresh-kill, and lost a life.",
+        "death_text": "m_c ate tainted food, and lost a life.",
         "history_text": {
-            "lead_death": "ate tainted fresh-kill"
+            "lead_death": "ate tainted food"
         }
     },
     {
@@ -146,9 +146,9 @@
             "neg_dislike",
             "comfort"
         ],
-        "death_text": "m_c lost a life defending r_c from a dog.",
+        "death_text": "m_c lost a life defending r_c from a lizard.",
         "history_text": {
-            "lead_death": "defended r_c from a dog"
+            "lead_death": "defended r_c from a lizard"
         },
         "cat_trait": [
             "altruistic",
@@ -184,9 +184,9 @@
             "neg_dislike",
             "comfort"
         ],
-        "death_text": "m_c lost a life defending r_c from a badger.",
+        "death_text": "m_c lost a life defending r_c from a vulture.",
         "history_text": {
-            "lead_death": "defended r_c from a badger"
+            "lead_death": "defended r_c from a vulture"
         },
         "cat_trait": [
             "altruistic",
@@ -222,9 +222,9 @@
             "neg_dislike",
             "comfort"
         ],
-        "death_text": "m_c lost a life defending r_c from a fox.",
+        "death_text": "m_c lost a life defending r_c from a centipede.",
         "history_text": {
-            "lead_death": "defended r_c from a fox"
+            "lead_death": "defended r_c from a centipede"
         },
         "cat_trait": [
             "altruistic",
@@ -293,9 +293,9 @@
             "neg_dislike",
             "comfort"
         ],
-        "death_text": "m_c lost a life saving r_c from a monster.",
+        "death_text": "m_c lost a life saving r_c from a pole plant.",
         "history_text": {
-            "lead_death": "saved r_c from a monster"
+            "lead_death": "saved r_c from a pole plant"
         },
         "cat_trait": [
             "altruistic",
@@ -326,9 +326,9 @@
             "neg_dislike",
             "comfort"
         ],
-        "death_text": "m_c lost a life saving r_c from a snake.",
+        "death_text": "m_c lost a life saving r_c from a deadly fall.",
         "history_text": {
-            "lead_death": "saved r_c from a snake"
+            "lead_death": "saved r_c from a deadly fall"
         },
         "cat_trait": [
             "altruistic",
@@ -359,9 +359,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c lost a life defending the kits from o_c warriors.",
+        "death_text": "m_c lost a life defending the cubs from o_c warriors.",
         "history_text": {
-            "lead_death": "defended the kits from o_c warriors"
+            "lead_death": "defended the cubs from o_c warriors"
         },
         "cat_trait": [
             "altruistic",
@@ -694,9 +694,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was mauled by dogs, and lost all of {PRONOUN/m_c/poss} lives.",
+        "death_text": "m_c was mauled by lizards, and lost all of {PRONOUN/m_c/poss} lives.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} mauled by dogs"
+            "lead_death": "{VERB/m_c/were/was} mauled by lizards"
         },
         "cat_negate_skill": [
             "FIGHTER,2"
@@ -967,10 +967,10 @@
             "dislike",
             "neg_respect"
         ],
-        "death_text": "m_c was pushed under a monster, and lost a life.",
+        "death_text": "m_c was pushed under falling rubble, and lost a life.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} pushed under a monster by r_c",
-            "lead_murder_unrevealed": "{VERB/m_c/were/was} pushed under a monster"
+            "lead_death": "{VERB/m_c/were/was} pushed under falling rubble by r_c",
+            "lead_murder_unrevealed": "{VERB/m_c/were/was} pushed under falling rubble"
         },
         "cat_trait": [
             "altruistic",
@@ -1080,10 +1080,10 @@
             "neg_trust",
             "dislike"
         ],
-        "death_text": "m_c and r_c were on a walk together when a pack of dogs caught them off guard. m_c prepared to fight, but when {PRONOUN/m_c/subject} looked to r_c for backup, the other cat was nowhere to be found. r_c watched quietly as the dogs took life after life from m_c.",
+        "death_text": "m_c and r_c were on a walk together when a pack of lizards caught them off guard. m_c prepared to fight, but when {PRONOUN/m_c/subject} looked to r_c for backup, the other scavenger was nowhere to be found. r_c watched quietly as the lizards tore life after life from m_c.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} indirectly murdered by r_c in a fatal dog attack",
-            "lead_murder_unrevealed": "{VERB/m_c/were/was} killed in a suspicious dog attack"
+            "lead_death": "{VERB/m_c/were/was} indirectly murdered by r_c in a fatal lizard attack",
+            "lead_murder_unrevealed": "{VERB/m_c/were/was} killed in a suspicious lizard attack"
         },
         "cat_negate_skill": [
             "FIGHTER,3"
@@ -1202,7 +1202,7 @@
         ],
         "death_text": "o_c attempted to break into the camp. m_c and r_c are left cold on the ground in the aftermath.",
         "history_text": {
-            "reg_death": "This cat died when o_c tried to break into camp.",
+            "reg_death": "This scavenger died when o_c tried to break into camp.",
             "lead_death": "tried to defend the Clan from o_c"
         }
     },
@@ -1221,10 +1221,10 @@
             "jealousy",
             "neg_platonic"
         ],
-        "death_text": "A yowl took m_c by surprise as {PRONOUN/m_c/subject} {VERB/m_c/were/was} patrolling the territory. r_c suddenly crashed into view, meowing about how m_c had to come and see. m_c followed the distressed warrior to a small ravine. {PRONOUN/m_c/subject/CAP} peered over the edge, and noted the sharp rocks at the bottom. Suddenly, {PRONOUN/m_c/subject} felt a sharp shove from behind, letting out a yowl of surprise that was cut short as {PRONOUN/m_c/subject} landed on the rocks.",
+        "death_text": "As {PRONOUN/m_c/subject} {VERB/m_c/were/was} patrolling the territory, r_c suddenly crashed into view, flailing about how m_c had to come and see. m_c followed the distressed warrior to the edge of a platform. {PRONOUN/m_c/subject/CAP} peered over the edge and noted the long drop. Suddenly, {PRONOUN/m_c/subject} felt a sharp shove from behind, eyes flying wide as {PRONOUN/m_c/subject} pitched over the edge.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} pushed into a ravine by r_c",
-            "lead_murder_unrevealed": "{VERB/m_c/were/was} found at the bottom of a ravine"
+            "reg_death": "m_c {VERB/m_c/were/was} pushed off a long drop by r_c.",
+            "reg_murder_unrevealed": "m_c {VERB/m_c/were/was} found mangled at the bottom of a long drop."
         }
     }
 ]
