@@ -25,9 +25,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c fell into a hidden burrow and was buried alive.",
+        "death_text": "m_c fell into a hidden pipe and was buried alive.",
         "history_text": {
-            "reg_death": "m_c fell into a hidden burrow."
+            "reg_death": "m_c fell into a hidden pipe."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -42,9 +42,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was buried alive when a burrow collapsed on {PRONOUN/m_c/object}.",
+        "death_text": "m_c was buried alive when a pipe collapsed on {PRONOUN/m_c/object}.",
         "history_text": {
-            "reg_death": "m_c was buried alive when a burrow collapsed."
+            "reg_death": "m_c was buried alive when a pipe collapsed."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -117,10 +117,10 @@
             "Leaf-bare",
             "war"
         ],
-        "death_text": "m_c was sealed into a cramped rabbit burrow by o_c warriors. {PRONOUN/m_c/subject/CAP} didn't make it out alive.",
+        "death_text": "m_c was sealed into a shelter by o_c warriors. {PRONOUN/m_c/subject/CAP} didn't make it out alive.",
         "history_text": {
-            "reg_death": "m_c suffocated underground.",
-            "lead_death": "was suffocated underground."
+            "reg_death": "m_c suffocated in a shelter.",
+            "lead_death": "was suffocated in a shelter."
         }
     }
 ]

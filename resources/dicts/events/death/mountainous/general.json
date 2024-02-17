@@ -5,9 +5,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was buried alive in an avalanche.",
+        "death_text": "m_c was buried alive beneath falling debris.",
         "history_text": {
-            "reg_death": "m_c was buried alive in an avalanche."
+            "reg_death": "m_c was buried alive beneath falling debris."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -21,9 +21,9 @@
             "Greenleaf",
             "Leaf-fall"
         ],
-        "death_text": "m_c was buried alive in a landslide.",
+        "death_text": "m_c fell from a high spire.",
         "history_text": {
-            "reg_death": "m_c was buried alive in a landslide."
+            "reg_death": "m_c was fell from a high spire."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -35,9 +35,9 @@
         "tags": [
             "Newleaf"
         ],
-        "death_text": "m_c was buried alive in a mudslide.",
+        "death_text": "m_c was snatched away by a vulture.",
         "history_text": {
-            "reg_death": "m_c was buried alive in a mudslide."
+            "reg_death": "m_c was snatched away by a vulture."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -52,9 +52,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c slipped off a cliff onto the sharp rocks at the bottom.",
+        "death_text": "m_c slipped off a tall perch and was impaled on a pole.",
         "history_text": {
-            "reg_death": "m_c slipped off the edge of a cliff."
+            "reg_death": "m_c slipped off a perch and was impaled on a pole."
         },
         "cat_trait": [
             "playful",
@@ -119,10 +119,10 @@
             "neg_platonic",
             "dislike"
         ],
-        "death_text": "m_c was pushed off a cliff onto the sharp rocks at the bottom. The culprit is unknown.",
+        "death_text": "m_c was pushed off a spire. The culprit is unknown.",
         "history_text": {
-            "reg_death": "m_c was pushed off a cliff by r_c.",
-            "reg_murder_unrevealed": "m_c was pushed off a cliff by an unknown killer."
+            "reg_death": "m_c was pushed off a spire by r_c.",
+            "reg_murder_unrevealed": "m_c was pushed off a spire by an unknown killer."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -150,10 +150,10 @@
             "neg_platonic",
             "dislike"
         ],
-        "death_text": "m_c was pushed off a cliff onto the sharp rocks at the bottom. r_c stands above {PRONOUN/m_c/object}, watching as they fall.",
+        "death_text": "m_c was pushed off a spire, down into the abyss below. r_c stands above {PRONOUN/m_c/object}, watching as they fall.",
         "history_text": {
-            "reg_death": "m_c was pushed off a cliff by r_c.",
-            "reg_murder_unrevealed": "m_c was pushed off a cliff by an unknown killer."
+            "reg_death": "m_c was pushed off a spire by r_c.",
+            "reg_murder_unrevealed": "m_c was pushed off a spire by an unknown killer."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -176,10 +176,10 @@
             "Leaf-bare",
             "war"
         ],
-        "death_text": "m_c was killed by a falling boulder pushed from a cliff above {PRONOUN/m_c/object} by o_c warriors.",
+        "death_text": "m_c was killed by rubble pushed from a platform above {PRONOUN/m_c/object} by o_c warriors.",
         "history_text": {
-            "reg_death": "m_c was crushed by a falling boulder.",
-            "lead_death": "{VERB/m_c/were/was} crushed by a falling boulder."
+            "reg_death": "m_c was crushed by falling rubble.",
+            "lead_death": "{VERB/m_c/were/was} crushed by falling rubble."
         }
     }
 ]
