@@ -81,8 +81,8 @@
 		"interactions": [
 			"r_c is teaching m_c how to walk without making a sound.",
 			"r_c is showing m_c how to sneak up on {PRONOUN/m_c/poss} enemies.",
-			"r_c convinces m_c to help {PRONOUN/r_c/object} pull a prank on a Clanmate.",
-			"m_c is whispering quietly with r_c."
+			"r_c convinces m_c to help {PRONOUN/r_c/object} pull a prank on a Troopmate.",
+			"m_c is talking indistinguishably with r_c."
 		],
 		"random_trait_constraint": [
 			"sneaky"
@@ -272,7 +272,7 @@
 	{
 		"id": "trust_med_inc_high2",
 		"interactions": [
-			"m_c observes r_c carefully attending to any cat that needs help.",
+			"m_c observes r_c carefully attending to anyone who needs help.",
 			"m_c feels like {PRONOUN/m_c/subject} can count on r_c to give {PRONOUN/m_c/object} the best treatment possible."
 		],
 		"random_status_constraint": [
