@@ -24,9 +24,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a fox.",
+        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a lizard.",
         "history_text": {
-            "reg_death": "m_c was killed by a fox."
+            "reg_death": "m_c was killed by a lizard."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -41,9 +41,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a badger.",
+        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a vulture.",
         "history_text": {
-            "reg_death": "m_c was killed by a badger."
+            "reg_death": "m_c was killed by a vulture."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -58,9 +58,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a dog.",
+        "death_text": "m_c was having a peaceful stroll outside of camp, when {PRONOUN/m_c/subject} {VERB/m_c/were/was} attacked and killed by a centipede.",
         "history_text": {
-            "reg_death": "m_c was killed by a dog."
+            "reg_death": "m_c was killed by a centipede."
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -103,7 +103,7 @@
             "classic",
             "Leaf-bare"
         ],
-        "death_text": "Weakened by a lack of prey, m_c couldn't fight off whitecough and passed away.",
+        "death_text": "Weakened by a lack of food, m_c couldn't fight off whitecough and passed away.",
         "history_text": {
             "reg_death": "m_c died of whitecough."
         },
