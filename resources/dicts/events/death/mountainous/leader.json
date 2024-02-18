@@ -23,9 +23,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c was grabbed and dropped by an eagle, losing a life.",
+        "death_text": "m_c was grabbed and dropped by a vulture, losing a life.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} grabbed by an eagle"
+            "lead_death": "{VERB/m_c/were/was} grabbed by a vulture"
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -55,9 +55,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c lost a life when {PRONOUN/m_c/subject} fell from the top branches of a tree.",
+        "death_text": "m_c lost a life when {PRONOUN/m_c/subject} fell from a tall tower.",
         "history_text": {
-            "lead_death": "fell from a tall tree"
+            "lead_death": "fell from a tall tower"
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -79,9 +79,9 @@
             "trust",
             "secure"
         ],
-        "death_text": "m_c lost a life defending r_c from a hawk.",
+        "death_text": "m_c lost a life defending r_c from a lizard.",
         "history_text": {
-            "lead_death": "defended r_c from a hawk"
+            "lead_death": "defended r_c from a lizard"
         },
         "cat_trait": [
             "altruistic",
@@ -120,9 +120,9 @@
             "trust",
             "secure"
         ],
-        "death_text": "m_c lost a life defending r_c from an eagle.",
+        "death_text": "m_c lost a life defending r_c from a vulture.",
         "history_text": {
-            "lead_death": "defended r_c from an eagle"
+            "lead_death": "defended r_c from a vulture"
         },
         "cat_trait": [
             "altruistic",
@@ -156,9 +156,9 @@
             "Leaf-bare",
             "no_body"
         ],
-        "death_text": "m_c was carried off by an eagle, never to be seen again.",
+        "death_text": "m_c was carried off by a vulture, never to be seen again.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} carried away by an eagle"
+            "lead_death": "{VERB/m_c/were/was} carried away by a vulture"
         },
         "cat_trait": null,
         "cat_skill": null,

@@ -10,7 +10,7 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "o_c warriors broke into the camp and killed m_c, after damaging the herb stores.",
+        "death_text": "o_c warriors broke into the camp and killed m_c after damaging the herb stores.",
         "history_text": {
             "reg_death": "m_c was killed when o_c warriors broke into camp."
         },
@@ -39,9 +39,9 @@
             "respect",
             "trust"
         ],
-        "death_text": "m_c was killed by a o_c warrior while pulling an injured Clanmate away from battle.",
+        "death_text": "m_c was killed by a o_c warrior while pulling an injured Troopmate away from battle.",
         "history_text": {
-            "reg_death": "m_c was killed by a o_c warrior while trying to aid an injured Clanmate."
+            "reg_death": "m_c was killed by a o_c warrior while trying to aid an injured Troopmate."
         },
         "cat_trait": [
             "compassionate",

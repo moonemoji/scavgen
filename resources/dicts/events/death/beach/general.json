@@ -97,9 +97,9 @@
             "Leaf-bare",
             "no_body"
         ],
-        "death_text": "m_c found {PRONOUN/m_c/self} staring at an odd shadow in the sea. One distracted paw slipped and {PRONOUN/m_c/subject} fell into the waves where something large and unseen tangled around {PRONOUN/m_c/object}, dragging {PRONOUN/m_c/object} into the abyss. ",
+        "death_text": "m_c was swimming in the sea when {PRONOUN/m_c/subject} felt something brush {PRONOUN/m_c/poss} foot. Within moments the jaws of a leviathan slammed shut around {PRONOUN/m_c/object} with a boom. ",
         "history_text": {
-            "reg_death": "m_c was taken by a mysterious sea creature."
+            "reg_death": "m_c was killed by a leviathan."
         },
         "cat_trait": null,
         "cat_skill": null,
