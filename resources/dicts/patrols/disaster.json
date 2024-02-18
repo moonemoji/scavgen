@@ -10,12 +10,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -29,7 +29,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -43,7 +43,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going, but they make sure to stay on the high ground as the rain pours down around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -75,12 +75,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavenger was drowned by floodwaters.",
                     "lead_death": "drowned in floodwaters"
                 },
                 "relationships": [
@@ -106,12 +106,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -125,7 +125,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -139,7 +139,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going, but they make sure to stay on the high ground as the rain pours down around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -171,12 +171,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavenger was drowned by floodwaters.",
                     "lead_death": "drowned in floodwaters"
                 },
                 "relationships": [
@@ -202,12 +202,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -221,7 +221,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -235,7 +235,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going, but they make sure to stay on the high ground as the rain pours down around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -267,12 +267,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavenger was drowned by floodwaters.",
                     "lead_death": "drowned in floodwaters"
                 },
                 "relationships": [
@@ -298,22 +298,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until r_c is back safe in the troop shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement and keeps going, but {PRONOUN/s_c/subject} {VERB/s_c/make/makes} sure to stay on the high ground as the rain pours down around {PRONOUN/s_c/object}.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -327,7 +327,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -349,22 +349,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until r_c is back safe in the troop shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement and keeps going, but {PRONOUN/s_c/subject} {VERB/s_c/make/makes} sure to stay on the high ground as the rain pours down around {PRONOUN/s_c/object}.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -378,7 +378,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -400,22 +400,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until r_c is back safe in the troop shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement and keeps going, but {PRONOUN/s_c/subject} {VERB/s_c/make/makes} sure to stay on the high ground as the rain pours down around {PRONOUN/s_c/object}.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -429,7 +429,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -451,23 +451,23 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol hears some odd noises coming from an abandoned Twoleg nest out on the plains.",
+        "intro_text": "Your patrol hears some odd noises coming from a half-collapsed structure out on the plains.",
         "decline_text": "Your patrol decides not to investigate.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "It's just an odd loner singing to themself. The patrol greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility.",
+                "text": "It's just an odd slugcat singing to themself. The patrol greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility or need for exchange.",
                 "exp": 30,
                 "weight": 20
             },
             {
-                "text": "Your patrol walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c is there, fighting with the ferocity of LionClan, the strength of TigerClan, and the flexibility of LeopardClan. Shaken, but no more than bruised, the patrol manages to retreat to safety.",
+                "text": "Your patrol walks into an ambush by a group of rogues. It's only by sheer luck that s_c is there, fighting with the ferocity of ten scavengers. Shaken, but no more than bruised, the patrol manages to retreat to safety.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"]
             },
             {
-                "text": "s_c signals for the patrol to stop. Carefully, quietly, {PRONOUN/s_c/subject} {VERB/s_c/explain/explains} {PRONOUN/s_c/poss} concerns about the unknown situation. And maybe {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} being too cautious - but then p_l picks up on the scent of strange cats around the Twoleg den. Forewarned, the patrol retreats to safety.",
+                "text": "s_c signals for the patrol to stop. Carefully, quietly, {PRONOUN/s_c/subject} {VERB/s_c/explain/explains} {PRONOUN/s_c/poss} concerns about the unknown situation. And maybe {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} being too cautious - but then p_l picks up on the scent of strange scavengers around the ruins. Forewarned, the patrol retreats to safety.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["careful", "insecure", "nervous"]
@@ -480,7 +480,7 @@
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat died from being ambushed by rogues.",
+                    "reg_death": "This scavenger died from being ambushed by rogues.",
                     "lead_death": "{VERB/m_c/were/was} ambushed by rogues"
                 }
             }
@@ -497,28 +497,28 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c hears some odd noises coming from an abandoned Twoleg nest out on the plains.",
+        "intro_text": "r_c hears some odd noises coming from a half-collapsed structure out on the plains.",
         "decline_text": "Your patrol decides not to investigate.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It's just an odd loner singing to themself. r_c greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility.",
+                "text": "It's just an odd slugcat singing to themself. r_c greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility or need for exchange.",
                 "exp": 30,
                 "weight": 20
             },
             {
-                "text": "It's just an odd loner singing to themself. When they see r_c, they invite {PRONOUN/r_c/object} to sing too. {PRONOUN/r_c/subject/CAP} politely {VERB/r_c/decline/declines} and continues on {PRONOUN/r_c/poss} solo patrol.",
+                "text": "It's just an odd slugcat singing to themself. When they see r_c, they wave at {PRONOUN/r_c/object} with beckoning paws. {PRONOUN/r_c/subject/CAP} politely {VERB/r_c/decline/declines} whatever invitation the slugcat is giving {PRONOUN/r_c/object} and continues on {PRONOUN/r_c/poss} solo patrol.",
                 "exp": 30,
                 "weight": 5
             },
             {
-                "text": "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, running for {PRONOUN/s_c/poss} life.",
+                "text": "s_c walks into an ambush by a group of rogues. It's only by sheer luck that s_c has the fighting skill and confidence to escape, running for {PRONOUN/s_c/poss} life.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"]
             },
             {
-                "text": "s_c has a bad feeling about this. And maybe {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} being too cautious - but then {PRONOUN/s_c/subject} {VERB/s_c/pick/picks} up on the scent of strange cats around the Twoleg den. Forewarned, s_c retreats to safety.",
+                "text": "s_c has a bad feeling about this. And maybe {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} being too cautious - but then {PRONOUN/s_c/subject} {VERB/s_c/pick/picks} up on the scent of strange scavengers around the ruins. Forewarned, s_c retreats to safety.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["careful", "insecure", "nervous"]
@@ -531,7 +531,7 @@
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat died from being ambushed by rogues while on a solo patrol.",
+                    "reg_death": "This scavenger died from being ambushed by rogues while on a solo patrol.",
                     "lead_death": "{VERB/m_c/were/was} ambushed by rogues while on a solo patrol"
                 }
             }
@@ -548,12 +548,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -567,7 +567,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -581,7 +581,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going, but they make sure to stay far from the riverbanks as the rain begins to pour around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -613,12 +613,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavenger was drowned by floodwaters.",
                     "lead_death": "drowned by floodwaters"
                 },
                 "relationships": [
@@ -644,12 +644,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -663,7 +663,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -677,7 +677,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going, but they make sure to stay on the high ground as the rain pours down around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -709,7 +709,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["patrol"],
@@ -736,12 +736,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -755,7 +755,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -769,7 +769,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going, but they make sure to stay on the high ground as the rain pours down around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -801,7 +801,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["patrol"],
@@ -828,22 +828,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until r_c is back safe in the troop shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement and keeps going, but {PRONOUN/s_c/subject} {VERB/s_c/make/makes} sure to stay on the high ground as the rain pours down around them.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -857,7 +857,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -879,17 +879,17 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until r_c is back safe in the troop shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
@@ -908,7 +908,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -930,17 +930,17 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until r_c is back safe in the troop shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
@@ -959,7 +959,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -981,12 +981,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1000,7 +1000,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1046,12 +1046,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavenger was drowned by floodwaters.",
                     "lead_death": "drowned by floodwaters"
                 },
                 "relationships": [
@@ -1077,12 +1077,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1096,7 +1096,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1142,12 +1142,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavenger was drowned by floodwaters.",
                     "lead_death": "drowned by floodwaters"
                 },
                 "relationships": [
@@ -1173,12 +1173,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1192,7 +1192,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1206,7 +1206,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going. They stick to the ridges, avoiding the mountain valleys as the rain begins to pour around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -1238,12 +1238,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavenger was drowned by floodwaters.",
                     "lead_death": "drowned by floodwaters"
                 },
                 "relationships": [
@@ -1269,22 +1269,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement and keeps going, but {PRONOUN/s_c/subject} {VERB/s_c/make/makes} sure to stay on the ridges and avoid the mountain valleys as the rain pours down around {PRONOUN/s_c/object}.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -1298,7 +1298,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -1320,22 +1320,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement and keeps going, but {PRONOUN/s_c/subject} {VERB/s_c/make/makes} sure to stay on the ridges and avoid the mountain valleys as the rain pours down around them.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -1349,7 +1349,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -1371,22 +1371,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement and keeps going, but {PRONOUN/s_c/subject} {VERB/s_c/make/makes} sure to stay on the ridges and avoid the mountain valleys as the rain pours down around them.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -1400,7 +1400,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -1422,28 +1422,28 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol hears some odd noises coming from an abandoned Twoleg nest out on the cliffs above the beach.",
+        "intro_text": "Your patrol hears some odd noises coming from a half-collapsed structure out on the cliffs above the beach.",
         "decline_text": "Your patrol decides not to investigate.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "It's just an odd loner singing to themself. The patrol greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility.",
+                "text": "It's just an odd slugcat singing to themself. The patrol greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility or need for exchange.",
                 "exp": 30,
                 "weight": 20
             },
             {
-                "text": "It's just an odd loner singing to themself. When they see the patrol they invite them to sing, too. The patrol politely declines, but compliments the loner's songs.",
+                "text": "It's just an odd slugcat singing to themself. When they see the patrol they wave their paws at them, beckoning. The patrol politely declines whatever is being offered, but compliments the loner's songs.",
                 "exp": 30,
                 "weight": 5
             },
             {
-                "text": "Your patrol walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c is there, fighting with the ferocity of LionClan, the strength of TigerClan, and the flexibility of LeopardClan. Shaken, but no more than bruised, the patrol manages to retreat to safety.",
+                "text": "Your patrol walks into an ambush by a group of rogues. It's only by sheer luck that s_c is there, fighting with the ferocity of ten scavengers. Shaken, but no more than bruised, the patrol manages to retreat to safety.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"]
             },
             {
-                "text": "s_c signals for the patrol to stop. Carefully, quietly, {PRONOUN/s_c/subject} {VERB/s_c/explain/explains} their concerns about the unknown situation. And maybe they're being too cautious - but then p_l picks up on the scent of strange cats around the Twoleg den. Forewarned, the patrol retreats to safety.",
+                "text": "s_c signals for the patrol to stop. Carefully, quietly, {PRONOUN/s_c/subject} {VERB/s_c/explain/explains} their concerns about the unknown situation. And maybe they're being too cautious - but then p_l picks up on the scent of strange scavengers around the ruins. Forewarned, the patrol retreats to safety.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["careful", "insecure", "nervous"]
@@ -1456,7 +1456,7 @@
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat died from being ambushed by rogues.",
+                    "reg_death": "This scavenger died from being ambushed by rogues.",
                     "lead_death": "{VERB/m_c/were/was} ambushed by rogues"
                 }
             }
@@ -1473,28 +1473,28 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c hears some odd noises coming from an abandoned Twoleg nest out on the cliffs above the beach.",
+        "intro_text": "r_c hears some odd noises coming from a half-collapsed structure out on the cliffs above the beach.",
         "decline_text": "Your patrol decides not to investigate.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "It's just an odd loner singing to themself. r_c greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility.",
+                "text": "It's just an odd slugcat singing to themself. r_c greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility or need for exchange.",
                 "exp": 30,
                 "weight": 20
             },
             {
-                "text": "It's just an odd loner singing to themself. When they see r_c, they invite {PRONOUN/r_c/object} to sing too. {PRONOUN/r_c/subject/CAP} politely {VERB/r_c/decline/declines}, but {VERB/r_c/compliment/compliments} the loner's songs.",
+                "text": "It's just an odd slugcat singing to themself. When they see r_c, they wave at {PRONOUN/r_c/object} with beckoning paws. {PRONOUN/r_c/subject/CAP} politely {VERB/r_c/decline/declines} whatever invitation the slugcat is giving, but {VERB/r_c/compliment/compliments} the loner's songs.",
                 "exp": 30,
                 "weight": 5
             },
             {
-                "text": "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, running for {PRONOUN/s_c/poss} life.",
+                "text": "s_c walks into an ambush by a group of rogues. It's only by sheer luck that s_c has the fighting skill and confidence to escape, running for {PRONOUN/s_c/poss} life.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"]
             },
             {
-                "text": "s_c has a bad feeling about this. And maybe {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} being too cautious - but then {PRONOUN/s_c/subject} {VERB/s_c/pick/picks} up on the scent of strange cats around the Twoleg den. Forewarned, s_c retreats to safety.",
+                "text": "s_c has a bad feeling about this. And maybe {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} being too cautious - but then {PRONOUN/s_c/subject} {VERB/s_c/pick/picks} up on the scent of strange scavengers around the ruins. Forewarned, s_c retreats to safety.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["careful", "insecure", "nervous"]
@@ -1507,7 +1507,7 @@
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat died from being ambushed by rogues while on a solo patrol.",
+                    "reg_death": "This scavenger died from being ambushed by rogues while on a solo patrol.",
                     "lead_death": "{VERB/m_c/were/was} ambushed by rogues while on a solo patrol"
                 }
             }
@@ -1524,12 +1524,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1543,7 +1543,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1557,7 +1557,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going. They stick to the clifftops, avoiding the low beaches as the rain begins to pour around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -1589,12 +1589,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavenger was drowned by floodwaters.",
                     "lead_death": "drowned by floodwaters"
                 },
                 "relationships": [
@@ -1620,22 +1620,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and r_c wonders if {PRONOUN/r_c/subject} {VERB/r_c/has/have} enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement and keeps going, but {PRONOUN/s_c/subject} {VERB/s_c/stick/sticks} to the clifftops, avoiding the low beaches as the rain pours down around {PRONOUN/s_c/object}.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -1649,7 +1649,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -1676,7 +1676,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The cats leap forward, dashing to the other side of the beach and up onto the rocks. They make it in time to watch the beach get lost under a tide of water from inland.",
+                "text": "The scavengers leap forward, dashing to the other side of the beach and up onto the rocks. They make it in time to watch the beach get lost under a tide of water from inland.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -1691,7 +1691,7 @@
                 ]
             },
             {
-                "text": "s_c shouts to get back! The patrol scrambles back the way they came and watches the beach disappear under a flood of water. It leaves behind a changed landscape, tons of debris - and a large dead sheep. Your cats pounce on the opportunity to scavenge.",
+                "text": "s_c shouts to get back! The patrol scrambles back the way they came and watches the beach disappear under a flood of water. It leaves behind a changed landscape, tons of debris - and a large dead aquapede. Your scavengers pounce on the opportunity to scavenge.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,3"],
@@ -1707,7 +1707,7 @@
                 ]
             },
             {
-                "text": "s_c shrieks at the strange sound, paws digging into the sand as {PRONOUN/s_c/subject} turn and run for home. The rest of the patrol yowls at them to stop, running after {PRONOUN/s_c/object}, but s_c is proven right when the beach disappears under a flood of water from inland. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'ve/'s} saved them all.",
+                "text": "s_c shrieks at the strange sound, fingers digging into the sand as {PRONOUN/s_c/subject} turn and run for home. The rest of the patrol yowls at {PRONOUN/s_c/object} to stop, running after {PRONOUN/s_c/object}, but s_c is proven right when the beach disappears under a flood of water from inland. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'ve/'s} saved them all.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["careful", "insecure", "nervous"],
@@ -1725,12 +1725,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cats are in the middle of the beach when the flood hits them, freezing water rushing from inland, sweeping them straight out to sea to die in the cold ocean.",
+                "text": "The scavengers are in the middle of the beach when the flood hits them, freezing water rushing from inland, sweeping them straight out to sea to die in the cold ocean.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "reg_death": "This cat was swept out to sea by a flood.",
+                    "reg_death": "This scavenger was swept out to sea by a flood.",
                     "lead_death": "{VERB/m_c/were/was} swept out to sea by a flood"
                 },
                 "relationships": [
@@ -1756,12 +1756,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon and p_l wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "intro_text": "There are dark clouds on the horizon and p_l wonders if they have enough time to continue.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1775,7 +1775,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain but otherwise the patrol is successful.",
+                "text": "The scavengers finish their patrol with moments to spare; just as the rain starts thundering down in full force, they vanish into their shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1789,7 +1789,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgement, and the patrol keeps going. They stick to solid ground, sometimes routing themselves through the trees as the rain begins to pour around them.",
+                "text": "s_c remembers there's another shelter nearby, and the patrol keeps going. They hide in the shelter as the rain pours down around them, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"],
@@ -1821,11 +1821,11 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river in the swamp sweeps all of the cats in the patrol away.",
+                "text": "There is a downpour and the force of the rain sweeps all of the scavengers in the patrol away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
-                "history_text": { "reg_death": "This cat was drowned by floodwaters." },
+                "history_text": { "reg_death": "This scavenger was drowned by floodwaters." },
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1850,21 +1850,21 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "There are dark clouds on the horizon and r_c wonders if they should continue.",
-        "decline_text": "Your patrol decides to head back early.",
+        "decline_text": "Your patrol decides not to risk it and heads back early.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "While it's pretty gray up there, the promised rain doesn't come until the patrol is back safe in their shelter.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c becomes wet from the rain but otherwise the patrol is successful.",
+                "text": "r_c finishes the patrol with moments to spare; just as the rain starts thundering down in full force, {PRONOUN/r_c/subject} {VERB/r_c/vanish/vanishes} into {PRONOUN/s_c/poss} shelter and slam the gates.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgement, and keeps going. They stick to solid ground, sometimes routing themselves through the trees as the rain begins to pour around them.",
+                "text": "s_c remembers there's another shelter nearby and keeps going. When the rain comes, {PRONOUN/s_c/subject} {VERB/s_c/hide/hides} in the shelter as it pours down around {PRONOUN/s_c/object}, and return to the troop safe and sound during the next cycle.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2"]
@@ -1878,7 +1878,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river in the swamp sweeps r_c away.",
+                "text": "There is a downpour and the force of the rain sweeps r_c away.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
@@ -1902,7 +1902,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The cats leap forward, dashing to the other side of the bog and up into the trees. They make it in time to watch the swamp get lost under a tide of water from inland.",
+                "text": "The scavengers leap forward, dashing to the other side of the bog and up into the trees. They make it in time to watch the swamp get lost under a tide of water from inland.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -1917,7 +1917,7 @@
                 ]
             },
             {
-                "text": "s_c shouts to get back! The patrol scrambles back the way they came and watches the swamp disappear under a flood of water. It leaves behind a changed landscape, tons of debris - and a large dead sheep. Your cats pounce on the opportunity to scavenge.",
+                "text": "s_c shouts to get back! The patrol scrambles back the way they came and watches the swamp disappear under a flood of water. It leaves behind a changed landscape, tons of debris - and a large dead aquapede. Your scavengers pounce on the opportunity to scavenge.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,3"],
@@ -1933,7 +1933,7 @@
                 ]
             },
             {
-                "text": "s_c shrieks at the strange sound, paws digging into the mud as {PRONOUN/s_c/subject} turn and run for home. The rest of the patrol yowls at them to stop, running after {PRONOUN/s_c/object}, but s_c is proven right when the swamp disappears under a flood of water from inland. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'ve/'s} saved them all.",
+                "text": "s_c shrieks at the strange sound, fingers digging into the mud as {PRONOUN/s_c/subject} turn and run for home. The rest of the patrol yowls at {PRONOUN/s_c/object} to stop, running after {PRONOUN/s_c/object}, but s_c is proven right when the swamp disappears under a flood of water from inland. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'ve/'s} saved them all.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["careful", "insecure", "nervous"],
@@ -1951,11 +1951,11 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cats are in the middle of the bog when the flood hits them, freezing water rushing past, sweeping them straight out into the churning river, under it's ice.",
+                "text": "The scavengers are in the middle of the bog when the flood hits them, freezing water rushing past, sweeping them straight out into the churning river, under its ice.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["patrol"],
-                "history_text": { "reg_death": "This cat was killed by a flood." },
+                "history_text": { "reg_death": "This scavenger was killed by a flood." },
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1989,13 +1989,13 @@
                 "weight": 20
             },
             {
-                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Troopmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated these Troop scavengers, the rogues turn tail and run.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"]
             },
             {
-                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} teeth bared and claws ready. The rogues are quickly driven away by the patrol.",
+                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} mandibles bared and spear ready. The rogues are quickly driven away by the patrol.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "fierce", "vengeful"]
@@ -2008,8 +2008,8 @@
                 "weight": 10,
                 "dead_cats": ["patrol"],
                 "history_text": {
-                    "scar": "This cat was badly scarred when rogues ambushed their patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "scar": "This scavenger was badly scarred when rogues ambushed their patrol.",
+                    "reg_death": "This scavenger was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
                 }
             },
@@ -2025,8 +2025,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat was badly scarred when rogues ambushed their patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "scar": "This scavenger was badly scarred when rogues ambushed their patrol.",
+                    "reg_death": "This scavenger was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
                 }
             }
@@ -2053,13 +2053,13 @@
                 "weight": 20
             },
             {
-                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Troopmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated these Troop scavengers, the rogues turn tail and run.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"]
             },
             {
-                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} teeth bared and claws ready. The rogues are quickly driven away by the patrol.",
+                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} mandibles bared and spear ready. The rogues are quickly driven away by the patrol.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "fierce", "vengeful"]
@@ -2073,7 +2073,7 @@
                 "dead_cats": ["patrol"],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues ambushed {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavenger was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
                 }
             },
@@ -2090,7 +2090,7 @@
                 ],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues ambushed {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavenger was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
                 }
             }
@@ -2117,13 +2117,13 @@
                 "weight": 20
             },
             {
-                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Troopmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated these Troop scavengers, the rogues turn tail and run.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"]
             },
             {
-                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} teeth bared and claws ready. The rogues are quickly driven away by the patrol.",
+                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} mandibles bared and spear ready. The rogues are quickly driven away by the patrol.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "fierce", "vengeful"]
@@ -2137,7 +2137,7 @@
                 "dead_cats": ["patrol"],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues ambushed {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavenger was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
                 }
             },
@@ -2154,7 +2154,7 @@
                 ],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues ambushed {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavenger was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
                 }
             }
@@ -2181,13 +2181,13 @@
                 "weight": 20
             },
             {
-                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Troopmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated these Troop scavengers, the rogues turn tail and run.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"]
             },
             {
-                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} teeth bared and claws ready. The rogues are quickly driven away by the patrol.",
+                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} mandibles bared and spear ready. The rogues are quickly driven away by the patrol.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "fierce", "vengeful"]
@@ -2201,7 +2201,7 @@
                 "dead_cats": ["patrol"],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues ambushed {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavenger was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
                 }
             },
@@ -2218,7 +2218,7 @@
                 ],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues ambushed {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavenger was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
                 }
             }
