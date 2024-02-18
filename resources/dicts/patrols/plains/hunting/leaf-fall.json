@@ -15,7 +15,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Your cats are smaller but they outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your scavengers are smaller but they outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -30,7 +30,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the scavengers harry and harass the fox until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -46,7 +46,7 @@
                 ]
             },
             {
-                "text": "The patrol launches into battle, but with so few cats it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
+                "text": "The patrol launches into battle, but with so few scavengers it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under the jaws, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -88,7 +88,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the cats give up on challenging for the food in favor of quickly helping r_c back to the medicine cat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the scavengers give up on challenging for the food in favor of quickly helping r_c back to the healer den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -152,7 +152,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "Your cats are smaller but heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your scavengers are smaller but heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full of venison and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -167,7 +167,7 @@
                 ]
             },
             {
-                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hind legs. The fox runs, but there's no way it'll live long with such a crippling injury.",
+                "text": "s_c shows their strength, leading the fight against the fox. By working together and keeping it distracted, the scavengers harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hind legs. The fox runs, but there's no way it'll live long with such a crippling injury.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -210,7 +210,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However with so many cats to protect each other, there were no injuries.",
+                "text": "Your patrol fails to drive away the fox, which keeps possession of the food. However with so many scavengers to protect each other, there were no injuries.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -225,7 +225,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the cats give up on challenging for the food in favor of quickly helping r_c back to the medicine cat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the scavengers give up on challenging for the food in favor of quickly helping r_c back to the healer den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -498,7 +498,7 @@
                 ]
             },
             {
-                "text": "The patrol hunts down and overcomes the red vixen they discover, driving her off thanks to a brilliant battle move by s_c at a critical moment. {PRONOUN/s_c/poss/CAP} bravery ensures the patrol's success, and the cats arrive back at camp singing {PRONOUN/s_c/poss} praises to make sure the Clan knows it.",
+                "text": "The patrol hunts down and overcomes the red vixen they discover, driving her off thanks to a brilliant battle move by s_c at a critical moment. {PRONOUN/s_c/poss/CAP} bravery ensures the patrol's success, and the scavengers arrive back at camp singing {PRONOUN/s_c/poss} praises to make sure the Clan knows it.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -673,7 +673,7 @@
                 ]
             },
             {
-                "text": "With so many cats working together in tight coordination, they manage to accomplish the near-impossible, killing the mother vixen and ending the threat to the Clan that she poses. The patrol drives her near-full grown litter of fox cubs out from the territory. Hopefully the coming leaf-bare will take care of them.",
+                "text": "With so many scavengers working together in tight coordination, they manage to accomplish the near-impossible, killing the mother vixen and ending the threat to the Clan that she poses. The patrol drives her near-full grown litter of fox cubs out from the territory. Hopefully the coming leaf-bare will take care of them.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -702,7 +702,7 @@
                 ]
             },
             {
-                "text": "The patrol hunts down and overcomes the red vixen they discover, driving her off thanks to a brilliant battle move by s_c at a critical moment. {PRONOUN/s_c/poss/CAP} bravery ensures the patrol's success, and the cats arrive back at camp singing {PRONOUN/s_c/poss} praises to make sure the Clan knows it.",
+                "text": "The patrol hunts down and overcomes the red vixen they discover, driving her off thanks to a brilliant battle move by s_c at a critical moment. {PRONOUN/s_c/poss/CAP} bravery ensures the patrol's success, and the scavengers arrive back at camp singing {PRONOUN/s_c/poss} praises to make sure the Clan knows it.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -732,7 +732,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The mother red fox is vicious and determined. Although they lose this battle, through teamwork the cats manage to retreat without injury.",
+                "text": "The mother red fox is vicious and determined. Although they lose this battle, through teamwork the scavengers manage to retreat without injury.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -959,7 +959,7 @@
                 ]
             },
             {
-                "text": "The patrol sneaks closer, until p_l realises that the swift vixen is approaching her den. Her cubs, nearly full grown on prey stolen from c_n's territory, poke their heads out, and the cats yowl in outrage. They charge the den, killing two of the cubs before the vixen runs with her third.",
+                "text": "The patrol sneaks closer, until p_l realises that the swift vixen is approaching her den. Her cubs, nearly full grown on prey stolen from c_n's territory, poke their heads out, and the scavengers yowl in outrage. They charge the den, killing two of the cubs before the vixen runs with her third.",
                 "exp": 30,
                 "weight": 5,
                 "prey": ["large"],
@@ -974,7 +974,7 @@
                 ]
             },
             {
-                "text": "s_c holds the patrol back until they spot the swift vixen's mate, approaching with poached prey in his jaws. Together, the cats ambush the foxes, bursting from cover with claws unsheathed as a vicious fight starts. But warriors fight as a team, and the foxes do not, and one flees, abandoning its mate and cubs to the fury of c_n.",
+                "text": "s_c holds the patrol back until they spot the swift vixen's mate, approaching with poached prey in his jaws. Together, the scavengers ambush the foxes, bursting from cover with claws unsheathed as a vicious fight starts. But warriors fight as a team, and the foxes do not, and one flees, abandoning its mate and cubs to the fury of c_n.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1", "FIGHTER,1"],
@@ -1149,7 +1149,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "As the patrol approaches, the swift fox spots them and backs off from the carcass with a whine. Your cats can feed in peace for now, but larger predators will surely soon come to throw them off the kill. By cooperating together, the patrol is able to at least drag some of the intestines home to camp.",
+                "text": "As the patrol approaches, the swift fox spots them and backs off from the carcass with a whine. Your scavengers can feed in peace for now, but larger predators will surely soon come to throw them off the kill. By cooperating together, the patrol is able to at least drag some of the intestines home to camp.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -1164,7 +1164,7 @@
                 ]
             },
             {
-                "text": "s_c sits and watches the swift fox as the patrol takes over the kill without a fight. It wanders the area, grabbing pieces of gristle and meat and caching them in little holes, giving s_c an idea. Together the Clan cats gnaw off a leg, and take their bony prize back to camp for c_n.",
+                "text": "s_c sits and watches the swift fox as the patrol takes over the kill without a fight. It wanders the area, grabbing pieces of gristle and meat and caching them in little holes, giving s_c an idea. Together the Clan scavengers gnaw off a leg, and take their bony prize back to camp for c_n.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -1180,7 +1180,7 @@
                 ]
             },
             {
-                "text": "While the rest of the patrol feeds on the kill, the swift fox gnawing on the head at the other end in uneasy truce, s_c keeps watch. It turns out to have been a wise move, as they spot a cougar's ears sticking up out of the grass. The kill's original owner is coming back, and the cats vacate with speed.",
+                "text": "While the rest of the patrol feeds on the kill, the swift fox gnawing on the head at the other end in uneasy truce, s_c keeps watch. It turns out to have been a wise move, as they spot a cougar's ears sticking up out of the grass. The kill's original owner is coming back, and the scavengers vacate with speed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1209,7 +1209,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The swift fox gives up on the kill with a snarl, but a coyote yip in the distance sends both the smaller predator species running, the cats puffed up and uncomfortable.",
+                "text": "The swift fox gives up on the kill with a snarl, but a coyote yip in the distance sends both the smaller predator species running, the scavengers puffed up and uncomfortable.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1539,7 +1539,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Slowly, carefully, the young cats enter the burrow. It's dark and cramped, but they fit fine, and are able to follow their noses to the heart of the den. It's easy pickings at that point; the squirrels are awake, and some wriggle past, but when they emerge (covered in dirt and mud), it's with a good haul of squirrels to bring home!",
+                "text": "Slowly, carefully, the young scavengers enter the burrow. It's dark and cramped, but they fit fine, and are able to follow their noses to the heart of the den. It's easy pickings at that point; the squirrels are awake, and some wriggle past, but when they emerge (covered in dirt and mud), it's with a good haul of squirrels to bring home!",
                 "exp": 40,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1554,7 +1554,7 @@
                 ]
             },
             {
-                "text": "Slowly, carefully, the young cats enter the burrow. It's dark and cramped, but they fit fine, and are able to follow their noses to the heart of the den. It's easy pickings at that point; with the squirrels all asleep, the apprentices kill them quietly and without any fuss. It takes two trips for them to bring it all home!",
+                "text": "Slowly, carefully, the young scavengers enter the burrow. It's dark and cramped, but they fit fine, and are able to follow their noses to the heart of the den. It's easy pickings at that point; with the squirrels all asleep, the apprentices kill them quietly and without any fuss. It takes two trips for them to bring it all home!",
                 "exp": 40,
                 "weight": 5,
                 "prey": ["large"],
@@ -1571,7 +1571,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Slowly, carefully, the young cats enter the burrow. It's dark and cramped, but they fit fine, and are able to follow their noses to the heart of the den. Unfortunately, the burrow is barren, not a single squirrel to be found, and the apprentices head home disappointed.",
+                "text": "Slowly, carefully, the young scavengers enter the burrow. It's dark and cramped, but they fit fine, and are able to follow their noses to the heart of the den. Unfortunately, the burrow is barren, not a single squirrel to be found, and the apprentices head home disappointed.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1586,7 +1586,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "Slowly, carefully, the young cats enter the burrow. It's dark and cramped, but they fit fine, and are able to follow their noses to the heart of the den. Unfortunately, the squirrels are awake, and angry! They hiss and chitter in rage, swiping at their muzzles and driving the apprentices back out of the burrow, where they turn tail and run home.",
+                "text": "Slowly, carefully, the young scavengers enter the burrow. It's dark and cramped, but they fit fine, and are able to follow their noses to the heart of the den. Unfortunately, the squirrels are awake, and angry! They hiss and chitter in rage, swiping at their muzzles and driving the apprentices back out of the burrow, where they turn tail and run home.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1623,7 +1623,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l's patrol strolls leisurely through the plains, enjoying the cool air. One cat raises their tail, signaling the others to be still; they've scented ground squirrels nearby.",
+        "intro_text": "p_l's patrol strolls leisurely through the plains, enjoying the cool air. One scavenger raises their tail, signaling the others to be still; they've scented ground squirrels nearby.",
         "decline_text": "p_l quietly shakes their head and leads the patrol elsewhere. Better not to disturb the squirrels, who are loud and territorial.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1658,7 +1658,7 @@
                 ]
             },
             {
-                "text": "s_c murmurs instructions to their Clanmates, who nod silently and move into position. One cat feints at a squirrel, who raises the alarm and turns to run; another cat blocks off the nearby burrow's entrance, forcing the squirrels to run towards s_c; and s_c lunges in for the kill. A flawless hunt, not a single squirrel left behind.",
+                "text": "s_c murmurs instructions to their Clanmates, who nod silently and move into position. One scavenger feints at a squirrel, who raises the alarm and turns to run; another scavenger blocks off the nearby burrow's entrance, forcing the squirrels to run towards s_c; and s_c lunges in for the kill. A flawless hunt, not a single squirrel left behind.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1859,7 +1859,7 @@
         },
         "weight": 20,
         "intro_text": "The patrol heads out near dawn, padding into the mists around the grass that droops with the seed it carries. However, app1 seems more concerned with showing off to app2 than taking advantage of the leaf-fall hunting.",
-        "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
+        "decline_text": "The scavengers are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1948,7 +1948,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "r_c suggests the patrol hunts near the border, in areas that might soon be harder to access when the snows arrive.",
-        "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
+        "decline_text": "The scavengers are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1967,7 +1967,7 @@
                 ]
             },
             {
-                "text": "Your cats sneak into the hunting grounds, ears rotating as different spots catch their interest. r_c's suggestion proves to be a fruitful hunting ground, one that c_n hasn't used for a while and whose creatures (as predicted, nearly all mice) have lost their edge of wariness. It's a good hunt.",
+                "text": "Your scavengers sneak into the hunting grounds, ears rotating as different spots catch their interest. r_c's suggestion proves to be a fruitful hunting ground, one that c_n hasn't used for a while and whose creatures (as predicted, nearly all mice) have lost their edge of wariness. It's a good hunt.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"],

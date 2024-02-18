@@ -280,7 +280,7 @@
                 ]
             },
             {
-                "text": "The entire patrol mutely agrees to grit their teeth and bear it, but that doesn't stop the relief everyone feels when they settle into their nests to dry off, a rather motley assortment of herbs refreshing the medicine cat den's stocks.",
+                "text": "The entire patrol mutely agrees to grit their teeth and bear it, but that doesn't stop the relief everyone feels when they settle into their nests to dry off, a rather motley assortment of herbs refreshing the healer den's stocks.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -302,7 +302,7 @@
                 ]
             },
             {
-                "text": "The keen eyed s_c spots herbs quickly, and the cats harvest them and retreat back to the camp, where it's nice and dry. No point in lingering for a second more than they need to with the weather like this!",
+                "text": "The keen eyed s_c spots herbs quickly, and the scavengers harvest them and retreat back to the camp, where it's nice and dry. No point in lingering for a second more than they need to with the weather like this!",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -327,7 +327,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l <i>knows</i> the conditions are miserable, but this group is somehow more insufferable! Not only do they have to put up with these cats for an entire afternoon, there's also nothing to show for it at the end of the day.",
+                "text": "p_l <i>knows</i> the conditions are miserable, but this group is somehow more insufferable! Not only do they have to put up with these scavengers for an entire afternoon, there's also nothing to show for it at the end of the day.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -375,7 +375,7 @@
                 "herbs": ["cobwebs"]
             },
             {
-                "text": "p_l visits a few of their favourite places to gather cobwebs. When they get back to camp, they end up startling several cats on their way back to their den - p_l is practically a walking cobweb, impossible to see beneath the sheer mass they have gathered.",
+                "text": "p_l visits a few of their favourite places to gather cobwebs. When they get back to camp, they end up startling several scavengers on their way back to their den - p_l is practically a walking cobweb, impossible to see beneath the sheer mass they have gathered.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"]
@@ -426,7 +426,7 @@
                 ]
             },
             {
-                "text": "p_l takes app1 to a few of their favourite places to gather cobwebs. When they get back to camp, they end up startling several cats on their way back to their den - p_l and app1 are practically walking cobwebs, impossible to see beneath the sheer mass they have gathered.",
+                "text": "p_l takes app1 to a few of their favourite places to gather cobwebs. When they get back to camp, they end up startling several scavengers on their way back to their den - p_l and app1 are practically walking cobwebs, impossible to see beneath the sheer mass they have gathered.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -477,7 +477,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l mrrps with laughter, watching r_c parade around with such a big bundle of cobwebs that they keep colliding with things in their path they can't see. The entire patrol has gotten a wonderful haul, and it's a very pleased medicine cat that leads them back to camp.",
+                "text": "p_l mrrps with laughter, watching r_c parade around with such a big bundle of cobwebs that they keep colliding with things in their path they can't see. The entire patrol has gotten a wonderful haul, and it's a very pleased healer that leads them back to camp.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -499,7 +499,7 @@
                 ]
             },
             {
-                "text": "The patrol brings back a truly massive haul, and return in good humour, laughing as they set down their sticks of spun-up webbing in the medicine cat den. p_l joins everyone as they sit down to share tongues, ridding their pelts of dust and the odd spider as the cats catch up with each other and enjoy the day.",
+                "text": "The patrol brings back a truly massive haul, and return in good humour, laughing as they set down their sticks of spun-up webbing in the healer den. p_l joins everyone as they sit down to share tongues, ridding their pelts of dust and the odd spider as the scavengers catch up with each other and enjoy the day.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -588,7 +588,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den.",
+                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked healer den.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["horsetail"]
@@ -637,7 +637,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l doesn't know why horsetail plants lack leaves, but they encourage app1's interest in the topic. As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den.",
+                "text": "p_l doesn't know why horsetail plants lack leaves, but they encourage app1's interest in the topic. As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked healer den.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["horsetail"],
@@ -659,7 +659,7 @@
                 ]
             },
             {
-                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire big, long shoot back to camp, where app1 processes it down further into small stem sections that are easily stored, making a neat pile in the medicine cat den with them.",
+                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire big, long shoot back to camp, where app1 processes it down further into small stem sections that are easily stored, making a neat pile in the healer den with them.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "horsetail"],
@@ -747,7 +747,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den. Having other cats to help them makes the patrol an easy afternoon's work.",
+                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked healer den. Having other scavengers to help them makes the patrol an easy afternoon's work.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["horsetail"],
@@ -769,7 +769,7 @@
                 ]
             },
             {
-                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire shoot back to camp. The patrol helps pull along the massive bush, causing several cats in camp to fluff up in alarm when the patrol drags it through camp, where they diligently process it down further into smaller stem sections that are easily stored.",
+                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire shoot back to camp. The patrol helps pull along the massive bush, causing several scavengers in camp to fluff up in alarm when the patrol drags it through camp, where they diligently process it down further into smaller stem sections that are easily stored.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "horsetail"],
@@ -816,7 +816,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is distracted today, and it affects their work. The patrol is unsuccessful, and the cats snappy with each other.",
+                "text": "p_l is distracted today, and it affects their work. The patrol is unsuccessful, and the scavengers snappy with each other.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -892,7 +892,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l leads the way to the best moss patch they know, with app1 following close behind. The two cats begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
+                "text": "p_l leads the way to the best moss patch they know, with app1 following close behind. The two scavengers begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -916,7 +916,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Mouse-dung! When the two cats arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
+                "text": "Mouse-dung! When the two scavengers arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -958,7 +958,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l leads the way to the best moss patch they know, with r_c following close behind. The two cats begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
+                "text": "p_l leads the way to the best moss patch they know, with r_c following close behind. The two scavengers begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -982,7 +982,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Mouse-dung! When the two cats arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
+                "text": "Mouse-dung! When the two scavengers arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1024,7 +1024,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l leads the way to the best moss patch they know, with their entourage following close behind. The cats begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
+                "text": "p_l leads the way to the best moss patch they know, with their entourage following close behind. The scavengers begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -1041,7 +1041,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Mouse-dung! When the cats arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
+                "text": "Mouse-dung! When the scavengers arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1073,7 +1073,7 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l has to attend to one of their grimmer jobs as a medicine cat - the grounds where c_n goes to mourn their dead need to be tended to. They're bringing along app1 as their assistant for this trip, and the two cats head out in relative silence.",
+        "intro_text": "p_l has to attend to one of their grimmer jobs as a healer - the grounds where c_n goes to mourn their dead need to be tended to. They're bringing along app1 as their assistant for this trip, and the two scavengers head out in relative silence.",
         "decline_text": "Just before the two can leave, a cat calls for their attention.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -1122,7 +1122,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l has to attend to one of their grimmer jobs as a medicine cat - the grounds where c_n goes to mourn their dead need to be tended to. They're bringing along r_c as their assistant for this trip, and the two cats head out in relative silence.",
+        "intro_text": "p_l has to attend to one of their grimmer jobs as a healer - the grounds where c_n goes to mourn their dead need to be tended to. They're bringing along r_c as their assistant for this trip, and the two scavengers head out in relative silence.",
         "decline_text": "Just before the two can leave, a cat calls for their attention.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -1355,7 +1355,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c decide on a little friendly competition - one medicine cat to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
+                "text": "p_l and r_c decide on a little friendly competition - one healer to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -1841,7 +1841,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
+                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the healer den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1930,7 +1930,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
+                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the healer den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2019,7 +2019,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
+                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the healer den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2108,7 +2108,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
+                "text": "p_l is disgusted with the general disdain they feel from the other apprentices, and how hypocritical it is to tell them herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! They stalk back to the healer den in a huff, unable to bear being near the other apprentices for any longer than they have been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2262,7 +2262,7 @@
                 ]
             },
             {
-                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to them, however, they start to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "Out of the scavengers in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to them, however, they start to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2351,7 +2351,7 @@
                 ]
             },
             {
-                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to them, however, they start to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "Out of the scavengers in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to them, however, they start to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2413,7 +2413,7 @@
             "all apprentices": [3, 3]
         },
         "weight": 20,
-        "intro_text": "The apprentices are sent off into the territory to gather moss for the medicine cat den.",
+        "intro_text": "The apprentices are sent off into the territory to gather moss for the healer den.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -2618,7 +2618,7 @@
                 ]
             },
             {
-                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to them, however, they start to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "Out of the scavengers in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to them, however, they start to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2796,7 +2796,7 @@
                 ]
             },
             {
-                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to them, however, they start to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "Out of the scavengers in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to them, however, they start to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
