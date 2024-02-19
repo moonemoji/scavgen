@@ -86,11 +86,11 @@ class Name():
 
         if self.suffix and not load_existing_name:
             # Prevent triple letter names from joining prefix and suffix from occuring (ex. Beeeye)
-            triple_letter = False
-            possible_three_letter = (self.prefix[-2:] + self.suffix[0], self.prefix[-1] + self.suffix[:2])
-            if all(i == possible_three_letter[0][0] for i in possible_three_letter[0]) or \
-                    all(i == possible_three_letter[1][0] for i in possible_three_letter[1]):
-                triple_letter = True
+            # triple_letter = False
+            # possible_three_letter = (self.prefix[-2:] + self.suffix[0], self.prefix[-1] + self.suffix[:2])
+            # if all(i == possible_three_letter[0][0] for i in possible_three_letter[0]) or \
+            #         all(i == possible_three_letter[1][0] for i in possible_three_letter[1]):
+            #     triple_letter = True
             # Prevent double animal names (ex. Spiderfalcon)
             double_animal = False
             if self.prefix in self.names_dict["animal_prefixes"] and self.suffix in self.names_dict["animal_suffixes"]:
@@ -101,7 +101,7 @@ class Name():
             # Prevent suffixes containing the prefix (ex. Butterflyfly)
             
             i = 0
-            while nono_name.lower() in self.names_dict["inappropriate_names"] or triple_letter or double_animal or \
+            while nono_name.lower() in self.names_dict["inappropriate_names"] or double_animal or \
                     (self.prefix.lower() in self.suffix.lower() and not str(self.prefix) == '') or (self.suffix.lower() in self.prefix.lower() and not str(self.suffix) == ''):
 
                 # check if random die was for prefix
@@ -111,10 +111,10 @@ class Name():
                     self.give_suffix(pelt, biome, tortiepattern)
 
                 nono_name = self.suffix.title() + " " + self.prefix
-                possible_three_letter = (self.prefix[-2:] + self.suffix[0], self.prefix[-1] + self.suffix[:2])
-                if not (all(i == possible_three_letter[0][0] for i in possible_three_letter[0]) or \
-                        all(i == possible_three_letter[1][0] for i in possible_three_letter[1])):
-                    triple_letter = False
+                # possible_three_letter = (self.prefix[-2:] + self.suffix[0], self.prefix[-1] + self.suffix[:2])
+                # if not (all(i == possible_three_letter[0][0] for i in possible_three_letter[0]) or \
+                #         all(i == possible_three_letter[1][0] for i in possible_three_letter[1])):
+                #     triple_letter = False
                 if not (self.prefix in self.names_dict["animal_prefixes"] and self.suffix in self.names_dict[
                     "animal_suffixes"]):
                     double_animal = False
@@ -186,7 +186,7 @@ class Name():
         else:
             if game.config['fun']['april_fools']:
                 return self.suffix.title() + 'Egg'
-            return self.suffix.title() + " " + self.prefix
+            return self.suffix.title() + " " + self.prefix.title()
 
 
 names = Name()
