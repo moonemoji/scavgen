@@ -137,7 +137,7 @@ class Name():
                 possible_prefix_categories.append(self.names_dict["eye_prefixes"][eyes])
         if colour in self.names_dict["colour_prefixes"]:
             possible_prefix_categories.append(self.names_dict["colour_prefixes"][colour])
-        if pelt in self.names_dict["pelt_suffixes"]:
+        if pelt in self.names_dict["pelt_prefixes"]:
             possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
         if pelt in ["Tortie", "Calico"] and tortiepattern in self.names_dict["tortie_pelt_prefixes"]:
             self.suffix = random.choice(self.names_dict["tortie_pelt_prefixes"][tortiepattern])
