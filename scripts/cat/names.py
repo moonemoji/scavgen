@@ -138,9 +138,9 @@ class Name():
         if colour in self.names_dict["colour_prefixes"]:
             possible_prefix_categories.append(self.names_dict["colour_prefixes"][colour])
         if pelt in self.names_dict["pelt_suffixes"]:
-            possible_prefix_categories.append(self.names_dict["pelt_suffixes"][pelt])
-        if pelt in ["Tortie", "Calico"] and tortiepattern in self.names_dict["tortie_pelt_suffixes"]:
-            self.suffix = random.choice(self.names_dict["tortie_pelt_suffixes"][tortiepattern])
+            possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
+        if pelt in ["Tortie", "Calico"] and tortiepattern in self.names_dict["tortie_pelt_prefixes"]:
+            self.suffix = random.choice(self.names_dict["tortie_pelt_prefixes"][tortiepattern])
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
             possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
             possible_prefix_categories.append(self.names_dict["biome_suffixes"][biome])
@@ -156,12 +156,13 @@ class Name():
 
     # Generate possible suffix
     def give_suffix(self, pelt, biome, tortiepattern):
-        if pelt is None or pelt == 'SingleColour':
-            self.suffix = random.choice(self.names_dict["normal_suffixes"])
-        else:
-            named_after_pelt = not random.getrandbits(2)  # Chance for True is '1/8'.
-            named_after_biome = not random.getrandbits(3)  # 1/8
-            self.suffix = random.choice(self.names_dict["normal_suffixes"])
+        self.suffix = random.choice(self.names_dict["normal_suffixes"])
+        # if pelt is None or pelt == 'SingleColour':
+        #     self.suffix = random.choice(self.names_dict["normal_suffixes"])
+        # else:
+        #     named_after_pelt = not random.getrandbits(2)  # Chance for True is '1/8'.
+        #     named_after_biome = not random.getrandbits(3)  # 1/8
+        #     self.suffix = random.choice(self.names_dict["normal_suffixes"])
 
             # Pelt name only gets used if there's an associated suffix.
             # if named_after_pelt:
