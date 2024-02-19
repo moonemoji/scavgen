@@ -96,7 +96,7 @@ class Name():
             if self.prefix in self.names_dict["animal_prefixes"] and self.suffix in self.names_dict["animal_suffixes"]:
                 double_animal = True
             # Prevent the inappropriate names
-            nono_name = self.prefix + self.suffix
+            nono_name = self.suffix.title() + " " + self.prefix
             # Prevent double names (ex. Iceice)
             # Prevent suffixes containing the prefix (ex. Butterflyfly)
             
@@ -110,7 +110,7 @@ class Name():
                 else:
                     self.give_suffix(pelt, biome, tortiepattern)
 
-                nono_name = self.prefix + self.suffix
+                nono_name = self.suffix.title() + " " + self.prefix
                 possible_three_letter = (self.prefix[-2:] + self.suffix[0], self.prefix[-1] + self.suffix[:2])
                 if not (all(i == possible_three_letter[0][0] for i in possible_three_letter[0]) or \
                         all(i == possible_three_letter[1][0] for i in possible_three_letter[1])):
