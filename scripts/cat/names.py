@@ -73,7 +73,7 @@ class Name():
         name_fixpref = False
         # Set prefix
         if prefix is None:
-            self.give_prefix(eyes, colour, biome)
+            self.give_prefix(eyes, colour, biome, pelt, tortiepattern)
             # needed for random dice when we're changing the Prefix
             name_fixpref = True
 
@@ -106,7 +106,7 @@ class Name():
 
                 # check if random die was for prefix
                 if name_fixpref:
-                    self.give_prefix(eyes, colour, biome)
+                    self.give_prefix(eyes, colour, biome, pelt, tortiepattern)
                 else:
                     self.give_suffix(pelt, biome, tortiepattern)
 
@@ -121,7 +121,7 @@ class Name():
                 i += 1
 
     # Generate possible prefix
-    def give_prefix(self, eyes, colour, biome):
+    def give_prefix(self, eyes, colour, biome, pelt, tortiepattern):
         # decided in game config: cat_name_controls
         if game.config["cat_name_controls"]["always_name_after_appearance"]:
             named_after_appearance = True
@@ -137,17 +137,22 @@ class Name():
                 possible_prefix_categories.append(self.names_dict["eye_prefixes"][eyes])
         if colour in self.names_dict["colour_prefixes"]:
             possible_prefix_categories.append(self.names_dict["colour_prefixes"][colour])
+        if pelt in self.names_dict["pelt_suffixes"]:
+            possible_prefix_categories.append(self.names_dict["pelt_suffixes"][pelt])
+        if pelt in ["Tortie", "Calico"] and tortiepattern in self.names_dict["tortie_pelt_suffixes"]:
+            self.suffix = random.choice(self.names_dict["tortie_pelt_suffixes"][tortiepattern])
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
             possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
+            possible_prefix_categories.append(self.names_dict["biome_suffixes"][biome])
         # Choose appearance-based prefix if possible and named_after_appearance because True.
         if named_after_appearance and possible_prefix_categories and not named_after_biome_:
             prefix_category = random.choice(possible_prefix_categories)
-            self.prefix = random.choice(prefix_category)
+            self.prefix = random.choice(prefix_category).title()
         elif named_after_biome_ and possible_prefix_categories:
             prefix_category = random.choice(possible_prefix_categories)
-            self.prefix = random.choice(prefix_category)
+            self.prefix = random.choice(prefix_category).title()
         else:
-            self.prefix = random.choice(self.names_dict["normal_prefixes"])
+            self.prefix = random.choice(self.names_dict["normal_prefixes"]).title()
 
     # Generate possible suffix
     def give_suffix(self, pelt, biome, tortiepattern):
@@ -156,21 +161,23 @@ class Name():
         else:
             named_after_pelt = not random.getrandbits(2)  # Chance for True is '1/8'.
             named_after_biome = not random.getrandbits(3)  # 1/8
+            self.suffix = random.choice(self.names_dict["normal_suffixes"])
+
             # Pelt name only gets used if there's an associated suffix.
-            if named_after_pelt:
-                if pelt in ["Tortie", "Calico"] and tortiepattern in self.names_dict["tortie_pelt_suffixes"]:
-                    self.suffix = random.choice(self.names_dict["tortie_pelt_suffixes"][tortiepattern])
-                elif pelt in self.names_dict["pelt_suffixes"]:
-                    self.suffix = random.choice(self.names_dict["pelt_suffixes"][pelt])
-                else:
-                    self.suffix = random.choice(self.names_dict["normal_suffixes"])
-            elif named_after_biome:
-                if biome in self.names_dict["biome_suffixes"]:
-                    self.suffix = random.choice(self.names_dict["biome_suffixes"][biome])
-                else:
-                    self.suffix = random.choice(self.names_dict["normal_suffixes"])
-            else:
-                self.suffix = random.choice(self.names_dict["normal_suffixes"])
+            # if named_after_pelt:
+            #     if pelt in ["Tortie", "Calico"] and tortiepattern in self.names_dict["tortie_pelt_suffixes"]:
+            #         self.suffix = random.choice(self.names_dict["tortie_pelt_suffixes"][tortiepattern])
+            #     elif pelt in self.names_dict["pelt_suffixes"]:
+            #         self.suffix = random.choice(self.names_dict["pelt_suffixes"][pelt])
+            #     else:
+            #         self.suffix = random.choice(self.names_dict["normal_suffixes"])
+            # elif named_after_biome:
+            #     if biome in self.names_dict["biome_suffixes"]:
+            #         self.suffix = random.choice(self.names_dict["biome_suffixes"][biome])
+            #     else:
+            #         self.suffix = random.choice(self.names_dict["normal_suffixes"])
+            # else:
+            #     self.suffix = random.choice(self.names_dict["normal_suffixes"])
 
     def __repr__(self):
         if self.status in self.names_dict["special_suffixes"] and not self.specsuffix_hidden and self.status != "leader":
