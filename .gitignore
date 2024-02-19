@@ -161,3 +161,5 @@ cython_debug/
 
 # save files
 saves/
+
+cache/changelog_popup_shown
