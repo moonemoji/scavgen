@@ -52,6 +52,19 @@
       "Beaming with r_c against {PRONOUN/m_c/poss} back, m_c feels like {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to explode with love, looking at {PRONOUN/m_c/poss} tiny new {insert}."
                                
     ],
+    "two_parents Newleaf": [
+      "The newleaf brings not just warm weather and abundent food; it brings new life as well. m_c and r_c purr as they welcome their {insert} into the world."
+    ],
+    "two_parents Greenleaf": [
+      "As the rainfall pummels the world, the Troop's newest members arrive in the safety of the shelter. m_c's has given birth to a {insert} to the rhythm of thunder, with r_c's steady presence a calming force for their mate admist the storm."
+    ],
+    "two_parents Leaf-fall": [
+      "During a crisp leaf-fall morning, the Troop awakens not just to the frost-kissed ground but to the news of m_c's birth to a {insert}. r_c, unable to contain their joy, bounds around the camp, their fur frosted, sharing the arrival of their cubs."
+    ],
+    "two_parents Leaf-bare": [
+      "m_c has ignored the whispers about the dangers of having cubs in the middle of leaf-bare. Curled protectively by the spawning pool with r_c by their side, they know it was worth it.",
+      "The first snow of leaf-bare falls gently outside as m_c gives birth to a {insert}. r_c makes themselves busy, crafting lanterns and placing them in the spawning pool to ensure their cubs and their mate are warm and comfortable."
+    ],
     "dead_mate": [
       "m_c looks at {PRONOUN/m_c/poss} {insert}, choking on both a smile and tears. How are {PRONOUN/m_c/subject} supposed to do this without r_c?",
       "m_c sobs and clambers out of the water of the spawning pool, leaving {PRONOUN/m_c/poss} {insert} behind. They look far too much like r_c for m_c to stand the sight of them.",

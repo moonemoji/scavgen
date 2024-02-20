@@ -365,6 +365,8 @@ class Pregnancy_Events():
 
         # Since cat has given birth, apply the birth cooldown. 
         cat.birth_cooldown = game.config["pregnancy"]["birth_cooldown"]
+
+        print(events["birth"].keys())
         
         # choose event string
         # TODO: currently they don't choose which 'mate' is the 'blood' parent or not
