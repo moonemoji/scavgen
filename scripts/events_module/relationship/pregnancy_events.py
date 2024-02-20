@@ -372,9 +372,6 @@ class Pregnancy_Events():
         events = Pregnancy_Events.PREGNANT_STRINGS
         event_list = []
 
-        print("BIRTH")
-        print(events["birth"].keys())
-
         if not cat.outside and other_cat is None:
             event_list.append(choice(events["birth"]["unmated_parent"]))
         elif cat.outside:

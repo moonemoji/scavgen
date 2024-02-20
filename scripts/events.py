@@ -3088,12 +3088,12 @@ class Events:
 
             involved_cats = [cat.ID]
             if cat.age == 'adolescent':
-                transing_chance = random.getrandbits(3)  # 1/16
+                transing_chance = random.getrandbits(3)  # 1/8
             elif cat.age == 'young adult':
-                transing_chance = random.getrandbits(4)  # 1/32
+                transing_chance = random.getrandbits(4)  # 1/16
             else:
                 # adult, senior adult, elder
-                transing_chance = random.getrandbits(5)  # 1/64
+                transing_chance = random.getrandbits(5)  # 1/32
 
             if transing_chance:
                 # transing_chance != 0, no trans kitties today...    L
