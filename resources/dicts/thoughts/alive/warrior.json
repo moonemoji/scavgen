@@ -2,17 +2,17 @@
     {
         "id": "warrior_gen_alive_kits",
         "thoughts": [
-            "Is watching over the kits",
-            "Begrudgingly allows kits to play with {PRONOUN/m_c/poss} tail",
-            "Goes to help a kit that stumbled over their own paws",
-            "Was roped into playing mossball with the kits",
-            "Somehow has a gaggle of kits following {PRONOUN/m_c/object}",
-            "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being a kit",
+            "Is watching over the cubs",
+            "Begrudgingly allows cubs to play with {PRONOUN/m_c/poss} things",
+            "Goes to help a cub that stumbled over their own feet",
+            "Was roped into playing mossball with the cubs",
+            "Somehow has a gaggle of cubs following {PRONOUN/m_c/object}",
+            "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being a cub",
             "Somehow got roped up in watching r_c for the day",
             "Theatrically dies after r_c slays {PRONOUN/m_c/object}",
             "Has to pretend to be a captured warrior for r_c's games",
             "Is pretending to be a big, evil warrior for r_c",
-            "Gave a badger ride to r_c, and is now begged by more kittens to do the same"
+            "Gave a piggyback ride to r_c, and is now begged by more cubs to do the same"
         ],
         "random_status_constraint": [
             "kitten"
@@ -24,7 +24,7 @@
     {
         "id": "warrior_formerly_a_loner_alive_kits",
         "thoughts": [
-            "Is telling the kits about {PRONOUN/m_c/poss} days as a loner",
+            "Is telling the cubs about {PRONOUN/m_c/poss} days as a loner",
             "Is being begged by r_c to tell {PRONOUN/r_c/object} about what being a loner was like"
         ],
         "main_backstory_constraint": ["loner1", "loner2", "refugee2", "refugee5", "tragedy_survivor4", "guided3"],
@@ -38,7 +38,7 @@
     {
         "id": "warrior_formerly_a_rogue_alive_kits",
         "thoughts": [
-            "Is telling the kits about {PRONOUN/m_c/poss} days as a rogue",
+            "Is telling the cubs about {PRONOUN/m_c/poss} days as a rogue",
             "Is being begged by r_c to tell {PRONOUN/r_c/object} more what being a rogue was like"
         ],
         "main_backstory_constraint": ["rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2"],
@@ -56,9 +56,9 @@
             "Ponders what r_c's favorite game would have been",
             "Is listening to r_c's favorite games from {PRONOUN/m_c/poss} friends",
             "wonders what type of apprentice r_c would've been",
-            "Listens to other kits sadly talk about r_c's death",
+            "Listens to other cubs sadly talk about r_c's death",
             "Sadly remembers when r_c would play games with {PRONOUN/m_c/object}",
-            "Hopes the kits in StarClan are safe"
+            "Hopes the cubs in StarClan are safe"
         ],
         "random_status_constraint": [
             "kitten"
@@ -72,7 +72,7 @@
         "thoughts": [
             "Wonders how r_c deals with being in the Dark Forest",
             "Wishes that r_c may walk among the stars",
-            "Is surprised of StarClan's cruelty towards r_c"
+            "Is surprised by StarClan's cruelty towards r_c"
         ],
         "random_status_constraint": [
             "kitten"
@@ -89,7 +89,7 @@
             "Grooms r_c clean and makes {PRONOUN/r_c/object} presentable",
             "Carries r_c to the nursery because {PRONOUN/r_c/subject} fell asleep",
             "Is scolding r_c for almost being reckless",
-            "Hopes {PRONOUN/m_c/poss} kits arent getting into too much trouble",
+            "Hopes {PRONOUN/m_c/poss} cubs arent getting into too much trouble",
             "Is in awe with how fast r_c is growing"
         ],
         "relationship_constraint": [
@@ -126,7 +126,7 @@
     {
         "id": "gen_older_warrior",
         "thoughts": [
-            "Tries to set a good example for younger cats"
+            "Tries to set a good example for younger scavengers"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -139,8 +139,8 @@
     {
         "id": "warrior_gen_medicine_cat",
         "thoughts": [
-            "Plans to visit the medicine cat",
-            "Is helping to escort the medicine cat to gather herbs"
+            "Plans to visit the healer",
+            "Is helping to escort the healer to gather herbs"
         ],
         "random_status_constraint": [
             "medicine cat"
@@ -152,7 +152,7 @@
     {
         "id": "warrior_gen_warrior",
         "thoughts": [
-            "Is sparring with some Clanmates",
+            "Is sparring with some Troopmates",
             "Wants to critique r_c's fighting techniques",
             "Wants to compliment r_c's fighting techniques"
         ],
@@ -169,7 +169,7 @@
             "forest"
         ],
         "thoughts": [
-            "Wishes {PRONOUN/m_c/poss} pelt would turn silver like the moon just like the wolves"
+            "Wishes {PRONOUN/m_c/poss} antlers would grow as tall as a tree"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -182,16 +182,16 @@
         "Wonders what lays beyond the distant horizon...",
         "Is dreaming of one day discovering something new and exciting!",
         "Is itching to run, run, run!",
-        "Wants to climb the tallest tree in the territory!",
+        "Wants to climb the tallest tower in the territory!",
         "Is itching for some excitement around camp",
         "Is considering bending the rules a bit... just this once",
         "Is showing off a trinket {PRONOUN/m_c/subject} found while exploring",
         "Is daydreaming about how much there is to see out in the world!",
-        "Is itching to explore the land beyond {PRONOUN/m_c/poss} Clan's territory",
+        "Is itching to explore the land beyond {PRONOUN/m_c/poss} Troop's territory",
         "Wants to go on a journey",
         "Wishes {PRONOUN/m_c/poss} leader would choose {PRONOUN/m_c/object} to go on a quest",
         "Disappeared the whole day to explore the territory",
-        "Promises {PRONOUN/m_c/poss} Clanmates {PRONOUN/m_c/subject} won't do anything dangerous while out"
+        "Promises {PRONOUN/m_c/poss} Troopmates {PRONOUN/m_c/subject} won't do anything dangerous while out"
     ],
     "main_trait_constraint": [
         "adventurous"
@@ -217,19 +217,19 @@
     {
         "id": "ambitious_warrior",
         "thoughts": [
-            "Is being admired by many Clanmates for {PRONOUN/m_c/poss} recent feats",
+            "Is being admired by many Troopmates for {PRONOUN/m_c/poss} recent feats",
             "Is boasting loudly about having defeated an enemy warrior on patrol the other day",
-            "Seems to be ordering {PRONOUN/m_c/poss} fellow Clanmates around",
-            "Tries to put on a brave face for {PRONOUN/m_c/poss} Clanmates",
+            "Seems to be ordering {PRONOUN/m_c/poss} fellow Troopmates around",
+            "Tries to put on a brave face for {PRONOUN/m_c/poss} Troopmates",
             "Is feeling proud of {PRONOUN/m_c/self}",
             "Made sure to wake up early to volunteer for the dawn patrol",
-            "Has been catching the most prey on the latest hunting patrols",
-            "Is daydreaming about a Clan celebration in {PRONOUN/m_c/poss} honor",
-            "Is asking the Clan leader what {PRONOUN/m_c/subject} can do to help out around camp",
-            "Has been imitating the Clan leader's behavior recently",
+            "Has been finding the most food on the latest hunting patrols",
+            "Is daydreaming about a Troop celebration in {PRONOUN/m_c/poss} honor",
+            "Is asking the Troop leader what {PRONOUN/m_c/subject} can do to help out around camp",
+            "Has been imitating the Troop leader's behaviour recently",
             "Envies the deputy's position",
             "Has been taking on extra patrols lately",
-            "Wonders how {PRONOUN/m_c/subject} would run the Clan better",
+            "Wonders how {PRONOUN/m_c/subject} would run the Troop better",
             "Sucks up to the leader and deputy by offering to lead every patrol",
             "Sets out to catch five pieces of fresh-kill today",
             "Evaluates how {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to sharpen up {PRONOUN/m_c/poss} battle skills",
@@ -250,15 +250,15 @@
             "Is practicing forbidden battle moves",
             "Tells the warriors to get ready for a battle",
             "Yearns to fight",
-            "Daydreams about killing a certain cat",
-            "Wonders if {PRONOUN/m_c/subject} could kill a fox all by {PRONOUN/m_c/self}",
-            "Started a fight with a fellow Clanmate",
-            "Wonders how {PRONOUN/m_c/subject} would run the Clan better",
+            "Daydreams about killing a certain someone",
+            "Wonders if {PRONOUN/m_c/subject} could kill a vulture all by {PRONOUN/m_c/self}",
+            "Started a fight with a fellow Troopmate",
+            "Wonders how {PRONOUN/m_c/subject} would run the Troop better",
             "Licks fresh-kill blood off {PRONOUN/m_c/poss} lips a little too intently",
-            "Has been glaring at a certain cat in camp with an odd look in {PRONOUN/m_c/poss} eye",
+            "Has been glaring at a certain scavenger in camp with an odd look in {PRONOUN/m_c/poss} eye",
             "Draws blood when training with another warrior and coldly says it was an accident",
             "Wonders how easy it'd be to attack the leader from where they lay",
-            "Daydreams about slaughtering every cat {PRONOUN/m_c/subject} {VERB/m_c/despise/despises}"
+            "Daydreams about slaughtering everyone {PRONOUN/m_c/subject} {VERB/m_c/despise/despises}"
         ],
         "main_trait_constraint": [
             "bloodthirsty"
@@ -267,12 +267,12 @@
     {
         "id": "bold_warrior",
         "thoughts": [
-            "Is getting some looks after speaking out of turn at the last Clan meeting",
-            "Spoke out of turn at the last Clan meeting",
-            "Bravely offers to help the medicine cat pick herbs from a dangerous spot",
-            "Runs out of {PRONOUN/m_c/poss} den into 'battle', only to find that it was just a storm",
-            "Prances around with {PRONOUN/m_c/poss} tail up high, ready for anything",
-            "Promises the kits {PRONOUN/m_c/subject}'ll protect them when the time comes",
+            "Is getting some looks after speaking out of turn at the last Troop meeting",
+            "Spoke out of turn at the last Troop meeting",
+            "Bravely offers to help the healer pick herbs from a dangerous spot",
+            "Runs out of {PRONOUN/m_c/poss} den into 'battle', only to find that it was just the approaching rain",
+            "Prances around with {PRONOUN/m_c/poss} head up high, ready for anything",
+            "Promises the cubs {PRONOUN/m_c/subject}'ll protect them when the time comes",
             "Is not afraid of anything",
             "Charges forward during a border patrol, eager and unafraid",
             "Is always first to volunteer when a dangerous mission is announced"
@@ -291,15 +291,15 @@
             "Is humming a soothing tune to {PRONOUN/m_c/self} as {PRONOUN/m_c/subject} {VERB/m_c/work/works}",
             "Is out on a peaceful stroll",
             "Is remembering simpler days with fondness",
-            "Is offering gentle advice to a frustrated Clanmate",
-            "Is lining {PRONOUN/m_c/poss} nest with lavender",
-            "Smells sweet, like lavender",
-            "Never fails to offer comfort to {PRONOUN/m_c/poss} Clanmates",
+            "Is offering gentle advice to a frustrated Troopmate",
+            "Is lining {PRONOUN/m_c/poss} nest with fragrant flowers",
+            "Smells sweet, like flowers",
+            "Never fails to offer comfort to {PRONOUN/m_c/poss} Troopmates",
             "Is taking {PRONOUN/m_c/poss} sweet time eating {PRONOUN/m_c/poss} meal",
-            "Is purring quietly",
+            "Is rummaging quietly",
             "Has been reaching meditative states while sunbathing",
-            "Calmly takes the lead while some Clanmates argue over this and that",
-            "Is unable to be scared, no matter how much the kits try",
+            "Calmly takes the lead while some Troopmates argue over this and that",
+            "Is unable to be scared, no matter how much the cubs try",
             "Knows everything will be okay in the end",
             "Takes a deep breath and doesn't let a mean comment get to {PRONOUN/m_c/object}"
         ],
@@ -311,21 +311,21 @@
         "id": "careful_warrior",
         "thoughts": [
             "Is double-checking {PRONOUN/m_c/poss} nest for burrs",
-            "Is getting a small scratch checked out by the medicine cat",
+            "Is getting a small scratch checked out by the healer",
             "Is slowly and methodically grooming {PRONOUN/m_c/self}",
-            "Is chiding a younger cat for being so reckless",
+            "Is chiding a younger scavenger for being so reckless",
             "Is padding back and forth, across the camp",
             "Is dutifully standing guard outside of camp",
-            "Is helping to reinforce the nursery walls",
-            "Is helping to reinforce the camp walls",
+            "Is checking the nursery walls for faults",
+            "Is checking the camp walls for faults",
             "Is patching up a hole in the camp wall",
-            "Is helping to reinforce the walls of the elders' den",
-            "Is going back to check on an old fox burrow {PRONOUN/m_c/subject} discovered yesterday, just to be safe",
-            "Fortifies the camp walls for the fourth time this week",
+            "Is checking the elders' den walls for faults",
+            "Is going back to check on an old lizard den burrow {PRONOUN/m_c/subject} discovered yesterday, just to be safe",
+            "Scrounges up new spear materials for the fourth time this week",
             "Asks the deputy about sending out some more hunting patrols- just to be sure",
             "Feels at peace",
             "Coaches other warriors to take a more guarded stance for their technique",
-            "Keeps an eye on some rowdy kits"
+            "Keeps an eye on some rowdy cubs"
         ],
         "main_trait_constraint": [
             "careful"
@@ -334,25 +334,25 @@
     {
         "id": "charismatic_warrior",
         "thoughts": [
-            "Is smiling warmly at {PRONOUN/m_c/poss} Clanmates",
+            "Is smiling warmly at {PRONOUN/m_c/poss} Troopmates",
             "Is making everyone laugh with a very funny quip",
             "Always manages to turn the mood into a lighter one",
             "Is laughing with friends",
-            "Is looking around camp for someone to share tongues with",
-            "Winked playfully at a Clanmate from across the clearing!",
-            "Has received several invitations to share tongues... and is deciding which to take",
+            "Is looking around camp for someone to groom",
+            "Winked playfully at a Troopmate from across the clearing!",
+            "Has received several invitations to groom together... and is deciding which to take",
             "Is basking in a sunray in the camp clearing",
-            "Plans to go on a stroll with some cat today",
-            "Is swishing {PRONOUN/m_c/poss} tail back and forth in a laid back manner",
+            "Plans to go on a stroll with someone today",
+            "Is rummaging in a laid back manner",
             "Is grooming {PRONOUN/m_c/poss} already silky soft coat",
-            "Is purring warmly",
-            "Is purring loudly",
-            "Is purring sweetly",
+            "Is lounging",
+            "Has the most exquisite spears",
+            "Has the most exquisite pearl collection",
             "Is this moon's heartthrob",
-            "Has recently given a wonderful speech to fellow Clanmates, boosting morale",
+            "Has recently given a wonderful speech to fellow Troopmates, boosting morale",
             "Spends all day chatting and laughing with some other warriors",
             "Forgot where {PRONOUN/m_c/subject} put something, and every other warrior offers to help {PRONOUN/m_c/object} find it",
-            "Is a little exhausted from how many cats come to {PRONOUN/m_c/object} for things",
+            "Is a little exhausted from how many people come to {PRONOUN/m_c/object} for things",
             "Feels happy knowing {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} someone other's can talk to",
             "Carefully curates {PRONOUN/m_c/poss} appearance to be dazzling, but not too dazzling"
         ],
@@ -363,12 +363,12 @@
     {
         "id": "childish_warrior",
         "thoughts": [
-            "Is chasing a butterfly around the camp",
+            "Is chasing a red swarmer around the camp",
             "Is playing with {PRONOUN/m_c/poss} food",
-            "Is giggling about Clan drama with friends",
-            "Is crunching leaves with {PRONOUN/m_c/poss} paws",
-            "Is whining about Clan duties",
-            "Is distracted by a shiny Twoleg trinket {PRONOUN/m_c/subject} found",
+            "Is giggling about Troop drama with friends",
+            "Is crunching leaves with {PRONOUN/m_c/poss} hands",
+            "Is whining about Troop duties",
+            "Is distracted by a shiny trinket {PRONOUN/m_c/subject} found",
             "Is gnawing on a small bone busily",
             "Is batting at a ball of moss",
             "Is preoccupied playing an important game of hide and seek",
@@ -376,7 +376,7 @@
             "Splashes in a puddle of water during a patrol",
             "Jumps around while on patrol",
             "Gets in an argument over something utterly trivial",
-            "Stuck {PRONOUN/m_c/poss} tongue out at a mouse that escaped {PRONOUN/m_c/poss} pounce",
+            "Stuck {PRONOUN/m_c/poss} tongue out at a batfly that escaped {PRONOUN/m_c/poss} pounce",
             "Makes immature jokes all day, leaving everyone else rolling their eyes",
             "Doesn't want to share a piece of fresh-kill",
             "Has felt bad all day about stepping on a bug"
@@ -391,11 +391,11 @@
             "Is hissing in frustration",
             "Is grunting rudely at passersby",
             "Wonders why others snap back at {PRONOUN/m_c/object}",
-            "Notices that {PRONOUN/m_c/poss} Clanmates have been nervous around {PRONOUN/m_c/object} lately",
+            "Notices that {PRONOUN/m_c/poss} Troopmates have been nervous around {PRONOUN/m_c/object} lately",
             "Doesn't say thank you when offered a piece of fresh-kill",
-            "Turns away without saying a word when a Clanmate vents to {PRONOUN/m_c/object}",
+            "Turns away without saying a word when a Troopmate vents to {PRONOUN/m_c/object}",
             "Thinks the leader should be harsher on codebreakers",
-            "Flatly insults a Clanmate's appearance",
+            "Flatly insults a Troopmate's appearance",
             "Believes weakness should be punished, not nurtured",
             "Scorns the idea of needing help from anyone",
             "Has little patience for small talk"
@@ -425,17 +425,17 @@
     {
         "id": "compassionate_warrior",
         "thoughts": [
-            "Spends time with a grieving Clanmate today",
-            "Let {PRONOUN/m_c/poss} Clanmate have the last piece of fresh-kill on the pile this morning",
-            "Is noticing with joy how well the Clan is looking after one another as of late",
-            "Is listening to a Clanmate's struggles with love",
-            "Lets a Clanmate cry on {PRONOUN/m_c/poss} shoulder",
-            "Makes sure to check on a Clanmate who's been having a rough time",
+            "Spends time with a grieving Troopmate today",
+            "Let {PRONOUN/m_c/poss} Troopmate have the last piece of fresh-kill on the pile this morning",
+            "Is noticing with joy how well the Troop is looking after one another as of late",
+            "Is listening to a Troopmate's struggles with love",
+            "Lets a Troopmate cry on {PRONOUN/m_c/poss} shoulder",
+            "Makes sure to check on a Troopmate who's been having a rough time",
             "Quickly forgives somebody after they snapped at {PRONOUN/m_c/object}",
             "Spends some extra time thanking StarClan for the prey today",
             "Is waiting until everyone has eaten to take from the fresh-kill pile",
             "Is patiently standing guard outside of camp",
-            "Is winning a staring contest against a Clanmate",
+            "Is winning a staring contest against a Troopmate",
             "Is listening to a story {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} heard many, many times",
             "Is listening to older cats gripe about their day",
             "Is looking up, watching the clouds roll by",
@@ -450,7 +450,7 @@
             "Is the only warrior not bothered by a snoring Clanmate",
             "Is delighted by the slow passage of time",
             "Feels entirely unlike {PRONOUN/m_c/self} when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} bothered by something small",
-            "Is laughing at a Clanmate's joke, even though {PRONOUN/m_c/subject} didn't find it funny",
+            "Is laughing at a Clanmate's joke, even though {PRONOUN/m_c/subject} didn't find funny",
             "Helped to gather herbs all day",
             "Offered to walk at the front of the patrol",
             "Offered to stick {PRONOUN/m_c/poss} nose inside a badger set to check if the badger is still there",
@@ -796,7 +796,7 @@
     {
         "id": "responsible_warrior",
         "thoughts": [
-            "Is making sure {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} done all of {PRONOUN/m_c/poss} daily duties",
+            "Is making sure {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} done all of their daily duties",
             "Is planning to wake up early tomorrow",
             "Was the first to rise this morning",
             "Roused the other cats awake at dawn",
@@ -1099,44 +1099,5 @@
         "random_living_status": [
             "living"
         ]
-    },
-    {
-        "id": "lasting_grief_warrior",
-        "thoughts": [
-            "Cannot find the energy to get out of {PRONOUN/m_c/poss} nest today",
-			"Is the first cat awake at dawn",
-			"Scolds {PRONOUN/m_c/self} for oversleeping",
-			"Doesn't eat as much fresh-kill as {PRONOUN/m_c/subject} used to",
-			"Is found sobbing outside of camp",
-			"Ignores {PRONOUN/m_c/poss} Clanmates' attempts to comfort {PRONOUN/m_c/object}",
-			"Is twitching in {PRONOUN/m_c/poss} sleep",
-			"Stares at the fresh-kill in front of {PRONOUN/m_c/object} without eating",
-			"Wonders why StarClan is punishing {PRONOUN/m_c/object}"
-        ],
-        "perm_conditions": {
-            "m_c": [
-                "lasting grief"
-            ]
-        }
-	},
-    {
-        "id": "recurring shock",
-        "thoughts": [
-            "Visits the medicine cat den for thyme",
-			"Wakes up screaming after a nightmare",
-			"Panics after hearing a noise",
-			"Is seen trembling and looking around nervously",
-			"Snaps at r_c before profusely apologizing",
-			"Is comforted by r_c after a flashback",
-			"Is the only cat awake at moonhigh",
-			"Doesn't seem to enjoy hunting anymore",
-			"Is avoiding {PRONOUN/m_c/poss} Clanmates",
-			"Is startled after r_c snuck up behind {PRONOUN/m_c/object}"
-        ],
-        "perm_conditions": {
-            "m_c": [
-                "recurring shock"
-            ]
-        }
-	}
+    }
 ]

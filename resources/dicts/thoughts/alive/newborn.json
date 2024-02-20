@@ -2,11 +2,18 @@
     {
         "id": "gen_newborn",
         "thoughts": [
-            "Mewls pitifully for milk",
-            "Tries to figure out all of the smells around {PRONOUN/m_c/object}",
+            "Gets scared by a shadow above the water",
+            "Food? Food? Food? Food?",
+            "Wiggles their little leggies",
+            "Squabbles with some other larvae over a flake of food",
+            "Nibbles on the fingers someone stuck in the spawning pool",
+            "Swims in circles really fast",
+            "Spins very slowly",
+            "Rotates a leaf nobody's eaten yet with their legs",
+            "Gets scared by a cub splashing in the water",
+            "Darts around",
             "Snoozes peacefully",
-            "Tries to open {PRONOUN/m_c/poss} eyes, but it's all blurry",
-            "Head empty"
+            "Shimp"
         ],
         "main_age_constraint": [
             "newborn"
@@ -15,9 +22,8 @@
     {
         "id": "gen_newborn_to_parent",
         "thoughts":[
-            "Snuggles closer to r_c",
-            "Smells r_c and immediately perks up",
-            "Mews at r_c as {PRONOUN/r_c/subject} {VERB/r_c/shift/shifts} in the nest"
+            "Recognises r_c's fingers in the water and swims over",
+            "Doesn't recognise r_c's fingers in the water and darts away, frightened"
         ],
         "main_age_constraint": [
             "newborn"

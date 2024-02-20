@@ -20,7 +20,7 @@
             "Is feeling gloomy",
             "Is looking around camp",
             "Is feeling happy!",
-            "Is curious about the other Clans",
+            "Is curious about the other Troops",
             "Is feeling sassy today",
             "Wants to spend time alone today",
             "Is eating a meal",
@@ -42,31 +42,35 @@
             "Had a nightmare involving the rain",
             "Had a nightmare involving a dropwig",
             "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} still in {PRONOUN/m_c/poss} nest sleeping",
-            "Is craving the taste of mouse",
-            "Is craving the taste of rabbit",
-            "Is craving the taste of vole",
-            "Is craving the taste of frog",
-            "Is craving the taste of shrew",
-            "Is craving the taste of bird",
-            "Is craving the taste of fish",
+            "Is craving the taste of batfly",
+            "Is craving the taste of squidcada",
+            "Is craving the taste of blue fruit",
+            "Is craving the taste of lizard",
+            "Is craving the taste of centipede",
+            "Is craving the taste of popcorn plant seeds",
+            "Is craving the taste of noodlefly",
             "Is wondering if {PRONOUN/m_c/subject} would be a good swimmer",
             "Is feeling underappreciated...",
             "Is staring off into space",
             "Is picking the burrs from {PRONOUN/m_c/poss} pelt",
-            "Is sharpening {PRONOUN/m_c/poss} claws",
+            "Is sharpening {PRONOUN/m_c/poss} spear",
             "Woke up on the wrong side of the nest",
             "Can't wait to take a nap later",
-            "Is batting at {PRONOUN/m_c/poss} tail",
-            "Daydreams about being a warrior in LionClan",
-            "Daydreams about being a warrior in TigerClan",
-            "Daydreams about being a warrior in LeopardClan",
-            "Saw a yappy little dog today",
-            "Got startled by a squirrel",
-            "Spends time watching fish in the nearby river",
+            "Is rummaging for nothing in particular",
+            "Is rummaging for anything interesting the others haven't noticed",
+            "Swears up and down they saw a Miros vulture",
+            "Insists they saw a vulture in the distance",
+            "Found the prettiest pearl to add to their collection",
+            "Got startled by a squidcada",
+            "Got spooked by some rubbish falling down",
+            "Is disappointed a flicker of light they saw wasn't a pearl",
+            "Saw some ruins shaped just like a scavenger",
+            "Spends time watching fish in the nearby pond",
             "Is batting at a beam of sunlight",
             "Thinks about StarClan",
-            "Saw a kittypet with the fluffiest fur imaginable today",
-            "Saw a big scary dog today",
+            "Saw a slugcat with the fluffiest fur imaginable today",
+            "Saw a big scary lizard today",
+            "Hopes nobody saw {PRONOUN/m_c/subject} fall off a pole",
             "Is looking forward to the next Gathering"
         ],
         "main_status_constraint": [
@@ -84,20 +88,19 @@
     {
         "id": "gen_not_kittypet",
         "thoughts": [
-            "Is thinking about how awful kittypet food must taste",
-            "Is wondering what living with Twolegs must be like",
-            "Saw some kittypets playing with colorful mossballs",
-            "Saw a kittypet sitting calmly next to a dog!",
-            "Almost got lost near some Twoleg nests",
-            "Saw some wandering Twolegs today",
-            "Saw a Twoleg kit playing with a dog",
-            "Saw a Twoleg kit playing with a kittypet",
-            "Saw a kittypet rolling around a Twoleg garden",
-            "Is thinking about a strange Twoleg object {PRONOUN/m_c/self} saw recently",
-            "Is wondering what the inside of a Twoleg den looks like",
+            "Is thinking about how awful the food must be in the city",
+            "Is wondering what living in the city must be like",
+            "Saw some city scavs who looked very lost",
+            "Saw a city scav being followed by a lizard - and they weren't even scared!",
+            "Almost got lost near the metal mountain",
+            "Saw some wandering overseers today",
+            "Saw an overseer showing some city scavs around",
+            "Looks up at the metal mountain and wonders what it's like above the clouds",
+            "Is thinking about some strange Ancient technology they saw recently",
+            "Is wondering what the inside of the metal mountain looks like",
             "Is complaining about being sent on dawn patrol",
-            "Is wondering if kittypet life is really so bad",
-            "Saw a pair of Twolegs near camp today!"
+            "Is wondering if city life is really so bad",
+            "Saw an overseer in the camp today!"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -191,9 +194,9 @@
             "Is wishing r_c would play more quietly",
             "Is worried about r_c",
             "Is proud of r_c's growth",
-            "Knows r_c will make a great Clanmate someday",
-            "Is playing mossball with r_c",
-            "Watches r_c pretend to hunt a mouse",
+            "Knows r_c will make a great Troopmate someday",
+            "Is playing ball with r_c",
+            "Watches r_c pretend to hunt a batfly",
             "Catches r_c climbing a bit too high"
         ],
         "main_status_constraint": [
@@ -275,7 +278,7 @@
         "thoughts": [
             "Is grateful to r_c for {PRONOUN/m_c/poss} treatment",
             "Wonders if StarClan has given r_c any prophecies lately",
-            "Chats with r_c about what it's like to be a medicine cat"
+            "Chats with r_c about what it's like to be a healer"
         ],
         "main_status_constraint": [
             "kitten",
@@ -576,7 +579,7 @@
     {
         "id": "gen_to_dead_mediator",
         "thoughts": [
-            "Is wondering what r_c would think of current conflicts in the Clan"
+            "Is wondering what r_c would think of current conflicts in the Troop"
         ],
         "main_status_constraint": [
             "any"
@@ -591,8 +594,8 @@
     {
         "id": "gen_otherclan",
         "thoughts": [
-            "Is wondering how {PRONOUN/m_c/poss} old Clan is doing",
-            "Is thinking about {PRONOUN/m_c/poss} old Clanmates"
+            "Is wondering how their old Troop is doing",
+            "Is thinking about their old Troopmates"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -693,8 +696,8 @@
             "Someone says something that reminds {PRONOUN/m_c/object} of {PRONOUN/m_c/poss} lost home",
             "Glares at r_c when {PRONOUN/r_c/subject} {VERB/r_c/ask/asks} {PRONOUN/m_c/object} about where {PRONOUN/m_c/subject} used to live",
             "Is ignoring the gossip about {PRONOUN/m_c/poss} past",
-            "Is comforted by {PRONOUN/m_c/poss} Clanmates' confidence in the safety of c_n",
-            "Is unsure of {PRONOUN/m_c/poss} Clanmates confidence in the safety of c_n"
+            "Is comforted by {PRONOUN/m_c/poss} Troopmates' confidence in the safety of c_n",
+            "Is unsure of {PRONOUN/m_c/poss} Troopmates confidence in the safety of c_n"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -724,7 +727,7 @@
     {
         "id": "gen_tragedy_survivor_to_alive_leader",
         "thoughts": [
-            "Is wondering how well the Clan would fare in a disaster under r_c's leadership"
+            "Is wondering how well the Troop would fare if a disaster occurred under r_c's leadership"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -769,12 +772,12 @@
     {
         "id": "gen_former_kittypet_apprentice",
         "thoughts": [
-            "Hopes to become a warrior soon so others will stop teasing {PRONOUN/m_c/object} about being a kittypet",
+            "Hopes to become a warrior soon so others will stop teasing {PRONOUN/m_c/object} about being a city scav",
             "Trains all day long to prove {PRONOUN/m_c/self} to be as good as any other apprentice",
             "Is worried {PRONOUN/m_c/subject} will never fit in",
-            "Refuses to let {PRONOUN/m_c/poss} past kittypet life hold {PRONOUN/m_c/object} back",
-            "Wants to play with {PRONOUN/r_c/poss} old kittypet toys",
-            "Avoids the Twoleg place to prove {PRONOUN/m_c/poss} loyalty"
+            "Refuses to let {PRONOUN/m_c/poss} city roots hold {PRONOUN/m_c/object} back",
+            "Wants to play with the toys {PRONOUN/m_c/subject} left behind in the city",
+            "Avoids the metal mountain to prove {PRONOUN/m_c/poss} loyalty"
         ],
         "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
         "main_status_constraint": ["apprentice"]
@@ -798,11 +801,10 @@
     {
         "id": "gen_former_kittypet_medcat",
         "thoughts": [
-            "Uses knowledge from {PRONOUN/r_c/poss} time with Twolegs to improve a healing method",
-            "Wonders what {PRONOUN/r_c/poss} old vet would do for greencough",
-            "Is annoyed by Clan gossip surrounding {PRONOUN/m_c/poss} past and {PRONOUN/m_c/poss} connection to StarClan",
-            "Knows a great garden in the Twoleg place for gathering catmint",
-            "Wishes {PRONOUN/m_c/subject} could get {PRONOUN/m_c/poss} paws on the wrappings the vet uses"
+            "Uses knowledge from Ancient diagrams to improve a healing method",
+            "Wonders what {PRONOUN/r_c/poss} an iterator would do for greencough",
+            "Is annoyed by Troop gossip surrounding {PRONOUN/m_c/poss} past and {PRONOUN/m_c/poss} connection to StarClan",
+            "Wishes {PRONOUN/m_c/subject} could get {PRONOUN/m_c/poss} hands on the wrappings iterators use"
         ],
         "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
         "main_status_constraint": [
@@ -811,7 +813,7 @@
     {
         "id": "gen_former_kittypet_deputy",
         "thoughts": [
-            "Is proud of how far {PRONOUN/m_c/subject} {verb/m_c/have/has} come from {PRONOUN/m_c/poss} kittypet life",
+            "Is proud of how far {PRONOUN/m_c/subject} {verb/m_c/have/has} come from {PRONOUN/m_c/poss} city life",
             "Is annoyed to still hear gossip about {PRONOUN/m_c/poss} past",
             "Would never wish to return to {PRONOUN/m_c/poss} old life in the city",
             "Wishes other scavengers would trust in the leader's choice of making {PRONOUN/m_c/object} deputy",
@@ -824,12 +826,12 @@
     {
         "id": "gen_former_kittypet_leader",
         "thoughts": [
-            "Is proud of how far {PRONOUN/m_c/subject} {verb/m_c/have/has} come from {PRONOUN/m_c/poss} kittypet life",
-            "Would never wish to return to {PRONOUN/m_c/poss} old kittypet life",
+            "Is proud of how far {PRONOUN/m_c/subject} {verb/m_c/have/has} come from {PRONOUN/m_c/poss} city life",
+            "Would never wish to return to {PRONOUN/m_c/poss} old life in the city",
             "Is happy to prove StarClan's trust in {PRONOUN/m_c/poss} leadership",
             "Carefully practices the words to every ceremony in {PRONOUN/m_c/poss} den",
-            "Looks back on {PRONOUN/m_c/poss} life as a kittypet, amazed at how different things are now",
-            "Thinks about taking in some kittypets as apprentices"
+            "Looks back on {PRONOUN/m_c/poss} life in the city, amazed at how different things are now",
+            "Thinks about taking in some city scavs as apprentices"
         ],
         "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
         "main_status_constraint": [
@@ -838,9 +840,9 @@
     {
         "id": "med_cat_alive_kit",
         "thoughts": [
-            "Is teaching kits about what plants to stay away from",
-            "Chased kits out of {PRONOUN/m_c/poss} den",
-            "Is visiting the nursery for to give r_c a checkup"
+            "Is teaching cubs about what plants to stay away from",
+            "Chased cubs out of {PRONOUN/m_c/poss} den",
+            "Is visiting the nursery to give r_c a checkup"
         ],
         "main_status_constraint": [
             "medicine cat",
@@ -872,11 +874,11 @@
             "Fell into the nearby creek yesterday and is still feeling damp",
             "Is having a hard time keeping up with {PRONOUN/m_c/poss} training",
             "Was tasked with lining nests with fresh moss today",
-            "Is dreaming of someday making {PRONOUN/m_c/poss} Clan proud",
-            "Is thinking about the time {PRONOUN/m_c/subject} caught a huge rabbit",
+            "Is dreaming of someday making {PRONOUN/m_c/poss} Troop proud",
+            "Is thinking about the time {PRONOUN/m_c/subject} caught a huge lantern mouse",
             "Practices some battle moves",
-            "Is helping to reinforce the camp wall with brambles",
-            "Is daydreaming about having a mate and kits someday",
+            "Is helping to reinforce the camp wall with scrap metal",
+            "Is daydreaming about having a mate and cubs someday",
             "Had quite the adventure today",
             "Has been training very hard recently",
             "Had a very strange dream",
@@ -885,7 +887,7 @@
             "Won't stop asking 'Why?'",
             "Is rolling around in the sunlight",
             "Gets lost on patrol",
-            "Caught THE BIGGEST mouse EVER, like, seriously!"
+            "Caught THE BIGGEST lantern mouse EVER, like, seriously!"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -970,7 +972,7 @@
     {
         "id": "apprentice_alive_med_cat",
         "thoughts": [
-            "Is at the medicine cat den after a small injury"
+            "Is at the healer's den after a small injury"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -983,8 +985,8 @@
     {
         "id": "apprentice_alive_med_cat_app",
         "thoughts": [
-            "Wants to visit r_c at the medicine cat den",
-            "Is speaking with r_c about what being a medicine cat apprentice is like"
+            "Wants to visit r_c at the healer's den",
+            "Is speaking with r_c about what being a healer apprentice is like"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -1000,11 +1002,11 @@
     {
         "id": "apprentice_alive_kits",
         "thoughts": [
-            "Is awkwardly deflecting kits' questions about where kits come from",
-            "Was put on kit-sitting duty",
-            "Is showing off to the kits",
-            "Is telling off kits for being immature",
-            "Is rambling on to kits about the importance of respecting their elders",
+            "Is awkwardly deflecting cubs' questions about where cubs come from",
+            "Was put on cub-sitting duty",
+            "Is showing off to the cubs",
+            "Is telling off cubs for being immature",
+            "Is rambling on to cubs about the importance of respecting their elders",
             "Makes fun of r_c for not being an apprentice yet",
             "Is playfighting with r_c",
             "Teaches r_c a cool new trick that {PRONOUN/m_c/subject} learned"
@@ -1107,11 +1109,11 @@
             "Goes to teach r_c a new move {PRONOUN/m_c/subject} learned, but remembered r_c is among the stars now",
             "Misses r_c nagging {PRONOUN/m_c/object} about apprentice duties",
             "Is tearing up after finding r_c's old mossball",
-            "Hopes that somehow, someway, the kits in StarClan are learning the hunting crouch",
-            "Wonders if the kits get mossballs in StarClan",
-            "Hopes that the kits in StarClan get time to play games",
-            "Looks up at the night sky, and wonders which stars are long-gone kits",
-            "Thought {PRONOUN/m_c/subject} saw a stray kit infront of the nursery, but it vanished",
+            "Hopes that somehow, someway, the cubs in StarClan are learning the hunting crouch",
+            "Wonders if the cubs get mossballs in StarClan",
+            "Hopes that the cubs in StarClan get time to play games",
+            "Looks up at the night sky, and wonders which stars are long-gone cubs",
+            "Thought {PRONOUN/m_c/subject} saw a stray cub in front of the nursery, but it vanished",
             "Walks in the nursery, hoping to see r_c again, but then realizes that r_c isn't coming back"
         ],
         "main_status_constraint": [
@@ -1133,6 +1135,7 @@
             "Wonders what {PRONOUN/m_c/subject} even {VERB/m_c/need/needs} this training method for",
             "Brags about all the lizards {PRONOUN/m_c/subject} killed when {PRONOUN/m_c/subject} {VERB/m_c/were/was} a rogue",
             "Can't help but be intrigued by the Warrior Code",
+            "Thinks about how much easier is it to find spears now",
             "Is trying to memorize the Warrior Code"
         ],
         "main_status_constraint": [
@@ -1257,7 +1260,8 @@
     {
         "id": "shameless_apprentice",
         "thoughts": [
-            "Was found napping in the warrior's den!"
+            "Was found napping in the warrior's den!",
+            "Took a spear {PRONOUN/m_c/poss} knows belongs to someone else"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -1288,8 +1292,9 @@
         "id": "strange_apprentice",
         "thoughts": [
             "Decides to stare at {PRONOUN/m_c/poss} mentor without blinking",
+            "Decides to point at r_c until they're out of sight",
             "Has found an unorthodox way out of camp",
-            "Asks {PRONOUN/m_c/poss} mentor why snakes don't have legs"
+            "Asks {PRONOUN/m_c/poss} mentor why leeches don't have legs"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -1320,6 +1325,8 @@
         "thoughts": [
             "Won't stop making funny faces when {PRONOUN/m_c/poss} mentor's back is turned",
             "Annoyed {PRONOUN/m_c/poss} mentor on accident the other day",
+            "Tries to start a game with {PRONOUN/m_c/poss} mentor when they should be training",
+            "Spins {PRONOUN/m_c/poss} spear around and looks soooo cool",
             "Successfully lightened a dreary mood while training"
         ],
         "main_status_constraint": [
@@ -1334,7 +1341,7 @@
     {
         "id": "responsible_apprentice",
         "thoughts": [
-            "Is licking {PRONOUN/m_c/poss} chest in embarrassment after being praised by {PRONOUN/m_c/poss} mentor",
+            "Is rubbing {PRONOUN/m_c/poss} chest in embarrassment after being praised by {PRONOUN/m_c/poss} mentor",
             "Is asking {PRONOUN/m_c/poss} mentor what {PRONOUN/m_c/subject} can do to be helpful around camp today"
         ],
         "main_status_constraint": [
@@ -1379,7 +1386,8 @@
     {
         "id": "loving_apprentice_to_apprentice",
         "thoughts": [
-            "Is listening to another apprentice's troubles sympathetically"
+            "Is listening to another apprentice's troubles sympathetically",
+            "Gave another apprentice a new pearl to cheer them up"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -1417,7 +1425,7 @@
             "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} back in the nursery",
             "Has agreed to {PRONOUN/m_c/poss} mentor's orders recently, despite {PRONOUN/m_c/poss} own doubts",
             "Managed to conquer a difficult task, despite feeling nervous",
-            "Was startled by a squirrel while training"
+            "Was startled by a batfly while training"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -1520,7 +1528,7 @@
     {
         "id": "cold_apprentices",
         "thoughts": [
-            "Is hoping {PRONOUN/m_c/poss} name will end in -claw",
+            "Is hoping {PRONOUN/m_c/poss} name will be something like 'Brutal'",
             "Doesn't react when {PRONOUN/m_c/poss} mentor praises {PRONOUN/m_c/object} for a good catch"
         ],
         "main_status_constraint": [
@@ -1556,6 +1564,7 @@
         "thoughts": [
             "Is itching to go and train",
             "Is being scolded by for reckless behavior while training",
+            "Can't wait to learn to use grenades",
             "Was chastised yesterday for sticking {PRONOUN/m_c/poss} head in an unknown burrow"
         ],
         "main_status_constraint": [
@@ -1590,7 +1599,7 @@
             "Finds that today is going to be a better day than the last",
             "Is making {PRONOUN/m_c/poss} friends laugh at the expense of {PRONOUN/m_c/self}",
             "Finds that {PRONOUN/m_c/subject} {VERB/m_c/are/is} really good at making {PRONOUN/m_c/poss} mentor laugh",
-            "Is complimenting another apprentice on {PRONOUN/m_c/poss} hunting crouch",
+            "Is complimenting another apprentice on {PRONOUN/m_c/poss} spear technique",
             "Is unsure that this is what {PRONOUN/m_c/subject} {VERB/m_c/want/wants} to do"
         ],
         "main_status_constraint": [
@@ -1619,7 +1628,7 @@
         "id": "adventurous_apprentices",
         "thoughts": [
             "Is trying to recruit other apprentices for a quick adventure",
-            "Sneaks off to the Twolegplace to explore"
+            "Sneaks off to the edge of the territory to explore"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -1635,8 +1644,8 @@
             "Has been asking {PRONOUN/m_c/poss} mentor for more training",
             "Is feeling proud of {PRONOUN/m_c/self}",
             "Made sure to wake up early to train",
-            "Is daydreaming about a Clan celebration in {PRONOUN/m_c/poss} honor",
-            "Is asking the Clan leader how {PRONOUN/m_c/subject} can help out around camp",
+            "Is daydreaming about a Troop celebration in {PRONOUN/m_c/poss} honor",
+            "Is asking the Troop leader how {PRONOUN/m_c/subject} can help out around camp",
             "Has been asking {PRONOUN/m_c/poss} mentor for more training",
             "Tries to put on a brave face for {PRONOUN/m_c/poss} fellow apprentices",
             "Seems to be ordering {PRONOUN/m_c/poss} fellow apprentices around"
@@ -1670,6 +1679,7 @@
         "thoughts": [
             "Goes for a swim",
             "Zooms around camp",
+            "Is getting so good at swinging from poles",
             "Is proud that {PRONOUN/m_c/subject} {VERB/m_c/have/has} become stronger despite {PRONOUN/m_c/poss} struggles",
             "Is having trouble grooming {PRONOUN/m_c/self}",
             "Snaps at r_c for trying to 'help' {PRONOUN/m_c/object} with something {PRONOUN/m_c/subject} can do just fine",
@@ -1688,9 +1698,9 @@
     {
         "id": "paralyzed_gen_to_alive_kit",
         "thoughts": [
-            "Is spinning an epic tale to the kits about how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} legs",
-            "Couldn't escape in time before kits piled on {PRONOUN/m_c/object}!",
-            "Takes r_c for a badger ride around camp"
+            "Is spinning an epic tale to the cubs about how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} legs",
+            "Couldn't escape in time before cubs piled on {PRONOUN/m_c/object}!",
+            "Takes r_c for a piggyback ride around camp"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1755,7 +1765,7 @@
     {
         "id": "paralyzed_adolescent_to_alive_apprentice",
         "thoughts": [
-            "Boasts to r_c about how strong {PRONOUN/m_c/poss} front legs are"
+            "Boasts to r_c about how strong {PRONOUN/m_c/poss} arms are"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1774,15 +1784,14 @@
     {
         "id": "blind_gen_to_alive_gen",
         "thoughts": [
-            "Wonders what {PRONOUN/m_c/poss} Clanmates look like",
+            "Wonders what {PRONOUN/m_c/poss} Troopmates look like",
             "Smiles as r_c tries to describe different colors to {PRONOUN/m_c/object}",
             "Listened to bird songs all morning",
-            "Just heard a frog croaking in camp!",
-            "Knows r_c is nearby from the sound of {PRONOUN/r_c/poss} pawsteps",
+            "Just heard a noodlefly honking in camp!",
+            "Knows r_c is nearby from the sound of {PRONOUN/r_c/poss} walking",
             "Jumps as {PRONOUN/m_c/subject} {VERB/m_c/hit/hits} a large rock with {PRONOUN/m_c/poss} paw",
-            "Is annoyed that a Clanmate keeps pitying {PRONOUN/m_c/object}",
-            "Confused {PRONOUN/m_c/poss} Clanmates when {PRONOUN/m_c/subject} said it was a beautiful day",
-            "Wonders if {PRONOUN/m_c/poss} mental image of r_c matches real life"
+            "Is annoyed that a Troopmate keeps pitying {PRONOUN/m_c/object}",
+            "Confused {PRONOUN/m_c/poss} Troopmates when {PRONOUN/m_c/subject} said it was a beautiful day"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1796,7 +1805,7 @@
     {
         "id": "blind_adolescent_to_alive_gen",
         "thoughts": [
-            "Makes a sculpture out of mud",
+            "Makes a sculpture",
             "Is memorizing the scents of {PRONOUN/m_c/poss} friends and family",
             "Wonders why the ground feels that way",
             "Won a game of hide-and-seek, to the shock of {PRONOUN/m_c/poss} friends!",
@@ -1837,8 +1846,8 @@
         "id": "one_bad_eye_gen_to_alive_gen",
         "thoughts": [
             "Was startled by r_c suddenly appearing on {PRONOUN/m_c/poss} blind side",
-            "Makes an eye-patch for {PRONOUN/m_c/object} from grass and leaves",
-            "Stumbles into a tree on accident"
+            "Makes an eye-patch for {PRONOUN/m_c/object} from woven plants",
+            "Stumbles into something by accident"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1868,7 +1877,7 @@
     {
         "id": "one_bad_eye_adolescent_to_alive_gen",
         "thoughts": [
-            "Boasts that {PRONOUN/m_c/subject} can take on a fox with {PRONOUN/m_c/poss} good eye closed",
+            "Boasts that {PRONOUN/m_c/subject} can take on a lizard with {PRONOUN/m_c/poss} good eye closed",
             "Wonders if {PRONOUN/m_c/poss} pelt looks messy on {PRONOUN/m_c/poss} bad side",
             "Jokingly told r_c {PRONOUN/m_c/subject} can see further with one eye",
             "Looks at {PRONOUN/m_c/poss} bad side in a puddle"
@@ -1928,8 +1937,7 @@
             "Can identify {PRONOUN/m_c/poss} Troopmates just by the feel of their footsteps",
             "Recently discovered that {PRONOUN/m_c/subject} {VERB/m_c/have/has} a stomping habit",
             "Wonders what r_c sounds like",
-            "Knows what r_c is saying from {PRONOUN/r_c/poss} mouth movement",
-            "Teases a Clanmate for trying to call {PRONOUN/m_c/object} out loud"
+            "Teases a Troopmate for trying to call {PRONOUN/m_c/object} out loud"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1946,7 +1954,7 @@
             "Wonders if the clouds make noise",
             "Wonders if the sun makes noise",
             "Feels thunder boom and watches the others flinch",
-            "Curiously feels the thumps of {PRONOUN/m_c/poss} Clanmates' pawsteps on the ground"
+            "Curiously feels the thumps of {PRONOUN/m_c/poss} Troopmates' footsteps on the ground"
         ],
         "perm_conditions": {
             "m_c": [
@@ -2060,7 +2068,7 @@
     {
         "id": "lost_leg_gen_to_alive_kit",
         "thoughts": [
-            "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the kits"
+            "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the cubs"
         ],
         "perm_conditions": {
             "m_c": [
@@ -2082,12 +2090,12 @@
     {
         "id": "explorer",
         "thoughts": [
-            "Found a new tunnel in the Clan's territory",
+            "Found a new tunnel in the Troop's territory",
             "Is exploring a hidden trail",
             "Discovers a series of shortcuts out in the territory",
             "Wants to find each and every secret in the territory",
             "Has a longing to explore",
-            "Climbed the tallest tree in the territory",
+            "Climbed the tallest tower in the territory",
             "Is being scolded for straying too far from camp",
             "Wonders what lies just beyond the horizon",
             "Thinks about what it'd be like to explore underwater",
@@ -2099,7 +2107,7 @@
             "Listens to a city scav talk about the Metropolis",
             "Searches under every rock",
             "Looks for hidden tunnels",
-            "Fell into an unknown river while exploring and got wet!",
+            "Fell into an unknown pool while exploring and got wet!",
             "Scraped up their paws while exploring the wilderness",
             "Snuck outside troop territory to explore",
             "Found a tiny shelter"
@@ -2118,12 +2126,12 @@
     {
         "id": "tracker",
         "thoughts": [
-            "Is following a mouse's scent back to their den",
+            "Is following a lantern mouse's scent back to their den",
             "Manages to track down r_c in a game of hide 'n seek",
             "Was able to pinpoint a faint scent trail",
-            "Finds a trinket that one of the kits had lost",
+            "Finds a trinket that one of the cubs had lost",
             "Knows that nothing will go missing on their watch",
-            "Tracked a dog all across the territory",
+            "Tracked a centipede all across the territory",
             "Sniff, sniff, sniff",
             "Tracks r_c across the entire territory",
             "Enjoys the familiar smell of their territory",
@@ -2172,7 +2180,7 @@
             "Asks about weaving some leaves into the den walls",
             "Asks r_c to look out for some nice pebbles",
             "Places some pebbles at camp entrance to look like a path",
-            "Is jealous of some glowy little suns that twolegs have attached to string",
+            "Tries to figure out how to move the lights in some pipes nobody goes in",
             "Thinks the camp looks pretty!"
         ],
         "main_age_constraint": [
@@ -2197,9 +2205,9 @@
             "Spines bristling at every moment outside of camp",
             "Pointed their spear at the sight of a slugcat inching too close",
             "Trying not to doze off guarding the entrance of the camp",
-            "Is glaring at a crow just beyond the camp walls",
+            "Is glaring at a squidcada just beyond the camp walls",
             "Catches a pair of apprentices trying to sneak out",
-            "Wave a tail at r_c and watch them head out for a patrol",
+            "Wave at r_c and watch them head out for a patrol",
             "Is trying to stay awake while on guard",
             "Stands so still they look like they've frozen",
             "Shoos a cub back into the nursery",
@@ -2489,7 +2497,7 @@
             "Comes up with a solution no one else thought of",
             "Pitches a new method of gathering food to the leader",
             "Is thinking so far out the box, that they've forgotten there was a box in the first place",
-            "Considers the power of StarClan",
+            "Considers the power of Starclan",
             "Wonders where the dark forest came from",
             "Thinks about the warrior code",
             "Wonders what their favourite food is",
