@@ -29,7 +29,7 @@
                 ]
             },
             {
-                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+                "text": "s_c immediately leaps to protect {PRONOUN/s_c/poss} Troopmates, {PRONOUN/s_c/poss} ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Troop cats, the rogues turn tail and run.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"],
@@ -61,13 +61,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The rogues are terrifyingly coordinated and are quick to use the patrol's shock and confusion against them. The patrol cats are picked off one by one, with only a couple managing to escape the slaughter.",
+                "text": "The rogues are terrifyingly coordinated and are quick to use the patrol's shock and confusion against them. The patrol scavengers are picked off one by one, with only a couple managing to escape the slaughter.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["multi"],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues ambushed {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavengerwas killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "killed in a rogue ambush"
                 }
             },
@@ -84,7 +84,7 @@
                 ],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues ambushed {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavengerwas killed when rogues ambushed {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "killed in a rogue ambush"
                 }
             }
@@ -102,7 +102,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "As the patrol is marking the border lines, a gang of rogues bursts from the beach grass! An ambush!",
-        "decline_text": "r_c turns tail and races away! The rogues have {PRONOUN/r_c/object} far outnumbered; warning the Clan is more important than playing the hero.",
+        "decline_text": "r_c turns tail and races away! The rogues have {PRONOUN/r_c/object} far outnumbered; warning the Troop is more important than playing the hero.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
@@ -120,7 +120,7 @@
                 ]
             },
             {
-                "text": "s_c snarls at the rogues, outnumbered but not cowed. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} at the intruders with such ferocity and fury that the rogues are taken aback. Alarmed by the lack of fear and self-preservation from the Clan cat, the rogues freeze. s_c sees {PRONOUN/s_c/poss} opportunity to run and takes it, racing back to the camp to gather more warriors and return.",
+                "text": "s_c snarls at the rogues, outnumbered but not cowed. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} at the intruders with such ferocity and fury that the rogues are taken aback. Alarmed by the lack of fear and self-preservation from the Troop cat, the rogues freeze. s_c sees {PRONOUN/s_c/poss} opportunity to run and takes it, racing back to the camp to gather more warriors and return.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"],
@@ -157,8 +157,8 @@
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN/m_c/object} while on a solo patrol.",
-                    "lead_death": "{VERB/m_c/were/was} killed in a rogue ambush"
+                    "reg_death": "This scavengerwas killed when rogues ambushed {PRONOUN/m_c/object} while on a solo patrol.",
+                    "lead_death": "killed in a rogue ambush"
                 },
                 "relationships": [
                     {
@@ -183,12 +183,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol is marking the border lines, a gang of rogues stalks out of the beach grass to confront the Clan cats!",
+        "intro_text": "As the patrol is marking the border lines, a gang of rogues stalks out of the beach grass to confront the Troop cats!",
         "decline_text": "The patrol turns tail and races away! The borders are left open for the rogues to muddy.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The rogues posture and jeer, eventually provoking a battle. The Clan cats are strong, however, and the rogues seem to be weakened by hunger. The patrol easily drives the intruders away.",
+                "text": "The rogues posture and jeer, eventually provoking a battle. The Troop scavengers are strong, however, and the rogues seem to be weakened by hunger. The patrol easily drives the intruders away.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -202,7 +202,7 @@
                 ]
             },
             {
-                "text": "The rogues posture and jeer, eventually provoking a battle. The Clan cats are strong, however, and after a short fight, the rogues are forced to retreat.",
+                "text": "The rogues posture and jeer, eventually provoking a battle. The Troop scavengers are strong, however, and after a short fight, the rogues are forced to retreat.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -216,7 +216,7 @@
                 ]
             },
             {
-                "text": "s_c takes the lead, confronting the gang with confidence. Eventually the rogues admit that they've been struggling to find enough prey and were looking to steal richer territory from the Clan. Tensions are eased when s_c informs the rogues of a prey-rich forest outside of c_n territory.",
+                "text": "s_c takes the lead, confronting the gang with confidence. Eventually the rogues admit that they've been struggling to find enough prey and were looking to steal richer territory from the Troop. Tensions are eased when s_c informs the rogues of a prey-rich forest outside of c_n territory.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -231,7 +231,7 @@
                 ]
             },
             {
-                "text": "s_c takes the lead, confronting the gang with confidence. Eventually the rogues admit that they've been struggling to find enough prey and were looking to steal richer territory from the Clan. Tensions are eased when s_c informs the rogues of a prey-rich forest outside of c_n territory.",
+                "text": "s_c takes the lead, confronting the gang with confidence. Eventually the rogues admit that they've been struggling to find enough prey and were looking to steal richer territory from the Troop. Tensions are eased when s_c informs the rogues of a prey-rich forest outside of c_n territory.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["bold", "confident", "charming"],
@@ -248,13 +248,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The rogues are terrifyingly coordinated and are quick to use the patrol's momentary surprise to their advantage. The patrol cats are picked off one by one, with only a couple managing to escape the slaughter.",
+                "text": "The rogues are terrifyingly coordinated and are quick to use the patrol's momentary surprise to their advantage. The patrol scavengers are picked off one by one, with only a couple managing to escape the slaughter.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["multi"],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues attacked {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues attacked {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavengerwas killed when rogues attacked {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "killed in a rogue ambush"
                 },
                 "relationships": [
@@ -280,7 +280,7 @@
                 ],
                 "history_text": {
                     "scar": "m_c was badly scarred when rogues attacked {PRONOUN/m_c/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues attacked {PRONOUN/m_c/poss} patrol.",
+                    "reg_death": "This scavengerwas killed when rogues attacked {PRONOUN/m_c/poss} patrol.",
                     "lead_death": "killed in a rogue ambush"
                 },
                 "relationships": [
@@ -339,7 +339,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain, but otherwise the patrol is successful.",
+                "text": "The scavengers become wet from the rain, but otherwise the patrol is successful.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -385,12 +385,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away. Some manage to ride the waves, paddling for their lives, but many are lost forever.",
+                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the scavengers in the patrol away. Some manage to ride the waves, paddling for their lives, but many are lost forever.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["multi"],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters.",
+                    "reg_death": "This scavengerwas drowned by floodwaters.",
                     "lead_death": "drowned in floodwaters"
                 }
             }
@@ -426,7 +426,7 @@
                 ]
             },
             {
-                "text": "The cats become wet from the rain, but otherwise the patrol is successful.",
+                "text": "The scavengers become wet from the rain, but otherwise the patrol is successful.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -472,7 +472,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away. p_l yowls out a warning, and most of the patrol is able to react quickly, striking out strongly for passing pieces of driftwood, but r_c doesn't make it, sinking beneath the water.",
+                "text": "There is a downpour and a sudden flood from the overflowing river sweeps all of the scavengers in the patrol away. p_l yowls out a warning, and most of the patrol is able to react quickly, striking out strongly for passing pieces of driftwood, but r_c doesn't make it, sinking beneath the water.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -981,7 +981,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful {PRONOUN/app1/subject}{VERB/app1/'re/'s} alone. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other cats.",
+                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful {PRONOUN/app1/subject}{VERB/app1/'re/'s} alone. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other scavengers.",
                 "exp": 0,
                 "weight": 20
             },
@@ -1359,7 +1359,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful that {PRONOUN/app1/poss} patrol is so small. Fewer eyes watching that embarrassing moment. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other cats.",
+                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful that {PRONOUN/app1/poss} patrol is so small. Fewer eyes watching that embarrassing moment. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other scavengers.",
                 "exp": 0,
                 "weight": 20
             },
@@ -1678,7 +1678,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, and can't meet the eyes of the rest of the patrol. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other cats.",
+                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, and can't meet the eyes of the rest of the patrol. {PRONOUN/app1/subject/CAP} {VERB/app1/don't/doesn't} want to look dumb in front of other scavengers.",
                 "exp": 0,
                 "weight": 20
             },
@@ -1719,8 +1719,8 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 15,
-        "intro_text": "As the cats move along the shoreline, they spot something massive moving beneath the water.",
-        "decline_text": "The cats are feeling remarkably incurious today.",
+        "intro_text": "As the scavengers move along the shoreline, they spot something massive moving beneath the water.",
+        "decline_text": "The scavengers are feeling remarkably incurious today.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -1763,7 +1763,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Frozen, the cats watch the massive lumbering frog, the size of a Twoleg and just as bipedal. It pauses, and like the rumble of thunder, issues a massive croak that creaks like cracking wood. All r_c can do is shiver.",
+                "text": "Frozen, the scavengers watch the massive lumbering frog, the size of a Twoleg and just as bipedal. It pauses, and like the rumble of thunder, issues a massive croak that creaks like cracking wood. All r_c can do is shiver.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [

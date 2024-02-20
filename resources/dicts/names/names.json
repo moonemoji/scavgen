@@ -163,7 +163,7 @@
     "Zealous", "Zipping", "Zapping", "Zestful", "Zesty", "Zealess"
     
   ],
-  "pelt_suffixes": {
+  "pelt_prefixes": {
     "TwoColour": ["patch", "spot", "splash", "spots"],
     "Tabby": ["stripe", "feather", "leaf", "stripe", "shade"],
     "Marbled": ["stripe", "feather", "leaf", "stripe", "shade"],
@@ -181,7 +181,7 @@
     "Singlestripe": ["stripe", "streak", "back", "shade", "stem", "shadow"],
     "Masked": ["stripe", "mask", "mask", "shade"]
   },
-  "tortie_pelt_suffixes": {
+  "tortie_pelt_prefixes": {
     "solid": ["dapple", "speckle", "spots", "splash"],
     "tabby": ["stripe", "feather", "leaf", "stripe", "shade", "fern"],
     "bengal": ["dapple", "speckle", "spots", "speck", "fern", "freckle"],

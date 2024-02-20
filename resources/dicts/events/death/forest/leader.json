@@ -40,9 +40,9 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "death_text": "m_c lost a life when a hawk attempted to grab and lift {PRONOUN/m_c/object}.",
+        "death_text": "m_c lost a life when a vulture attempted to grab and lift {PRONOUN/m_c/object}.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} grabbed by a hawk"
+            "lead_death": "{VERB/m_c/were/was} grabbed by a vulture"
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -55,9 +55,9 @@
             "Newleaf",
             "Greenleaf"
         ],
-        "death_text": "m_c lost a life after being swept away by a flood.",
+        "death_text": "m_c lost a life after being crushed by the rain.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} swept away by a flood"
+            "lead_death": "{VERB/m_c/were/was} crushed by the rain"
         },
         "cat_trait": null,
         "cat_skill": null,
@@ -95,9 +95,9 @@
             "respect",
             "trust"
         ],
-        "death_text": "m_c lost a life defending r_c from a hawk.",
+        "death_text": "m_c lost a life defending r_c from a vulture.",
         "history_text": {
-            "lead_death": "defended r_c from a hawk"
+            "lead_death": "defended r_c from a vulture"
         },
         "cat_trait": [
             "altruistic",
@@ -131,9 +131,9 @@
             "Leaf-bare",
             "no_body"
         ],
-        "death_text": "m_c was carried off by a hawk, never to be seen again.",
+        "death_text": "m_c was carried off by a vulture, never to be seen again.",
         "history_text": {
-            "lead_death": "{VERB/m_c/were/was} carried away by a hawk"
+            "lead_death": "{VERB/m_c/were/was} carried away by a vulture"
         },
         "cat_trait": null,
         "cat_skill": null,

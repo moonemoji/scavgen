@@ -34,7 +34,7 @@
                 ]
             },
             {
-                "text": "They are greeted with the vision of a cat they had failed to save looking content and happy in StarClan saying that they were not at fault for their death. They feel unburdened and at peace after receiving that vision.",
+                "text": "They are greeted with the vision of a scavenger they had failed to save looking content and happy in StarClan saying that they were not at fault for their death. They feel unburdened and at peace after receiving that vision.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -101,7 +101,7 @@
                 ]
             },
             {
-                "text": "As p_l is explaining why and where the herbs are growing app1 lets out a shout. To p_l's surprise they have found a previously unknown patch of an uncommon herb. Stunned and filled with pride that they found and recognized the herb, p_l promises them the first pick of fresh-kill.",
+                "text": "As p_l is explaining why and where the herbs are growing app1 lets out a shout. To p_l's surprise they have found a previously unknown patch of a uncommon herb. Stunned and filled with pride that they found and recognized the herb, p_l promises them the first pick from the food pile.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -150,7 +150,7 @@
         },
         "weight": 20,
         "intro_text": "app1 has been sent out into the swamps to try to find herbs alone.",
-        "decline_text": "Nervous and with an eerie sound on the wind scaring them, they decide to go back to camp with their tail dragging behind them and try again another day.",
+        "decline_text": "Nervous and with an eerie sound on the wind scaring them, they decide to go back to camp with their spear dragging behind them and try again another day.",
         "chance_of_success": 65,
         "success_outcomes": [
             {
@@ -190,11 +190,11 @@
         },
         "weight": 20,
         "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
-        "decline_text": "A cat grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to replenishing the Clan's stores after the long leaf-bare. For just a second, p_l feels the weight of their responsibilities lift, and they let out a whoop and stop to play with app1.",
+                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to replenishing the Troops's stores after the long leaf-bare. For just a second, p_l feels the weight of their responsibilities lift, and they let out a whoop and stop to play with app1.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -236,7 +236,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cats visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healers visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -258,7 +258,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the medicine cats persist patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the healers persist patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -320,11 +320,11 @@
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that newleaf is here. As the only reliable cure for yellowcough, they're determined that c_n replenish their stocks of it.",
-        "decline_text": "A cat grabs p_l's attention before they can leave camp.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave camp.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to replenishing the Clan's stores after the long leaf-bare. For just a second, they feel the weight of their responsibilities lift, the strength of that relief catching them off guard.",
+                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to replenishing the Troop's stores after the long leaf-bare. For just a second, they feel the weight of their responsibilities lift, the strength of that relief catching them off guard.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -352,7 +352,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healer visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -367,7 +367,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the healer persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -384,7 +384,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -422,11 +422,11 @@
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that newleaf is here. As the only reliable cure for yellowcough, they're determined that c_n replenish their stocks of it. They take along a warrior escort to help.",
-        "decline_text": "A cat grabs p_l's attention before they can leave.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to replenishing the Clan's stores after the long leaf-bare. For just a second, they feel the weight of their responsibilities lift, the strength of that relief catching them off guard.",
+                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to replenishing the Troop's stores after the long leaf-bare. For just a second, they feel the weight of their responsibilities lift, the strength of that relief catching them off guard.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["lungwort"],
@@ -441,7 +441,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, tail waving jovially with their good mood.",
+                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, eyes narrowed jovially with their good mood.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "lungwort", "plantain"],
@@ -456,7 +456,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healer visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -472,7 +472,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the healer persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -505,7 +505,7 @@
                 ]
             },
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -545,7 +545,7 @@
         },
         "weight": 20,
         "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
-        "decline_text": "A cat grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -591,7 +591,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cats visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healers visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -613,7 +613,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the medicine cats persist patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the healers persist patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -675,7 +675,7 @@
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that greenleaf is here. As the only reliable cure for yellowcough, they're determined that c_n stock up on it.",
-        "decline_text": "A cat grabs p_l's attention before they can leave camp.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave camp.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -707,7 +707,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healer visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -722,7 +722,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the healer persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -739,7 +739,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -777,7 +777,7 @@
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that greenleaf is here. As the only reliable cure for yellowcough, they're determined that c_n won't run out of it. They take along a warrior escort to help.",
-        "decline_text": "A cat grabs p_l's attention before they can leave.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -796,7 +796,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, tail waving jovially with their good mood.",
+                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, eyes narrowed jovially with their good mood.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "lungwort", "plantain"],
@@ -811,7 +811,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healer visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -827,7 +827,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the healer persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -860,7 +860,7 @@
                 ]
             },
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -900,7 +900,7 @@
         },
         "weight": 20,
         "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
-        "decline_text": "A cat grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -946,7 +946,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cats visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healers visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -968,7 +968,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the medicine cats persist patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the healers persist patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -1030,7 +1030,7 @@
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that leaf-bare is on the horizon. As the only reliable cure for yellowcough, they're determined that c_n stock up on it.",
-        "decline_text": "A cat grabs p_l's attention before they can leave camp.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave camp.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1062,7 +1062,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healer visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -1077,7 +1077,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the healer persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -1094,7 +1094,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1132,7 +1132,7 @@
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that leaf-bare is on the horizon. As the only reliable cure for yellowcough, they're determined that c_n won't run out of it. They take along a warrior escort to help.",
-        "decline_text": "A cat grabs p_l's attention before they can leave.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1151,7 +1151,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, tail waving jovially with their good mood.",
+                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, eyes narrowed jovially with their good mood.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "lungwort", "plantain"],
@@ -1166,7 +1166,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healer visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -1182,7 +1182,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the healer persists patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -1215,7 +1215,7 @@
                 ]
             },
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1255,7 +1255,7 @@
         },
         "weight": 20,
         "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough. It dies back during leaf-bare, but the snow in c_n's territory will preserve its juice and freshness until the newleaf thaw.",
-        "decline_text": "A cat grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave. Sighing, the expedition is delayed for another time.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -1301,7 +1301,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cats visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found under a snowy blanket.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healers visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found under a snowy blanket.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -1323,7 +1323,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the medicine cats persist patiently until they find those precious speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the healers persist patiently until they find those precious speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -1384,8 +1384,8 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l is on a mission to find lungwort now that leaf-bare is upon the Clan. As the only reliable cure for yellowcough, they're determined that c_n stock up on it. It dies back during leaf-bare, but the snow in c_n's territory will preserve its juice and freshness until the newleaf thaw.",
-        "decline_text": "A cat grabs p_l's attention before they can leave camp.",
+        "intro_text": "p_l is on a mission to find lungwort now that leaf-bare is upon the Troop. As the only reliable cure for yellowcough, they're determined that c_n stock up on it. It dies back during leaf-bare, but the snow in c_n's territory will preserve its juice and freshness until the newleaf thaw.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave camp.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -1417,7 +1417,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally, those telltale speckled leaves are found under the blanketing snow.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healer visiting each likely nook and cranny in a carefully planned search pattern until finally, those telltale speckled leaves are found under the blanketing snow.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -1432,7 +1432,7 @@
                 ]
             },
             {
-                "text": "Night falls, and s_c still insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves, wilted but still valuable.",
+                "text": "Night falls, and s_c still insists they keep going - they just can't let c_n go without. Exhausted but determined, the healer persists patiently until they find those precious speckled leaves, wilted but still valuable.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -1449,7 +1449,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1486,8 +1486,8 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l is on a mission to find lungwort now that leaf-bare is upon the Clan. As the only reliable cure for yellowcough, they're determined that c_n won't run out of it. They take along a warrior escort to help search for leaves preserved under the snow.",
-        "decline_text": "A cat grabs p_l's attention before they can leave.",
+        "intro_text": "p_l is on a mission to find lungwort now that leaf-bare is upon the Troop. As the only reliable cure for yellowcough, they're determined that c_n won't run out of it. They take along a warrior escort to help search for leaves preserved under the snow.",
+        "decline_text": "A scavenger grabs p_l's attention before they can leave.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -1506,7 +1506,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and still fresh, but there's also a nice patch of plantain nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, tail waving jovially with their good mood.",
+                "text": "Not only is the lungwort intact and still fresh, but there's also a nice patch of plantain nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, eyes narrowed jovially with their good mood.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "lungwort"],
@@ -1521,7 +1521,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found under the blanketing snow.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the healer visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found under the blanketing snow.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["many_herbs", "lungwort"],
@@ -1537,7 +1537,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves, wilted but still valuable.",
+                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the healer persists patiently until they find those precious speckled leaves, wilted but still valuable.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -1570,7 +1570,7 @@
                 ]
             },
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1613,19 +1613,19 @@
         "chance_of_success": 35,
         "success_outcomes": [
             {
-                "text": "p_l sure that it is a sign of StarClan follows the sounds and whispers on the wind and finds a queen who lost their life in a harsh kitting, their newborn kits clinging to a body that will never move again. p_l instantly wraps themselves around the kits and orders r_c back to camp to find help and a queen willing to nurse them.",
+                "text": "p_l sure that it is a sign of StarClan follows the sounds and whispers on the wind and finds a queen who lost their life in a harsh birth, their newborn cubs clinging to a body that will never move again. p_l instantly wraps themselves around the cubs and orders r_c back to camp to find help and a queen willing to nurse them.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn kits clinging to them. r_c sprints back to camp to find help while p_l tries to make the queen eat some strengthening herbs. Thankful for the help the queen joins c_n with their kits.",
+                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn cubs clinging to them. r_c sprints back to camp to find help while p_l tries to make the queen eat some strengthening herbs. Thankful for the help the queen joins c_n with their cubs.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the bodies of a(n) unknown queen with their kits slowly going cold. r_c goes back to camp to find help to bring their bodies back to camp to pay respects and bury them.",
+                "text": "p_l follows the strange sounds on the wind and finds the bodies of a(n) unknown queen with their cubs slowly going cold. r_c goes back to camp to find help to bring their bodies back to camp to pay respects and bury them.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1689,7 +1689,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other scavenger bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1735,12 +1735,12 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l heads out, leading a patrol of medicine cats to go find the buds of newleaf.",
+        "intro_text": "p_l heads out, leading a patrol of healers to go find the buds of newleaf.",
         "decline_text": ". . .And they're called back almost immediately, as one of the elders starts hacking up something.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The ground is slippery with damp, and as p_l falls, r_c catches them. It's a nice reminder that the responsibility of looking after the Clan is a shared one, and the rescue also makes p_l shiver pleasantly.",
+                "text": "The ground is slippery with damp, and as p_l falls, r_c catches them. It's a nice reminder that the responsibility of looking after the Troop is a shared one, and the rescue also makes p_l shiver pleasantly.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1852,7 +1852,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other scavenger bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1898,12 +1898,12 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l heads out, leading a patrol of medicine cats to go find some of the bounty of greenleaf.",
+        "intro_text": "p_l heads out, leading a patrol of healers to go find some of the bounty of greenleaf.",
         "decline_text": ". . .And they're called back almost immediately, as one of the elders starts hacking up something.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The ground is dusty and slippery, and as p_l falls, r_c catches them. It's a nice reminder that the responsibility of looking after the Clan is a shared one, and the rescue also makes p_l shiver pleasantly.",
+                "text": "The ground is dusty and slippery, and as p_l falls, r_c catches them. It's a nice reminder that the responsibility of looking after the Troop is a shared one, and the rescue also makes p_l shiver pleasantly.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2015,7 +2015,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other scavenger bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2061,12 +2061,12 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l heads out, leading a patrol of medicine cats to go stock up on the ripening harvest available in leaf-fall.",
+        "intro_text": "p_l heads out, leading a patrol of healers to go stock up on the ripening harvest available in leaf-fall.",
         "decline_text": ". . .And they're called back almost immediately, as one of the elders starts hacking up something.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The ground is slippery with damp, and as p_l falls, r_c catches them. It's a nice reminder that the responsibility of looking after the Clan is a shared one, and the rescue also makes p_l shiver pleasantly.",
+                "text": "The ground is slippery with damp, and as p_l falls, r_c catches them. It's a nice reminder that the responsibility of looking after the Troop is a shared one, and the rescue also makes p_l shiver pleasantly.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2178,7 +2178,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other scavenger bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2224,12 +2224,12 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l heads out, leading a patrol of medicine cats to go find any fresh herbs that have survived leaf-bare so far.",
+        "intro_text": "p_l heads out, leading a patrol of healers to go find any fresh herbs that have survived leaf-bare so far.",
         "decline_text": ". . .And they're called back almost immediately, as one of the elders starts hacking up something.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The ground is slippery with frost, and as p_l falls, r_c catches them. It's a nice reminder that the responsibility of looking after the Clan is a shared one, and the rescue also makes p_l shiver pleasantly.",
+                "text": "The ground is slippery with frost, and as p_l falls, r_c catches them. It's a nice reminder that the responsibility of looking after the Troop is a shared one, and the rescue also makes p_l shiver pleasantly.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
