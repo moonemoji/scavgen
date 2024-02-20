@@ -2044,6 +2044,9 @@ class ProfileScreen(Screens):
         elif the_cat.dead or game.clan.instructor.ID == the_cat.ID:
             biome_platforms = platformsheet.subsurface(pygame.Rect(0, order.index('SC/DF') * 70, 640, 70))
             return pygame.transform.scale(biome_platforms.subsurface(pygame.Rect(160 + offset, 0, 80, 70)), (240, 210))
+        elif the_cat.status == "newborn":
+            biome_platforms = platformsheet.subsurface(pygame.Rect(0, order.index('SC/DF') * 70, 640, 70))
+            return pygame.transform.scale(biome_platforms.subsurface(pygame.Rect(320 + offset, 0, 80, 70)), (240, 210))
         else:
             biome_platforms = platformsheet.subsurface(pygame.Rect(0, order.index(biome) * 70, 640, 70)).convert_alpha()
             season_x = {
