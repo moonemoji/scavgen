@@ -3088,7 +3088,7 @@ class Events:
 
             involved_cats = [cat.ID]
             if cat.age == 'adolescent':
-                transing_chance = random.getrandbits(2)  # 1/8
+                transing_chance = random.getrandbits(4)  # 1/8
             elif cat.age == 'young adult':
                 transing_chance = random.getrandbits(5)  # 1/16
             else:
