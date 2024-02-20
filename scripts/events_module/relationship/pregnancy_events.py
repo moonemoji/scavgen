@@ -366,13 +366,15 @@ class Pregnancy_Events():
         # Since cat has given birth, apply the birth cooldown. 
         cat.birth_cooldown = game.config["pregnancy"]["birth_cooldown"]
 
-        print(events["birth"].keys())
-        
         # choose event string
         # TODO: currently they don't choose which 'mate' is the 'blood' parent or not
         # change or leaf as it is? 
         events = Pregnancy_Events.PREGNANT_STRINGS
         event_list = []
+
+        print("BIRTH")
+        print(events["birth"].keys())
+
         if not cat.outside and other_cat is None:
             event_list.append(choice(events["birth"]["unmated_parent"]))
         elif cat.outside:
