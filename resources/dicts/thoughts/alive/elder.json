@@ -167,7 +167,7 @@
             "Wonders if the healer needs any help today",
             "Offers to help r_c sort herbs",
             "Wonders if {PRONOUN/m_c/subject} could've been a healer with r_c instead of retiring",
-            "Brought r_c some fresh-kill"
+            "Brought r_c some food"
         ],
         "perm_conditions": {
             "m_c": [
@@ -347,7 +347,6 @@
     {
         "id": "blind_adolescent_retired_to_alive_apprentice",
         "thoughts": [
-            "Sadly listens as the apprentices share stories of {PRONOUN/m_c/poss} feats",
             "Joins in as the apprentices share stories of {PRONOUN/m_c/poss} feats",
             "Asks r_c to describe what {PRONOUN/r_c/subject} saw on patrol today"
         ],
