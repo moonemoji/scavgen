@@ -34,7 +34,7 @@
                 ]
             },
             {
-                "text": "s_c has always been good at talking, so it isn't a big surprise that p_l finds it so easy to chat with them. It's just an herb gathering patrol, but p_l feels more relaxed than they've felt in moons when they come back to camp, smiling softly.",
+                "text": "s_c has always been good at talking, so it isn't a big surprise that p_l finds it so easy to chat with them. It's just a herb gathering patrol, but p_l feels more relaxed than they've felt in moons when they come back to camp, smiling softly.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -53,7 +53,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common, and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common, and the other scav bluntly refuses to talk about boring herbs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -67,7 +67,7 @@
                 ]
             },
             {
-                "text": "Not only do they not find anything, but p_l is <i> this </i> close to murdering s_c. They're obnoxious, troublesome, childish... simply not someone p_l enjoys interacting with.",
+                "text": "Not only do they not find anything, p_l wants to murder s_c. They're obnoxious, troublesome, childish... simply not someone p_l enjoys interacting with.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["troublesome", "childish"],
@@ -100,7 +100,7 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l heads out, leading a patrol of medicine cats to go find the buds of newleaf.",
+        "intro_text": "p_l heads out, leading a patrol of medicine scavs to go find the buds of newleaf.",
         "decline_text": "... And they're called back almost immediately, as one of the elders has started hacking something up.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -120,7 +120,7 @@
                 ]
             },
             {
-                "text": "s_c has always been good at talking, so it isn't a big surprise that p_l finds it so easy to chat with them. It's just an herb gathering patrol, but p_l feels more relaxed than they've felt in moons when they come back to camp, smiling softly.",
+                "text": "s_c has always been good at talking, so it isn't a big surprise that p_l finds it so easy to chat with them. It's just a herb gathering patrol, but p_l feels more relaxed than they've felt in moons when they come back to camp, smiling softly.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1", "MEDIATOR,1"],
@@ -153,7 +153,7 @@
                 ]
             },
             {
-                "text": "Not only do they not find anything, but p_l is <i> this </i> close to murdering s_c. They're obnoxious, troublesome, childish... simply not someone p_l enjoys interacting with.",
+                "text": "Not only do they not find anything, p_l wants to murder s_c. They're obnoxious, troublesome, childish... simply not someone p_l enjoys interacting with.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["troublesome", "childish"],
@@ -196,7 +196,7 @@
                 "herbs": ["betony"]
             },
             {
-                "text": "Betony is especially useful for cats who breathe with a rasp, and p_l is always keen to help Clanmates with the condition. With the great haul of betony p_l brings back, they'll be able to dose their Clanmates and prevent coughs and chest infections.",
+                "text": "Betony is especially useful for scavs who breathe with a rasp, and p_l is always keen to help Clanmates with the condition. With the great haul of betony p_l brings back, they'll be able to dose their Clanmates and prevent coughs and chest infections.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "betony"]
@@ -261,7 +261,7 @@
                 ]
             },
             {
-                "text": "Betony is especially useful for cats who breathe with a rasp, and p_l is always keen to help Clanmates with the condition. With the great haul of betony p_l brings back, they'll be able to dose their Clanmates and prevent coughs and chest infections. app1, however, is more interested in how betony prevents gross, runny dirt.",
+                "text": "Betony is especially useful for scavs who breathe with a rasp, and p_l is always keen to help Clanmates with the condition. With the great haul of betony p_l brings back, they'll be able to dose their Clanmates and prevent coughs and chest infections. app1, however, is more interested in how betony prevents gross, runny dirt.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "betony"],
@@ -372,7 +372,7 @@
                 ]
             },
             {
-                "text": "Betony is especially useful for cats who breathe with a rasp, and p_l is always keen to help Clanmates with the condition. With the great haul of betony p_l's patrol brings back, they'll be able to dose their Clanmates and prevent coughs and chest infections.",
+                "text": "Betony is especially useful for scavs who breathe with a rasp, and p_l is always keen to help Clanmates with the condition. With the great haul of betony p_l's patrol brings back, they'll be able to dose their Clanmates and prevent coughs and chest infections.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "betony"],
@@ -394,7 +394,7 @@
                 ]
             },
             {
-                "text": "As ever, s_c's keen eyes pick out their target quickly, and they organize their patrol to bring back a great haul of betony for the herb stores.",
+                "text": "As ever, s_c's keen eyes pick out their target quickly, and they organise their patrol to bring back a great haul of betony for the herb stores.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -510,7 +510,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Sure enough, all along the trailing branches of the blackberry brambles, new leaves poke towards the sun. p_l carefully plucks them, not taking too many - they want this plant to supply the Clan in future moons, too. app1 hasn't considered plant pruning as a medicine cat skill before now, and they have a good conversation about why it's important.",
+                "text": "Sure enough, all along the trailing branches of the blackberry brambles, new leaves poke towards the sun. p_l carefully plucks them, not taking too many - they want this plant to supply the Clan in future moons, too. app1 hasn't considered plant pruning as a medicine scav skill before now, and they have a good conversation about why it's important.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["blackberry"],
@@ -621,7 +621,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Sure enough, all along the trailing branches of the blackberry brambles, new leaves are poking towards the sun. p_l carefully plucks them, not taking too many - they want this plant to supply the Clan in future moons too. The rest of the patrol listens to them describe how a medicine cat must predict the Clan's future need, respect for p_l growing.",
+                "text": "Sure enough, all along the trailing branches of the blackberry brambles, new leaves are poking towards the sun. p_l carefully plucks them, not taking too many - they want this plant to supply the Clan in future moons too. The rest of the patrol listens to them describe how a medicine scav must predict the Clan's future need, respect for p_l growing.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["blackberry"],
@@ -643,7 +643,7 @@
                 ]
             },
             {
-                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the bramble seems to be sending out new exploratory branches too, promising more growth in the future. Their Clanmates send p_l away for a nap in the sunshine, as they organize the blackberry leaves, and p_l smiles appreciatively.",
+                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the bramble seems to be sending out new exploratory branches too, promising more growth in the future. Their Clanmates send p_l away for a nap in the sunshine, as they organise the blackberry leaves, and p_l smiles appreciatively.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "blackberry"],
@@ -665,7 +665,7 @@
                 ]
             },
             {
-                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the blackberry brambles. The patrol follows their lead, and it's a relaxed group that wanders back into camp with a massive haul from the blackberry bushes.",
+                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the blackberry brambles. The patrol follows their lead, and its a relaxed group that wanders back into camp with a massive haul from the blackberry bushes.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -738,7 +738,7 @@
                 "herbs": ["burdock"]
             },
             {
-                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. Laying the fat roots out in a towering but neat pile in the herb stores makes p_l's entire body thrum with a contented purr.",
+                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. Laying the fat roots out in a towering but neat pile in the herb stores makes p_l's day brighter and lifts a burden from their chest.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "burdock"]
@@ -803,7 +803,7 @@
                 ]
             },
             {
-                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. Laying the fat roots out in a towering but neat pile in the herb stores makes p_l's entire body thrum with a contented purr, as does seeing how hard app1 is working to learn herbcraft.",
+                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. Laying the fat roots out in a towering but neat pile in the herb stores makes p_l's day brighter and lifts a burden from their chest, as does seeing how hard app1 is working to learn herbcraft.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "burdock"],
@@ -892,7 +892,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The strengthening newleaf sun has tempted fat burdock leaves to start to sprout, and it's not finding them that's hard, it's trying to carry the roots back to camp all at once that proves difficult! It's a long, but productive, light-hearted afternoon, filled with smiles and jokes as the obliging cats follow p_l's direction to cart everything home.",
+                "text": "The strengthening newleaf sun has tempted fat burdock leaves to start to sprout, and it's not finding them that's hard, it's trying to carry the roots back to camp all at once that proves difficult! It's a long, but productive, light-hearted afternoon, filled with smiles and jokes as the obliging scavs follow p_l's direction to cart everything home.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["burdock"],
@@ -914,7 +914,7 @@
                 ]
             },
             {
-                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. Laying the fat roots out in a towering but neat pile in the herb stores makes p_l's entire body thrum with a contented purr, and their Clanmates smile, obligingly helping out their hard-working medicine cat.",
+                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. Laying the fat roots out in a towering but neat pile in the herb stores makes p_l's day brighter and lifts a burden from their chest, and their Clanmates smile, obligingly helping out their hard-working medicine scav.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "burdock"],
@@ -1003,7 +1003,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The medicine cat carefully picks out catmint from its known hiding places, carting it back to camp where it will protect the Clan.",
+                "text": "The medicine scav carefully picks out catmint from its known hiding places, carting it back to camp where it will protect the Clan.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["catmint"]
@@ -1015,7 +1015,7 @@
                 "herbs": ["catmint"]
             },
             {
-                "text": "s_c has a few favorite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp.",
+                "text": "s_c has a few favourite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -1052,7 +1052,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "As they walk, p_l teaches app1 about how crucial catmint is for coughs, and how, although its scent holds drugged pleasure, part of the responsibility of being a medicine cat is avoiding becoming caught in its haze. The medicine cats carefully pick out catmint from its known hiding places, carting it back to camp where it will protect the Clan.",
+                "text": "As they walk, p_l teaches app1 about how crucial catmint is for coughs, and how, although its scent holds drugged pleasure, part of the responsibility of being a medicine scav is avoiding becoming caught in its haze. The medicine scavs carefully pick out catmint from its known hiding places, carting it back to camp where it will protect the Clan.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["catmint"],
@@ -1096,7 +1096,7 @@
                 ]
             },
             {
-                "text": "s_c has a few favorite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp with app1.",
+                "text": "s_c has a few favourite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp with app1.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -1149,7 +1149,7 @@
         "biome": ["forest"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
-        "tags": [],
+        "tags": ["jealousy"],
         "patrol_art": "gen_med_gatheringcatmint_newleaf3",
         "min_cats": 3,
         "max_cats": 6,
@@ -1159,12 +1159,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As p_l looks at the twitching tails and wide eyes of the patrol set up to 'help' them gather catmint, their heart sinks. These overly excited warriors don't look like they're going to be useful, and p_l really needs to renew c_n's stocks of catmint as newleaf brings the plants back to life.",
+        "intro_text": "As p_l looks at the bouncy steps and wide eyes of the patrol set up to 'help' them gather catmint, their heart sinks. These overly excited warriors don't look like they're going to be useful, and p_l really needs to renew c_n's stocks of catmint as newleaf brings the plants back to life.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The warriors keep their heads, with the more experienced of p_l's helpers making themselves useful keeping those that are young or more impulsive focused on their task. The medicine cat and their team carefully pick out catmint from its known hiding places, carting it back to camp where it will protect the Clan.",
+                "text": "The warriors keep their heads, with the more experienced of p_l's helpers making themselves useful keeping those that are young or more impulsive focused on their task. The medicine scav and their team carefully pick out catmint from its known hiding places, carting it back to camp where it will protect the Clan.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["catmint"],
@@ -1180,13 +1180,13 @@
                         "cats_to": ["p_l"],
                         "cats_from": ["patrol"],
                         "mutual": false,
-                        "values": ["dislike", "jealousy"],
+                        "values": ["dislike"],
                         "amount": -10
                     }
                 ]
             },
             {
-                "text": "Fortunately, catmint starts trying to take over as much ground as possible as soon as it possibly can, and it's already enough of the way through newleaf to go harvest from its young leaves. The patrol of warriors, while over-enthusiastic, calm themselves down when p_l demands their attention, and together the cats bring a fair harvest home.",
+                "text": "Fortunately, catmint starts trying to take over as much ground as possible as soon as it possibly can, and it's already enough of the way through newleaf to go harvest from its young leaves. The patrol of warriors, while over-enthusiastic, calm themselves down when p_l demands their attention, and together the scavs bring a fair harvest home.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["catmint"],
@@ -1202,13 +1202,13 @@
                         "cats_to": ["p_l"],
                         "cats_from": ["patrol"],
                         "mutual": false,
-                        "values": ["dislike", "jealousy"],
+                        "values": ["dislike"],
                         "amount": -10
                     }
                 ]
             },
             {
-                "text": "s_c has a few favorite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp, though the warriors are fairly unruly about the 'no rolling on the plants' rule.",
+                "text": "s_c has a few favourite catmint plants, and goes to check whether they've regrown this newleaf. Two haven't, but another two have, and they're enough for a great harvest to take back to camp, though the warriors are fairly unruly about the 'no rolling on the plants' rule.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -1225,7 +1225,7 @@
                         "cats_to": ["p_l"],
                         "cats_from": ["patrol"],
                         "mutual": false,
-                        "values": ["dislike", "jealousy"],
+                        "values": ["dislike"],
                         "amount": -10
                     }
                 ]
@@ -1233,7 +1233,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is proven unfortunately correct, as the patrol is full of juvenile behavior and dumb jokes, rather than focused effort. The one catmint plant they successfully find ends up with their helpers rolling around in it, bruising all the stems until it's unharvestable, and p_l is furious by the time they return to camp.",
+                "text": "p_l is proven unfortunately correct, as the patrol is full of juvenile behaviour and dumb jokes, rather than focused effort. The one catmint plant they successfully find ends up with their helpers rolling around in it, bruising all the stems until it's unharvestable, and p_l is furious by the time they return to camp.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1248,7 +1248,7 @@
                         "cats_to": ["p_l"],
                         "cats_from": ["patrol"],
                         "mutual": false,
-                        "values": ["dislike", "jealousy"],
+                        "values": ["dislike"],
                         "amount": 10
                     }
                 ]
@@ -1368,7 +1368,7 @@
                 ]
             },
             {
-                "text": "Daisies aren't hard to find in the warmer seasons, and s_c collects enough that they have trouble not dropping any on the way back to camp. At least with app1 here with them the load is shared, and they purr in appreciation of the apprentice.",
+                "text": "Daisies aren't hard to find in the warmer seasons, and s_c collects enough that they have trouble not dropping any on the way back to camp. At least with app1 here with them the load is shared, and they smile in appreciation of the apprentice.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -1435,7 +1435,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Daisies may seem like part of the everyday carpet of greenery, present everywhere from rocks to fields to nestled at the foot of trees, but that doesn't make their leaves any less useful. With a larger patrol, the cats bring back a good haul, and p_l makes sure to thank everyone for their assistance.",
+                "text": "Daisies may seem like part of the everyday carpet of greenery, present everywhere from rocks to fields to nestled at the foot of trees, but that doesn't make their leaves any less useful. With a larger patrol, the scavs bring back a good haul, and p_l makes sure to thank everyone for their assistance.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["daisy"],
@@ -1546,7 +1546,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poison and stings. The white milk in their roots and stems keeps for a long time, and is a potent cure for poison - their leaves are weaker, but fast-acting, and can be chewed into poultices. Even the fluffy dandelion heads are useful as a c_n kitten's favorite, short-lived toy.",
+                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poison and stings. The white milk in their roots and stems keeps for a long time, and is a potent cure for poison - their leaves are weaker, but fast-acting, and can be chewed into poultices. Even the fluffy dandelion heads are useful as a c_n grub's favourite, short-lived toy.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["dandelion"]
@@ -1595,7 +1595,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. Both the potent milk in their roots and stems, and the fast-acting leaves... even the fluffy dandelion heads are useful as a c_n kitten's favorite, short lived toy. p_l smiles fondly as they remember watching app1 playing with them just a few short moons ago.",
+                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. Both the potent milk in their roots and stems, and the fast-acting leaves... even the fluffy dandelion heads are useful as a c_n grub's favourite, short lived toy. p_l smiles fondly as they remember watching app1 playing with them just a few short moons ago.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["dandelion"],
@@ -1706,7 +1706,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. Both the potent milk in their roots and stems, and the fast-acting leaves... even the fluffy dandelion heads are useful as a c_n kitten's favorite, short lived toy. The warriors smile at the sight, sharing fond nursery memories about them as they gather.",
+                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. Both the potent milk in their roots and stems, and the fast-acting leaves... even the fluffy dandelion heads are useful as a c_n grub's favourite, short lived toy. The warriors smile at the sight, sharing fond nursery memories about them as they gather.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["dandelion"],
@@ -1829,7 +1829,7 @@
                 "herbs": ["many_herbs", "elder_leaves"]
             },
             {
-                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by chewing off several low hanging, thin branches, and carting those back to camp instead.",
+                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by picking off several low hanging, thin branches, and carting those back to camp instead.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -1922,7 +1922,7 @@
                 ]
             },
             {
-                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by chewing off several low hanging, thin branches, and carting those back to camp instead. They pass on the trick to app1, and once they're back at camp both medicine cats strip off the leaves and give them a quick wash.",
+                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by picking off several low hanging, thin branches, and carting those back to camp instead. They pass on the trick to app1, and once they're back at camp both medicine scavs strip off the leaves and give them a quick wash.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -2017,7 +2017,7 @@
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Elder leaves being used to <i>soothe</i> sprains, and elder leaves having to be gathered in a way that <i>risks</i> sprains, is truly one of StarClan's little ironies, p_l reflects. They share the little joke with the patrol, and the cats murrp with amusement, but it does also remind everyone to be careful as they strip leaves from the tree.",
+                "text": "Elder leaves being used to <i>soothe</i> sprains, and elder leaves having to be gathered in a way that <i>risks</i> sprains, is truly one of StarClan's little ironies, p_l reflects. They share the little joke with the patrol, and the scavs snicker with amusement, but it does also remind everyone to be careful as they strip leaves from the tree.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["elder_leaves"],
@@ -2039,7 +2039,7 @@
                 ]
             },
             {
-                "text": "p_l manages to gather more than they were expecting - the tree they chose is in a good spot, and has begun its newleaf growth early and vigorously. The patrol chats and jokes to one another as they get to work plucking leaves to bring an impressive haul home.",
+                "text": "p_l manages to gather more than they were expecting - the tree they chose is in a good spot, and has begun its newleaf growth early and vigorously. The patrol chats and jokes to one another as they get to work plucking leaves to bring a impressive haul home.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "elder_leaves"],
@@ -2061,7 +2061,7 @@
                 ]
             },
             {
-                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by chewing off several low hanging, thin branches, and carting those back to camp instead. With so many assistants they can bring a truly massive haul home, where the rest of the patrol helps them strip the leaves and carefully store them.",
+                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by picking off several low hanging, thin branches, and carting those back to camp instead. With so many assistants they can bring a truely massive haul home, where the rest of the patrol helps them strip the leaves and carefully store them.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -2206,7 +2206,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The many stems of goldenrod surround p_l as they work, snipping off stems and clumps of tiny yellow flowers to bring back to c_n's herb stores. app1 and p_l occasionally exchange quiet meows as they work, contact calls reassuring each other that they're both still there amidst the towering goldenrod.",
+                "text": "The many stems of goldenrod surround p_l as they work, snipping off stems and clumps of tiny yellow flowers to bring back to c_n's herb stores. app1 and p_l occasionally exchange quiet sounds as they work, contact calls reassuring each other that they're both still there amidst the towering goldenrod.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["goldenrod"],
@@ -2228,7 +2228,7 @@
                 ]
             },
             {
-                "text": "It always amazes p_l how quickly the goldenrod bushes sprout back up after leaf-bare, and the cats collect more goldenrod than they were anticipating. app1 nearly disappears underneath their light but chaotically bushy bundle.",
+                "text": "It always amazes p_l how quickly the goldenrod bushes sprout back up after leaf-bare, and the scavs collect more goldenrod than they were anticipating. app1 nearly disappears underneath their light but chaotically bushy bundle.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "goldenrod"],
@@ -2340,7 +2340,7 @@
                 ]
             },
             {
-                "text": "It always amazes p_l how quickly the goldenrod bushes sprout back up after leaf-bare, and they collect more goldenrod than they were anticipating, loading up every cat until the patrol until everyone agrees the medicine cat den can't possibly fit more than this.",
+                "text": "It always amazes p_l how quickly the goldenrod bushes sprout back up after leaf-bare, and they collect more goldenrod than they were anticipating, loading up every scav until the patrol until everyone agrees the medicine scav den can't possibly fit more than this.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "goldenrod"],
@@ -2441,7 +2441,7 @@
                 "herbs": ["many_herbs", "juniper"]
             },
             {
-                "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles.",
+                "text": "s_c trots off to a good juniper tree, climbing onto a low branch to harvest its needles.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -2522,7 +2522,7 @@
                 ]
             },
             {
-                "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles. As they work, they chat to app1 about juniper's calming effects. This is one of the few herbs their Clanmates compete to go on patrols to help collect, as everyone enjoys the scent.",
+                "text": "s_c trots off to a good juniper tree, climbing onto a low branch to harvest its needles. As they work, they chat to app1 about juniper's calming effects. This is one of the few herbs their Clanmates compete to go on patrols to help collect, as everyone enjoys the scent.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -2633,7 +2633,7 @@
                 ]
             },
             {
-                "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles. Their patrol follows their lead, pulling twigs off, although a couple times s_c does need to remind them that the carpet of dead needles on the ground wouldn't be useful for the herb stores.",
+                "text": "s_c trots off to a good juniper tree, climbing onto a low branch to harvest its needles. Their patrol follows their lead, pulling twigs off, although a couple times s_c does need to remind them that the carpet of dead needles on the ground wouldn't be useful for the herb stores.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -2658,7 +2658,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The warriors are full of complaints about the sharp juniper needles spiking their poor widdle noses, and eventually a mildly disgusted p_l calls off the herb gathering patrol.",
+                "text": "The warriors are full of complaints about the sharp juniper needles spiking their poor widdle fingers, and eventually a mildly disgusted p_l calls off the herb gathering patrol.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2698,11 +2698,11 @@
         },
         "weight": 20,
         "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
-        "decline_text": "A cat grabs p_l's attention before they can leave. p_l heaves a sigh - the expedition is delayed for another time.",
+        "decline_text": "A scav grabs p_l's attention before they can leave. p_l heaves a sigh - the expedition is delayed for another time.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to replenishing the Clan's stores after the long leaf-bare. For just a second, they feel the weight of their responsibilities lift, and they let out a yowl and stop to play with app1.",
+                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to replenishing the Clan's stores after the long leaf-bare. For just a second, they feel the weight of their responsibilities lift, and they let out a trill and stop to play with app1.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["lungwort"],
@@ -2746,7 +2746,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cats visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine scavs visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -2770,7 +2770,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going. Lungwort is the only reliable cure for yellowcough, and they just can't let c_n go without. Exhausted, but determined, the medicine cats persist patiently until they finally find the precious, speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going. Lungwort is the only reliable cure for yellowcough, and they just can't let c_n go without. Exhausted, but determined, the medicine scavs persist patiently until they finally find the precious, speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -2833,7 +2833,7 @@
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that newleaf is here. As the only reliable cure for yellowcough, they're determined that c_n replenish their stocks of it.",
-        "decline_text": "A cat grabs p_l's attention before they can leave camp.",
+        "decline_text": "A scav grabs p_l's attention before they can leave camp.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -2867,7 +2867,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine scav visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -2883,7 +2883,7 @@
                 ]
             },
             {
-                "text": "Night falls, but still s_c insistently keeps going - they just can't let c_n go without. Exhausted, but determined, the medicine cat persists patiently until they find the precious, speckled leaves.",
+                "text": "Night falls, but still s_c insistently keeps going - they just can't let c_n go without. Exhausted, but determined, the medicine scav persists patiently until they find the precious, speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -2901,7 +2901,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their feet are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2938,7 +2938,7 @@
         },
         "weight": 20,
         "intro_text": "p_l is on a mission to find lungwort now that newleaf is here. As the only reliable cure for yellowcough, they're determined that c_n replenish their stocks of it. They take along a warrior escort to help.",
-        "decline_text": "A cat grabs p_l's attention before they can leave.",
+        "decline_text": "A scav grabs p_l's attention before they can leave.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -2957,7 +2957,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, tail waving jollily with their good mood.",
+                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, trotting along jollily with their good mood.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["lungwort"],
@@ -2972,7 +2972,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine scav visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
@@ -2989,7 +2989,7 @@
                 ]
             },
             {
-                "text": "Night falls, but still s_c insistently keeps going - they just can't let c_n go without. Exhausted, but determined, the medicine cat persists patiently until they find the precious, speckled leaves.",
+                "text": "Night falls, but still s_c insistently keeps going - they just can't let c_n go without. Exhausted, but determined, the medicine scav persists patiently until they find the precious, speckled leaves.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
@@ -3024,7 +3024,7 @@
                 ]
             },
             {
-                "text": "The cats search and search until their pawpads are sore and their muscles exhausted, but they just can't find lungwort anywhere. p_l returns to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "The scavs search and search until their feet are sore and their muscles exhausted, but they just can't find lungwort anywhere. p_l returns to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3115,7 +3115,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The soft, rose-like scent of the mallow bushes drifts around p_l and app1 as they work. They snip off clumps of large, fuzzy, three-nubbed leaves, and the occasional pink flower, to be taken back to camp. Bees hum through the air, not trying to bother the medicine cats, and p_l points out where they think the hive might be to app1.",
+                "text": "The soft, rose-like scent of the mallow bushes drifts around p_l and app1 as they work. They snip off clumps of large, fuzzy, three-nubbed leaves, and the occasional pink flower, to be taken back to camp. Bees hum through the air, not trying to bother the medicine scavs, and p_l points out where they think the hive might be to app1.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["mallow"],
@@ -3343,13 +3343,13 @@
                 "herbs": ["marigold"]
             },
             {
-                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any medicine cat ever want to risk running out of it? p_l brings back as much marigold as they can stuff into their mouth.",
+                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any medicine scav ever want to risk running out of it? p_l brings back as much marigold as they can carry.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "marigold"]
             },
             {
-                "text": "s_c finds a patch of marigold, harvests its best leaves, and pads home, unaware of how much of their success rests on their talent for herb gathering.",
+                "text": "s_c finds a patch of marigold, harvests its best leaves, and walks home, unaware of how much of their success rests on their talent for herb gathering.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -3408,7 +3408,7 @@
                 ]
             },
             {
-                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any medicine cat ever want to risk running out of it? p_l brings back as much marigold as they can stuff into their mouth, and app1 actually drops some of the leaves they carry on the way back to camp, a little over-ambitious with how much they can carry.",
+                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any medicine scav ever want to risk running out of it? p_l brings back as much marigold as they can carry, and app1 actually drops some of the leaves they carry on the way back to camp, a little over-ambitious with how much they can hold.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "marigold"],
@@ -3430,7 +3430,7 @@
                 ]
             },
             {
-                "text": "s_c finds a patch of marigold, harvests its best leaves, and pads home, unaware of how much of their success rests on their talent for herb gathering. app1 watches, trying to soak up their skills.",
+                "text": "s_c finds a patch of marigold, harvests its best leaves, and walks home, unaware of how much of their success rests on their talent for herb gathering. app1 watches, trying to soak up their skills.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -3497,7 +3497,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The low-growing marigold creeps across the ground, recognizable by its strange leaves that look like they're pretending to be small fern fronds from a distance. The non-medicine cats wander straight past them, and have to be gently called back by p_l to harvest them.",
+                "text": "The low-growing marigold creeps across the ground, recognizable by its strange leaves that look like they're pretending to be small fern fronds from a distance. The non-medicine scavs wander straight past them, and have to be gently called back by p_l to harvest them.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["marigold"],
@@ -3519,7 +3519,7 @@
                 ]
             },
             {
-                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any medicine cat ever want to risk running out of it? p_l brings back as much marigold as they can stuff into their mouth. The warriors helping them don't understand the importance, but obligingly follow p_l's example.",
+                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any medicine scav ever want to risk running out of it? p_l brings back as much marigold as they can carry. The warriors helping them don't understand the importance, but obligingly follow p_l's example.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "marigold"],
@@ -3541,7 +3541,7 @@
                 ]
             },
             {
-                "text": "s_c finds a patch of marigold, harvests its best leaves, and pads home, unaware of how much of their success rests on their talent for herb gathering. The patrol, too, is unaware, but it certainly bolsters their faith in their medicine cat to see them succeed with such competence.",
+                "text": "s_c finds a patch of marigold, harvests its best leaves, and walks home, unaware of how much of their success rests on their talent for herb gathering. The patrol, too, is unaware, but it certainly bolsters their faith in their medicine scav to see them succeed with such competence.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -3891,7 +3891,7 @@
                 "herbs": ["many_herbs", "oak_leaves"]
             },
             {
-                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground rather than clambering up into the towering branches.",
+                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground rather than clambering up into the towering branches.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -3972,7 +3972,7 @@
                 ]
             },
             {
-                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. app1 asks if the leaves are any less potent, but s_c doesn't think so - if they're growing here at all, they should be the same.",
+                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. app1 asks if the leaves are any less potent, but s_c doesn't think so - if they're growing here at all, they should be the same.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -4083,7 +4083,7 @@
                 ]
             },
             {
-                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. It's less entertaining for the warriors helping them, but the cats still make a nice, easy afternoon of it.",
+                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. It's less entertaining for the warriors helping them, but the scavs still make a nice, easy afternoon of it.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -4162,7 +4162,7 @@
                 "herbs": ["many_herbs", "plantain"]
             },
             {
-                "text": "Go to where other animals wander through c_n's territory on little, beaten paths, wander around until you bump, nose-first, into a plantain plant, harvest. Simple.",
+                "text": "Go to where other animals wander through c_n's territory on little, beaten paths, wander around until you bump into a plantain plant, harvest. Simple.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -4221,7 +4221,7 @@
                 ]
             },
             {
-                "text": "Suitable for soothing throat and pelt irritation, and with a welcome - albeit weird - habit of consistently sprouting up on well-trodden paths, plantain is a basic but valuable herb to keep stocks of, and always taught early in the herbal lore each medicine cat must memorize.",
+                "text": "Suitable for soothing throat and pelt irritation, and with a welcome - albeit weird - habit of consistently sprouting up on well-trodden paths, plantain is a basic but valuable herb to keep stocks of, and always taught early in the herbal lore each medicine scav must memorise.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "plantain"],
@@ -4243,7 +4243,7 @@
                 ]
             },
             {
-                "text": "Go to where other animals wander through c_n's territory on little, beaten paths, wander around until you bump, nose-first, into a plantain plant, harvest. Simple, p_l teaches app1.",
+                "text": "Go to where other animals wander through c_n's territory on little, beaten paths, wander around until you bump into a plantain plant, harvest. Simple, p_l teaches app1.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -4355,7 +4355,7 @@
                 ]
             },
             {
-                "text": "Go to where other animals wander through c_n's territory on little, beaten paths, wander around until you bump, nose-first, into a plantain plant, harvest. Simple. <i>And</i> the warriors get to tidy their paths through the territory. It's a win-win!",
+                "text": "Go to where other animals wander through c_n's territory on little, beaten paths, wander around until you bump into a plantain plant, harvest. Simple. <i>And</i> the warriors get to tidy their paths through the territory. It's a win-win!",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -4577,7 +4577,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the poppy starts to bloom and set seed in newleaf, p_l jumps at the opportunity. They assemble a good-sized patrol full of Clanmates to help them out with the gathering of this important herb.",
+        "intro_text": "As the poppy starts to bloom and set seed in newleaf, p_l jumps at the opportunity. They assemble a good sized patrol full of Clanmates to help them out with the gathering of this important herb.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -4699,13 +4699,13 @@
                 "herbs": ["ragwort"]
             },
             {
-                "text": "Ragwort brings strength to cats who need it, and eases aching joints, but StarClan it tastes absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth.",
+                "text": "Ragwort brings strength to scavs who need it, and eases aching joints, but StarClan it smells absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't make them have to smell it.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "ragwort"]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their nails to tear leaves from the plant, then carefully carrying them back to camp without breathing from their nose. It's difficult, but doable, if only just.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -4764,7 +4764,7 @@
                 ]
             },
             {
-                "text": "Ragwort brings strength to cats who need it, and eases aching joints, but StarClan it tastes absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth, and has a lot of sympathy for app1's disgusted expression.",
+                "text": "Ragwort brings strength to scavs who need it, and eases aching joints, but StarClan it smells absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't make them have to smell it, and has a lot of sympathy for app1's disgusted expression.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "ragwort"],
@@ -4786,7 +4786,7 @@
                 ]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, and app1 is desperately grateful to learn the trick.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their nails to tear leaves from the plant, then carefully carrying them back to camp without breathing from their nose. It's difficult, but doable, if only just, and app1 is desperately grateful to learn the trick.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -4875,7 +4875,7 @@
                 ]
             },
             {
-                "text": "Ragwort brings strength to cats who need it, and eases aching joints, but StarClan it tastes absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth, a sentiment that the patrol helping them definitely shares... at length, very descriptively.",
+                "text": "Ragwort brings strength to scavs who need it, and eases aching joints, but StarClan it smells absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't make them have to smell it, a sentiment that the patrol helping them definitely shares... at length, very descriptively.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "ragwort"],
@@ -4897,7 +4897,7 @@
                 ]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. Some of the warriors are too impatient to follow their lead, and end up suffering the taste of ragwort as the patrol brings back loads of the leaves.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their nails to tear leaves from the plant, then carefully carrying them back to camp without breathing from their nose. Some of the warriors are too impatient to follow their lead, and end up suffering the smell of ragwort as the patrol brings back loads of the leaves.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -4959,7 +4959,7 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "As newleaf brings green to c_n's lands, p_l goes out in a search for tansy. It can be reassuring, in a way, to be the only cat gathering the sometimes-dangerous herb.",
+        "intro_text": "As newleaf brings green to c_n's lands, p_l goes out in a search for tansy. It can be reassuring, in a way, to be the only scav gathering the sometimes dangerous herb.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -4976,7 +4976,7 @@
                 "herbs": ["many_herbs", "tansy"]
             },
             {
-                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb.",
+                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure is... interesting. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -5013,7 +5013,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The sharp scent of tansy calls p_l in to harvest its newleaf shoots. As they work, p_l instructs app1 on tansy dosage - for kits, weakened cats, and elders, it can be dangerously easy for too much tansy to overcome a system and become a poison.",
+                "text": "The sharp scent of tansy calls p_l in to harvest its newleaf shoots. As they work, p_l instructs app1 on tansy dosage - for grubs, weakened scavs, and elders, it can be dangerously easy for too much tansy to overcome a system and become a poison.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["tansy"],
@@ -5035,7 +5035,7 @@
                 ]
             },
             {
-                "text": "Good for all coughs, all wounds, and all poisons - but it'd be dangerous to assume tansy has no downsides. p_l quietly teaches app1 how tansy is also used to ease the passing of mortally wounded cats, and to induce losing a litter in queens whose pregnancy is risking their life. This means it's not used for pregnant or nursing queens, nor for kits.",
+                "text": "Good for all coughs, all wounds, and all poisons - but it'd be dangerous to assume tansy has no downsides. p_l quietly teaches app1 how tansy is also used to ease the passing of mortally wounded scavs, and to induce losing a litter in queens whose pregnancy is risking their life. This means it's not used for pregnant or nursing queens, nor for grubs.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "tansy"],
@@ -5057,7 +5057,7 @@
                 ]
             },
             {
-                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, and app1 thankfully seems to be taking the appropriate amount of care harvesting it.",
+                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure is... interesting. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, and app1 thankfully seems to be taking the appropriate amount of care harvesting it.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -5119,12 +5119,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As newleaf brings green to c_n's lands, p_l goes out in a search for tansy. There shouldn't be any problem collecting it with other cats - these warriors are all strong and healthy.",
+        "intro_text": "As newleaf brings green to c_n's lands, p_l goes out in a search for tansy. There shouldn't be any problem collecting it with other scavs - these warriors are all strong and healthy.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The sharp scent of tansy calls p_l in to harvest its newleaf shoots. There's enough of the common herb to let the warriors gather sprigs of it to freshen the dens, making the rest of the patrol purr with satisfaction.",
+                "text": "The sharp scent of tansy calls p_l in to harvest its newleaf shoots. There's enough of the common herb to let the warriors gather sprigs of it to freshen the dens, making the rest of the patrol trill with satisfaction.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["tansy"],
@@ -5168,7 +5168,7 @@
                 ]
             },
             {
-                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, which is extra helpful when gathering with their less-experienced Clanmates.",
+                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure is... interesting. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, which is extra helpful when gathering with their less-experienced Clanmates.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -5241,13 +5241,13 @@
                 "herbs": ["thyme"]
             },
             {
-                "text": "It calms racing hearts and minds, bringing cats back from the shock of loss or injury... thyme is always both helpful and pleasant to have around, and p_l makes sure to organize the herb stores so that the scent wafts near their nest.",
+                "text": "It calms racing hearts and minds, bringing scavs back from the shock of loss or injury... thyme is always both helpful and pleasant to have around, and p_l makes sure to organise the herb stores so that the scent wafts near their nest.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "thyme"]
             },
             {
-                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke, mouth crammed full of the herb, as they make their way home.",
+                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke, hands crammed full of the herb, as they make their way home.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -5284,7 +5284,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "With the drizzle hiding scents, app1 almost walks straight past the thyme plant - but p_l gently herds them back, making sure the young cat understands the visual signs of the plant so they avoid that mistake in the future.",
+                "text": "With the drizzle hiding scents, app1 almost walks straight past the thyme plant - but p_l gently herds them back, making sure the young scav understands the visual signs of the plant so they avoid that mistake in the future.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["thyme"],
@@ -5306,7 +5306,7 @@
                 ]
             },
             {
-                "text": "It calms racing hearts and minds, bringing cats back from the shock of loss or injury... thyme is always both helpful and pleasant to have around, and p_l makes sure to organize the herb stores so that the scent wafts near the nests they and app1 curl up in at night.",
+                "text": "It calms racing hearts and minds, bringing scavs back from the shock of loss or injury... thyme is always both helpful and pleasant to have around, and p_l makes sure to organise the herb stores so that the scent wafts near the nests they and app1 curl up in at night.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "thyme"],
@@ -5328,7 +5328,7 @@
                 ]
             },
             {
-                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke, putting down the herbs they carry to explain it to app1.",
+                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke as they explain it to app1.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -5395,7 +5395,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "With the drizzle hiding scents, p_l almost walks straight past the thyme plant - but one of the warriors calls them over. Thanks to its calming, well-loved scent, medicine cats aren't the only Clan cats who can identify this plant, a fact that p_l is grateful for right about now.",
+                "text": "With the drizzle hiding scents, p_l almost walks straight past the thyme plant - but one of the warriors calls them over. Thanks to its calming, well-loved scent, medicine scavs aren't the only Clan scavs who can identify this plant, a fact that p_l is grateful for right about now.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["thyme"],
@@ -5417,7 +5417,7 @@
                 ]
             },
             {
-                "text": "It calms racing hearts and minds, bringing cats back from the shock of loss or injury... thyme is always both helpful and pleasant to have around, and p_l decides that this patrol has brought back so much there's no harm in letting the warriors take a stem each for their nests.",
+                "text": "It calms racing hearts and minds, bringing scavs back from the shock of loss or injury... thyme is always both helpful and pleasant to have around, and p_l decides that this patrol has brought back so much there's no harm in letting the warriors take a stem each for their nests.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "thyme"],
@@ -5439,7 +5439,7 @@
                 ]
             },
             {
-                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke, putting down the herbs they carry to explain it to the rest of the patrol.",
+                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke as they explain it to the rest of the patrol.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -5577,7 +5577,7 @@
                 ]
             },
             {
-                "text": "The leaves, and especially the bulbs, of wild garlic are the preeminent herb to treat infection, even if using them results each time in either their patient or their loved ones complaining about the smell. p_l teaches app1 that sometimes, they need to prioritize treating their patients above listening to them.",
+                "text": "The leaves, and especially the bulbs, of wild garlic are the preeminent herb to treat infection, even if using them results each time in either their patient or their loved ones complaining about the smell. p_l teaches app1 that sometimes, they need to prioritise treating their patients above listening to them.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "wild_garlic"],
