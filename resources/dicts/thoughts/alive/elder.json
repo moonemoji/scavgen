@@ -58,12 +58,12 @@
     {
         "id": "elder_alive_younger_cats",
         "thoughts": [
-            "Is giving advice to younger cats",
-            "Is bossing around the younger cats",
-            "Is telling scary stories to the younger cats",
-            "Is sharing wisdom with younger cats that is... less than helpful",
-            "Is recounting daring expeditions for the younger cats to hear",
-            "Is telling a rather tall tale to any cat who will listen"
+            "Is giving advice to younger scavengers",
+            "Is bossing around the younger scavengers",
+            "Is telling scary stories to the younger scavengers",
+            "Is sharing wisdom with younger scavengers that is... less than helpful",
+            "Is recounting daring expeditions for the younger scavengers to hear",
+            "Is telling a rather tall tale to any scavenger who will listen"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -145,11 +145,11 @@
             "Excitedly awaits a Troop meeting, then wonders if this is really what their life has come to",
             "Is very opinionated on mundane topics, such as the prettiest looking herb",
             "Stays up at night thinking about all the embarrassing things they did while they were a warrior",
-            "Wishes the medicine cat was awake to give them some poppy seeds right about now",
+            "Wishes the healer was awake to give them some poppy seeds right about now",
             "Notes the surge of apprentices visiting the elders' den ever since they retired... curious!",
             "Found an adorable batfly in the elders' den last night and wants to tell someone",
             "Complains about being old to the other elders, despite being quite young",
-            "Is learning stories from much more experienced cats",
+            "Is learning stories from much more experienced scavengers",
             "Seems to be annoyed as cubs keep calling them old, when they're not"
         ],
         "perm_conditions": {
@@ -164,9 +164,9 @@
     {
         "id": "gen_retired_disabled_to_med_thoughts",
         "thoughts": [
-            "Wonders if the medicine cat needs any help today",
+            "Wonders if the healer needs any help today",
             "Offers to help r_c sort herbs",
-            "Wonders if {PRONOUN/m_c/subject} could've been a medicine cat with r_c instead of retiring",
+            "Wonders if {PRONOUN/m_c/subject} could've been a healer with r_c instead of retiring",
             "Brought r_c some fresh-kill"
         ],
         "perm_conditions": {

@@ -131,8 +131,8 @@
             "Wants r_c to see how far {PRONOUN/m_c/subject} can jump",
             "Wants to race with r_c",
             "Doesn't like naps",
-            "Claims {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the fastest cat ever",
-            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} faster than a rabbit",
+            "Claims {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the fastest scavenger ever",
+            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} faster than a jetfish",
             "Is begging r_c to play with {PRONOUN/m_c/object}"
         ],
         "main_trait_constraint": [
@@ -155,7 +155,7 @@
             "Says r_c's 'real' parents were rogues",
             "Is starting rumors about r_c",
             "Tells r_c that nobody likes {PRONOUN/r_c/object}",
-            "Is scratching everything {PRONOUN/m_c/subject} can get {PRONOUN/m_c/poss} claws on"
+            "Is biting everything {PRONOUN/m_c/subject} can get {PRONOUN/m_c/poss} mouthparts around"
         ],
         "main_trait_constraint": [
             "bullying"
@@ -280,7 +280,7 @@
             "Is having trouble falling asleep",
             "Is crying quietly",
             "Is too overwhelmed lately",
-            "Is hiding from everycat",
+            "Is hiding from everyone",
             "Is worried about r_c",
             "Has tears in {PRONOUN/m_c/poss} eyes",
             "Never wants to leave the camp when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} older",
@@ -324,11 +324,11 @@
         "thoughts": [
             "Is pretending to be the healer",
             "Plucks fur from a fresh-kill creature to add to nests",
-            "Offers to leave camp to collect moss, but can't, because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a kit",
+            "Offers to leave camp to collect moss, but can't, because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a cub",
             "Compliments an older scavenger on how their fur looks today",
             "Wants to help others",
             "Is so very cute",
-            "Has a cute little nose",
+            "Has big ol' eyes",
             "Twitches {PRONOUN/m_c/poss} whiskers",
             "Is checking on other scavengers",
             "Wants r_c to be happy",
@@ -362,7 +362,7 @@
             "Is thinking about stealing herbs from the healer's den",
             "Is sneaking out of camp",
             "Is saying bad words",
-            "Is tripping other cats",
+            "Is tripping other scavengers",
             "Jumps out of a hiding spot, startling r_c",
             "Is taking the bedding from other scavengers' nests",
             "Is up to no good... again",
@@ -466,7 +466,7 @@
             "Asks r_c if {PRONOUN/m_c/subject} can help with something",
             "Is keeping {PRONOUN/m_c/poss} fur nice and clean",
             "Would never dream of being in trouble",
-            "Is quiet when other cats are talking",
+            "Is quiet when other scavengers are talking",
             "Is being very patient today",
             "Wants to always do the right thing",
             "Is extra quiet during Troop meetings... even though {PRONOUN/m_c/subject} should be in the nursery",

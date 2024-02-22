@@ -33,7 +33,7 @@
         ],
         "shaders": [
             "Enable Shaders",
-            "This will add a shading layer onto the cat sprites.",
+            "This will add a shading layer onto the scavenger sprites.",
             false
         ],
         "gore": [
@@ -43,7 +43,7 @@
         ],
         "discord": [
             "Enable Discord integration",
-            "Discord will show info about your Clan, including your Clan name",
+            "Discord will show info about your Troop, including your Troop name",
             false
         ],
         "check_for_updates": [
@@ -58,12 +58,12 @@
         ],
         "special_dates": [
             "Allow special date events",
-            "Certain changes may be made to the game on special days such as April Fools",
+            "Certain changes may be made to the game on special days such as April Fools - WARNING: not implemented in ScavGen",
             true
         ],
         "random relation": [
-            "Randomize relationship values when creating Clan",
-            "Clan founder cats will start the game with established relationships.",
+            "Randomize relationship values when creating Troop",
+            "Troop founder scavengers will start the game with established relationships.",
             true
         ]
     },

@@ -5,13 +5,13 @@
   "litter_guess": [
     "m_c thinks {PRONOUN/m_c/subject}'ll have a small batch.",
     "m_c thinks {PRONOUN/m_c/subject}'ll have a large batch.",
-    "m_c is unsure how many eggs {PRONOUN/m_c/subject}'ll have."
+    "m_c is unsure how many children {PRONOUN/m_c/subject}'ll have."
   ],
 
 
   "major_severity": [
-    " {PRONOUN/m_c/subject/CAP} {VERB/m_c/decide/decides} to move into the nursery in preparation for {PRONOUN/m_c/poss} soon-to-come eggs.",
-    " {PRONOUN/m_c/subject/CAP} {VERB/m_c/don't/doesn't} believe {PRONOUN/m_c/subject} can efficiently perform {PRONOUN/m_c/poss} duties while expecting eggs and {VERB/m_c/decide/decides} to move into the nursery."
+    " {PRONOUN/m_c/subject/CAP} {VERB/m_c/decide/decides} to move into the nursery in preparation for {PRONOUN/m_c/poss} soon-to-come cubs.",
+    " {PRONOUN/m_c/subject/CAP} {VERB/m_c/don't/doesn't} believe {PRONOUN/m_c/subject} can efficiently perform {PRONOUN/m_c/poss} duties while expecting cubs and {VERB/m_c/decide/decides} to move into the nursery."
   ],
   "minor_severity": [
     " {PRONOUN/m_c/subject/CAP} won't be moving into the nursery just yet.",
