@@ -3671,7 +3671,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The two scavengers set up in the sparring area. p_l can't lay a hand on r_c, {PRONOUN/p_l/poss} focus completely disrupted as r_c bonks {PRONOUN/p_1/object} on the head with a spear teasingly.",
+                "text": "The two scavengers set up in the sparring area. p_l can't lay a hand on r_c, {PRONOUN/p_l/poss} focus completely disrupted as r_c bonks {PRONOUN/p_l/object} on the head with a spear teasingly.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -3685,7 +3685,7 @@
                 ]
             },
             {
-                "text": "r_c claims victory by touching the end of {PRONOUN/r_c/poss} spear to p_l's chest, and p_l stops dead with eyes wide. r_c's eyes scrunch up happily at how impressed p_1 looks.",
+                "text": "r_c claims victory by touching the end of {PRONOUN/r_c/poss} spear to p_l's chest, and p_l stops dead with eyes wide. r_c's eyes scrunch up happily at how impressed p_l looks.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [

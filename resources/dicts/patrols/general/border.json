@@ -745,7 +745,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "When the patrol approaches p_1 comforts the cowering stranger and asks what's wrong. The stranger has been waiting for hours for their friends to come back, though a short conversation is enough for p_1 to realise that they never had any intention of returning. It takes some convincing, but the stranger finally accepts the offer of a place in the Troop, and looks sadly back at the distant metropolis as they follow the patrol home.",
+                "text": "When the patrol approaches p_l comforts the cowering stranger and asks what's wrong. The stranger has been waiting for hours for their friends to come back, though a short conversation is enough for p_l to realise that they never had any intention of returning. It takes some convincing, but the stranger finally accepts the offer of a place in the Troop, and looks sadly back at the distant metropolis as they follow the patrol home.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -965,7 +965,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l is not willing to let any cat die to a red centipede. {PRONOUN/p_l/subject/CAP} {VERB/p_l/order/orders} the patrol to continue on while {PRONOUN/p_l/subject} {VERB/p_l/wait/waits} on an o_c_n patrol to come by, so p_1 can warn them about the centipede.",
+                "text": "p_l is not willing to let any cat die to a red centipede. {PRONOUN/p_l/subject/CAP} {VERB/p_l/order/orders} the patrol to continue on while {PRONOUN/p_l/subject} {VERB/p_l/wait/waits} on an o_c_n patrol to come by, so p_l can warn them about the centipede.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1030,7 +1030,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "An o_c_n patrol approaches and asks if they have seen anything odd. At the same time that p_l says no, r_c tells the o_c_n cats about the huge centipede {PRONOUN/r_c/subject} saw. The o_c_n patrols thanks r_c for {PRONOUN/r_c/poss} honesty while shooting glares at p_1.",
+                "text": "An o_c_n patrol approaches and asks if they have seen anything odd. At the same time that p_l says no, r_c tells the o_c_n cats about the huge centipede {PRONOUN/r_c/subject} saw. The o_c_n patrols thanks r_c for {PRONOUN/r_c/poss} honesty while shooting glares at p_l.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -1156,12 +1156,12 @@
                 "weight": 20
             },
             {
-                "text": "p_l strolls across as if {PRONOUN/p_l/subject} {VERB/p_l/belong/belongs} there. At the end of a hidden path sits a scavenger from o_c_n, who rises to take p_1's hands in theirs. The two simply sit together, the light of the moon dappling their pelts as they enjoy each other's company. When dawn approaches, r_c heads home, {PRONOUN/p_l/poss} absence and return each unnoticed.",
+                "text": "p_l strolls across as if {PRONOUN/p_l/subject} {VERB/p_l/belong/belongs} there. At the end of a hidden path sits a scavenger from o_c_n, who rises to take p_l's hands in theirs. The two simply sit together, the light of the moon dappling their pelts as they enjoy each other's company. When dawn approaches, r_c heads home, {PRONOUN/p_l/poss} absence and return each unnoticed.",
                 "exp": 5,
                 "weight": 5
             },
             {
-                "text": "p_l just about walks right into o_c_n's camp, {PRONOUN/p_l/poss} steps so practiced and quiet {PRONOUN/p_l/subject} may as well not be there at all. A cat from o_c_n ducks out and laces their fingers together, pressing their side to p_l's. They slowly walk to the border, murmuring to each other about this and that, where they part ways with a gentle touch of their foreheads.",
+                "text": "p_l just about walks right into o_c_n's camp, {PRONOUN/p_l/poss} steps so practiced and quiet p_1 {PRONOUN/p_l/subject} may as well not be there at all. A cat from o_c_n ducks out and laces their fingers together, pressing their side to p_l's. They slowly walk to the border, murmuring to each other about this and that, where they part ways with a gentle touch of their foreheads.",
                 "exp": 5,
                 "weight": 20,
                 "stat_trait": ["sneaky", "careful", "cunning"]

@@ -1023,12 +1023,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Scaling the rise, they arrive just in time to see one vulture flying off, leaving the corpse of the other limp and maskless on the ground. When they descend to take their share of meat, however, a blast of gas sends them scattering as the killer swoops back down. Everyone escapes unscathed, but p_1 has to spend the rest of the day gathering the patrol instead of food.",
+                "text": "Scaling the rise, they arrive just in time to see one vulture flying off, leaving the corpse of the other limp and maskless on the ground. When they descend to take their share of meat, however, a blast of gas sends them scattering as the killer swoops back down. Everyone escapes unscathed, but p_l has to spend the rest of the day gathering the patrol instead of food.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
                     {
-                        "cats_to": ["patrol", "p_1"],
+                        "cats_to": ["patrol", "p_l"],
                         "cats_from": ["clan"],
                         "mutual": false,
                         "values": ["respect", "trust"],
