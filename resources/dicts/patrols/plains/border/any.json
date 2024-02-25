@@ -15,7 +15,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The tunnels must have been an abandoned centipede warren! No one has been here in a while, this could be a good location to return to.",
+                "text": "The tunnels must have been an abandoned centipede warren! No one has been here in a while. This could be a good location to return to.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -167,7 +167,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The tunnels must have been an abandoned centipede warren! No one has been here in a while, this could be a good location to return to.",
+                "text": "The tunnels must have been an abandoned centipede warren! No one has been here in a while. This could be a good location to return to.",
                 "exp": 20,
                 "weight": 20
             },
