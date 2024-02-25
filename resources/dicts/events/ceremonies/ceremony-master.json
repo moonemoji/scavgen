@@ -161,7 +161,7 @@
       "wise",
       "cunning"
     ],
-    "m_c remains calm as {PRONOUN/m_c/subject} {VERB/m_c/touch/touches} foreheads with (mentor), but {PRONOUN/m_c/poss} twitching tail gives away how excited {PRONOUN/m_c/subject} truly {VERB/m_c/are/is}."
+    "m_c remains calm as {PRONOUN/m_c/subject} {VERB/m_c/touch/touches} foreheads with (mentor), but {PRONOUN/m_c/poss} wiggling haunches gives away how excited {PRONOUN/m_c/subject} truly {VERB/m_c/are/is}."
   ],
   "app_10": [
     [
@@ -600,7 +600,7 @@
       "insecure",
       "nervous"
     ],
-    "Newly apprenticed m_c can't help but squeak when {PRONOUN/m_c/poss} mentor's name is announced, and {PRONOUN/m_c/subject} {VERB/m_c/run/runs} with {PRONOUN/m_c/poss} tail tucked between {PRONOUN/m_c/poss} legs in embarrassment to touch foreheads with (mentor)."
+    "Newly apprenticed m_c can't help but squeak when {PRONOUN/m_c/poss} mentor's name is announced, and {PRONOUN/m_c/subject} {VERB/m_c/run/runs} with {PRONOUN/m_c/poss} spines bristling in embarrassment to touch foreheads with (mentor)."
   ],
   "app_34": [
     [
@@ -834,9 +834,9 @@
       "general_backstory",
       "all_traits"
     ],
-    "(mentor) calls a meeting. {PRONOUN/(mentor)/subject} {VERB/(mentor)/have/has} been watching (old_name) for a while now, and have decided to mentor {PRONOUN/m_c/object} personally. m_c's eyes shine with pride. "
+    "(mentor) calls a meeting. {PRONOUN/(mentor)/subject/CAP} {VERB/(mentor)/have/has} been watching (old_name) for a while now, and {VERB/(mentor)/have/has} decided to mentor {PRONOUN/m_c/object} personally. m_c's eyes shine with pride. "
   ],
-  "app_54": [
+  "app_54":[
     [
       "apprentice",
       "yes_mentor",
@@ -902,7 +902,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "The thought alone of fighting and hurting another cat makes m_c shiver. {PRONOUN/m_c/subject/CAP} {VERB/m_c/decide/decides} to heal instead of fight, and (mentor) takes {PRONOUN/m_c/object} under {PRONOUN/(mentor)/poss} wing."
+    "The thought alone of fighting and hurting another scavenger makes m_c shiver. {PRONOUN/m_c/subject/CAP} {VERB/m_c/decide/decides} to heal instead of fight, and (mentor) takes {PRONOUN/m_c/object} under {PRONOUN/(mentor)/poss} wing."
   ],
   "med_app_5": [
     [
@@ -1026,7 +1026,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "The thought alone of fighting and hurting another cat makes m_c shiver. Knowing the Troop needs a healer, {PRONOUN/m_c/subject} {VERB/m_c/seize/seizes} the chance to do good for the Troop without harming others. {PRONOUN/m_c/subject/CAP} {VERB/m_c/take/takes} on the role of healer apprentice."
+    "The thought alone of fighting and hurting another scavenger makes m_c shiver. Knowing the Troop needs a healer, {PRONOUN/m_c/subject} {VERB/m_c/seize/seizes} the chance to do good for the Troop without harming others. {PRONOUN/m_c/subject/CAP} {VERB/m_c/take/takes} on the role of healer apprentice."
   ],
   "med_app_16": [
     [
@@ -1347,7 +1347,7 @@
     ],
     "(old_name) always dreamed of becoming a mediator: Now that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} an apprentice being mentored by (mentor), it feels like a wish come true."
   ],
-  "queen_app_0": [
+"queen_app_0": [
     [
       "queen's apprentice",
       "general_mentor",
@@ -1356,7 +1356,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "Feeling a deep bond with the nursery, m_c has chosen to serve the Clan as a queen's apprentice. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} excited to begin {PRONOUN/m_c/poss} nurturing journey."
+    "Feeling a deep bond with the nursery, m_c has chosen to serve the Troop as a queen's apprentice. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} excited to begin {PRONOUN/m_c/poss} nurturing journey."
   ],
   "queen_app_1": [
     [
@@ -1378,7 +1378,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "Having always felt a connection to the kits, m_c is inspired by (mentor)'s dedication in the nursery. Eager to follow in {PRONOUN/(mentor)/poss} pawsteps, m_c is taken under (mentor)'s nurturing wing."
+    "Having always felt a connection to the cubs, m_c is inspired by (mentor)'s dedication in the nursery. Eager to follow in {PRONOUN/(mentor)/poss} footsteps, m_c is taken under (mentor)'s nurturing wing."
   ],
   "queen_app_3": [
     [
@@ -1389,7 +1389,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "With a heart full of compassion, m_c sees the importance of the next generation and decides to dedicate {PRONOUN/m_c/poss} life to the well-being of the Clan's kits."
+    "With a heart full of compassion, m_c sees the importance of the next generation and decides to dedicate {PRONOUN/m_c/poss} life to the well-being of the Clan's cubs."
   ],
   "queen_app_4": [
     [
@@ -1435,7 +1435,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "Despite some questioning looks, m_c is firm in {PRONOUN/m_c/poss} resolve to be under (mentor)'s tutelage: the future of the Clan lies in the paws of the kits, and that's where m_c wants to be."
+    "Despite some questioning looks, m_c is firm in {PRONOUN/m_c/poss} resolve to be under (mentor)'s tutelage: the future of the Clan lies in the hands of the cubs, and that's where m_c wants to be."
   ],
   "queen_app_8": [
     [
@@ -1483,29 +1483,29 @@
     "(old_name) is celebrated and welcomed as a full healer. "
   ],
   "med_0_a": [
-    [
-      "medicine cat",
-      "unprepared",
-      "general_mentor",
-      "general_parents",
-      "general_leader",
-      "general_backstory",
-      "all_traits"
-    ],
-    "(old_name) has struggled to learn the skills of a healer, but {PRONOUN/m_c/subject} {VERB/m_c/refuse/refuses} to train as a warrior. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} too old to remain an apprentice and, as the other healers look with pity, {PRONOUN/m_c/subject} {VERB/m_c/are/is} hesitantly given the name m_c."
+  [
+    "medicine cat",
+    "unprepared",
+    "general_mentor",
+    "general_parents",
+    "general_leader",
+    "general_backstory",
+    "all_traits"
   ],
+  "(old_name) has struggled to learn the skills of a healer, but {PRONOUN/m_c/subject} {VERB/m_c/refuse/refuses} to train as a warrior. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} too old to remain an apprentice and, as the other healers look on with pity, {PRONOUN/m_c/subject} {VERB/m_c/are/is} told that {PRONOUN/m_c/subject} has no other option."
+],
   "med_0_b": [
-    [
-      "medicine cat",
-      "early",
-      "general_mentor",
-      "general_parents",
-      "general_leader",
-      "general_backstory",
-      "all_traits"
-    ],
-    "(old_name)'s has shown exceptional aptitude and skill during {PRONOUN/m_c/poss} short apprenticeship. Although it's rare for an medicine cat apprentice to be given {PRONOUN/m_c/poss} name so young, m_c more than deserves the honor. "
+  [
+    "medicine cat",
+    "early",
+    "general_mentor",
+    "general_parents",
+    "general_leader",
+    "general_backstory",
+    "all_traits"
   ],
+  "(old_name) has shown exceptional aptitude and skill during {PRONOUN/m_c/poss} short apprenticeship. Although it's rare for a healer apprentice to be given {PRONOUN/m_c/poss} name so young, m_c more than deserves the honor. "
+],
   "med_1": [
     [
       "medicine cat",
@@ -1576,7 +1576,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "Having finally reached the end of {PRONOUN/m_c/poss} apprenticeship, newly named healer, m_c, feels there's still so much to learn, and frets about whether or not {PRONOUN/m_c/subject} {VERB/m_c/are/is} ready. With twitching whiskers, (previous_mentor) assures {PRONOUN/m_c/object} that StarClan will always be there to guide {PRONOUN/m_c/object}."
+    "Having finally reached the end of {PRONOUN/m_c/poss} apprenticeship, newly named healer m_c feels there's still so much to learn, and frets about whether or not {PRONOUN/m_c/subject} {VERB/m_c/are/is} ready. With twitching mandibles, (previous_mentor) assures {PRONOUN/m_c/object} that StarClan will always be there to guide {PRONOUN/m_c/object}."
   ],
   "med_7": [
     [
@@ -1588,7 +1588,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "(previous_mentor) still remembers when (old_name) was just a cub, batting around in the medicine den, and asking endless questions about everything under the sun. (previous_mentor) chuckles with fondness as m_c asks why {PRONOUN/m_c/poss} new name was chosen with shining eyes and twitching whiskers."
+    "(previous_mentor) still remembers when (old_name) was just a cub, batting around in the medicine den, and asking endless questions about everything under the sun. (previous_mentor) chuckles with fondness as m_c asks why {PRONOUN/m_c/poss} new name was chosen with shining eyes."
   ],
   "med_8": [
     [
@@ -1887,7 +1887,7 @@
       "general_backstory",
       "nervous"
     ],
-    "(old_name) knows all the herbs, {PRONOUN/m_c/subject} {VERB/m_c/know/knows} how to treat rat bites, but surely {PRONOUN/m_c/subject} {VERB/m_c/need/needs} to learn more? StarClan assures {PRONOUN/m_c/object} that {PRONOUN/m_c/subject}'ll do fine, and gives {PRONOUN/m_c/object} the name m_c as a sign of trust, even if m_c is sure it's still too soon."
+    "(old_name) knows all the herbs, {PRONOUN/m_c/subject} {VERB/m_c/know/knows} how to treat leech bites, but surely {PRONOUN/m_c/subject} {VERB/m_c/need/needs} to learn more? StarClan assures {PRONOUN/m_c/object} that {PRONOUN/m_c/subject}'ll do fine, and gives {PRONOUN/m_c/object} the name m_c as a sign of trust, even if m_c is sure it's still too soon."
   ],
   "med_32": [
     [
@@ -1911,7 +1911,7 @@
       "general_backstory",
       "playful"
     ],
-    "No one knows how (old_name) got {PRONOUN/m_c/poss} claws on it, but {PRONOUN/m_c/subject} {VERB/m_c/manage/manages} to play with a shiny piece of Twoleg stuff during {PRONOUN/m_c/poss} entire healer ceremony. When asked why, m_c replied that one of {PRONOUN/m_c/poss} patients might like it, and {PRONOUN/m_c/subject} wanted to make sure it was safe."
+    "No one knows how (old_name) got {PRONOUN/m_c/poss} hands on it, but {PRONOUN/m_c/subject} {VERB/m_c/manage/manages} to play with a shiny Ancient relic {PRONOUN/m_c/poss} entire healer ceremony. When asked why, m_c replied that one of {PRONOUN/m_c/poss} patients might like it, and {PRONOUN/m_c/subject} wanted to make sure it was safe."
   ],
   "med_34": [
     [
@@ -1962,7 +1962,7 @@
       "general_backstory",
       "sneaky"
     ],
-    "(old_name)'s eyes glint as {PRONOUN/m_c/subject} {VERB/m_c/get/gets} the healer name of m_c. No one seems to notice that {PRONOUN/m_c/subject} {VERB/m_c/don't/didn't} agree to all of the vows of being a healer, instead only nodding at some, and agreeing to others with a meow."
+    "(old_name)'s eyes glint as {PRONOUN/m_c/subject} {VERB/m_c/is/are} given the healer name of m_c. No one seems to notice that {PRONOUN/m_c/subject} {VERB/m_c/don't/didn't} agree to all of the vows of being a healer, instead only nodding at some, and agreeing to others with a chuff."
   ],
   "med_38": [
     [
@@ -2314,7 +2314,7 @@
       "arrogant",
       "cunning"
     ],
-    "(old_name) stands tall and puffs out {PRONOUN/m_c/poss} chest as l_n announces {PRONOUN/m_c/subject} {VERB/m_c/are/is} ready for {PRONOUN/m_c/subject} warrior name. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} given the name m_c after {PRONOUN/m_c/poss} r_h."
+    "(old_name) stands tall and puffs out {PRONOUN/m_c/poss} chest as l_n announces {PRONOUN/m_c/subject} {VERB/m_c/are/is} ready for {PRONOUN/m_c/poss} warrior name. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} given the name m_c after {PRONOUN/m_c/poss} r_h."
   ],
   "warrior_13": [
     [
@@ -2327,7 +2327,7 @@
       "calm",
       "cunning"
     ],
-    "(old_name) sits before the Troop, ears pricked forward and gaze calm as l_n addresses the Troop. {PRONOUN/m_c/subject/CAP} {VERB/m_c/bow/bows} {PRONOUN/m_c/poss} head as {PRONOUN/m_c/subject} {VERB/m_c/are/is} named m_c after {PRONOUN/m_c/poss} r_h."
+    "(old_name) sits before the Troop, hands steady and gaze calm as l_n addresses the Troop. {PRONOUN/m_c/subject/CAP} {VERB/m_c/bow/bows} {PRONOUN/m_c/poss} head as {PRONOUN/m_c/subject} {VERB/m_c/are/is} named m_c after {PRONOUN/m_c/poss} r_h."
   ],
   "warrior_14": [
     [
@@ -2366,7 +2366,7 @@
       "childish",
       "oblivious"
     ],
-    "(old_name) barely seems to be paying attention, attention focused on a fluttering leaf. l_n has to repeat {PRONOUN/m_c/poss} name a few times before {PRONOUN/m_c/subject} finally {VERB/m_c/pay/pays} attention long enough to give {PRONOUN/m_c/poss} vow. Sighing, the leader names {PRONOUN/m_c/object} m_c after {PRONOUN/m_c/poss} r_h."
+    "(old_name) barely seems to be paying attention, attention focused on a flitting bug. l_n has to repeat {PRONOUN/m_c/poss} name a few times before {PRONOUN/m_c/subject} finally {VERB/m_c/pay/pays} attention long enough to give {PRONOUN/m_c/poss} vow. Sighing, the leader names {PRONOUN/m_c/object} m_c after {PRONOUN/m_c/poss} r_h."
   ],
   "warrior_17": [
     [
@@ -2518,7 +2518,7 @@
       "fierce",
       "grumpy"
     ],
-    "(old_name) sits in front of the leader, tail twitching back and forth as {PRONOUN/m_c/subject} {VERB/m_c/await/awaits} {PRONOUN/m_c/poss} warrior name. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} eager for this ceremony to be done so {PRONOUN/m_c/subject} can go back to work and make sure the Troop is safe. Finally, l_n looks down upon {PRONOUN/m_c/object} and names {PRONOUN/m_c/object} m_c after {PRONOUN/m_c/poss} r_h."
+    "(old_name) sits in front of the leader, haunches wiggling back and forth as {PRONOUN/m_c/subject} {VERB/m_c/await/awaits} {PRONOUN/m_c/poss} warrior name. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} eager for this ceremony to be done so {PRONOUN/m_c/subject} can go back to work and make sure the Troop is safe. Finally, l_n looks down upon {PRONOUN/m_c/object} and names {PRONOUN/m_c/object} m_c after {PRONOUN/m_c/poss} r_h."
   ],
   "warrior_29": [
     [
@@ -2716,7 +2716,7 @@
       "wise",
       "cunning"
     ],
-    "l_n almost feels intimidated by the knowledge (old_name) has gathered in {PRONOUN/m_c/poss} moons of training and feels confident when {PRONOUN/l_n/subject} {VERB/l_n/name/names} {PRONOUN/m_c/object} m_c in honor of {PRONOUN/m_c/poss} r_h."
+    "l_n almost feels intimidated by the knowledge (old_name) has gathered in {PRONOUN/m_c/poss} months of training and feels confident when {PRONOUN/l_n/subject} {VERB/l_n/name/names} {PRONOUN/m_c/object} m_c in honor of {PRONOUN/m_c/poss} r_h."
   ],
   "warrior_45": [
     [
@@ -2862,7 +2862,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "p1 and p2's eyes meet, and they purr with pride as (old_name) steps forward to receive {PRONOUN/m_c/poss} new name, m_c, and are honored for {PRONOUN/m_c/poss} r_h."
+    "p1 and p2's eyes meet, and they beam with pride as (old_name) steps forward to receive {PRONOUN/m_c/poss} new name. m_c is honored for {PRONOUN/m_c/poss} r_h."
   ],
   "warrior_57": [
     [
@@ -2874,7 +2874,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "Are dead_par1 and dead_par2 watching from StarClan? (old_name) wonders this as {PRONOUN/m_c/subject} {VERB/m_c/step/steps} in front of the Troop. {PRONOUN/m_c/subject/CAP} {VERB/m_c/hope/hopes} so. {PRONOUN/m_c/subject/CAP} truly {VERB/m_c/do/does}. As {PRONOUN/m_c/subject} {VERB/m_c/are/is} given the name m_c in honor of {PRONOUN/m_c/poss} r_h, m_c hopes that {PRONOUN/m_c/poss} parents are there, cheering with their Troopmates in the stars for their cub."
+    "Are dead_par1 and dead_par2 watching from beyond? (old_name) wonders this as {PRONOUN/m_c/subject} {VERB/m_c/step/steps} in front of the Troop. {PRONOUN/m_c/subject/CAP} {VERB/m_c/hope/hopes} so. {PRONOUN/m_c/subject/CAP} truly {VERB/m_c/do/does}. As {PRONOUN/m_c/subject} {VERB/m_c/are/is} given the name m_c in honor of {PRONOUN/m_c/poss} r_h, m_c hopes that {PRONOUN/m_c/poss} parents are there, cheering with their Troopmates in the stars for their cub."
   ],
   "warrior_58": [
     [
@@ -2886,7 +2886,7 @@
       "clanborn",
       "all_traits"
     ],
-    "(old_name) tries to keep {PRONOUN/m_c/poss} head high as {PRONOUN/m_c/subject} {VERB/m_c/step/steps} forward, and {VERB/m_c/are/is} given the name m_c in honor of {PRONOUN/m_c/poss} r_h. It doesn't seem fair. dead_par1 and dead_par2 should be here with {PRONOUN/m_c/object}! They promised they would! m_c looks to the stars, and {PRONOUN/m_c/poss} anger and frustration vanishes. It feels as though the stars are brighter, and {PRONOUN/m_c/subject} {VERB/m_c/know/knows} that, even if they cannot be there in body, {PRONOUN/m_c/poss} parents are there in spirit."
+    "(old_name) tries to keep {PRONOUN/m_c/poss} head high as {PRONOUN/m_c/subject} {VERB/m_c/step/steps} forward, and {VERB/m_c/are/is} given the name m_c in honor of {PRONOUN/m_c/poss} r_h. It doesn't seem fair. dead_par1 and dead_par2 should be here with {PRONOUN/m_c/object}! They promised they would! m_c looks to the sky, and {PRONOUN/m_c/poss} anger and frustration vanishes. It feels as though the stars are brighter, and {PRONOUN/m_c/subject} {VERB/m_c/know/knows} that, even if they cannot be there in body, {PRONOUN/m_c/poss} parents are there in spirit."
   ],
   "warrior_59": [
     [
@@ -2934,7 +2934,7 @@
       "general_backstory",
       "all_traits"
     ],
-    "(old_name) has taken to {PRONOUN/m_c/poss} mediator training like a fish to water. Although young, {PRONOUN/m_c/subject} {VERB/m_c/are/is} ready to take on the duties of a full mediator. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} given the name m_c, and the Troop celebrates."
+    "(old_name) has taken to {PRONOUN/m_c/poss} mediator training like a jetfish to water. Although young, {PRONOUN/m_c/subject} {VERB/m_c/are/is} ready to take on the duties of a full mediator. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} given the name m_c, and the Troop celebrates."
   ],
   "mediator_1": [
     [
@@ -2982,7 +2982,7 @@
       "all_traits"
     ],
     "(previous_mentor) tells l_n that (old_name) has completed {PRONOUN/m_c/poss} mediator training, and l_n gives {PRONOUN/m_c/object} the name m_c after {PRONOUN/m_c/poss} r_h, welcoming {PRONOUN/m_c/object} as the Troop's new mediator."
-  ],
+ ],
   "queen_0": [
     [
       "queen",
