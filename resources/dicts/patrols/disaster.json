@@ -451,7 +451,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol hears some odd noises coming from a half-collapsed structure out on the plains.",
+        "intro_text": "Your patrol hears some odd noises coming from a half-collapsed structure.",
         "decline_text": "Your patrol decides not to investigate.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -1707,7 +1707,7 @@
                 ]
             },
             {
-                "text": "s_c shrieks at the strange sound, fingers digging into the sand as {PRONOUN/s_c/subject} turn and run for home. The rest of the patrol yowls at {PRONOUN/s_c/object} to stop, running after {PRONOUN/s_c/object}, but s_c is proven right when the beach disappears under a flood of water from inland. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'ve/'s} saved them all.",
+                "text": "s_c shrieks at the strange sound, fingers digging into the sand as {PRONOUN/s_c/subject} turn and run for home. The rest of the patrol run after {PRONOUN/s_c/object} to stop {PRONOUN/s_c/object}, but s_c is proven right when the beach disappears under a flood of water from inland. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'ve/'s} saved them all.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["careful", "insecure", "nervous"],

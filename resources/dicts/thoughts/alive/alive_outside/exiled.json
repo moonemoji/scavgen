@@ -4,15 +4,16 @@
         "thoughts": [
             "Wishes {PRONOUN/m_c/subject} could atone for {PRONOUN/m_c/poss} mistakes",
             "Curses c_n for driving {PRONOUN/m_c/object} out",
-            "Found a nice, dry den",
-            "Misses {PRONOUN/m_c/poss} old Clan",
+            "Found a nice, dry shelter",
+            "Got stuck out in the rain after a shelter failure",
+            "Misses {PRONOUN/m_c/poss} old Troop",
             "Heard a rumor of hostile rogues in the area",
-            "Sniffs for prey",
+            "Rummages for food",
             "Lingers around c_n's borders",
-            "Wonders if {PRONOUN/m_c/subject} should join another Clan",
+            "Wonders if {PRONOUN/m_c/subject} should join another Troop",
             "Explores the land outside c_n's territory",
             "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/have/has} a purpose anymore",
-            "Is thinking bitterly about {PRONOUN/m_c/poss} former Clanmates",
+            "Is thinking bitterly about {PRONOUN/m_c/poss} former Troopmates",
             "Is enjoying the chance to really put {PRONOUN/m_c/poss} hunting skills to the test"
         ]
     }

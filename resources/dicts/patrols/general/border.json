@@ -442,7 +442,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_smalllizard1",
+        "patrol_id": "gen_bord_smalldog1",
         "biome": ["Any"],
         "season": ["Any"],
         "types": ["border"],

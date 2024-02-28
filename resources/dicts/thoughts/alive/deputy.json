@@ -75,10 +75,10 @@
         "id": "strange_deputy_to_gen",
         "thoughts": [
             "Accidentally assigns the same cat to three patrols",
-            "Insists a hunting patrol to only bring back mice",
+            "Insists a hunting patrol to only bring back baby centipedes",
             "Goes missing and comes back smelling like garlic",
             "Is making odd noises",
-            "Giggles at the thought of a bird trying to swim"
+            "Giggles at the thought of a batfly trying to swim"
         ],
         "main_trait_constraint": [
             "strange"
@@ -136,7 +136,7 @@
         "id": "nervous_deputy",
         "thoughts": [
             "Is fretting over a recent increase in lizard sightings near the camp",
-            "Feels a twinge of worry about an approaching storm",
+            "Feels a twinge of worry about the rain this evening",
             "Is overthinking a recent encounter with a rival Troop"
         ],
         "main_trait_constraint": [
@@ -275,7 +275,7 @@
     {
         "id": "healer_deputy",
         "thoughts": [
-            "Helps a Troopmate get a thorn out of their paw while out on patrol",
+            "Helps a Troopmate get a thorn out of their foot while out on patrol",
             "Feels empathy for a sick Troopmate and is thinking of ways to help",
             "Is sharing knowledge about basic herbs with the Troop"
         ],
@@ -286,7 +286,7 @@
     {
         "id": "healer_deputy_medcat",
         "thoughts": [
-            "Takes a patrol out to gather herbs for the medicine cat"
+            "Takes a patrol out to gather herbs for the healer"
         ],
         "main_skill_constraint": [
             "HEALER,1"

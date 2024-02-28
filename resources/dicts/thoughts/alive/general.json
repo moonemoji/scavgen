@@ -2694,11 +2694,11 @@
             "Is deep in conversation with r_c",
             "Isn't afraid to voice their opinions",
             "Is giving an encouraging speech ",
-            "Complains that lizard have zero manners!",
+            "Complains that lizards have zero manners!",
             "Is glaring at a piece of food like it personally insulted their parents",
             "Asks a noodlefly where the nearest popcorn plant is",
             "Convinces a wasp colony to not make their nest in the clan clearing",
-            "Huffs into a lizard's den, hoping for an answer"
+            "Squeaks into a lizard's den, hoping for an answer"
         ],
         "main_age_constraint": [
             "adolescent",
@@ -2742,8 +2742,7 @@
             "Sleeps in other troopmate's nests to find the comfiest one",
             "Has discovered r_c has a soft nest!",
             "Wonders if r_c would be nice to sleep on",
-            "Finds a bug in their nest! But continues to sleep anyways",
-            "Feels like a frog on log in a bog"
+            "Finds a bug in their nest! But continues to sleep anyways"
         ],
         "main_age_constraint": [
             "adolescent",
