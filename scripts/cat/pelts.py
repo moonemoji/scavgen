@@ -1031,51 +1031,64 @@ class Pelt():
         
         # Define look-up dictionaries
         if short:
-            renamed_colors = {
+             renamed_colors = {
                 "white": "pale",
-                "palegrey": "gray",
-                "darkgrey": "gray",
-                "grey": "gray",
-                "paleginger": "ginger",
-                "darkginger": "ginger",
-                "sienna": "ginger",
-                "lightbrown": "brown",
-                "lilac": "brown",
-                "golden-brown": "brown",
-                "darkbrown": "brown",
-                "chocolate": "brown",
-                "ghost": "black"
+                "palegrey": "blue-green",
+                "silver": "blue",
+                "grey": "blue",
+                "darkgrey": "purple",
+                "ghost": "black",
+                "cream": "yellow",
+                "paleginger": "yellow",
+                "golden": "orange",
+                "ginger": "red",
+                "darkginger": "red",
+                "sienna": "pink",
+                "lightbrown": "green",
+                "lilac": "pale green",
+                "brown": "dark green",
+                "golden-brown": "dark red",
+                "darkbrown": "lilac",
+                "chocolate": "light purple"
             }
         else:
             renamed_colors = {
                 "white": "pale",
-                "palegrey": "pale gray",
-                "grey": "gray",
-                "darkgrey": "dark gray",
-                "paleginger": "pale ginger",
-                "darkginger": "dark ginger",
-                "sienna": "dark ginger",
-                "lightbrown": "light brown",
-                "lilac": "light brown",
-                "golden-brown": "golden brown",
-                "darkbrown": "dark brown",
-                "chocolate": "dark brown",
-                "ghost": "black"
+                "palegrey": "blue-green",
+                "silver": "blue",
+                "grey": "blue",
+                "darkgrey": "purple",
+                "ghost": "black",
+                "cream": "yellow",
+                "paleginger": "yellow",
+                "golden": "orange",
+                "ginger": "red",
+                "darkginger": "red",
+                "sienna": "pink",
+                "lightbrown": "green",
+                "lilac": "pale green",
+                "brown": "dark green",
+                "golden-brown": "dark red",
+                "darkbrown": "lilac",
+                "chocolate": "light purple"
             }
 
         pattern_des = {
-            "Tabby": "c_n tabby",
-            "Speckled": "speckled c_n",
-            "Bengal": "unusually dappled c_n",
-            "Marbled": "c_n tabby",
-            "Ticked": "c_n ticked",
-            "Smoke": "c_n smoke",
-            "Mackerel": "c_n tabby",
-            "Tapir": "c_n tabby",
-            "Agouti": "c_n tabby",
+            "Agouti": "lightly speckled c_n",
+            "Bengal": "striped and spotted c_n",
+            "Frosted": "frosted c_n",
+            "Gravel": "mottled c_n",
+            "Mackerel": "colourfully patterned c_n",
+            "Mantle": "mantled c_n",
+            "Marbled": "swirly c_n",
+            "Rosette": "spotted c_n",
             "Singlestripe": "dorsal-striped c_n",
-            "Rosette": "unusually spotted c_n",
-            "Sokoke": "c_n tabby",
+            "Smoke": "c_n smoke",
+            "Sokoke": "swirly c_n",
+            "Speckled": "starry c_n",
+            "Tabby": "c_n tabby",
+            "Tapir": "dashed c_n",
+            "Ticked": "c_n ticked"
         }
 
         # Start with determining the base color name
@@ -1137,11 +1150,11 @@ class Pelt():
 
         # Now it's time for gender
         if cat.genderalign in ["female", "trans female"]:
-            color_name = f"{color_name} she-cat"
+            color_name = f"{color_name} doe"
         elif cat.genderalign in ["male", "trans male"]:
-            color_name = f"{color_name} tom"
+            color_name = f"{color_name} buck"
         else:
-            color_name = f"{color_name} cat"
+            color_name = f"{color_name} scavenger"
 
         # Here is the place where we can add some additional details about the cat, for the full non-short one
         # These include notable missing limbs, vitiligo, long-furred-ness, and 3 or more scars
