@@ -70,7 +70,7 @@
             "Thinks about StarClan",
             "Saw a slugcat with the fluffiest fur imaginable today",
             "Saw a big scary lizard today",
-            "Hopes nobody saw {PRONOUN/m_c/subject} fall off a pole",
+            "Hopes nobody saw {PRONOUN/m_c/object} fall off a pole",
             "Is looking forward to the next Gathering"
         ],
         "main_status_constraint": [

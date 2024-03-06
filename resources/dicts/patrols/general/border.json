@@ -1214,7 +1214,7 @@
                 "other_clan_rep": -4
             },
             {
-                "text": "p_l just about walks right into o_c_n's camp, {PRONOUN/p_l/poss} steps so practiced and quiet {PRONOUN/p_l/subject} may as well not be there at all. A cat from o_c_n ducks out and twines their tails together, pressing their side to p_l's with a purr. They slowly walk to the border, murmuring to each other about this and that, where they part ways with a gentle brush of their noses.",
+                "text": "p_l just about walks right into o_c_n's camp, {PRONOUN/p_l/poss} steps so practiced and quiet p_1 {PRONOUN/p_l/subject} may as well not be there at all. A cat from o_c_n ducks out and laces their fingers together, pressing their side to p_l's. They slowly walk to the border, murmuring to each other about this and that, where they part ways with a gentle touch of their foreheads.",
                 "exp": 5,
                 "weight": 20,
                 "stat_trait": ["sneaky", "careful", "cunning"]
