@@ -1056,21 +1056,21 @@ class Pelt():
                 "white": "pale",
                 "palegrey": "blue-green",
                 "silver": "blue",
-                "grey": "blue",
+                "grey": "blue-purple",
                 "darkgrey": "purple",
                 "ghost": "black",
                 "cream": "yellow",
                 "paleginger": "yellow",
                 "golden": "orange",
-                "ginger": "red",
-                "darkginger": "red",
+                "ginger": "burnt orange",
+                "darkginger": "salmon",
                 "sienna": "pink",
-                "lightbrown": "green",
-                "lilac": "pale green",
+                "lightbrown": "pale green",
+                "lilac": "green",
                 "brown": "dark green",
                 "golden-brown": "dark red",
                 "darkbrown": "lilac",
-                "chocolate": "light purple"
+                "chocolate": "lavender"
             }
 
         pattern_des = {

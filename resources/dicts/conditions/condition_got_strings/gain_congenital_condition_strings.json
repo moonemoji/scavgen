@@ -4,6 +4,11 @@
         "It's soon clear that m_c might take longer to find {PRONOUN/m_c/poss} feet - {PRONOUN/m_c/subject} {VERB/m_c/seem/seems} unable to grow one of the usual set."
 
     ],
+    "born without a tail":[
+        "Though m_c is growing healthily, {PRONOUN/m_c/poss} antlers aren't coming in quite right.",
+        "Consecutive moults seem to be leaving m_c's antlers much smaller than the rest of {PRONOUN/m_c/object}."
+    
+    ],
     "weak leg": [
         "As m_c emerges from the water and takes {PRONOUN/m_c/poss} first steps, r_c watches and m_c's parent waits in suspense. Finally, r_c nods, and confirms that one of m_c's legs isn't developing at the same rate as the other.",
         "After taking {PRONOUN/m_c/poss} first steps on land, m_c keeps falling to one side. Eventually it's clear that that leg just isn't as strong as the other."
