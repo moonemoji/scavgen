@@ -44,6 +44,7 @@
         "shaders": [
             "Enable Shaders",
             "This will add a shading layer onto the scavenger sprites.",
+            "This will add a shading layer onto the scavenger sprites.",
             false
         ],
         "gore": [
@@ -53,6 +54,7 @@
         ],
         "discord": [
             "Enable Discord integration",
+            "Discord will show info about your Troop, including your Troop name",
             "Discord will show info about your Troop, including your Troop name",
             false
         ],
@@ -72,6 +74,8 @@
             false
         ],
         "random relation": [
+            "Randomize relationship values when creating Troop",
+            "Troop founder scavengers will start the game with established relationships.",
             "Randomize relationship values when creating Troop",
             "Troop founder scavengers will start the game with established relationships.",
             true

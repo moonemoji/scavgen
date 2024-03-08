@@ -371,7 +371,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol tries to drive the scavenger away, but they trip and stumble over a loose twig. They lay on the ground and don't get back up. The patrol takes a bit of time to bury them - just to keep other hungry mouths away.",
+                "text": "The patrol tries to drive the scavenger away, but they trip and stumble over some rubble. They lay on the ground and don't get back up. The patrol takes a bit of time to bury them - just to keep other hungry mouths away.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -442,7 +442,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l tries to drive the scavenger away, but they trip and stumble over a loose twig. They lay on the ground and don't get back up. p_l takes a bit of time to bury them - just to keep other hungry mouths away.",
+                "text": "p_l tries to drive the scavenger away, but they trip and stumble over some rubble. They lay on the ground and don't get back up. p_l takes a bit of time to bury them - just to keep other hungry mouths away.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -776,7 +776,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "s_c leaps into action, pelting towards the lizard with a yowl rising in {PRONOUN/s_c/poss} throat. The lizard looks alarmed by this newcomer and abandons the chase as s_c stabs at it. The loner, ruffled but unharmed, is amazed by this display. After some chatting, they decide to join the Troop.",
+                "text": "s_c leaps into action, pelting towards the lizard and hurling a cherybomb. Panicked by the cacophony of bangs, the lizard bolts and disappears into a pipe. The loner, ruffled but unharmed, is amazed by s_c's bravery. After some chatting, they decide to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -796,7 +796,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol swiftly jumps into action. They capture the lizard's attention and draw it away from the scavenger. r_c stayed hidden while the rest of the patrol lured the lizard away, but when {PRONOUN/r_c/subject} {VERB/r_c/go/goes} to find the scavenger, {PRONOUN/r_c/subject} {VERB/r_c/see/sees} that it's still running! Oh well, at least they're alright.",
+                "text": "The patrol swiftly jumps into action. They capture the lizard's attention and draw it away from the scavenger. r_c stayed hidden while the rest of the patrol lured the lizard away, but when {PRONOUN/r_c/subject} {VERB/r_c/go/goes} to find the scavenger, {PRONOUN/r_c/subject} {VERB/r_c/see/sees} that they're still running! Oh well, at least they're alright.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -805,7 +805,7 @@
                 ]
             },
             {
-                "text": "The patrol jumps into action and chases the lizard off without much difficulty. A group of scavengers is much different than a single one. However, the distressed loner seems to think that they're a threat and takes a swipe at r_c before running off.",
+                "text": "The patrol jumps into action and chases the lizard off without much difficulty. A group of scavengers is much different than a single one. However, the distressed loner seems to think that they're a threat and chucks a spear at r_c before running off.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -828,7 +828,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The loner escapes the lizard by climbing a tree and scowls at the patrol, who stood by watching.",
+                "text": "After a difficult battle, the loner stands over the lizard's body and scowls at the patrol, who stood by watching.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -836,7 +836,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol watches as the loner climbs up a spindly tree to escape the lizard, and then promptly proceed to chase the lizard out of the territory and warn the loner not to cross the border.",
+                "text": "Your patrol watches as the loner climbs a pole to escape the lizard, and then promptly proceed to chase the lizard out of the territory and warn the loner not to cross the border.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -858,7 +858,7 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "While searching for some specific herbs, p_l is startled by weird sounds and whispers on the wind.",
+        "intro_text": "While searching for some specific herbs, p_l is startled by strange sounds and whispers on the wind.",
         "decline_text": "Unnerved and unable to discern if it is a whisper from an echo or nothing, {PRONOUN/p_l/subject} {VERB/p_l/go/goes} back to c_n to ask for help and guidance.",
         "chance_of_success": 45,
         "success_outcomes": [
