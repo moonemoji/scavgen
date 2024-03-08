@@ -678,7 +678,7 @@
             "scar",
             "RIGHTEAR"
         ],
-        "event_text": "m_c caught a cat from another Clan trespassing on their territory and {PRONOUN/m_c/poss} ear was torn in the ensuing scuffle.",
+        "event_text": "m_c caught a scavenger from another Troop trespassing on their territory and {PRONOUN/m_c/poss} ear was torn in the ensuing scuffle.",
         "history_text": {
             "scar": "m_c's ear was torn in a scuffle when {PRONOUN/m_c/subject} chased off an enemy warrior."
         },

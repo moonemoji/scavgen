@@ -28,7 +28,7 @@
         ],
         "red_bg": [
             "Red background",
-            "Enable background color to get more red as you murder more cats",
+            "Enable background color to get more red as you murder more scavengers",
             true
         ],
         "custom cursor": [
@@ -43,7 +43,7 @@
         ],
         "shaders": [
             "Enable Shaders",
-            "This will add a shading layer onto the cat sprites.",
+            "This will add a shading layer onto the scavenger sprites.",
             false
         ],
         "gore": [
@@ -53,13 +53,13 @@
         ],
         "discord": [
             "Enable Discord integration",
-            "Discord will show info about your Clan, including your Clan name",
+            "Discord will show info about your Troop, including your Troop name",
             false
         ],
         "check_for_updates": [
             "Check for updates",
-            "Automatically checks for updates on startup",
-            true
+            "Automatically checks for updates on startup. Not implemented for scavgen!",
+            false
         ],
         "show_changelog": [
             "Display changelog on startup",
@@ -68,12 +68,12 @@
         ],
         "special_dates": [
             "Allow special date events",
-            "Certain changes may be made to the game on special days such as April Fools",
-            true
+            "Certain changes may be made to the game on special days such as April Fools. Not implemented for scavgen!",
+            false
         ],
         "random relation": [
-            "Randomize relationship values when creating Clan",
-            "Clan founder cats will start the game with established relationships.",
+            "Randomize relationship values when creating Troop",
+            "Troop founder scavengers will start the game with established relationships.",
             true
         ]
     },
