@@ -63,7 +63,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol advances threateningly towards the loner, who retaliates with a quick swipe to p_l's muzzle. While p_l is stunned, they make their getaway.",
+                "text": "Your patrol advances threateningly towards the loner, who retaliates with a quick swipe to p_l's face. While p_l is stunned, they make their getaway.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -71,7 +71,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol tells the cat to leave or feel their claws. The loner seems to choose life and quickly takes off.",
+                "text": "Your patrol tells the scavenger to leave or feel their spears. The loner seems to choose life and quickly takes off.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -89,12 +89,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l scents a loner on the territory. {PRONOUN/p_l/subject/CAP} {VERB/p_l/confront/confronts} the cat, who quickly surrenders and begs for shelter.",
+        "intro_text": "p_l scents a loner on the territory. {PRONOUN/p_l/subject/CAP} {VERB/p_l/confront/confronts} the scavenger, who quickly surrenders and begs for shelter.",
         "decline_text": "p_l {VERB/p_l/decide/decides} the loner isn't worth {PRONOUN/p_l/poss} time.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l relents and the loner is allowed to join the Clan.",
+                "text": "p_l relents and the loner is allowed to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -111,7 +111,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l relents and the loner is allowed to join the Clan, bringing along their litter of hungry kits.",
+                "text": "p_l relents and the loner is allowed to join the Troop, bringing along their batch of hungry cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -142,7 +142,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l advances threateningly towards the loner, who retaliates with a quick swipe to {PRONOUN/p_l/poss} muzzle. While p_l is stunned, they make their getaway.",
+                "text": "p_l advances threateningly towards the loner, who retaliates with a quick swipe to {PRONOUN/p_l/poss} face. While p_l is stunned, they make their getaway.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -150,7 +150,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l tells the cat to leave or feel {PRONOUN/p_l/poss} claws. The loner seems to choose life and quickly takes off.",
+                "text": "p_l tells the scavenger to leave or feel {PRONOUN/p_l/poss} spear. The loner seems to choose life and quickly takes off.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -168,12 +168,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol scents a kittypet on the territory. They confront the cat, who quickly surrenders and begs for shelter.",
-        "decline_text": "Your patrol decides the kittypet isn't worth their time.",
+        "intro_text": "Your patrol spots a lost city scav from a distance. They surround the scavenger, who quickly surrenders and begs for shelter.",
+        "decline_text": "Your patrol decides the city scav isn't worth their time.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol relents and the kittypet is allowed to join the Clan.",
+                "text": "The patrol relents and the city scav is allowed to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -190,7 +190,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol relents and the kittypet is allowed to join the Clan, bringing along their litter of hungry kits.",
+                "text": "The patrol relents and the city scav is allowed to join the Troop, bringing along their batch of hungry cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -210,7 +210,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kittypet gradually becomes more and more frightened at the patrol's descriptions of Clan life. They decide to turn tail and run.",
+                "text": "The city scav gradually becomes more and more frightened at the patrol's descriptions of Troop life. They decide to turn tail and run.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -221,7 +221,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol advances threateningly towards the kittypet, who retaliates with a quick swipe to p_l's muzzle. While p_l is stunned, they make their getaway.",
+                "text": "Your patrol advances threateningly towards the city scav, who retaliates with a quick swipe to p_l's face. While p_l is stunned, they make their getaway.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -229,7 +229,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol tells the cat to leave or feel their claws. The kittypet seems to choose life and quickly takes off.",
+                "text": "Your patrol tells the scavenger to leave or feel their spears. The city scav seems to choose life and quickly takes off.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -247,12 +247,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l scents a kittypet on the territory. {PRONOUN/p_l/subject/CAP} {VERB/p_l/confront/confronts} the cat, who quickly surrenders and begs for shelter.",
-        "decline_text": "p_l {VERB/p_l/decide/decides} the kittypet isn't worth {PRONOUN/p_l/poss} time.",
+        "intro_text": "p_l spots a lost city scav from a distance. {PRONOUN/p_l/subject/CAP} {VERB/p_l/confront/confronts} the scavenger, who quickly surrenders and begs for shelter.",
+        "decline_text": "p_l {VERB/p_l/decide/decides} the city scav isn't worth {PRONOUN/p_l/poss} time.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l relents and the kittypet is allowed to join the Clan.",
+                "text": "p_l relents and the city scav is allowed to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -269,7 +269,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l relents and the kittypet is allowed to join the Clan, bringing along their litter of hungry kits.",
+                "text": "p_l relents and the city scav is allowed to join the Troop, bringing along their batch of hungry cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -289,7 +289,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kittypet gradually becomes more and more frightened at p_l's descriptions of Clan life. They decide to turn tail and run.",
+                "text": "The city scav gradually becomes more and more frightened at p_l's descriptions of Troop life. They decide to turn tail and run.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -300,7 +300,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l advances threateningly towards the kittypet, who retaliates with a quick swipe to {PRONOUN/p_l/poss} muzzle. While p_l is stunned, they make their getaway.",
+                "text": "p_l advances threateningly towards the city scav, who retaliates with a quick swipe to {PRONOUN/p_l/poss} face. While p_l is stunned, they make their getaway.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -308,7 +308,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l tells the cat to leave or feel {PRONOUN/p_l/poss} claws. The kittypet seems to choose life and quickly takes off.",
+                "text": "p_l tells the scavenger to leave or feel {PRONOUN/p_l/poss} spear. The city scav seems to choose life and quickly takes off.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -326,12 +326,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds a wounded cat near the Thunderpath.",
-        "decline_text": "They leave the wounded cat alone.",
+        "intro_text": "r_c finds a wounded scavenger at the bottom of a drop.",
+        "decline_text": "They leave the wounded scavenger alone.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol approaches the cat and sees some signs of life. The patrol, after some hesitation, decides to bring the cat back to camp so that they can be treated by the medicine cat. The cat thanks them profusely and promises to repay them by joining the Clan and being the best warrior they can.",
+                "text": "The patrol climbs down sees some signs of life. The patrol, after some hesitation, decides to bring the scavenger back to camp so that they can be treated by the healer. The scavenger thanks them profusely and promises to repay them by joining the Troop and being the best warrior they can.",
                 "exp": 10,
                 "weight": 20,
                 "injury": [
@@ -345,13 +345,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As r_c inspects the cat, {PRONOUN/r_c/subject} find that they are already hunting with their ancestors.",
+                "text": "As r_c inspects the scavenger, {PRONOUN/r_c/subject} find that they have already passed into their next life.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "The cats attempt to carry the cat back to camp, but the cat passes on the way. They stop to bury the cat before continuing home.",
+                "text": "The scavenger attempt to carry the stranger back to camp, but the stranger passes on the way. They stop to tuck the body somewhere secluded before continuing home.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -359,7 +359,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol tries to drive the cat away, but they trip and stumble over a loose twig. They lay on the ground and don't get back up. The patrol takes a bit of time to bury them - just to keep the scavengers away.",
+                "text": "The patrol tries to drive the scavenger away, but they trip and fall, and don't get back up. The patrol takes a bit of time to bury them - just to keep predators away.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -367,7 +367,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol drives the cat off of the territory. It's not c_n's problem.",
+                "text": "Your patrol drives the scavenger off of the territory. It's not c_n's problem.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -385,12 +385,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l finds a wounded cat near the Thunderpath.",
-        "decline_text": "p_l leaves the wounded cat alone.",
+        "intro_text": "p_l finds a wounded scavenger at the bottom of a drop.",
+        "decline_text": "p_l leaves the wounded scavenger alone.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l approaches the cat and sees some signs of life. After some hesitation, {PRONOUN/p_l/subject} {VERB/p_l/decide/decides} to bring the cat back to camp so that they can be treated by the medicine cat. The cat thanks {PRONOUN/p_l/object} profusely and promises to repay {PRONOUN/p_l/object} by joining the Clan and being the best warrior they can.",
+                "text": "p_l climbs down and sees some signs of life. After some hesitation, {PRONOUN/p_l/subject} {VERB/p_l/decide/decides} to bring the scavenger  back to camp so that they can be treated by the healer. The scavenger thanks {PRONOUN/p_l/object} profusely and promises to repay {PRONOUN/p_l/object} by joining the Troop and being the best warrior they can.",
                 "exp": 10,
                 "weight": 20,
                 "injury": [
@@ -404,13 +404,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As p_l inspects the cat, {PRONOUN/p_l/subject} find that they are already hunting with their ancestors.",
+                "text": "As p_l inspects the scavenger, {PRONOUN/p_l/subject} find that they have already passed into their next life.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "p_l attempts to carry the cat back to camp, but the cat passes on the way. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops} to bury the cat before continuing home.",
+                "text": "p_l attempts to carry the stranger back to camp, but the stranger passes on the way. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops} to tuck the body somewhere secludedbefore continuing home.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -418,7 +418,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l tries to drive the cat away, but they trip and stumble over a loose twig. They lay on the ground and don't get back up. p_l takes a bit of time to bury them - just to keep the scavengers away.",
+                "text": "p_l tries to drive the scavenger away, but they trip and fall, and don't get back up. p_l takes a bit of time to bury them - just to keep predators away.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -426,7 +426,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l drives the cat off of the territory. It's not c_n's problem.",
+                "text": "p_l drives the scavenger off of the territory. It's not c_n's problem.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -444,12 +444,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds an abandoned kit whose parents are nowhere to be found.",
-        "decline_text": "They decide to leave the kit alone.",
+        "intro_text": "r_c finds an abandoned cub whose parents are nowhere to be found.",
+        "decline_text": "They decide to leave the cub alone.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The kit is taken back to camp and nursed back to health.",
+                "text": "The cub is taken back to camp and nursed back to health.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -468,13 +468,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kit is taken back to camp, but grows weak and dies a few days later.",
+                "text": "The cub is taken back to camp, but grows weak and dies a few days later.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "The patrol approaches the kit, only to realize that it's already gone. They swiftly bury it and move on.",
+                "text": "The patrol approaches the cub, only to realize that it's already gone. They swiftly bury it and move on.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -482,7 +482,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The kit smells of Twolegs, your patrol has no interest in what will surely grow to be a weak cat.",
+                "text": "The cub carries a few belongings from the city. Your patrol has no interest in what will surely grow to be a weak scavenger.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -490,7 +490,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol moves the kit away from the territory, they have no interest in strange kits.",
+                "text": "Your patrol moves the cub away from the territory. They have no interest in strange cubs.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -508,12 +508,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds an abandoned kit whose parents are nowhere to be found.",
-        "decline_text": "p_l decides to leave the kit alone.",
+        "intro_text": "r_c finds an abandoned cub whose parents are nowhere to be found.",
+        "decline_text": "p_l decides to leave the cub alone.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The kit is taken back to camp and nursed back to health.",
+                "text": "The cub is taken back to camp and nursed back to health.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -532,13 +532,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kit is taken back to camp, but grows weak and dies a few days later.",
+                "text": "The cub is taken back to camp, but grows weak and dies a few days later.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "p_l approaches the kit, only to realize that it's already gone. {PRONOUN/p_l/subject/CAP} swiftly {VERB/p_l/bury/buries} it and {VERB/p_l/move/moves} on.",
+                "text": "p_l approaches the cub, only to realize that it's already gone. {PRONOUN/p_l/subject/CAP} swiftly {VERB/p_l/bury/buries} it and {VERB/p_l/move/moves} on.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -546,7 +546,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The kit smells of Twolegs, p_l has no interest in what will surely grow to be a weak cat.",
+                "text": "The cub carries a few belongings from the city. p_l has no interest in what will surely grow to be a weak scavenger.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -554,7 +554,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l moves the kit away from the territory, {PRONOUN/p_l/subject} {VERB/p_l/have/has} no interest in strange kits.",
+                "text": "p_l moves the cub away from the territory. {PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} no interest in strange cubs.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -572,12 +572,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol scents a loner on the territory. r_c finds the loner, who offers their healing skills in exchange for shelter.",
+        "intro_text": "Your patrol spots a loner in the distance. r_c finds the loner, who offers their healing skills in exchange for shelter.",
         "decline_text": "The patrol declines their offer and sends them off.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The new medicine cat is welcomed into the Clan.",
+                "text": "The new healer is welcomed into the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -594,7 +594,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new medicine cat is welcomed into the Clan along with their litter of kits.",
+                "text": "The new healer is welcomed into the Troop along with their batch of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -614,7 +614,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "After hearing more about your Clan, the loner decides not to join, quickly turning and taking off.",
+                "text": "After hearing more about your Troop, the loner decides not to join, quickly turning and taking off.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -625,7 +625,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol advances threateningly towards the loner, who retaliates with a quick swipe to p_l's muzzle. While p_l is stunned, they make their getaway.",
+                "text": "Your patrol advances threateningly towards the loner, who retaliates with a quick swipe to p_l's face. While p_l is stunned, they make their getaway.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -633,7 +633,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Healer or not, your patrol tells the cat to leave or feel their claws. The loner seems to choose life and quickly takes off.",
+                "text": "Healer or not, your patrol tells the scavenger to leave or feel their spears. The loner seems to choose life and quickly takes off.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -656,7 +656,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The new medicine cat is welcomed into the Clan.",
+                "text": "The new healer is welcomed into the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -673,7 +673,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new medicine cat is welcomed into the Clan along with their litter of kits.",
+                "text": "The new healer is welcomed into the Clan along with their batch of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -693,7 +693,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "After hearing more about your Clan, the loner decides not to join, quickly turning and taking off.",
+                "text": "After hearing more about your Troop, the loner decides not to join, quickly turning and taking off.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -704,7 +704,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l advances threateningly towards the loner, who retaliates with a quick swipe to {PRONOUN/p_l/poss} muzzle. While p_l is stunned, they make their getaway.",
+                "text": "p_l advances threateningly towards the loner, who retaliates with a quick swipe to {PRONOUN/p_l/poss} face. While p_l is stunned, they make their getaway.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -712,7 +712,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Healer or not, p_l tells the cat to leave or feel {PRONOUN/p_l/poss} claws. The loner seems to choose life and quickly takes off.",
+                "text": "Healer or not, p_l tells the scavegner to leave or feel {PRONOUN/p_l/poss} spear. The loner seems to choose life and quickly takes off.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -730,12 +730,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol cautiously moves towards the sound of barking. Near the border, they spot a dog chasing something. Oh no, it's a cat!",
-        "decline_text": "The patrol decides not to interfere. Surely the cat can handle itself, the dog isn't even that big.",
+        "intro_text": "Your patrol cautiously moves towards the sound of a lizard's hissing. Near the border, they spot a lizard chasing something. Oh no, it's a scavenger!",
+        "decline_text": "The patrol decides not to interfere. Surely the scavenger can handle itself, the lizard isn't even that big.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol swiftly jumps into action. They capture the dog's attention and draw it away from the cat. r_c stays hidden and goes to the cat while the rest of the patrol lures the dog away. They're unharmed, and this display of bravery makes them want to join the Clan!",
+                "text": "The patrol swiftly jumps into action. They capture the lizard's attention and draw it away from the stranger before showing it the sharp ends of their spears. Meanwhile, r_c checks on the stranger. They're unharmed, and this display of bravery makes them want to join the Troop!",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -759,7 +759,7 @@
                 ]
             },
             {
-                "text": "s_c leaps into action, pelting towards the dog with a yowl rising in {PRONOUN/s_c/poss} throat. The dog looks alarmed by this newcomer and abandons the chase as s_c swipes at it. The loner, ruffled but unharmed, is amazed by this display. After some chatting, they decide to join the Clan.",
+                "text": "s_c leaps into action, pelting towards the lizard and hurling a cherrybomb. Thrashing in panic, the lizard abandons the chase as s_c pursues it with spear raised. The loner, ruffled but unharmed, is amazed by this display. After some chatting, they decide to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -786,7 +786,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol swiftly jumps into action. They capture the dog's attention and draw it away from the cat. r_c stayed hidden while the rest of the patrol lured the dog away, but when {PRONOUN/r_c/subject} {VERB/r_c/go/goes} to find the cat, {PRONOUN/r_c/subject} {VERB/r_c/see/sees} that it's still running! Oh well, at least they're alright.",
+                "text": "The patrol swiftly jumps into action. They capture the lizard's attention and draw it away from the stranger before showing it the sharp ends of their spears. r_c stayed hidden while the rest of the patrol lured the lizard away, but when {PRONOUN/r_c/subject} {VERB/r_c/go/goes} to find the stranger, {PRONOUN/r_c/subject} {VERB/r_c/see/sees} that it's still running! Oh well, at least they're alright.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -797,7 +797,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The loner escapes the dog by climbing a tree and scowls at the patrol, who stood by watching. The patrol leers back in return. c_n doesn't owe loners anything.",
+                "text": "The loner fights the lizard off themself and scowls at the patrol, who stood by watching, over its body. The patrol leers back in return. c_n doesn't owe loners anything.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -805,7 +805,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol watches as the loner climbs up a spindly tree to escape the dog, and then promptly proceed to chase the dog out of the territory and viciously spit at the loner not to cross the border.",
+                "text": "Your patrol watches as the loner scrambles up a pole to escape the lizard, and then promptly proceed to kill the beast and viciously spit at the loner not to cross the border.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -823,22 +823,22 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol is checking the border lines, they hear an odd sound coming from a nearby bush.",
+        "intro_text": "As the patrol is checking the border lines, they hear an odd sound coming from a nearby crevice.",
         "decline_text": "It's probably nothing. The patrol leaves the noise alone and continues on their way.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l goes to check the bush and finds a kittypet cowering inside. The pathetic thing looks terrified and after a quick hiss from p_l it goes scrambling back out of the territory.",
+                "text": "p_l goes to check the crevice and finds a city scav cowering inside. The pathetic thing looks terrified and after a p_l raises {PRONOUN/p_l/poss} spear it goes scrambling back out of the territory.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "p_l pads towards the bush to check on the noise when a rabbit suddenly bursts out! None of the cats are quick enough to catch it, but at least the noise was nothing dangerous.",
+                "text": "p_l pads towards the crevice to check on the noise when a lantern mouse suddenly bursts out! None of the scavengers are quick enough to catch it, but at least the noise was nothing dangerous.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c takes the lead in checking the noise, and it's a good thing {PRONOUN/s_c/subject} did, because the moment {PRONOUN/s_c/subject} step closer to the bush a rogue comes springing out! s_c is quick to bat them away, hissing and spitting, before promptly chasing the rogue out of the territory.  It was hardly a fight, really. ",
+                "text": "s_c takes the lead in checking the noise, and it's a good thing {PRONOUN/s_c/subject} did, because the moment {PRONOUN/s_c/subject} step closer to the bush a rogue comes springing out! s_c is quick to smack them away, squeaking in shock, before promptly chasing the rogue out of the territory.  It was hardly a fight, really. ",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"]
@@ -846,18 +846,18 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l pads closer to the bush, intent on finding the source of the noise, only to come face to face with a skunk! The poor cat ends up stinking for days after the unfortunate incident.",
+                "text": "p_l shuffles closer to the crevice, intent on finding the source of the noise, only to come face to face with a baby noodlefly! The patrol have to scatter when its mother comes hurtling out of the sky, ready to skewer them all.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "s_c doesn't even hesitate before splitting from the patrol to check on the source of the noise. {PRONOUN/s_c/subject/CAP} quickly {VERB/s_c/regret/regrets} {PRONOUN/s_c/poss} impulsivity, however, when an angry raccoon bursts from the bush!  s_c gets quite the scare, but thankfully the raccoon only wanted to get away from {PRONOUN/s_c/object} and quickly runs off back into the undergrowth.",
+                "text": "s_c doesn't even hesitate before splitting from the patrol to check on the source of the noise. {PRONOUN/s_c/subject/CAP} quickly {VERB/s_c/regret/regrets} {PRONOUN/s_c/poss} impulsivity, however, when an angry noodlefly bursts from within!  s_c gets quite the scare, but thankfully the creature only wanted to get away from {PRONOUN/s_c/object}. It flies off with its young clinging to its tail.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["daring", "bold", "ambitious"]
             },
             {
-                "text": "p_l takes the lead in checking the source of the noise and comes face to face with a rogue hiding in the bush! The rogue takes a swipe at p_l, but doesn't get much damage in before p_l retaliates and chases the intruder out of c_n territory.",
+                "text": "p_l takes the lead in checking the source of the noise and comes face to face with a rogue hiding in the crevice! The rogue takes a swipe at p_l, but doesn't get much damage in before p_l retaliates and chases the intruder out of c_n territory.",
                 "exp": 0,
                 "weight": 10,
                 "injury":  [
@@ -874,7 +874,7 @@
                 }
             },
             {
-                "text": "p_l starts to pad towards the bush. Before {PRONOUN/p_l/subject} can even reach it, however, a gang of rogues bursts out of hiding! A fight ensues and though the rogues are eventually driven off, r_c is killed in the process.",
+                "text": "p_l starts to shuffle towards the crevice. Before {PRONOUN/p_l/subject} can even reach it, however, a gang of rogues bursts out of hiding! A fight ensues and though the rogues are eventually driven off, r_c is killed in the process.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -893,113 +893,16 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l finds a gang of rogues in the bush! p_l has to turn tail and run, the sound of gloating the last thing in p_l's ears, hearing how little the rogues think of c_n.",
+                "text": "p_l finds a gang of rogues in the crevice! p_l has to turn tail and run, the rogues' jeers chasing {PRONOUN/p_l/object} back to camp.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l goes to check the bush and finds a kittypet cowering inside. p_l scratches its ears off and sends it on its way.",
+                "text": "p_l goes to check the bush and finds a city scav cowering inside. p_l smacks it and sends it on its way.",
                 "exp": 10,
                 "weight": 20
-            }
-        ]
-    },
-    {
-        "patrol_id": "fst_hunt_twolegplacekittens1",
-        "biome": ["forest"],
-        "season": ["Any"],
-        "types": ["hunting"],
-        "tags": ["new_cat"],
-        "patrol_art": "hunt_general_intro",
-        "min_cats": 2,
-        "max_cats": 2,
-        "min_max_status": {},
-        "weight": 20,
-        "intro_text": "The patrol approaches a Twoleg nest in the woods while hunting.",
-        "decline_text": "The patrol decides to hunt elsewhere.",
-        "chance_of_success": 40,
-        "relationship_constraint": ["mates"],
-        "success_outcomes": [
-            {
-                "text": "p_l hears r_c softly calling {PRONOUN/p_l/object} through the bushes, and drops the idea of following mouse scent, hurrying to {PRONOUN/p_l/poss} mate's side. r_c, head poking into the nest's garden through a gap in the fence, murmurs something about Twoleg kits. Twoleg kits? No, r_c corrects, the <i>Twolegs's kits</i>, the Twolegs <i>have kittens</i> wandering through the nest's garden. Uneasily, the patrol leaves, but both cats' minds return to the young cats in the days that follow.",
-                "exp": 30,
-                "weight": 20,
-                "new_cat": [
-                    ["kittypet", "female", "dead",  "age:has_kits"],
-                    ["litter", "parent:0", "status:kitten", "backstory:abandoned1,abandoned4"]
-                ],
-                "relationships": [
-                    {
-                        "cats_from": ["n_c:0"],
-                        "cats_to": ["patrol"],
-                        "values": ["platonic", "trust", "comfort"],
-                        "amount": 10
-                    }
-                ],
-                "outsider_rep": 1
-            },
-            {
-                "text": "Near the Twoleg den, p_l suddenly hears furious growls. Tiny, adorable, furious growls. A kitten tries to pounce on p_l, barely coming up to {PRONOUN/p_l/poss} elbows. Before little teeth can do any damage, p_l gently flips the tiny cat over and places a gentle paw on their back, completely pinning them as they struggle with all their might. r_c, called over by the mighty fight, asks the little warrior what on earth they're doing. Why, they're defending their territory of course! It might not be the done thing in c_n, but p_l is enchanted by the tiny warrior's bravery, and is willing to vouch for them.",
-                "exp": 30,
-                "weight": 5,
-                "new_cat": [
-                    ["kittypet", "female", "dead", "age:has_kits"],
-                    ["litter", "parent:0", "status:kitten", "backstory:abandoned1,abandoned4"]
-                ],
-                "relationships": [
-                    {
-                        "cats_from": ["n_c:0"],
-                        "cats_to": ["patrol"],
-                        "values": ["platonic", "trust", "comfort"],
-                        "amount": 10
-                    }
-                ],
-                "outsider_rep": 1
-            },
-            {
-                "text": "Furious, high pitched yowls greet the patrol, as a tiny kittypet kitten comes roaring out of the Twoleg nest to try and fight them. Terrifying. s_c tips the little fighter over and carefully scruffs the tiny warrior, wondering what to do with them - s_c doesn't particularly want to hurt them, even if they aren't a Clancat. The kitten insists that they're a big cat and they're <b>fine</b>, but after a couple minutes, does reveal their mother is dead. Twolegs have kept them alive somehow, but c_n will do better, and such a fierce heart shouldn't be left to wither in a soft kittypet life.",
-                "exp": 30,
-                "weight": 20,
-                "stat_trait": ["careful", "thoughtful"],
-                "new_cat": [
-                    ["kittypet", "female", "dead", "age:has_kits"],
-                    ["litter", "parent:0", "status:kitten", "backstory:abandoned1,abandoned4"]
-                ],
-                "relationships": [
-                    {
-                        "cats_from": ["n_c:0"],
-                        "cats_to": ["patrol"],
-                        "values": ["platonic", "trust", "comfort"],
-                        "amount": 10
-                    }
-                ],
-                "outsider_rep": 1
-            }
-        ],
-        "fail_outcomes": [
-            {
-                "text": "Twoleg kits scare the patrol away.",
-                "exp": 0,
-                "weight": 20,
-                "outsider_rep": -1
-            }
-        ],
-        "antag_fail_outcomes": [
-            {
-                "text": "The kittypet kittens trying furiously to defend their territory ruin all the hunting to be had, and the patrol returns home, irritated but impressed by the kittens' bravery.",
-                "exp": 0,
-                "weight": 20,
-                "outsider_rep": -1
-            }
-        ],
-        "antag_success_outcomes": [
-            {
-                "text": "A kittypet kitten approaches the patrol, yowling furiously. p_l bats it aside as the warriors continue hunting, unruffled.",
-                "exp": 30,
-                "weight": 20,
-                "outsider_rep": -2
             }
         ]
     },
@@ -1018,12 +921,12 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "While searching for some specific herbs p_l is startled by weird sounds and whispers on the wind.",
+        "intro_text": "While searching for some specific herbs, p_l is startled by weird sounds and whispers on the wind.",
         "decline_text": "Unnerved and unable to discern if it is a sign from StarClan or nothing, {PRONOUN/p_l/subject} {VERB/p_l/go/goes} back to c_n to ask for help and guidance.",
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately trying to keep their newborn litter quiet. p_l brings the queen back to camp, where the Clan, suspicious but obedient to the code, takes them in.",
+                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, desperately splashing water from a tiny puddle on a stranded batch of larvae. p_l brings the queen back to camp, where the Troop, suspicious but obedient to the code, takes them in.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1041,7 +944,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l sees a worn and weary queen protecting their mewling litter. Not happy but unwilling and unable to go against {PRONOUN/p_l/poss} beloved code {PRONOUN/p_l/subject} {VERB/p_l/take/takes} them back to camp, refusing to let r_c say a word against it.",
+                "text": "p_l finds a worn and weary queen trying to keep their newborn batch of larvae hydrated in a tiny puddle. Not happy but unwilling and unable to go against {PRONOUN/p_l/poss} beloved code, {PRONOUN/p_l/subject} {VERB/p_l/take/takes} them back to camp, refusing to let r_c say a word against it.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1061,7 +964,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sees the body of an unknown queen with their kits beside them, slowly cooling in the morning breeze. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} filled with an unexpected sense of grief and p_l and the rest of the patrol take the time to carry and bury them outside their borders.",
+                "text": "p_l sees the body of an unknown queen with their larvae beside them, slowly cooling in the morning breeze. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} filled with an unexpected sense of grief and p_l and the rest of the patrol take the time to carry and bury them outside their borders.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1069,7 +972,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their larvae beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1104,7 +1007,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "p_l, sure that it is a sign of StarClan, follows the faint wailing. Instead {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost their life in a harsh kitting, their newborn kits clinging to a body that will never move again. p_l hesitates, but wraps {PRONOUN/p_l/self} around the kits and orders r_c back to the camp to fetch help. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} going to have to argue to keep them.",
+                "text": "p_l, sure that it is a sign of StarClan, follows the noise of water. Instead {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost their life in a harsh birthing. Their newborn grubs wiggle now and then in the trickle of water from a pipe, which must have been pulled out of place at the last moment by hands determined to keep them alive. p_l hesitates, but hunches over the cubs and orders r_c back to the camp to fetch a bucket. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} going to have to argue to keep them.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1122,7 +1025,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l and {PRONOUN/p_l/poss} patrol come across a litter of frantically mewling kits desperately trying to wake up their dead parent. Unsure but not willing for them to die they bring the kits back to the Clan to be raised as one of them.",
+                "text": "p_l and {PRONOUN/p_l/poss} patrol come across a batch of stranded grubs, slowly dehydrating as they crawl on the cold body of their parent. Unsure but not willing for them to die, the patrol brings the cubs back to the Troop to be raised as one of them.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1142,7 +1045,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sees the body of an unknown queen with their kits beside them, slowly cooling in the morning breeze. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} filled with an unexpected sense of grief and p_l and the rest of the patrol take the time to carry and bury them outside their borders.",
+                "text": "p_l sees the body of an unknown queen with their cubs beside them, slowly cooling in the morning breeze. Filled with an unexpected grief, p_l and the rest of the patrol take the time to carry and bury them outside their borders.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1150,7 +1053,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1508,7 +1411,7 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "It's a cold day in c_n's territory, and app1 is the only cat stepping out. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} by {PRONOUN/app1/self} when {PRONOUN/app1/subject} {VERB/app1/hear/hears} a cat screaming for help.",
+        "intro_text": "It's a cold day in c_n's territory, and app1 is the only one stepping out. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} by {PRONOUN/app1/self} when {PRONOUN/app1/subject} {VERB/app1/hear/hears} a scavenger screaming for help.",
         "decline_text": "Nope, not today, there's no way app1 is running after ghost cats, no thank you.",
         "chance_of_success": 30,
         "success_outcomes": [
