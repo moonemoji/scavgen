@@ -77,7 +77,7 @@
       "It breaks {PRONOUN/m_c/poss} heart that {PRONOUN/m_c/subject} won't get to be with {PRONOUN/m_c/poss} {insert} as they grow. m_c struggles out instructions with shaking hands and pleads to {PRONOUN/m_c/poss} friends around {PRONOUN/m_c/object}, as the blood loss from birth slowly takes {PRONOUN/m_c/poss} life.",
       "However, m_c is too far gone for the herbs {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} given to choke down to fix this blood loss, and the scavengers are helpless as m_c slowly slips to StarClan.",
       "Later, hours later, eons later, the {insert} crawl across the bottom of a different spawning pool. The one they were born in is cloudy with blood. Outside, m_c's body cools, the toll of birth too much for it.",
-      "Though all looks fine, the Clan will wake to discover m_c's body cold in the nursery, with little flakes nibbled off by a {insert} too young to know what they're eating.",
+      "Though all looks fine, the Troop will wake to discover m_c's body cold in the nursery, with little flakes nibbled off by a {insert} too young to know what they're eating.",
       "Though birth is always a difficult and risky event, no one thought they'd lose m_c to it, not after the {insert} was all born and seemed fine. They thought the blood loss was under control."
     ],
     "difficult_birth": [
@@ -92,7 +92,7 @@
       "m_c chokes down the herbs given to {PRONOUN/m_c/object}, retching at the taste but knowing {PRONOUN/m_c/subject} {VERB/m_c/need/need} them to stop the blood loss. "
     ],
 	"outside_alone": [
-		"Rumors reach the Clan that m_c gave birth to a {insert}."
+		"Rumors reach the Troop that m_c gave birth to a {insert}."
 	],
 	"outside_in_clan":[
 		"r_c heard a rumor that m_c had a batch.",

@@ -27,7 +27,7 @@
     "wasting disease": [
         "r_c has been called in by m_c's worried parent, and unfortunately that worry was well-founded, as m_c seems to have wasting disease.",
         "m_c seems weaker lately, unable to play as much or explore as far.",
-        "m_c is sickly, and the Clan fears {PRONOUN/m_c/subject} may not live past cubhood. Even if {PRONOUN/m_c/subject} {VERB/m_c/do/does}, this sickness may never leave {PRONOUN/m_c/object}."
+        "m_c is sickly, and the Troop fears {PRONOUN/m_c/subject} may not live past cubhood. Even if {PRONOUN/m_c/subject} {VERB/m_c/do/does}, this sickness may never leave {PRONOUN/m_c/object}."
     ],
     "blind": [
         "m_c has never had any trouble getting around, but one day {PRONOUN/m_c/subject} {VERB/m_c/ask/asks} a strange question about how someone knew someone else was napping on the other side of camp, and r_c realizes {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} blind.",
@@ -51,7 +51,7 @@
     ],
     "deaf": [
         "When m_c doesn't respond to fingers snapped right by {PRONOUN/m_c/poss} head, r_c is called. {PRONOUN/r_c/subject/CAP} {VERB/r_c/report/reports} that while m_c will live life just fine, it appears {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} never been able to hear.",
-        "m_c isn't bothered by being deaf, though the Clan seems to want to comfort {PRONOUN/m_c/object} when everyone finds out that's why learning to talk has been so hard."
+        "m_c isn't bothered by being deaf, though the Troop seems to want to comfort {PRONOUN/m_c/object} when everyone finds out that's why learning to talk has been so hard."
 
     ],
     "constant joint pain": [

@@ -10,12 +10,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol finds a loner who is interested in joining the Clan. They banter with the cat a bit, making them feel more welcome.",
+        "intro_text": "Your patrol finds a loner who is interested in joining the Troop. They banter with the scavenger a bit, making them feel more welcome.",
         "decline_text": "Your patrol decides to leave the loner be.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The patrol doesn't have to do much convincing. The loner seems happy to join the Clan.",
+                "text": "The patrol doesn't have to do much convincing. The loner seems happy to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -32,7 +32,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol doesn't have to do much convincing. The loner seems happy to join the Clan with their litter of kits.",
+                "text": "The patrol doesn't have to do much convincing. The loner seems happy to join the Troop with their litter of kits.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -89,12 +89,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l finds a loner who is interested in joining the Clan. {PRONOUN/p_l/subject/CAP} {VERB/p_l/banter/banters} with the cat a bit, making them feel more welcome.",
+        "intro_text": "p_l finds a loner who is interested in joining the Troop. {PRONOUN/p_l/subject/CAP} {VERB/p_l/banter/banters} with the scavenger a bit, making them feel more welcome.",
         "decline_text": "p_l decides to leave the loner be.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l doesn't have to do much convincing. The loner seems happy to join the Clan.",
+                "text": "p_l doesn't have to do much convincing. The loner seems happy to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -111,7 +111,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l doesn't have to do much convincing. The loner seems happy to join the Clan with their litter of kits.",
+                "text": "p_l doesn't have to do much convincing. The loner seems happy to join the Troop with their litter of kits.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -168,12 +168,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol finds a kittypet who is interested in joining the Clan. They banter with the cat a bit, making them feel more welcome.",
+        "intro_text": "Your patrol finds a kittypet who is interested in joining the Troop. They banter with the scavenger a bit, making them feel more welcome.",
         "decline_text": "Your patrol decides to leave the kittypet be.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The patrol doesn't have to do much convincing. The kittypet seems happy to join the Clan.",
+                "text": "The patrol doesn't have to do much convincing. The kittypet seems happy to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -190,7 +190,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol doesn't have to do much convincing. The kittypet seems happy to join the Clan with their litter of kits.",
+                "text": "The patrol doesn't have to do much convincing. The kittypet seems happy to join the Troop with their litter of kits.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -210,7 +210,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Though they decline politely, the descriptions of Clan life seem to have frightened the kittypet.",
+                "text": "Though they decline politely, the descriptions of Troop life seem to have frightened the kittypet.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -247,12 +247,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l finds a kittypet who is interested in joining the Clan. {PRONOUN/p_l/subject/CAP} {VERB/p_l/banter/banters} with the cat a bit, making them feel more welcome.",
+        "intro_text": "p_l finds a kittypet who is interested in joining the Troop. {PRONOUN/p_l/subject/CAP} {VERB/p_l/banter/banters} with the scavenger a bit, making them feel more welcome.",
         "decline_text": "p_l decides to leave the kittypet be.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l doesn't have to do much convincing. The kittypet seems happy to join the Clan.",
+                "text": "p_l doesn't have to do much convincing. The kittypet seems happy to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -269,7 +269,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l doesn't have to do much convincing. The kittypet seems happy to join the Clan with their litter of kits.",
+                "text": "p_l doesn't have to do much convincing. The kittypet seems happy to join the Troop with their litter of kits.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -289,7 +289,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Though they decline politely, the descriptions of Clan life seem to have frightened the kittypet.",
+                "text": "Though they decline politely, the descriptions of Troop life seem to have frightened the kittypet.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -326,12 +326,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds a wounded cat near the Thunderpath.",
-        "decline_text": "They leave the wounded cat alone.",
+        "intro_text": "r_c finds a wounded scavenger at the bottom of a long drop.",
+        "decline_text": "They leave the wounded scavenger alone.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The patrol approaches the injured cat and sees signs of life. Alarmed, they gently pick up the cat and take them back to camp to be treated by the medicine cat. The grateful cat decides to join the Clan.",
+                "text": "The patrol approaches the injured scavenger and sees signs of life. Alarmed, they gently pick up the stranger and take them back to camp to be treated by the healer. The grateful scavenger decides to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "injury": [
@@ -349,13 +349,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As r_c inspects the cat, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} that they are already hunting with their ancestors. The patrol takes a moment to say a prayer for the cat and bury them.",
+                "text": "As r_c inspects the scavenger, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} that they have already passed into their next life. The patrol takes a moment to bury them.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "The cats attempt to carry the cat back to camp, but the cat passes on the way. They stop to bury the cat before continuing home.",
+                "text": "The patrol attempt to carry the stranger back to camp, but don't make it in time. They stop to bury the stranger before continuing home.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -363,7 +363,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol attempts to help the cat to a healer nearby, but the cat passes before they can make it. They bury the cat outside their borders.",
+                "text": "The patrol attempts to help the scavenger to a healer nearby, but the scavenger passes before they can make it. They bury the scavenger outside their borders.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -371,7 +371,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol helps the cat to the nearest healer. They can't spare the herbs for an outsider right now.",
+                "text": "Your patrol helps the scavenger to the nearest healer. They can't spare the herbs for an outsider right now.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -389,12 +389,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l finds a wounded cat near the Thunderpath.",
-        "decline_text": "p_l leaves the wounded cat alone.",
+        "intro_text": "p_l finds a wounded scavenger near the bottom of a long drop.",
+        "decline_text": "p_l leaves the wounded scavenger alone.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l approaches the injured cat and sees signs of life. Alarmed, {PRONOUN/p_l/subject} gently {VERB/p_l/pick/picks} up the cat and {VERB/p_l/take/takes} them back to camp to be treated by the medicine cat. The grateful cat decides to join the Clan.",
+                "text": "p_l approaches the stranger and sees signs of life. Alarmed, {PRONOUN/p_l/subject} gently {VERB/p_l/pick/picks} up the scavenger and {VERB/p_l/take/takes} them back to camp to be treated by the healer. The grateful stranger decides to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "injury": [
@@ -412,13 +412,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As p_l inspects the cat, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} that they are already hunting with their ancestors. {PRONOUN/p_l/subject/CAP} {VERB/p_l/take/takes} a moment to say a prayer for the cat and bury them.",
+                "text": "As p_l inspects the cat, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} that they have already passed into their next life. {PRONOUN/p_l/subject/CAP} {VERB/p_l/take/takes} a moment to  bury them.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "p_l attempts to carry the cat back to camp, but the cat passes on the way. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops} to bury the cat before continuing home.",
+                "text": "p_l attempts to carry the scavenger back to camp, but doesn't make it in time. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops} to bury them before continuing home.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -426,7 +426,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l attempts to help the cat to a healer nearby, but the cat passes before the two can make it back. p_l buries the cat outside c_n borders.",
+                "text": "p_l attempts to help the scavenger to a healer nearby, but the stranger passes before the two can make it back. p_l buries them outside c_n borders.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -434,7 +434,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l helps the cat to the nearest healer. c_n can't spare the herbs for an outsider right now.",
+                "text": "p_l helps the scavenger to the nearest healer. c_n can't spare the herbs for an outsider right now.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -457,7 +457,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "r_c rushes the kit back to camp. The kit is nursed back to health and promised a place in the Clan.",
+                "text": "r_c rushes the kit back to camp. The kit is nursed back to health and promised a place in the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -490,7 +490,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol attempts to take the kit to a neighboring Clan instead of leaving it, but it dies on the journey. They give it a small burial.",
+                "text": "Your patrol attempts to take the kit to a neighboring Troop instead of leaving it, but it dies on the journey. They give it a small burial.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -498,7 +498,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol can't bear to leave the kit alone, so they take it to the border of the closest Clan and wait for a patrol to arrive. The other Clan agrees to take the kit.",
+                "text": "Your patrol can't bear to leave the kit alone, so they take it to the border of the closest Troop and wait for a patrol to arrive. The other Troop agrees to take the kit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -521,7 +521,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l rushes the kit back to camp. The kit is nursed back to health and promised a place in the Clan.",
+                "text": "p_l rushes the kit back to camp. The kit is nursed back to health and promised a place in the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -554,7 +554,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l attempts to take the kit to a neighboring Clan instead of leaving it, but it dies on the journey. {PRONOUN/p_l/subject/CAP} {VERB/p_l/give/gives} it a small burial.",
+                "text": "p_l attempts to take the kit to a neighboring Troop instead of leaving it, but it dies on the journey. {PRONOUN/p_l/subject/CAP} {VERB/p_l/give/gives} it a small burial.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -562,7 +562,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l can't bear to leave the kit alone, so {PRONOUN/p_l/subject} {VERB/p_l/take/takes} it to the border of the closest Clan and {VERB/p_l/wait/waits} for a patrol to arrive. The other Clan agrees to take the kit.",
+                "text": "p_l can't bear to leave the kit alone, so {PRONOUN/p_l/subject} {VERB/p_l/take/takes} it to the border of the closest Troop and {VERB/p_l/wait/waits} for a patrol to arrive. The other Troop agrees to take the kit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -585,7 +585,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The new medicine cat is welcomed into the Clan.",
+                "text": "The new healer is welcomed into the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -602,7 +602,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new medicine cat is welcomed into the Clan along with their litter of kits.",
+                "text": "The new healer is welcomed into the Troop along with their batch of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -622,7 +622,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "After hearing more about your Clan, the loner politely declines joining.",
+                "text": "After hearing more about your Troop, the loner politely declines joining.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -633,7 +633,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol says that they can't take on another cat right now and tries to direct the loner somewhere else, but the loner hisses and says that they can find their own way.",
+                "text": "The patrol says that they can't take on another scavenger right now and tries to direct the loner somewhere else, but the loner scowls and says that they can find their own way.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -641,7 +641,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol says that they can't take on another cat right now, but they point the loner in the direction of the neighboring Clan.",
+                "text": "The patrol says that they can't take on another scavenger right now, but they point the loner in the direction of the neighboring Troop.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -664,7 +664,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The new medicine cat is welcomed into the Clan.",
+                "text": "The new healer is welcomed into the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -681,7 +681,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new medicine cat is welcomed into the Clan along with their litter of kits.",
+                "text": "The new healer is welcomed into the Troop along with their batch of cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -701,7 +701,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "After hearing more about your Clan, the loner politely declines joining.",
+                "text": "After hearing more about your Troop, the loner politely declines joining.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -712,7 +712,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l says that c_n can't take on another cat right now and tries to direct the loner somewhere else, but the loner hisses and says that they can find their own way.",
+                "text": "p_l says that c_n can't take on another scavenger right now and tries to direct the loner somewhere else, but the loner hisses and says that they can find their own way.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -720,7 +720,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l says that c_n can't take on another cat right now, but {PRONOUN/p_l/subject} {VERB/p_l/point/points} the loner in the direction of the neighboring Clan.",
+                "text": "p_l says that c_n can't take on another scavenger right now, but {PRONOUN/p_l/subject} {VERB/p_l/point/points} the loner in the direction of the neighboring Troop.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -743,7 +743,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol swiftly jumps into action. They capture the dog's attention and draw it away from the cat. r_c stays hidden and goes to the cat while the rest of the patrol lures the dog away. They're unharmed, and this display of bravery makes them want to join the Clan!",
+                "text": "The patrol swiftly jumps into action. They capture the dog's attention and draw it away from the cat. r_c stays hidden and goes to the cat while the rest of the patrol lures the dog away. They're unharmed, and this display of bravery makes them want to join the Troop!",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -760,7 +760,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "s_c leaps into action, pelting towards the dog with a yowl rising in {PRONOUN/s_c/poss} throat. The dog looks alarmed by this newcomer and abandons the chase as s_c swipes at it. The loner, ruffled but unharmed, is amazed by this display. After some chatting, they decide to join the Clan.",
+                "text": "s_c leaps into action, pelting towards the dog with a yowl rising in {PRONOUN/s_c/poss} throat. The dog looks alarmed by this newcomer and abandons the chase as s_c swipes at it. The loner, ruffled but unharmed, is amazed by this display. After some chatting, they decide to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -843,7 +843,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Before p_l can move to check the bush, a loner emerges with their newborn kits. The cat explains that they would like to join the Clan and after a short conversation with p_l, the loner and their family join the patrol on the journey back to camp.",
+                "text": "Before p_l can move to check the bush, a loner emerges with their newborn kits. The cat explains that they would like to join the Troop and after a short conversation with p_l, the loner and their family join the patrol on the journey back to camp.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -861,7 +861,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l pads towards the bush to check on the noise when a rabbit suddenly bursts out, a loner following it! The loner speaks to p_l about Clan life, and how safe it would be for their newborn kits. p_l convinces the family to join the Clan.",
+                "text": "p_l pads towards the bush to check on the noise when a rabbit suddenly bursts out, a loner following it! The loner speaks to p_l about Troop life, and how safe it would be for their newborn kits. p_l convinces the family to join the Troop.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -879,7 +879,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "s_c takes the lead in checking the noise and finds that the bush is hiding a loner and their litter! The kits are freshly born, new to the world, and s_c is quick to sit and talk quietly with the new parent. After some coaxing, s_c convinces them to come stay with the Clan for a while, maybe even to join permanently.",
+                "text": "s_c takes the lead in checking the noise and finds that the bush is hiding a loner and their litter! The kits are freshly born, new to the world, and s_c is quick to sit and talk quietly with the new parent. After some coaxing, s_c convinces them to come stay with the Troop for a while, maybe even to join permanently.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["compassionate", "empathetic", "loving", "calm"],
@@ -964,7 +964,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately trying to keep their newborn litter quiet. p_l brings the queen back to camp, where the Clan can assist.",
+                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately trying to keep their newborn litter quiet. p_l brings the queen back to camp, where the Troop can assist.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
