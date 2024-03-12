@@ -10,7 +10,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol meets o_c_n, a Clan they consider to be allies, at the border.",
+        "intro_text": "Your patrol meets o_c_n, a Troop they consider to be allies, at the border.",
         "decline_text": "You decide not to stop and talk with their patrol.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -21,7 +21,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "The patrols share recent Clan news with each other: how prey has been running lately, new apprentices or kits, and other such information. They part on good terms, comradery between the Clans continuing to grow.",
+                "text": "The patrols share recent Troop news with each other: how prey has been running lately, new apprentices or cubs, and other such information. They part on good terms, comradery between the Troops continuing to grow.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -34,7 +34,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c excitedly trots up to the other patrol, greeting them pleasantly. They seem to be on good terms with the other cats on this patrol and strike up conversation about specific happenings in their Clan, asking if so-and-so had kits or if a certain apprentice had been made a warrior yet.",
+                "text": "s_c excitedly trots up to the other patrol, greeting them pleasantly. They seem to be on good terms with the other scavengers on this patrol and strike up conversation about specific happenings in their Troop, asking if so-and-so had cubs or if a certain apprentice had been made a warrior yet.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["charismatic", "altruistic", "thoughtful", "wise", "confident"],
@@ -49,7 +49,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol stops to talk with the other cats but s_c is quick to begin taunting them, poking fun at the other Clan. When the two patrols part ways tails are whipping and voices border on a hiss.",
+                "text": "Your patrol stops to talk with the other scavengers but s_c is quick to begin taunting them, poking fun at the other Troop. When the two patrols part ways tails are whipping and voices border on a hiss.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "vengeful", "troublesome", "childish"],
@@ -66,7 +66,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Despite considering them allies, these cats are no friends of c_n. Your patrol glares and hisses from their side of the border until the o_c_n patrol continues on their way, confused and wary.",
+                "text": "Despite considering them allies, these scavengers are no friends of c_n. Your patrol glares and hisses from their side of the border until the o_c_n patrol continues on their way, confused and wary.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -84,7 +84,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol meets o_c_n, a Clan they consider to be allies, at the border.",
+        "intro_text": "Your patrol meets o_c_n, a Troop they consider to be allies, at the border.",
         "decline_text": "You decide not to stop and talk with their patrol.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -95,20 +95,20 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "The patrols share recent Clan news with each other: how prey has been running lately, new apprentices or kits, and other such information. They part on good terms, comradery between the Clans continuing to grow.",
+                "text": "The patrols share recent Troop news with each other: how prey has been running lately, new apprentices or cubs, and other such information. They part on good terms, comradery between the Troops continuing to grow.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c approaches the other patrol first, calling out a greeting and then remarking on a recent battle between o_c_n and one of the other Clans. s_c compliments the o_c_n cats on their battle prowess.",
+                "text": "s_c approaches the other patrol first, calling out a greeting and then remarking on a recent battle between o_c_n and one of the other Troops. s_c compliments the o_c_n scavengers on their battle prowess.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c approaches the other patrol first, calling out a greeting and then remarking on a recent battle between o_c_n and one of the other Clans. s_c compliments the o_c_n cats on their battle prowess.",
+                "text": "s_c approaches the other patrol first, calling out a greeting and then remarking on a recent battle between o_c_n and one of the other Troops. s_c compliments the o_c_n scavengers on their battle prowess.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -131,7 +131,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol stops to talk with the other cats but s_c is nervous to talk with o_c_n cats. The other patrol notices and takes offense at the lack of friendly demeanor.",
+                "text": "Your patrol stops to talk with the other scavengers, but s_c is nervous. The other patrol notices and takes offense at the lack of friendly demeanor.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["nervous", "insecure"],
@@ -140,7 +140,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol meets the other with glares and taunts but the o_c_n patrol appears unfazed. The other patrol leader meets p_l's gaze evenly and with confidence. Eventually your patrol backs down and leaves the area first, feeling a bit embarrassed at the lack of reaction.",
+                "text": "Your patrol meets the other with glares and taunts, but the o_c_n patrol appears unfazed. The other patrol leader meets p_l's gaze evenly and with confidence. Eventually your patrol backs down and leaves the area first, feeling a bit embarrassed at the lack of reaction.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -148,7 +148,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Despite considering them allies, these cats are no friends of c_n. Your patrol glares and hisses from their side of the border until the o_c_n patrol continues on their way, confused and wary.",
+                "text": "Despite considering them allies, these scavengers are no friends of c_n. Your patrol glares from their side of the border until the o_c_n patrol continues on their way, confused and wary.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -171,7 +171,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, rabbit hanging from their muzzle, but it seems there aren't any o_c_n cats nearby. r_c trots back over the border, their prize in tow and transgression unnoticed.",
+                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, rabbit hanging from their muzzle, but it seems there aren't any o_c_n scavengers nearby. r_c trots back over the border, their prize in tow and transgression unnoticed.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"]
@@ -183,14 +183,14 @@
                 "prey": ["small"]
             },
             {
-                "text": "s_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n cats seem miffed by this trespass, but not yet hostile thanks to your alliance. Thankfully s_c smooths things over with the other patrol, graciously gifting them the rabbit, and they part ways without damaging the relationship between Clans.",
+                "text": "s_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n scavengers seem miffed by this trespass, but not yet hostile thanks to your alliance. Thankfully s_c smooths things over with the other patrol, graciously gifting them the rabbit, and they part ways without damaging the relationship between Troops.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "prey": ["small"]
             },
             {
-                "text": "r_c is about to leap for the rabbit before s_c grabs them by the scruff and pulls them back! A moment later, r_c sees the group of o_c_n cats that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Clan.",
+                "text": "r_c is about to leap for the rabbit before s_c grabs them by the scruff and pulls them back! A moment later, r_c sees the group of o_c_n scavengers that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Troop.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -206,14 +206,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n cat watching {PRONOUN/r_c/object} from the other side of the border. The other cat knows exactly what r_c was intending to do and turns away, presumably to report the incident to their own leader.",
+                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n scavenger watching {PRONOUN/r_c/object} from the other side of the border. The other scavenger knows exactly what r_c was intending to do and turns away, presumably to report the incident to their own leader.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"],
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c pounces with no hesitation! {PRONOUN/s_c/subject/CAP} easily {VERB/s_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n cat. s_c is promptly chased back over the border and the other cat glares, hissing and spitting, until your patrol leaves the area.",
+                "text": "s_c pounces with no hesitation! {PRONOUN/s_c/subject/CAP} easily {VERB/s_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n scavenger. s_c is promptly chased back over the border and the other scavenger glares, hissing and spitting, until your patrol leaves the area.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -230,7 +230,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n cat watching {PRONOUN/r_c/object} from the other side of the border. The other cat laughs at the pathetic display and turns to walk deeper into their own territory.  They seem to be unfazed and unimpressed by the sad attempt.",
+                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n scavenger watching {PRONOUN/r_c/object} from the other side of the border. The other scavenger laughs at the pathetic display and turns to walk deeper into their own territory.  They seem to be unfazed and unimpressed by the sad attempt.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -238,7 +238,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "A tempting opportunity. And also a perfect one. r_c pounces and swiftly kills the rabbit, intentionally leaving evidence of their deed behind. That will show those o_c_n cats just how confident c_n is in their own power.",
+                "text": "A tempting opportunity. And also a perfect one. r_c pounces and swiftly kills the rabbit, intentionally leaving evidence of their deed behind. That will show those o_c_n scavengers just how confident c_n is in their own power.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -266,21 +266,21 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "They pad over to the border and hesitate only momentarily before crossing. They quickly gather some of the berries, making sure to leave plenty for o_c_n's medicine cat if they need some, too.",
+                "text": "They pad over to the border and hesitate only momentarily before crossing. They quickly gather some of the berries, making sure to leave plenty for o_c_n's healer if they need some, too.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["raspberry"],
                 "other_clan_rep": 2
             },
             {
-                "text": "They pad to the border and pause for a heartbeat to scent the air. o_c_n's scent is very strong, but there's something else... o_c_n's medicine cat appears at that moment. They're walking towards the raspberries when they spot p_l and wave their tail in greeting. They invite p_l to gather some, as there's plenty. p_l gratefully accepts.",
+                "text": "They pad to the border and pause for a heartbeat to scent the air. o_c_n's scent is very strong, but there's something else... o_c_n's healer appears at that moment. They're walking towards the raspberries when they spot p_l and wave their tail in greeting. They invite p_l to gather some, as there's plenty. p_l gratefully accepts.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"],
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l is about to step over the border when a hiss stops them in their tracks. A o_c_n warrior bounds into view, bristling. However, when the warrior realizes who the other cat is, they quickly apologize to p_l and invite them to gather herbs. o_c_n is happy to share with friends.",
+                "text": "p_l is about to step over the border when a hiss stops them in their tracks. A o_c_n warrior bounds into view, bristling. However, when the warrior realizes who the other scavenger is, they quickly apologize to p_l and invite them to gather herbs. o_c_n is happy to share with friends.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["MEDIATOR,1"],
@@ -290,7 +290,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l starts to step over the border but a hiss stops them in their tracks. A o_c_n patrol is padding their way. Though the patrol seems to calm down as they recognize p_l, they look gravely at the medicine cat and explain that they can't spare any herbs - their medicine cat sent them to collect the last of the berries. p_l nods and thanks them anyway.",
+                "text": "p_l starts to step over the border but a hiss stops them in their tracks. A o_c_n patrol is padding their way. Though the patrol seems to calm down as they recognize p_l, they look gravely at the healer and explain that they can't spare any herbs - their healer sent them to collect the last of the berries. p_l nods and thanks them anyway.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -313,26 +313,26 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "After poking around a bit, your patrol discovers a o_c_n apprentice wandering nearby, hopelessly lost. The apprentice is distraught upon discovering they're on the wrong side of the border, but p_l only chuckles and gently guides the young cat back to their own territory.",
+                "text": "After poking around a bit, your patrol discovers a o_c_n apprentice wandering nearby, hopelessly lost. The apprentice is distraught upon discovering they're on the wrong side of the border, but p_l only chuckles and gently guides the young scavenger back to their own territory.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "Your patrol follows the scent deeper into their own territory, eventually stumbling upon the o_c_n medicine cat! It seems there's an herb shortage and the medicine cat was hoping to borrow from c_n's own stores to treat a badly wounded warrior. p_l hastily escorts the cat to the c_n camp.",
+                "text": "Your patrol follows the scent deeper into their own territory, eventually stumbling upon the o_c_n healer! It seems there's an herb shortage and the healer was hoping to borrow from c_n's own stores to treat a badly wounded warrior. p_l hastily escorts the scavenger to the c_n camp.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol! s_c rallies the patrol to drive the dog away, thankfully avoiding any injuries. The o_c_n cat is grateful for the rescue.",
+                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol! s_c rallies the patrol to drive the dog away, thankfully avoiding any injuries. The o_c_n scavenger is grateful for the rescue.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "Your patrol follows the scent and finds a wounded o_c_n warrior. It seems the cat had been caught by a dog and chased into c_n territory. The dog is gone now, but the warrior can't make it back across the border on their own. s_c insists that the patrol escort the warrior back to the o_c_n camp and the o_c_n leader is grateful for the service.",
+                "text": "Your patrol follows the scent and finds a wounded o_c_n warrior. It seems the scavenger had been caught by a dog and chased into c_n territory. The dog is gone now, but the warrior can't make it back across the border on their own. s_c insists that the patrol escort the warrior back to the o_c_n camp and the o_c_n leader is grateful for the service.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -354,19 +354,19 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning, but they aren't quick enough and a large dog suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
+                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning, but they aren't quick enough and a large dog suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a dog.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a dog.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a dog"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol, catching r_c but thankfully only injuring them before r_c tears themself free and sprints away.",
+                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol, catching r_c but thankfully only injuring them before r_c tears themself free and sprints away.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -377,16 +377,16 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a dog.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a dog.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a dog"
                 },
                 "other_clan_rep": -1
             }
         ],
         "antag_fail_outcomes": [
             {
-                "text": "How dare they trespass! Your patrol bounds after the scent, hoping to find the source of it, eventually finding that it leads to the c_n camp. Inside they find the o_c_n medicine cat conversing with your own medicine cat. They tell the patrol off for so hastily jumping to conclusions.  The other medicine cat was only looking to borrow some herbs.",
+                "text": "How dare they trespass! Your patrol bounds after the scent, hoping to find the source of it, eventually finding that it leads to the c_n camp. Inside they find the o_c_n healer conversing with your own healer. They tell the patrol off for so hastily jumping to conclusions.  The other healer was only looking to borrow some herbs.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -417,19 +417,19 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "After poking around a bit, p_l discovers a o_c_n apprentice wandering nearby, hopelessly lost. The apprentice is distraught upon discovering they're on the wrong side of the border, but p_l only chuckles and gently guides the young cat back to their own territory.",
+                "text": "After poking around a bit, p_l discovers a o_c_n apprentice wandering nearby, hopelessly lost. The apprentice is distraught upon discovering they're on the wrong side of the border, but p_l only chuckles and gently guides the young scavenger back to their own territory.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l follows the scent deeper into their own territory, eventually stumbling upon the o_c_n medicine cat!  It seems there's an herb shortage and the medicine cat was hoping to borrow from c_n's own stores to treat a badly wounded warrior. p_l hastily escorts the cat to the c_n camp.",
+                "text": "p_l follows the scent deeper into their own territory, eventually stumbling upon the o_c_n healer!  It seems there's an herb shortage and the healer was hoping to borrow from c_n's own stores to treat a badly wounded warrior. p_l hastily escorts the scavenger to the c_n camp.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l follows the scent and finds a wounded o_c_n warrior. It seems the cat had been caught by a dog and chased into c_n territory.  The dog is gone now, but the warrior can't make it back across the border on their own. s_c insists on escorting the warrior back to the o_c_n camp and the o_c_n leader is grateful for the service.",
+                "text": "p_l follows the scent and finds a wounded o_c_n warrior. It seems the scavenger had been caught by a dog and chased into c_n territory.  The dog is gone now, but the warrior can't make it back across the border on their own. s_c insists on escorting the warrior back to the o_c_n camp and the o_c_n leader is grateful for the service.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -451,19 +451,19 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning, but they aren't quick enough and a large dog suddenly descends upon r_c. r_c is killed before they can run.",
+                "text": "r_c follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning, but they aren't quick enough and a large dog suddenly descends upon r_c. r_c is killed before they can run.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a dog.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a dog.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a dog"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c follows the scent to a o_c_n cat taking refuge up a tree. The cat yowls a warning and r_c sprints for the same tree when they hear the cry. Just in time, too, as a large dog jumps at them, catching r_c but thankfully only injuring them before r_c tears themself free and scales the tree.",
+                "text": "r_c follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and r_c sprints for the same tree when they hear the cry. Just in time, too, as a large dog jumps at them, catching r_c but thankfully only injuring them before r_c tears themself free and scales the tree.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -474,16 +474,16 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a dog.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a dog.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a dog"
                 },
                 "other_clan_rep": -1
             }
         ],
         "antag_fail_outcomes": [
             {
-                "text": "How dare they trespass! p_l bounds after the scent, hoping to find the source of it, eventually finding that it leads to the c_n camp. Inside they find the o_c_n medicine cat conversing with your own medicine cat. They tell p_l off for so hastily jumping to conclusions. The other medicine cat was only looking to borrow some herbs.",
+                "text": "How dare they trespass! p_l bounds after the scent, hoping to find the source of it, eventually finding that it leads to the c_n camp. Inside they find the o_c_n healer conversing with your own healer. They tell p_l off for so hastily jumping to conclusions. The other healer was only looking to borrow some herbs.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -522,7 +522,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a stern warning, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young scavenger off with a stern warning, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -607,7 +607,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. They send the patrol off with several friendly messages to pass on from different c_n cats, and an update from c_n's leader.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. They send the patrol off with several friendly messages to pass on from different c_n scavengers, and an update from c_n's leader.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -700,7 +700,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides, and a refreshed sense of goodwill and trust between them.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. The scavengers leave with several messages to pass on from both sides, and a refreshed sense of goodwill and trust between them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -925,7 +925,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a stern warning, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young scavenger off with a stern warning, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -1010,7 +1010,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. They send the patrol off with several friendly messages to pass on from different c_n cats, and an update from c_n's leader.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. They send the patrol off with several friendly messages to pass on from different c_n scavengers, and an update from c_n's leader.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1103,7 +1103,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides, and a refreshed sense of goodwill and trust between them.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. The scavengers leave with several messages to pass on from both sides, and a refreshed sense of goodwill and trust between them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1328,7 +1328,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a stern warning, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young scavenger off with a stern warning, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -1413,7 +1413,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. They send the patrol off with several friendly messages to pass on from different c_n cats, and an update from c_n's leader.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. They send the patrol off with several friendly messages to pass on from different c_n scavengers, and an update from c_n's leader.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1506,7 +1506,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides, and a refreshed sense of goodwill and trust between them.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. The scavengers leave with several messages to pass on from both sides, and a refreshed sense of goodwill and trust between them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1731,7 +1731,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a stern warning, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young scavenger off with a stern warning, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -1816,7 +1816,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. They send the patrol off with several friendly messages to pass on from different c_n cats, and an update from c_n's leader.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. They send the patrol off with several friendly messages to pass on from different c_n scavengers, and an update from c_n's leader.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1909,7 +1909,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides, and a refreshed sense of goodwill and trust between them.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, keen to catch up on what their ally has been up to. The scavengers leave with several messages to pass on from both sides, and a refreshed sense of goodwill and trust between them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],

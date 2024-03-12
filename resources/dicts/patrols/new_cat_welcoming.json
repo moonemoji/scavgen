@@ -964,7 +964,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately trying to keep their newborn litter quiet. p_l brings the queen back to camp, where the Troop can assist.",
+                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately splashing water from a tiny puddle on a stranded batch of larvae. p_l brings the queen back to camp, where the Troop can assist.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -982,7 +982,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn kits clinging to them. r_c sprints back to camp to find help while p_l tries to make the queen eat some strengthening herbs. Thankful for the help the queen joins c_n with their kits.",
+                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn grubs clinging to them. r_c sprints back to camp to find help while p_l tries to make the queen eat some strengthening herbs. Thankful for the help, the queen joins c_n with their cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1002,7 +1002,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the bodies of an unknown queen with their kits beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects.",
+                "text": "p_l follows the strange sounds on the wind and finds the bodies of an unknown queen with their cubs beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1010,7 +1010,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1018,7 +1018,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l scowls at StarClan for the sign, refusing to follow it to its source, and what might have been.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -1045,7 +1045,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "p_l, sure that it is a sign of StarClan, follows the faint wailing. Instead {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost their life in a harsh kitting, their newborn kits clinging to a body that will never move again. p_l instantly wraps {PRONOUN/p_l/self} around the kits and orders r_c back to camp to find help and a queen willing to nurse them.",
+                "text": "p_l, sure that it is a sign of StarClan, follows the faint wailing. Instead {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost their life in a harsh birthing. Their newborn grubs wiggle now and then in the trickle of water from a pipe, which must have been pulled out of place at the last moment by hands determined to keep them alive. p_l hesitates, but hunches over the cubs and orders r_c back to the camp to fetch a bucket.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1063,7 +1063,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden birthing nest of a dead, cold queen, their newborn kits by their side. p_l makes sure the queen is given a vigil - as the kits grow older, they'll have questions about their parent.",
+                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} a batch of stranded grubs, slowly dehydrating as they crawl on the cold body of their parent. p_l makes sure the queen is given a vigil - as the kits grow older, they'll have questions about their parent.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1083,7 +1083,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1091,7 +1091,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1099,7 +1099,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l scowls at StarClan for the sign, refusing to follow it to its source, and what might have been.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -1128,7 +1128,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately trying to keep their newborn litter quiet. p_l brings the queen back to camp, where the Clan can assist.",
+                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately splashing water from a tiny puddle on a stranded batch of larvae. p_l brings the queen back to camp, where the Clan can assist.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1146,7 +1146,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn kits clinging to them. p_l tries to make the queen eat some strengthening herbs, and slowly helps them back to camp. Thankful for the help the queen joins c_n with their kits.",
+                "text": "p_l follows the strange sounds on the wind and finds a struggling queen trying to keep their newborn batch of larvae hydrated in a tiny puddle. p_l tries to make the queen eat some strengthening herbs, and slowly helps them back to camp. Thankful for the help, the queen joins c_n with their cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1166,7 +1166,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} {VERB/p_l/cancel/cancels} {PRONOUN/p_l/poss} patrol and {VERB/p_l/return/returns} to camp to get help sending these lost souls to StarClan.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} {VERB/p_l/cancel/cancels} {PRONOUN/p_l/poss} patrol and {VERB/p_l/return/returns} to camp to get help sending these lost souls to StarClan.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1174,7 +1174,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, they return home, their mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, they return home, their mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1182,7 +1182,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l scowls at StarClan for the sign, refusing to follow it to its source, and what might have been.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -1211,7 +1211,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "p_l, sure that it is a sign of StarClan, follows the faint wailing. Instead {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost their life in a harsh kitting, their newborn kits clinging to a body that will never move again. p_l instantly wraps {PRONOUN/p_l/self} around the kits and starts thinking about what {PRONOUN/p_l/subject}'ll need to do to move them to camp.",
+                "text": "p_l, sure that it is a sign of StarClan, follows the faint wailing. Instead {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost their life in a harsh birthing. Their newborn grubs wiggle now and then in the trickle of water from a pipe, which must have been pulled out of place at the last moment by hands determined to keep them alive. p_l instantly scoops up the grubs and starts looking for a better place to submerge them so they can safely be moved to camp.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1229,7 +1229,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden birthing nest of a dead, cold queen, their newborn kits by their side. p_l makes sure the queen is given a vigil - as the kits grow older, they'll have questions about their parent.",
+                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden spawning pool of a dead, cold queen, their newborn grubs flitting unaware through their tiny home. p_l makes sure the queen is given a vigil - as the cubs grow older, they'll have questions about their parent.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1249,7 +1249,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} {VERB/p_l/cancel/cancels} {PRONOUN/p_l/poss} patrol and {VERB/p_l/return/returns} to camp to get help sending these lost souls to StarClan.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} {VERB/p_l/cancel/cancels} {PRONOUN/p_l/poss} patrol and {VERB/p_l/return/returns} to camp to get help sending these lost souls to StarClan.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1257,7 +1257,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1265,7 +1265,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l scowls at StarClan for the sign, refusing to follow it to its source, and what might have been.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -1293,7 +1293,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately trying to keep their newborn litter quiet. {PRONOUN/p_l/subject/CAP} {VERB/p_l/run/runs} for home, desperate to bring help.",
+                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN/p_l/self} nose to nose with a panting, bleeding queen, one desperately splashing water from a tiny puddle on a stranded batch of larvae. {PRONOUN/p_l/subject/CAP} {VERB/p_l/run/runs} for home, desperate to bring help.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1311,7 +1311,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn kits clinging to them. Panicking, {PRONOUN/p_l/subject} {VERB/p_l/ask/asks} the queen to hold on just a little longer while {PRONOUN/p_l/subject} {VERB/p_l/fetch/fetches} help, then {VERB/p_l/sprint/sprints} for home, yowling in case any patrol is nearby to assist.",
+                "text": "p_l follows the strange sounds on the wind and finds a struggling queen trying to keep their newborn batch of larvae hydrated in a tiny puddle. Panicking, {PRONOUN/p_l/subject} {VERB/p_l/ask/asks} the queen to hold on just a little longer while {PRONOUN/p_l/subject} {VERB/p_l/fetch/fetches} help, then {VERB/p_l/sprint/sprints} for home, looking around frantically in case any patrol is nearby to assist.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1331,7 +1331,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} desperately {VERB/p_l/try/tries} to save a kitten, but can't, and a Clanmate finds {PRONOUN/p_l/object} there sobbing hours later.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} desperately {VERB/p_l/try/tries} to save a grub, but can't, and a Troopmate finds {PRONOUN/p_l/object} there sobbing hours later.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1346,7 +1346,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1354,7 +1354,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l shrugs off the sign, refusing to follow it to its source, and what might have been.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -1382,7 +1382,7 @@
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "p_l, sure that it is a sign of StarClan, follows the faint wailing. Instead {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost their life in a harsh kitting, their newborn kits clinging to a body that will never move again. p_l tries to comfort the poor kittens, curling around them to share {PRONOUN/p_l/poss} body heat, and wails until a passing patrol hears {PRONOUN/p_l/object}.",
+                "text": "p_l, sure that it is a sign of StarClan, follows the faint sounds of water. Instead {PRONOUN/p_l/subject} {VERB/p_l/find/finds} a queen who lost their life in a harsh birthing. Their newborn grubs wiggle now and then in the trickle of water from a pipe, which must have been pulled out of place at the last moment by hands determined to keep them alive. p_l scoops the poor grubs up and frantically searches for a better place to put them, then keeps watch outside until a patrol passes by.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1400,7 +1400,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden birthing nest of a dead, cold queen, their newborn kits by their side. p_l vows to be the new kits' family, to make sure they'll grow up loved and accepted.",
+                "text": "It takes ages for p_l to pinpoint the sounds, but eventually {PRONOUN/p_l/subject} {VERB/p_l/uncover/uncovers} the hidden spawning pool of a dead, cold queen, their newborn cubs flitting through the water in blissful ignorance. p_l vows to be the cubs' new family, to make sure they'll grow up loved and accepted.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1420,7 +1420,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their kits beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} desperately {VERB/p_l/try/tries} to save a kitten, but can't, and a Clanmate finds {PRONOUN/p_l/object} there sobbing hours later.",
+                "text": "p_l follows the strange sounds on the wind and finds the body of an unknown queen with their cubs beside them, slowly going cold. {PRONOUN/p_l/subject/CAP} desperately {VERB/p_l/try/tries} to save a grub, but can't, and a Troopmate finds {PRONOUN/p_l/object} there sobbing hours later.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1435,7 +1435,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
+                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their cubs beside them. If p_l had been quicker... Whatever the case, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} home, {PRONOUN/p_l/poss} mind clouded.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
