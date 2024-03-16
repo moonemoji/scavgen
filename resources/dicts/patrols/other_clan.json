@@ -13,7 +13,7 @@
         },
         "weight": 20,
         "intro_text": "While walking along the border, your patrol notices a o_c_n patrol renewing their scent marks up ahead.",
-        "decline_text": "Your patrol decides to avoid the other Clan cats.",
+        "decline_text": "Your patrol decides to avoid the other Clan scavengers.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -23,7 +23,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l approaches the other Clan patrol, striking up a conversation about the weather. After talking for a short time, the two patrols part ways. p_l remarks on the o_c_n cats' kindness to the leader once the patrol has returned to camp.",
+                "text": "p_l approaches the other Clan patrol, striking up a conversation about the weather. After talking for a short time, the two patrols part ways. p_l remarks on the o_c_n scavengers' kindness to the leader once the patrol has returned to camp.",
                 "exp": 10,
                 "weight": 5,
                 "other_clan_rep": 2
@@ -51,7 +51,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c bounds ahead to the other patrol, not bothering to greet them or exchange pleasantries before remarking on the funny smell of the other Clan cats. Offended, the other patrol stalks away, their tails whipping and ears pinned.",
+                "text": "s_c bounds ahead to the other patrol, not bothering to greet them or exchange pleasantries before remarking on the funny smell of the other Clan scavengers. Offended, the other patrol stalks away, their tails whipping and ears pinned.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["troublesome", "strange", "playful", "daring", "childish"],
@@ -60,7 +60,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
+                "text": "Your patrol stands tall and approaches the o_c_n scavengers with insults and threats. They need to be sure that o_c_n knows how strong c_n scavengers are. r_c spits and hisses until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -68,7 +68,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, intimidated by how your patrol is acting.",
+                "text": "Your patrol stands tall and approaches the o_c_n scavengers with insults and threats. They need to be sure that o_c_n knows how strong c_n scavengers are. r_c spits and hisses until the other patrol leaves the area, intimidated by how your patrol is acting.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -144,7 +144,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
+                "text": "Your patrol stands tall and approaches the o_c_n scavengers with insults and threats. They need to be sure that o_c_n knows how strong c_n scavengers are. r_c spits and hisses until the other patrol leaves the area, annoyed and unimpressed by your patrol's posturing.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -152,7 +152,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Your patrol stands tall and approaches the o_c_n cats with insults and threats. They need to be sure that o_c_n knows how strong c_n cats are. r_c spits and hisses until the other patrol leaves the area, intimidated by how your patrol is acting.",
+                "text": "Your patrol stands tall and approaches the o_c_n scavengers with insults and threats. They need to be sure that o_c_n knows how strong c_n scavengers are. r_c spits and hisses until the other patrol leaves the area, intimidated by how your patrol is acting.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -175,7 +175,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, rabbit hanging from {PRONOUN/r_c/poss} muzzle, but it seems there aren't any o_c_n cats nearby. r_c trots back over the border, {PRONOUN/r_c/poss} prize in tow and transgression unnoticed.",
+                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, rabbit hanging from {PRONOUN/r_c/poss} muzzle, but it seems there aren't any o_c_n scavengers nearby. r_c trots back over the border, {PRONOUN/r_c/poss} prize in tow and transgression unnoticed.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"]
@@ -187,14 +187,14 @@
                 "prey": ["small"]
             },
             {
-                "text": "r_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n cats bristle at the trespass and a fight seems to be brewing. Thankfully, s_c smooths things over with the other patrol, graciously gifting them the rabbit, and they part ways without damaging the relationship between Clans.",
+                "text": "r_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n scavengers bristle at the trespass and a fight seems to be brewing. Thankfully, s_c smooths things over with the other patrol, graciously gifting them the rabbit, and they part ways without damaging the relationship between Clans.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "prey": ["small"]
             },
             {
-                "text": "r_c is about to leap for the rabbit before s_c grabs them by the scruff and pulls them back! A moment later, r_c sees the group of o_c_n cats that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Clan.",
+                "text": "r_c is about to leap for the rabbit before s_c grabs them by the scruff and pulls them back! A moment later, r_c sees the group of o_c_n scavengers that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Clan.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -210,14 +210,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n cat watching {PRONOUN/r_c/object} from the other side of the border. The other cat knows exactly what r_c was intending to do and turns away, presumably to report the incident to their own leader.",
+                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n scavenger watching {PRONOUN/r_c/object} from the other side of the border. The other scavenger knows exactly what r_c was intending to do and turns away, presumably to report the incident to their own leader.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"],
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c pounces with no hesitation! {PRONOUN/s_c/subject/CAP} easily {VERB/s_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n cat. s_c is promptly chased back over the border and the other cat glares, hissing and spitting, until your patrol leaves the area.",
+                "text": "s_c pounces with no hesitation! {PRONOUN/s_c/subject/CAP} easily {VERB/s_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n scavenger. s_c is promptly chased back over the border and the other scavenger glares, hissing and spitting, until your patrol leaves the area.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -232,7 +232,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c pounces with no hesitation! {PRONOUN/r_c/subject/CAP} easily {VERB/r_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n cat. After a short tussle, r_c flees back over the border and limps {PRONOUN/r_c/poss} way home; that rabbit certainly wasn't worth the trouble.",
+                "text": "r_c pounces with no hesitation! {PRONOUN/r_c/subject/CAP} easily {VERB/r_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n scavenger. After a short tussle, r_c flees back over the border and limps {PRONOUN/r_c/poss} way home; that rabbit certainly wasn't worth the trouble.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -251,7 +251,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n cat watching {PRONOUN/r_c/object} from the other side of the border. The other cat laughs at the pathetic display and turns to walk deeper into their own territory. They seem to be unfazed and unimpressed by the sad attempt.",
+                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n scavenger watching {PRONOUN/r_c/object} from the other side of the border. The other scavenger laughs at the pathetic display and turns to walk deeper into their own territory. They seem to be unfazed and unimpressed by the sad attempt.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -259,7 +259,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "A tempting opportunity. And also a perfect one. r_c pounces and swiftly kills the rabbit, intentionally leaving evidence of {PRONOUN/r_c/poss} deed behind. That will show those o_c_n cats just how confident c_n is in {PRONOUN/r_c/poss} own power.",
+                "text": "A tempting opportunity. And also a perfect one. r_c pounces and swiftly kills the rabbit, intentionally leaving evidence of {PRONOUN/r_c/poss} deed behind. That will show those o_c_n scavengers just how confident c_n is in {PRONOUN/r_c/poss} own power.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2

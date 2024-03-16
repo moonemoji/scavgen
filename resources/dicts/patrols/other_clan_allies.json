@@ -166,12 +166,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c spies a fat rabbit on the other side of the o_c_n border. A tempting opportunity to be sure, but it may not be wise to hunt on their ally's territory.",
+        "intro_text": "r_c spies a fat lantern mouse on the other side of the o_c_n border. A tempting opportunity to be sure, but it may not be wise to hunt on their ally's territory.",
         "decline_text": "It's not worth ruining c_n's relationship with their ally.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, rabbit hanging from their muzzle, but it seems there aren't any o_c_n scavengers nearby. r_c trots back over the border, their prize in tow and transgression unnoticed.",
+                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, lantern mouse in their arms, but it seems there aren't any o_c_n scavengers nearby. r_c trots back over the border, their prize in tow and transgression unnoticed.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"]
@@ -325,14 +325,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol! s_c rallies the patrol to drive the dog away, thankfully avoiding any injuries. The o_c_n scavenger is grateful for the rescue.",
+                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large lizard jumps at the patrol! s_c rallies the patrol to drive the lizard away, thankfully avoiding any injuries. The o_c_n scavenger is grateful for the rescue.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "Your patrol follows the scent and finds a wounded o_c_n warrior. It seems the scavenger had been caught by a dog and chased into c_n territory. The dog is gone now, but the warrior can't make it back across the border on their own. s_c insists that the patrol escort the warrior back to the o_c_n camp and the o_c_n leader is grateful for the service.",
+                "text": "Your patrol follows the scent and finds a wounded o_c_n warrior. It seems the scavenger had been caught by a lizard and chased into c_n territory. The lizard is gone now, but the warrior can't make it back across the border on their own. s_c insists that the patrol escort the warrior back to the o_c_n camp and the o_c_n leader is grateful for the service.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -354,19 +354,19 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning, but they aren't quick enough and a large dog suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
+                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning, but they aren't quick enough and a large lizard suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a lizard.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a lizard.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a lizard"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large dog jumps at the patrol, catching r_c but thankfully only injuring them before r_c tears themself free and sprints away.",
+                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and your patrol scatters when they hear the cry. Just in time, too, as a large lizard jumps at the patrol, catching r_c but thankfully only injuring them before r_c tears themself free and sprints away.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -377,9 +377,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a lizard.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a lizard.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a lizard"
                 },
                 "other_clan_rep": -1
             }
@@ -429,7 +429,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l follows the scent and finds a wounded o_c_n warrior. It seems the scavenger had been caught by a dog and chased into c_n territory.  The dog is gone now, but the warrior can't make it back across the border on their own. s_c insists on escorting the warrior back to the o_c_n camp and the o_c_n leader is grateful for the service.",
+                "text": "p_l follows the scent and finds a wounded o_c_n warrior. It seems the scavenger had been caught by a lizard and chased into c_n territory.  The lizard is gone now, but the warrior can't make it back across the border on their own. s_c insists on escorting the warrior back to the o_c_n camp and the o_c_n leader is grateful for the service.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -451,19 +451,19 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning, but they aren't quick enough and a large dog suddenly descends upon r_c. r_c is killed before they can run.",
+                "text": "r_c follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning, but they aren't quick enough and a large lizard suddenly descends upon r_c. r_c is killed before they can run.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a lizard.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a lizard.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a lizard"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and r_c sprints for the same tree when they hear the cry. Just in time, too, as a large dog jumps at them, catching r_c but thankfully only injuring them before r_c tears themself free and scales the tree.",
+                "text": "r_c follows the scent to a o_c_n scavenger taking refuge up a tree. The scavenger yowls a warning and r_c sprints for the same tree when they hear the cry. Just in time, too, as a large lizard jumps at them, catching r_c but thankfully only injuring them before r_c tears themself free and scales the tree.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -474,9 +474,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a lizard.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a lizard.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a lizard"
                 },
                 "other_clan_rep": -1
             }
@@ -1203,7 +1203,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young scavenger's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1272,7 +1272,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young scavenger's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1341,7 +1341,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n cat! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n scavenger! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor smiles gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1606,7 +1606,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young scavenger's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1675,7 +1675,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young scavenger's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1744,7 +1744,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n cat! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n scavenger! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor smiles gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2009,7 +2009,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young scavenger's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2078,7 +2078,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young scavenger's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [

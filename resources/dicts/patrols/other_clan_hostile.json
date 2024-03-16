@@ -37,20 +37,20 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol jeers right back. After trading insults and threats for a few minutes the two patrols part ways, begrudgingly leaving the area. This experience won't be good for Clan relations.",
+                "text": "Your patrol jeers right back. After trading insults and threats for a few minutes the two patrols part ways, begrudgingly leaving the area. This experience won't be good for Troop relations.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c shuffles their feet, nervous at the appearance of a hostile o_c_n patrol. Suddenly, s_c takes off back towards the camp! The tension is just too much! Their cowardly reaction won't reflect well on the Clan.",
+                "text": "s_c shuffles their feet, nervous at the appearance of a hostile o_c_n patrol. Suddenly, s_c takes off back towards the camp! The tension is just too much! Their cowardly reaction won't reflect well on the Troop.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["insecure", "nervous"],
                 "other_clan_rep": -1
             },
             {
-                "text": "The two patrols begin throwing insults back and forth, the tension ratcheting higher and higher until suddenly a fight breaks out! The tussle quickly becomes deadly, r_c lying motionless on the ground when the enemy cat backs off.",
+                "text": "The two patrols begin throwing insults back and forth, the tension ratcheting higher and higher until suddenly a fight breaks out! The tussle quickly becomes deadly, r_c lying motionless on the ground when the enemy scavenger backs off.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -82,7 +82,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Angry at the insult to their Clan, your patrol throws themselves at the enemy patrol. Despite their righteous fury the o_c_n patrol quickly overpowers them and sends your patrol back onto their own side of the border.",
+                "text": "Angry at the insult to their Troop, your patrol throws themselves at the enemy patrol. Despite their righteous fury the o_c_n patrol quickly overpowers them and sends your patrol back onto their own side of the border.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -90,7 +90,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Angry at the insult to their Clan, your patrol throws themselves at the enemy patrol. They drive the o_c_n patrol away from the border.",
+                "text": "Angry at the insult to their Troop, your patrol throws themselves at the enemy patrol. They drive the o_c_n patrol away from the border.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -119,14 +119,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c postures right back at the o_c_n cats, drawing themselves up to their full height and baring their teeth. The other patrol backs down a bit, they seem to know of s_c's reputation in battle.  The o_c_n cats eventually leave, cowed by the display but with begrudging respect for s_c's strength.",
+                "text": "s_c postures right back at the o_c_n scavengers, drawing themselves up to their full height and baring their teeth. The other patrol backs down a bit, they seem to know of s_c's reputation in battle.  The o_c_n scavengers eventually leave, cowed by the display but with begrudging respect for s_c's strength.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is quick to strike up conversation with the other patrol, playfully poking fun at both o_c_n and c_n. {PRONOUN/s_c/poss/CAP} antics lighten the mood and make the other patrol cats laugh despite their previous aggression.  Situation successfully diffused and cats on both sides feeling surprisingly friendly toward each other, the two patrols part ways.",
+                "text": "s_c is quick to strike up conversation with the other patrol, playfully poking fun at both o_c_n and c_n. {PRONOUN/s_c/poss/CAP} antics lighten the mood and make the other patrol scavengers laugh despite their previous aggression.  Situation successfully diffused and scavengers on both sides feeling surprisingly friendly toward each other, the two patrols part ways.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["charismatic", "playful", "childish", "strange", "daring"],
@@ -135,20 +135,20 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Your patrol jeers right back. After trading insults and threats for a few minutes the two patrols part ways, begrudgingly leaving the area. This experience won't be good for Clan relations.",
+                "text": "Your patrol jeers right back. After trading insults and threats for a few minutes the two patrols part ways, begrudgingly leaving the area. This experience won't be good for Troop relations.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c won't stand for this insult to their Clan. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} at the o_c_n patrol, but the enemy patrol has no trouble rebuffing one cat. Your patrol backs off from the border.",
+                "text": "s_c won't stand for this insult to their Troop. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} at the o_c_n patrol, but the enemy patrol has no trouble rebuffing one scavenger. Your patrol backs off from the border.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "vengeful", "loyal", "fierce"],
                 "other_clan_rep": -1
             },
             {
-                "text": "The two patrols begin throwing insults back and forth, the tension ratcheting higher and higher until suddenly a fight breaks out! The tussle quickly becomes deadly, r_c lying motionless on the ground when the enemy cat backs off.",
+                "text": "The two patrols begin throwing insults back and forth, the tension ratcheting higher and higher until suddenly a fight breaks out! The tussle quickly becomes deadly, r_c lying motionless on the ground when the enemy scavenger backs off.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -180,7 +180,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Angry at the insult to their Clan, your patrol throws themselves at the enemy patrol. Despite their righteous fury the o_c_n patrol quickly overpowers them and sends your patrol back onto their own side of the border.",
+                "text": "Angry at the insult to their Troop, your patrol throws themselves at the enemy patrol. Despite their righteous fury the o_c_n patrol quickly overpowers them and sends your patrol back onto their own side of the border.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -188,7 +188,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Angry at the insult to their Clan, your patrol throws themselves at the enemy patrol. They drive the o_c_n patrol away from the border.",
+                "text": "Angry at the insult to their Troop, your patrol throws themselves at the enemy patrol. They drive the o_c_n patrol away from the border.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -206,31 +206,31 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c spies a fat rabbit on the other side of the o_c_n border. A tempting opportunity to be sure, but it may not be wise to hunt on an enemy's territory.",
-        "decline_text": "Your patrol decides that one rabbit isn't worth the potential fight.",
+        "intro_text": "r_c spies a cluster of blue fruit on the other side of the o_c_n border. A tempting opportunity to be sure, but it may not be wise to forage on an enemy's territory.",
+        "decline_text": "Your patrol decides that a bit of fruit isn't worth the potential fight.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "r_c pounces without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around, rabbit hanging from their muzzle, but it seems there aren't any o_c_n cats nearby. r_c trots back over the border, {PRONOUN/r_c/poss} prize in tow and transgression unnoticed.",
+                "text": "r_c strolls over and starts picking the fruit without hesitation. {PRONOUN/r_c/subject/CAP} {VERB/r_c/glance/glances} around as {PRONOUN/r_c/subject} tucks the last couple into {PRONOUN/r_c/poss} elbow, but it seems there aren't any o_c_n scavengers nearby. r_c trots back over the border, {PRONOUN/r_c/poss} prize in hand and transgression unnoticed.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"]
             },
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up. It's probably for the better that {PRONOUN/r_c/subject} weren't able to catch the rabbit. Trespassing could have easily caused a fight.",
+                "text": "Looking around furtively, r_c shuffles over the border and reaches for the fruit, but the sudden creak of some old support beam sends {PRONOUN/r_c/object} jumping out of {PRONOUN/r_c/poss} skin and hurrying back to the rest of the patrol. As much teasing as the display elicits, it's probably for the best. Trespassing could have easily caused a fight.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["small"]
             },
             {
-                "text": "s_c leaps for the rabbit, making a swift kill just before a o_c_n patrol comes into view. The o_c_n cats screech at the trespass and rush at your patrol. s_c barely manages to talk them down from a fight, begrudgingly handing over the rabbit, and the patrols part ways without any cat getting hurt.",
+                "text": "s_c has {PRONOUN/s_c/poss} arms half full of fruit and is reaching for another when a o_c_n patrol comes into view. The o_c_n scavengers rush at your patrol, enraged at the tresspass. s_c barely manages to talk them down from a fight, begrudgingly handing over the fruit, and the patrols part ways without anyone getting hurt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "prey": ["small"]
             },
             {
-                "text": "r_c is about to leap for the rabbit before s_c grabs them by the scruff and pulls them back! A moment later, r_c sees the group of o_c_n cats that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Clan.",
+                "text": "r_c is about to stroll across the border when s_c grabs them by the scruff and pulls them back! A moment later, r_c sees the group of o_c_n scavengers that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Troop.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -246,13 +246,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n cat watching {PRONOUN/r_c/object} from the other side of the border. The other cat knows exactly what r_c was intending to do and hisses crossly before turning away, presumably to report the incident to their own leader.",
+                "text": "Looking around furtively, r_c shuffles over the border and reaches for the fruit, but the sudden creak of some old support beam sends {PRONOUN/r_c/object} jumping out of {PRONOUN/r_c/poss} skin and hurrying back to the rest of the patrol. That's when r_c notices the o_c_n scavenger watching {PRONOUN/r_c/object} from the other side of the border. The other scavenger knows exactly what r_c was intending to do and flicks a nasty gesture at {PRONOUN/r_c/object} before turning away, presumably to report the incident to their own leader.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c pounces with no hesitation! {PRONOUN/s_c/subject/CAP} easily {VERB/s_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n cat. s_c is promptly chased back over the border and the other cat glares, hissing and spitting, until your patrol leaves the area.",
+                "text": "s_c leaps to grab two fistfuls of fruit before glancing up and coming face to face with a o_c_n scavenger hanging from a pole. s_c is promptly chased back over the border and the other scavenger glares, spear raised, until your patrol leaves the area.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -266,7 +266,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c checks the area, it seems to be clear of o_c_n patrols. They leap for the rabbit, easily killing it, but very quickly find that they should've double checked before trespassing. A o_c_n patrol rushes into view from where they were hiding and descends upon r_c, killing them before anyone else can help. Was one rabbit worth this?",
+                "text": "r_c checks the area, which seems to be clear of o_c_n patrols. They grab a few fistfuls of fruit, but very quickly find that they should've double checked before trespassing. A o_c_n patrol rushes into view from where they were hiding and descends upon r_c, killing them before anyone else can help.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -278,7 +278,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c pounces with no hesitation! {PRONOUN/r_c/subject/CAP} easily {VERB/r_c/kill/kills} the rabbit before glancing up and coming face to face with a o_c_n cat. After a short tussle, r_c flees back over the border and limps their way home; that rabbit certainly wasn't worth the trouble.",
+                "text": "r_c strolls across the border without hesitation! {PRONOUN/r_c/subject/CAP} {VERB/r_c/start/starts} grabbing fruit when {PRONOUN/r_c/subject} feels eyes on {PRONOUN/r_c/object}. Upon glancing up, r_c's eyes go wide as a o_c_n scavenger drops from their perch with murder in their eyes. After a short tussle, r_c flees back over the border and limps their way home; that fruit certainly wasn't worth the trouble.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -298,7 +298,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "r_c leaps for the rabbit! And promptly trips over a rock. The rabbit hops away and r_c sheepishly picks {PRONOUN/r_c/self} up before noticing the o_c_n cat watching {PRONOUN/r_c/object} from the other side of the border. The other cat laughs at the pathetic display and turns to walk deeper into their own territory. They seem to be unfazed and unimpressed by the sad attempt.",
+                "text": "r_c strolls across to grab some fruit, only to get startled by the groaning of some old support beam and jump back across the border in fright. The o_c_n scavenger who was perched across the border the entire time laughs at the pathetic display and turns to walk deeper into their own territory. Unimpressed as they are, they see fit to only leave r_c with bruised pride.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -306,7 +306,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "A tempting opportunity. And also a perfect one. r_c pounces and swiftly kills the rabbit, intentionally leaving evidence of their deed behind. That will show those o_c_n cats just how confident c_n is in their own power.",
+                "text": "A tempting opportunity. And also a perfect one. r_c strolls across to grab the fruit, tearing one in half and using its juice to paint something rude on the wall nearby. That will show those o_c_n scavengers just how confident c_n is in their own power.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -329,26 +329,26 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l pads along, mouth open slightly as they scent for any traces of herbs. Oh! They can smell some raspberries nearby - but it seems that they're just over the border.",
+        "intro_text": "p_l keeps {PRONOUN/p_l/poss} eyes peeled for useful herbs as {PRONOUN/p_l/subject} walks. Oh! The arm growers over there must have some good roots - but they're growing just over the border.",
         "decline_text": "They decide that trespassing isn't worth it in this case.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "They pad over to the border and hesitate only momentarily before crossing. They quickly gather some of the berries, making sure to leave plenty for o_c_n's medicine cat if they need some, too.",
+                "text": "They shuffle over to the border and hesitate only momentarily before crossing. Deft hands pull up the roots quickly, though p_l makes sure to leave plenty for o_c_n's healer if they need some, too.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["raspberry"],
                 "other_clan_rep": 2
             },
             {
-                "text": "They pad to the border and pause for a heartbeat to scent the air. o_c_n's scent is very strong, but there's something else... o_c_n's medicine cat appears at that moment. They're walking towards the raspberries when they spot p_l and curl their lip. They snarl that they're not willing to share with an enemy Clan. p_l takes the hint and leaves.",
+                "text": "They shuffle to the border and pause for a heartbeat to look around. There's no sign of anyone... until the nearby tunnel lights up, and o_c_n's healer pops out. They're walking towards the arm growers when they spot p_l and narrow their eyes. They snarl that they're not willing to share with an enemy Troop. p_l takes the hint and leaves.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"],
                 "other_clan_rep": 2
             },
             {
-                "text": "p_l is about to step over the border when a hiss stops them in their tracks. A o_c_n warrior bounds into view, bristling with rage. They quickly explain that they're the medicine cat and the warrior code allows them to cross the border and assure that they only need a few berries for some sick Clanmates. The warrior looks torn, but agrees to this.",
+                "text": "p_l is about to step over the border when the clang of a spear stops them in their tracks. A o_c_n warrior bounds into view, bristling with rage. p_l quickly explains that they're the healer, the warrior code allows them to cross the border, and they only need a few roots for some sick Troopmates. The warrior looks sour, but reluctantly agrees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["MEDIATOR,3"],
@@ -358,13 +358,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l starts to step over the border but a hiss stops them in their tracks. A o_c_n patrol is running their way. As the patrol approaches, they blurt out that they're a medicine cat. One of the warriors snarls that they won't tolerate c_n cats on their land, medicine cat or not, and p_l needs to leave before they make them. They oblige quickly.",
+                "text": "p_l starts to step over the border but the clang of a spear stops them in their tracks. A o_c_n patrol is running their way. As the patrol approaches, they blurt out that they're a healer. One of the warriors snarls that they won't tolerate c_n scavengers on their land, healer or not, and p_l needs to leave before they make them. p_l obliges quickly.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "p_l starts to step over the border but a hiss stops them in their tracks. A o_c_n patrol is running their way. As the patrol approaches, they blurt out that they're a medicine cat. The warriors either don't hear them or don't care and they take multiple swipes at the medicine cat before they can get away.",
+                "text": "p_l starts to step over the border but the clang of a spear stops them in their tracks. A o_c_n patrol is running their way. As the patrol approaches, they blurt out that they're a healer. The warriors either don't hear them or don't care and they take multiple swipes at the healer before p_l can get away.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -400,14 +400,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "It doesn't take long to find the o_c_n apprentice that left the scent. The young cat is aggressive and hostile, but s_c is quick to deescalate the situation. After a gentle conversation, the apprentice begrudgingly apologizes for the trespass.",
+                "text": "It doesn't take long to find the o_c_n apprentice that left the scent. The young scavenger is aggressive and hostile, but s_c is quick to deescalate the situation. After a gentle conversation, the apprentice begrudgingly apologizes for the trespass.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "Your patrol follows the scent and finds a wounded o_c_n warrior. It seems the cat had been caught by a dog and chased into c_n territory. The dog is gone now, but the warrior can't make it back across the border on their own. s_c is hesitant, but insists that the patrol at least escort the wounded warrior to the border.",
+                "text": "Your patrol follows the scent and finds a wounded o_c_n warrior. It seems the scavenger had been caught by a lizard and chased into c_n territory. The lizard is gone now, but the warrior can't make it back across the border on their own. s_c is hesitant, but insists that the patrol at least escort the wounded warrior to the border.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -422,26 +422,26 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is relentless in tracking the scent and at the end of it finds a o_c_n apprentice. The young cat has a freshly killed rabbit in their mouth and s_c yowls in anger, not hesitating before attacking the apprentice. The o_c_n cat is driven off of your territory and the rabbit brought back to camp for your own cats.",
+                "text": "s_c is relentless in tracking the scent and at the end of it finds a o_c_n apprentice. The young scavenger has a freshly killed lantern mouse in their arms! s_c yowls in anger, not hesitating before {PRONOUN/s_c/subject} {VERB/s_c/attack/attacks}. The o_c_n scavenger is driven off of your territory and the lantern mouse brought back to camp.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "cold", "fierce", "strict", "vengeful"],
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat looks scared and only stares down at them before a large dog suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
+                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge high up on a wall. The frightened scavenger only stares down at them before a huge lizard suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a lizard.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a lizard.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a lizard"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat snarls down at them, a gleam in their eye, before a large dog comes crashing down on the patrol. r_c is caught in its jaws but manages to tear themself free and sprint away.",
+                "text": "Your patrol follows the scent to a o_c_n scavenger taking refuge up atop a wall. The stranger glares down at them before a huge lizard comes crashing down on the patrol. It snatches r_c up in its jaws, but r_c stuns it with a rock and scampers away.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -452,16 +452,16 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a lizard.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a lizard.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a lizard"
                 },
                 "other_clan_rep": -1
             }
         ],
         "antag_fail_outcomes": [
             {
-                "text": "How dare they trespass! Your patrol bounds after the scent, hoping to find the source of it, eventually discovering a limping o_c_n warrior who hastily explains that a dog had chased them into c_n's territory.  The patrol is still angry, but they rein in their hostility and tensely return the cat to o_c_n territory.",
+                "text": "How dare they trespass! Your patrol bounds after the scent, hoping to find the source of it, eventually discovering a limping o_c_n warrior who hastily explains that a lizard had chased them into c_n's territory.  The patrol is still angry, but they rein in their hostility and tensely return the scavenger to o_c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -498,14 +498,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "It doesn't take long to find the o_c_n apprentice that left the scent. The young cat is aggressive and hostile, but s_c is quick to deescalate the situation. After a gentle conversation, the apprentice begrudgingly apologizes for the trespass.",
+                "text": "It doesn't take long to find the o_c_n apprentice that left the scent. The young scavenger is hostile, but s_c is quick to deescalate the situation. After a gentle conversation, the apprentice begrudgingly apologizes for the trespass.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c follows the scent and finds a wounded o_c_n warrior. It seems the cat had been caught by a dog and chased into c_n territory. The dog is gone now, but the warrior can't make it back across the border on their own. s_c is hesitant, but insists that they at least escort the wounded warrior to the border.",
+                "text": "s_c follows the scent and finds a wounded o_c_n warrior. It seems the scavenger had been caught by a lizard and chased into c_n territory. The lizard is gone now, but the warrior can't make it back across the border on their own. s_c is hesitant, but insists that they at least escort the wounded warrior to the border.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -520,26 +520,26 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is relentless in tracking the scent and at the end of it finds a o_c_n apprentice.  The young cat has a freshly killed rabbit in their mouth and s_c yowls in anger, not hesitating before attacking the apprentice. The o_c_n cat is driven off of your territory and the rabbit brought back to camp for your own cats.",
+                "text": "s_c is relentless in tracking the scent and at the end of it finds a o_c_n apprentice.  The young scavenger has a freshly killed lantern mouse in their arms! s_c yowls in anger, not hesitating before attacking. The o_c_n scavenger is driven off of your territory and the lantern mouse brought back to camp for the food stores.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "cold", "fierce", "strict", "vengeful"],
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c follows the scent to a o_c_n cat taking refuge up a tree. The cat looks scared and only stares down at them before a large dog suddenly descends upon your patrol. r_c is killed before they can even run.",
+                "text": "r_c follows the scent to a o_c_n scavenger taking refuge up on top of a wall. The frightened scavenger only stares down at them before a huge lizard suddenly descends upon your patrol. r_c is killed before they can even run.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a lizard.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a lizard.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a lizard"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "p_l follows the scent to a o_c_n cat taking refuge up a tree. The cat snarls down at them, a gleam in their eye, before a large dog comes crashing down on r_c. r_c is caught in its jaws but manages to tear themself free and sprint away.",
+                "text": "p_l follows the scent to a o_c_n scavenger taking refuge up a wall. The scavenger snarls down at them, a gleam in their eye, before a large lizard comes crashing down on r_c. r_c is caught in its jaws but manages to tear themself free and sprint away.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -550,16 +550,16 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c followed the scent of a trespassing cat and was scarred by a dog.",
-                    "reg_death": "m_c followed the scent of a trespassing cat and was killed by a dog.",
-                    "lead_death": "followed the scent of a trespassing cat and {VERB/m_c/were/was} killed by a dog"
+                    "scar": "m_c followed the scent of a trespassing scavenger and was scarred by a lizard.",
+                    "reg_death": "m_c followed the scent of a trespassing scavenger and was killed by a lizard.",
+                    "lead_death": "followed the scent of a trespassing scavenger and {VERB/m_c/were/was} killed by a lizard"
                 },
                 "other_clan_rep": -1
             }
         ],
         "antag_fail_outcomes": [
             {
-                "text": "How dare they trespass! p_l bounds after the scent, hoping to find the source of it, eventually discovering a limping o_c_n warrior who hastily explains that a dog had chased them into c_n's territory. p_l is still angry, but they rein in their hostility and tensely return the cat to o_c_n territory.",
+                "text": "How dare they trespass! p_l bounds after the scent, hoping to find the source of it, eventually discovering a limping o_c_n warrior who hastily explains that a lizard had chased them into c_n's territory. p_l is still angry, but they rein in their hostility and tensely return the scavenger to o_c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -604,7 +604,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -630,13 +630,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a furious swipe of their claws, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young scavenger off with a furious swipe of their claws, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -664,8 +664,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -686,13 +686,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -714,8 +714,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -751,7 +751,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -783,7 +783,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -805,8 +805,8 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -823,8 +823,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -845,13 +845,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -873,8 +873,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -910,7 +910,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -942,7 +942,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -964,8 +964,8 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -982,8 +982,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1004,13 +1004,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1032,8 +1032,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -1113,8 +1113,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1135,13 +1135,13 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1163,8 +1163,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -1200,14 +1200,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them and being led by their Clan leader. One of the patrol yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take them. The other leader calls their warrior back, begrudgingly impressed.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them and being led by their Troop leader. One of the patrol yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take them. The other leader calls their warrior back, begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Clans, and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Troops, and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1244,8 +1244,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1266,13 +1266,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "stat_trait": [
                     "bloodthirsty",
@@ -1294,8 +1294,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -1325,13 +1325,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who are formal, but genuinely, grateful.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding a bundle of blue fruit. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who are formal, but genuinely, grateful.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1357,13 +1357,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a furious swipe of their claws, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, with a handful of batflies no less. They see the young scavenger off with a rock thrown at their back, and bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1391,8 +1391,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1413,13 +1413,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1441,8 +1441,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -1472,13 +1472,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who bow their heads to c_n's deputy in gratitude.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and with an armful of bubble fruit. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who bow their heads to c_n's deputy in gratitude.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1504,13 +1504,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they swipe at the cub with their spear. The apprentice turns tail and flees with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1532,8 +1532,8 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1550,8 +1550,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1572,13 +1572,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1600,8 +1600,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -1631,13 +1631,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who crouch to the ground and thank r_c profusely.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who crouch to the ground and thank r_c profusely.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1663,13 +1663,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's leader.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's leader.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1691,8 +1691,8 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1709,8 +1709,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1731,13 +1731,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1759,8 +1759,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -1840,8 +1840,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1861,13 +1861,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1889,8 +1889,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -1926,14 +1926,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them and being led by their Clan leader. One of the patrol yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take them. The other leader calls their warrior back, begrudgingly impressed.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them and being led by their Troop leader. One of the patrol yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take them. The other leader calls their warrior back, begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Clans, and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Troops, and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1970,8 +1970,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -1992,13 +1992,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -2020,8 +2020,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -2051,13 +2051,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who are formal, but genuinely, grateful.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who are formal, but genuinely, grateful.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -2083,13 +2083,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a furious swipe of their claws, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. They see the young scavenger off with a furious swipe of their claws, and then bring the food back to c_n camp to report the incident to the deputy.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2117,8 +2117,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -2139,13 +2139,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -2167,8 +2167,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -2198,13 +2198,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who bow their heads to c_n's deputy in gratitude.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who bow their heads to c_n's deputy in gratitude.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -2230,13 +2230,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2258,8 +2258,8 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -2276,8 +2276,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -2298,13 +2298,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -2326,8 +2326,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -2357,13 +2357,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who crouch to the ground and thank r_c profusely.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who crouch to the ground and thank r_c profusely.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -2389,13 +2389,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's leader.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's leader.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2417,8 +2417,8 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -2435,8 +2435,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -2457,13 +2457,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -2485,8 +2485,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -2566,8 +2566,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -2588,13 +2588,13 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -2616,8 +2616,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -2653,14 +2653,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them and being led by their Clan leader. One of the patrol yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take them. The other leader calls their warrior back, begrudgingly impressed.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them and being led by their Troop leader. One of the patrol yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take them. The other leader calls their warrior back, begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Clans, and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Troops, and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2697,8 +2697,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -2719,13 +2719,13 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -2747,8 +2747,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -2778,13 +2778,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who are formal, but genuinely, grateful.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who are formal, but genuinely, grateful.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -2810,13 +2810,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young cat off with a furious swipe of their claws, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. They see the young scavenger off with a furious swipe of their claws, and then bring the food back to c_n camp to report the incident to the deputy.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2844,8 +2844,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -2866,13 +2866,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -2894,8 +2894,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -2925,13 +2925,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who bow their heads to c_n's deputy in gratitude.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who bow their heads to c_n's deputy in gratitude.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -2957,13 +2957,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2985,8 +2985,8 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -3003,8 +3003,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -3025,13 +3025,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -3053,8 +3053,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -3084,13 +3084,13 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who crouch to the ground and thank r_c profusely.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. The youngster is terrified, and loudly protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who crouch to the ground and thank r_c profusely.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -3116,13 +3116,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's leader.",
+                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border, and holding food. Furious, they snarl their anger. The apprentice turns tail and flees, with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's leader.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. They stare at the other Troop's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -3144,8 +3144,8 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -3162,8 +3162,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -3184,13 +3184,13 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -3212,8 +3212,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c lost a life against a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -3293,8 +3293,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -3315,13 +3315,13 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -3343,8 +3343,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }
@@ -3380,14 +3380,14 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them and being led by their Clan leader. One of the patrol yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take them. The other leader calls their warrior back, begrudgingly impressed.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them and being led by their Troop leader. One of the patrol yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take them. The other leader calls their warrior back, begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Clans, and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Troops, and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -3424,8 +3424,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
@@ -3446,13 +3446,13 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone cat. They come back to camp bleeding.",
+                "text": "s_c can't contain their hatred for o_c_n, not even meeting a patrol of theirs at the border as a lone scavenger. They come back to camp bleeding.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3474,8 +3474,8 @@
                 ],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
+                    "reg_death": "m_c was killed by a hostile Troop.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a hostile Troop"
                 },
                 "other_clan_rep": -1
             }

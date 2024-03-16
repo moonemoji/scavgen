@@ -10,12 +10,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol scents a loner on the territory. They confront the cat, who quickly surrenders and begs for shelter.",
+        "intro_text": "Your patrol scents a loner on the territory. They confront the scavenger, who quickly surrenders and begs for shelter.",
         "decline_text": "Your patrol decides the loner isn't worth their time.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol relents and the loner is allowed to join the Clan.",
+                "text": "The patrol relents and the loner is allowed to join the Troop.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -32,7 +32,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol relents and the loner is allowed to join the Clan, bringing along their litter of hungry kits.",
+                "text": "The patrol relents and the loner is allowed to join the Troop, bringing along their litter of hungry cubs.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1411,12 +1411,12 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "It's a cold day in c_n's territory, and app1 is the only one stepping out. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} by {PRONOUN/app1/self} when {PRONOUN/app1/subject} {VERB/app1/hear/hears} a scavenger screaming for help.",
-        "decline_text": "Nope, not today, there's no way app1 is running after ghost cats, no thank you.",
+        "intro_text": "It's a cold day in c_n's territory, and app1 is the only one stepping out. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} by {PRONOUN/app1/self} when {PRONOUN/app1/subject} {VERB/app1/hear/hears} a scavenger shrieking for help.",
+        "decline_text": "Nope, not today, there's no way app1 is running after ghosts, no thank you.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It's probably dangerous. But curiosity leads app1 on, where {PRONOUN/app1/subject} carefully {VERB/app1/peek/peeks} over a ridge as the source of the cries. A pampered helpless kittypet runs back and forth over the Thunderpath, pleading fearfully for Twolegs, again and again and again. It isn't until their voice has gone hoarse and scratchy that app1 leaps out to surprise them - those Twolegs aren't coming back, and the kittypet can either follow app1, or freeze.",
+                "text": "It's probably dangerous. But curiosity leads app1 on, where {PRONOUN/app1/subject} carefully {VERB/app1/peek/peeks} over a ridge as the source of the cries. A helpless city scav runs back and forth over a half-crumbled bridge, crying for their patrol to return again and again and again. It isn't until their voice has gone hoarse and scratchy, yet miraculously no predators have shown up, that app1 leaps out to surprise them - those city scavs aren't coming back, and the stranger can either follow app1 or become something's meal.",
                 "exp": 20,
                 "weight": 20,
                 "new_cat": [
@@ -1440,7 +1440,7 @@
                 ]
             },
             {
-                "text": "StarClan, but the cat {PRONOUN/app1/subject} {VERB/app1/find/finds} is weird, their fur soft and thin, their cries desperate as they call in confusion. app1 watches until {PRONOUN/app1/poss} paws are cold and uncomfortable, crouched behind cover, but the dumb outsider doesn't even try to steal prey, they just wail for help, quieter and quieter as they begin to lose their voice. Finally, app1 can't take it anyone - striding out, {PRONOUN/app1/subject} {VERB/app1/tell/tells} the cat to follow {PRONOUN/app1/object}, the Leader will know what to do with this.",
+                "text": "StarClan, but the scavenger {PRONOUN/app1/subject} {VERB/app1/find/finds} is weird, their fur soft and thin, their cries desperate as they call in confusion. app1 watches until {PRONOUN/app1/poss} paws are cold and uncomfortable, crouched behind cover, but the dumb outsider doesn't even try to steal food, they just wail for help, quieter and quieter as they begin to lose their voice. It's a miracle nothing shows up to take a bite out of them. Finally, app1 can't take it anyone - striding out, {PRONOUN/app1/subject} {VERB/app1/tell/tells} the scavenger to follow {PRONOUN/app1/object}. The Leader will know what to do with this.",
                 "exp": 20,
                 "weight": 5,
                 "new_cat": [
@@ -1464,7 +1464,7 @@
                 ]
             },
             {
-                "text": "app1 follows the sad cries to find a kittypet, lost and alone and cold. {PRONOUN/app1/subject/CAP} {VERB/app1/watch/watches} from under a rock overhang, but no, actually the kittypet is <i>that stupid</i> and it really seems likely they'll freeze to death if app1 doesn't do something. Ugh. Fine, well app1 can bring them back to camp, and then it's the Leader's problem to deal with, not app1's.",
+                "text": "app1 follows the sad cries to find a city scav, lost and alone and cold. {PRONOUN/app1/subject/CAP} {VERB/app1/watch/watches} from under the legs of some ancient device, but no, actually the stranger is <i>that stupid</i> and it really seems likely they'll get eaten if app1 doesn't do something. Ugh. Fine, app1 can bring them back to camp, and then it's the Leader's problem to deal with, not app1's.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["adventurous", "playful", "strange", "childish", "shameless"],
@@ -1491,13 +1491,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cat seems to be moving all over the place, and finally, app1 gives up and goes home, too tired to catch more than a mouthful.",
+                "text": "The scavenger is scurrying all over the place, and finally, app1 gives up and goes home, too tired to catch more than a mouthful.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
             },
             {
-                "text": "s_c calls out to the cat, only to be met with raucous cawing. {VERB/s_c/Are/Is} {PRONOUN/s_c/subject} being laughed at? {PRONOUN/s_c/subject/CAP} {VERB/s_c/decide/decides} to slink off, leaving it be.",
+                "text": "s_c calls out to the scavenger, only to be met with raucous cawing. {VERB/s_c/Are/Is} {PRONOUN/s_c/subject} being laughed at? {PRONOUN/s_c/subject/CAP} {VERB/s_c/decide/decides} to slink off, leaving it be.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["troublesome", "bold", "daring", "ambitious"],
@@ -1506,7 +1506,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "app1 charges after the sound to attack the cat, only for a kittypet to bowl {PRONOUN/app1/object} right over as the terrified Twoleg pet, fully grown and fat, runs app1 over in their haste to get away.",
+                "text": "app1 charges after the sound to attack the scavenger, only for a city scav to bowl {PRONOUN/app1/object} right over in their haste to get away.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1514,7 +1514,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "app1 screams that this is c_n's territory and there's no help for anyone else. A kittypet runs from {PRONOUN/app1/object}, terrified of the echoing voice.",
+                "text": "app1 finds a high perch and slams {PRONOUN/app1/poss} spear on the ground to get the stranger's attention. once the eyes of the terrified city scav below are on {PRONOUN/app1/object}, app1 tells them that this is c_n's territory and there's no help for anyone else. The stranger heeds {PRONOUN/app1/object} words and runs for their life.",
                 "exp": 20,
                 "weight": 20,
                 "outsider_rep": -2
