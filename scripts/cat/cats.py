@@ -808,34 +808,38 @@ class Cat():
         if colour == 'palegreen':
             colour = 'pale green'
         elif colour == 'darkblue':
-            colour = 'dark blue'
+            colour = 'red'
         elif colour == 'paleblue':
-            colour = 'pale blue'
+            colour = 'black'
         elif colour == 'paleyellow':
             colour = 'pale yellow'
         elif colour == 'heatherblue':
-            colour = 'heather blue'
+            colour = 'pink and blue'
         elif colour == 'blue2':
             colour = 'blue'
         elif colour == 'sunlitice':
             colour = 'sunlit ice'
         elif colour == 'greenyellow':
-            colour = 'green-yellow'
+            colour = 'turquoise'
+        elif colour == 'sage':
+            colour = 'magenta'
         if self.pelt.eye_colour2:
             if colour2 == 'palegreen':
                 colour2 = 'pale green'
             if colour2 == 'darkblue':
-                colour2 = 'dark blue'
+                colour2 = 'red'
             if colour2 == 'paleblue':
-                colour2 = 'pale blue'
+                colour2 = 'black'
             if colour2 == 'paleyellow':
                 colour2 = 'pale yellow'
             if colour2 == 'heatherblue':
-                colour2 = 'heather blue'
+                colour2 = 'pink and blue'
             if colour2 == 'sunlitice':
                 colour2 = 'sunlit ice'
             if colour2 == 'greenyellow':
-                colour2 = 'green-yellow'
+                colour2 = 'turquoise'
+            if colour2 == 'sage':
+                colour2 = 'magenta'
             colour = colour + ' and ' + colour2
         return colour
 
@@ -875,7 +879,7 @@ class Cat():
             else:
                 clanname = game.switches['clan_list'][0]
         except IndexError:
-            print('WARNING: History failed to load, no Clan in game.switches?')
+            print('WARNING: History failed to load, no Troop in game.switches?')
             return
 
         history_directory = get_save_dir() + '/' + clanname + '/history/'
@@ -909,7 +913,7 @@ class Cat():
                 )
         except:
             self.history = None
-            print(f'WARNING: There was an error reading the history file of cat #{self} or their history file was '
+            print(f'WARNING: There was an error reading the history file of scav #{self} or their history file was '
                   f'empty. Default history info was given. Close game without saving if you have save information '
                   f'you\'d like to preserve!')
 
@@ -2378,7 +2382,7 @@ class Cat():
                             log=rel['log'])
                         self.relationships[rel['cat_to_id']] = new_rel
             except:
-                print(f'WARNING: There was an error reading the relationship file of cat #{self}.')
+                print(f'WARNING: There was an error reading the relationship file of scav #{self}.')
 
     @staticmethod
     def mediate_relationship(mediator, cat1, cat2, allow_romantic, sabotage=False):
@@ -2815,7 +2819,7 @@ class Cat():
             if not updated_age and self.age is not None:
                 self.age = "senior"
         except AttributeError:
-            print("ERROR: cat has no age attribute! Cat ID: " + self.ID)
+            print("ERROR: scav has no age attribute! Cat ID: " + self.ID)
         
     @property
     def sprite(self):

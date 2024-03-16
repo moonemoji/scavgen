@@ -43,7 +43,7 @@ class SaveCheck(UIWindow):
 
         self.clan_name = "UndefinedClan"
         if game.clan:
-            self.clan_name = f"{game.clan.name}Clan"
+            self.clan_name = f"{game.clan.name}'s Troop"
         self.last_screen = last_screen
         self.isMainMenu = isMainMenu
         self.mm_btn = mm_btn
@@ -159,7 +159,7 @@ class DeleteCheck(UIWindow):
         self.reloadscreen = reloadscreen
 
         self.delete_check_message = UITextBoxTweaked(
-            f"Do you wish to delete {str(self.clan_name + 'Clan')}? This is permanent and cannot be undone.",
+            f"Do you wish to delete {str(self.clan_name + 's Troop')}? This is permanent and cannot be undone.",
             scale(pygame.Rect((40, 40), (520, -1))),
             line_spacing=1,
             object_id="#text_box_30_horizcenter",
@@ -226,7 +226,7 @@ class GameOver(UIWindow):
                          resizable=False)
         self.set_blocking(True)
         game.switches['window_open'] = True
-        self.clan_name = str(game.clan.name + 'Clan')
+        self.clan_name = str(game.clan.name + '\'s Troop')
         self.last_screen = last_screen
         self.game_over_message = UITextBoxTweaked(
             f"{self.clan_name} has died out. For now, this is where their story ends. Perhaps it's time to tell a new "

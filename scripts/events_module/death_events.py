@@ -26,12 +26,12 @@ class Death_Events():
             other_clan = enemy_clan
         else:
             other_clan = random.choice(game.clan.all_clans)
-        other_clan_name = f'{other_clan.name}Clan'
+        other_clan_name = f'{other_clan.name}\'s Troop'
         current_lives = int(game.clan.leader_lives)
 
         if other_clan_name == 'None':
             other_clan = game.clan.all_clans[0]
-            other_clan_name = f'{other_clan.name}Clan'
+            other_clan_name = f'{other_clan.name}\'s Troop'
 
         possible_short_events = GenerateEvents.possible_short_events(cat.status, cat.age, "death")
 

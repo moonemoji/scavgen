@@ -22,7 +22,7 @@ class AllegiancesScreen(Screens):
 
     def screen_switches(self):
         # Heading
-        self.heading = pygame_gui.elements.UITextBox(f'{game.clan.name}Clan Allegiances',
+        self.heading = pygame_gui.elements.UITextBox(f'{game.clan.name}\'s Troop Allegiances',
                                                      scale(pygame.Rect((390, 230), (800, 80))),
                                                      object_id=get_text_box_theme("#text_box_34_horizcenter")
                                                      , manager=MANAGER)
@@ -30,7 +30,7 @@ class AllegiancesScreen(Screens):
         # Set Menu Buttons.
         self.show_menu_buttons()
         self.set_disabled_menu_buttons(["allegiances"])
-        self.update_heading_text(f'{game.clan.name}Clan')
+        self.update_heading_text(f'{game.clan.name}\'s Troop')
         allegiance_list = self.get_allegiances_text()
 
 

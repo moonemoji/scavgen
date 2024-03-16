@@ -193,11 +193,11 @@ class Condition_Events():
                 else:
                     other_clan = random.choice(game.clan.all_clans)
                 if other_clan:
-                    other_clan_name = f'{other_clan.name}Clan'
+                    other_clan_name = f'{other_clan.name}\'s Troop'
 
                 if other_clan_name == 'None':
                     other_clan = game.clan.all_clans[0]
-                    other_clan_name = f'{other_clan.name}Clan'
+                    other_clan_name = f'{other_clan.name}\'s Troop'
 
                 possible_events = GenerateEvents.possible_short_events(cat.status, cat.age, "injury")
                 final_events = GenerateEvents.filter_possible_short_events(possible_events, cat, other_cat, war,
@@ -770,19 +770,19 @@ class Condition_Events():
                         if not game.clan.leader.dead and not game.clan.leader.exiled and \
                                 not game.clan.leader.outside and cat.moons < 120:
                             retire_involved.append(game.clan.leader.ID)
-                            event = f"{game.clan.leader.name}, seeing {cat.name} struggling the last few moons " \
+                            event = f"{game.clan.leader.name}, seeing {cat.name} struggling the last few moons, " \
                                     f"approaches them and promises them that no one would think less of them for " \
-                                    f"retiring early and that they would still be a valuable member of the Clan " \
+                                    f"retiring early, and that they would still be a valuable member of the Troop " \
                                     f"as an elder. {cat.name} agrees and later that day their elder ceremony " \
                                     f"is held."
                         else:
-                            event = f'{cat.name} has decided to retire from normal Clan duty.'
+                            event = f'{cat.name} has decided to retire from normal Troop duty.'
                     else:
-                        event = f'{cat.name} has decided to retire from normal Clan duty.'
+                        event = f'{cat.name} has decided to retire from normal Troop duty.'
 
                     if cat.age == 'adolescent':
                         event += f" They are given the name {cat.name.prefix}{cat.name.suffix} in honor " \
-                                    f"of their contributions to {game.clan.name}Clan."
+                                    f"of their contributions to {game.clan.name}'s Troop."
 
                     cat.retire_cat()
                     # Don't add this to the condition event list: instead make it it's own event, a ceremony. 

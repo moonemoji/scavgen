@@ -28,7 +28,7 @@ class MiscEvents():
         
         other_clan_name = None
         if other_clan:
-            other_clan_name = f'{other_clan.name}Clan'
+            other_clan_name = f'{other_clan.name}\'s Troop'
 
         possible_events = GenerateEvents.possible_short_events(cat.status, cat.age, "misc_events")
         acc_checked_events = []

@@ -43,11 +43,11 @@ class Freshkill_Events():
         else:
             other_cat = random.choice(possible_other_cats)
         other_clan = random.choice(game.clan.all_clans)
-        other_clan_name = f'{other_clan.name}Clan'
+        other_clan_name = f'{other_clan.name}\'s Troop'
 
         if other_clan_name == 'None':
             other_clan = game.clan.all_clans[0]
-            other_clan_name = f'{other_clan.name}Clan'
+            other_clan_name = f'{other_clan.name}\'s Troop'
 
         needed_tags = []
         illness = None

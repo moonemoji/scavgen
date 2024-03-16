@@ -1085,7 +1085,7 @@ class OtherClan():
             self.temperament = choice(temperament_list)
 
     def __repr__(self):
-        return f"{self.name}Clan"
+        return f"{self.name}'s Troop"
 
 
 class StarClan():

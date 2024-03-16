@@ -1,14 +1,16 @@
 {
     "text": [
-        "<b>Welcome to Warrior Cats Clan generator!</b>",
+        "<b>Welcome to ScavGen, a fan edit of Warrior Cats Clan generator!</b>",
         "",
-        "This is a fan-made generator for the Warrior Cats -book series by Erin Hunter.",
+        "The original ClanGen is based on the Warrior Cats book series by Erin Hunter.",
         "",
         "You're welcome to use the characters and sprites generated in this program, as long as you don't claim the sprites as your own creations or sell them for any reason.",
         "",
-        "<b>Original creator:</b> <i>just-some-cat.tumblr.com (anju)</i>",
+        "<b>Original ClanGen creator:</b> <i>just-some-cat.tumblr.com (anju)</i>",
         "",
         "<b>Fan edit made by:</b> <i>SableSteel</i>",
+        "",
+        "<b>ScavGen by:</b> <i>Moon, .exe and Philomel</i>",
         "<b>With contributions from:</b>",
         "<i>(hover over a name to see their contributions!)",
         "{contrib}",
@@ -20,6 +22,10 @@
         "Art is licensed under <a href=https://creativecommons.org/licenses/by-nc/4.0/legalcode>CC-BY-NC 4.0</a> "
     ],
     "contrib": {
+        "Tax": "-ScavGen Contributor- <br>Several pieces of common patrol art, some text replacements",
+        "Electro": "-ScavGen Contributor-<br> LOTS of patrol art! Find Electro on <a href=https://www.tumblr.com/electro-popsicle/>Tumblr</a>",
+        "Bad-At-Naming": "-Scavgen Contributor-<br>A bunch of text replacements",
+        "below this line are original ClanGen credits": "Hey, why'd you hover over this?",
         "anju": "-Senior Contributor-<br>Creating the Original Game- Old Base Code (Clan creation, Clan screen, Timeskip, Mates and kits, StarClan), Base Sprites & Pelts, Patrol Arts, New Sprite Revisions, Shaders",
         "Archanyhm": "-Senior Contributor-<br>Contributed Auto-Updater, Update-API, macOS fixes, changelog display",
         "Blackfur": "-Senior Contributor-<br>Initial macOS port, maintainer of Clangen-Web",

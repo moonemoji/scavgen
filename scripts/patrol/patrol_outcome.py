@@ -818,7 +818,7 @@ class PatrolOutcome():
             elif amount >= game.clan.freshkill_pile.amount_food_needed():
                 amount_text = "good"
                 
-            results = f"A {amount_text} amount of prey is brought to camp"
+            results = f"A {amount_text} amount of food is brought to camp"
             
         return results
 
@@ -840,7 +840,7 @@ class PatrolOutcome():
                 elif cat.outside:
                     results.append(f"The patrol met {cat.name}.")
                 else:
-                    results.append(f"{cat.name} joined the clan.")
+                    results.append(f"{cat.name} joined the Troop.")
             
         # Check to see if any young litters joined with alive parents.
         # If so, see if recovering from birth condition is needed
@@ -1020,7 +1020,7 @@ class PatrolOutcome():
         
         # KITTEN THOUGHT
         if status in ("kitten", "newborn"):
-            thought = "Is snuggled safe in the nursery"
+            thought = "Is safe in the nurvery's spawning pool"
         
         # MEETING - DETERMINE IF THIS IS AN OUTSIDE CAT
         outside = False
@@ -1028,7 +1028,7 @@ class PatrolOutcome():
             outside = True
             status = cat_type
             new_name = False
-            thought = "Is wondering about the new cats they just met"
+            thought = "Is wondering about the new scavengers they just met"
             
         # IS THE CAT DEAD?
         alive = True

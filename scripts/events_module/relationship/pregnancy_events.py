@@ -202,9 +202,9 @@ class Pregnancy_Events():
             kits = Pregnancy_Events.get_kits(amount, cat, None, clan)
             insert = 'this should not display'
             if amount == 1:
-                insert = 'a single kitten'
+                insert = 'a single cub'
             if amount > 1:
-                insert = f'a litter of {amount} kits'
+                insert = f'a batch of {amount} cubs'
             print_event = f"{cat.name} brought {insert} back to camp, but refused to talk about their origin."
             cats_involved = [cat.ID]
             for kit in kits:
@@ -325,9 +325,9 @@ class Pregnancy_Events():
                 kit.create_one_relationship(cat)
 
         if kits_amount == 1:
-            insert = 'single kitten'
+            insert = 'single cub'
         else:
-            insert = f'litter of {kits_amount} kits'
+            insert = f'litter of {kits_amount} cubs'
 
         # Since cat has given birth, apply the birth cooldown. 
         cat.birth_cooldown = game.config["pregnancy"]["birth_cooldown"]
@@ -384,18 +384,18 @@ class Pregnancy_Events():
             if cat.status == 'leader':
                 clan.leader_lives -= 1
                 cat.die()
-                death_event = ("died shortly after kitting")
+                death_event = ("died shortly after giving birth")
             else:
                 cat.die()
-                death_event = (f"{cat.name} died while kitting.")
+                death_event = (f"{cat.name} died while giving birth.")
             History.add_death(cat, death_text=death_event)
         elif clan.game_mode != 'classic' and not cat.outside:  # if cat doesn't die, give recovering from birth
             cat.get_injured("recovering from birth", event_triggered=True)
             if 'blood loss' in cat.injuries:
                 if cat.status == 'leader':
-                    death_event = ("died after a harsh kitting")
+                    death_event = ("died after a harsh birthing")
                 else:
-                    death_event = (f"{cat.name} after a harsh kitting.")
+                    death_event = (f"{cat.name} after a harsh birthing.")
                 History.add_possible_history(cat, 'blood loss', death_text=death_event)
                 possible_events = events["birth"]["difficult_birth"]
                 # just makin sure meds aren't mentioned if they aren't around or if they are a parent
@@ -412,7 +412,7 @@ class Pregnancy_Events():
             try:
                 cat.injuries.pop("pregnant")
             except:
-                print("Is this an old save? Your cat didn't have the pregnant condition!")
+                print("Is this an old save? Your scav didn't have the pregnant condition!")
         print_event = " ".join(event_list)
         print_event = print_event.replace("{insert}", insert)
         
@@ -658,9 +658,9 @@ class Pregnancy_Events():
                 # No parents provided, give a blood parent - this is an adoption. 
                 if not blood_parent:
                     # Generate a blood parent if we haven't already. 
-                    insert = "their kits are"
+                    insert = "their cubs are"
                     if kits_amount == 1:
-                        insert = "their kit is"
+                        insert = "their cub is"
                     thought = f"Is glad that {insert} safe"
                     blood_parent = create_new_cat(Cat, Relationship,
                                                 status=random.choice(["loner", "kittypet"]),
@@ -676,11 +676,11 @@ class Pregnancy_Events():
                 kit = Cat(parent1=cat.ID, parent2=other_cat.ID, moons=0, status='newborn')
                 
                 if cat.gender == 'female':
-                    kit.thought = f"Snuggles up to the belly of {cat.name}"
+                    kit.thought = f"Flits through the water under the watchful eye of {cat.name}"
                 elif cat.gender == 'male' and other_cat.gender == 'male':
-                    kit.thought = f"Snuggles up to the belly of {cat.name}"
+                    kit.thought = f"Flits through the water under the watchful eye of {cat.name}"
                 else:
-                    kit.thought = f"Snuggles up to the belly of {other_cat.name}"
+                    kit.thought = f"Flits through the water under the watchful eye of {other_cat.name}"
             else:
                 # A one blood parent litter is the only option left. 
                 kit = Cat(parent1=cat.ID, moons=0, backstory=backstory, status='newborn')

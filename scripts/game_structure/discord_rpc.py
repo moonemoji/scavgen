@@ -13,14 +13,14 @@ import asyncio
 
 status_dict = {
     "start screen": "At the start screen",
-    "make clan screen": "Making a Clan",
+    "make clan screen": "Making a Troop",
     "mediation screen": "Mediating a dispute",
     "patrol screen": "On a patrol",
-    "profile screen": "Viewing a cat's profile",
+    "profile screen": "Viewing a scavenger's profile",
     "ceremony screen": "Holding a ceremony",
     "starclan screen": "Viewing StarClan",
     "dark forest screen": "Viewing the Dark Forest",
-    "med den screen": "In the medicine den",
+    "med den screen": "In the healer's den",
     }
 
 class _DiscordRPC(threading.Thread):
@@ -90,7 +90,7 @@ class _DiscordRPC(threading.Thread):
             try:
                 state_text = status_dict[game.switches['cur_screen']]
             except KeyError:
-                state_text = "Leading the Clan"
+                state_text = "Leading the Troop"
 
             try:
                 img_str = f"{game.clan.biome}_{game.clan.current_season.replace('-', '')}_{game.clan.camp_bg}_{'dark' if game.settings['dark mode'] else 'light'}"
@@ -98,14 +98,14 @@ class _DiscordRPC(threading.Thread):
             except AttributeError:
                 print("Failed to get image string, game may not be fully loaded yet. Dont worry, it will fix itself. Hopefully.")
                 img_str = "discord" # fallback incase the game isn't loaded yet
-                img_text = "Clangen!!"
+                img_text = "ScavGen!!"
             
             # Example: beach_greenleaf_camp1_dark
 
             clan_name = 'Loading...'
             cats_amount = 0
             if game.clan:
-                clan_name =  f"{game.clan.name}Clan"
+                clan_name =  f"{game.clan.name}'s Troop"
                 cats_amount = len(game.clan.clan_cats)
                 clan_age = game.clan.age
             else:
@@ -119,7 +119,7 @@ class _DiscordRPC(threading.Thread):
                     large_image=img_str.lower(),
                     large_text=img_text,
                     small_image="discord",
-                    small_text=f"Managing {cats_amount} cats",
+                    small_text=f"Managing {cats_amount} scavengers",
                     start=self._start_time,
                     buttons=[{"label": "Join The Server", "url": "https://discord.gg/clangen"}],
                 )
