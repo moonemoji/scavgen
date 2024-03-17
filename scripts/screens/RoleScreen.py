@@ -422,12 +422,12 @@ class RoleScreen(Screens):
 
     def get_role_blurb(self):
         if self.the_cat.status == "warrior":
-            output = f"{self.the_cat.name} is a <b>warrior</b>. Warriors are adult cats who feed and protect their " \
+            output = f"{self.the_cat.name} is a <b>warrior</b>. Warriors are adult scavengers who feed and protect their " \
                      f"Troop. They are trained to hunt and fight in addition to the ways of the warrior code. " \
                      f"Warriors are essential to the survival of a Troop, and usually make up the bulk of its members. "
         elif self.the_cat.status == "leader":
             output = f"{self.the_cat.name} is the <b>leader</b> of {game.clan.name}'s Troop. The guardianship of all " \
-                     f"Troop cats has been entrusted to them. The leader is the highest " \
+                     f"Troop scavengers has been entrusted to them. The leader is the highest " \
                      f"authority in the Troop. The leader holds Troop meetings, determines mentors for " \
                      f"new apprentices, and names new warriors. "
         elif self.the_cat.status == "deputy":
@@ -484,8 +484,8 @@ class RoleScreen(Screens):
                      f"considered cubs, often called grubs before they pupate and grow legs. Cubs " \
                      f"are prohibited from leaving camp in order to protect them from the dangers of the wild. " \
                      f"Although they don't have any official duties in the Troop, they are expected to learn the " \
-                     f"legends and traditions of their Troop. They are protected by every cat in the Troop and always " \
-                     f"eat first.."
+                     f"legends and traditions of their Troop. They are protected by every scavenger in the Troop and always " \
+                     f"eat first."
         else:
             output = f"{self.the_cat.name} has an unknown rank. I guess they want to make their own way in life! "
 

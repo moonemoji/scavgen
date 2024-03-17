@@ -1,13 +1,13 @@
 <strong>v0.2</strong>
 - Our first major update!
 - Adjusted scars to fit scavenger sprites except for mangled tails - these will become mangled antlers eventually
-- Finished patrols! (Mostly... seasons will be finalised in a future update)
+- Finished patrols! (Mostly... seasons and stuff to do with StarClan will be finalised in a future update)
 - Replaced menu art
     - Troop creation screen
     - Adoptive parents screen
     - Mentor screen
     - Queen screen (Lifegen)
-- Replaced menu text
+- Replaced menu text and buttons
 - Replaced a bunch of patrol art. Thanks to the fantastic Tax and Electro for your hard work!
 - Allegiances now describe scavengers accurately
 - Troops are now named "x's Troop" instead of "xClan". This should appear on every screen. If it doesn't, Mel messed up.
