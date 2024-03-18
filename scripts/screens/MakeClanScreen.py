@@ -1033,7 +1033,7 @@ class MakeClanScreen(Screens):
         self.clear_all_page()
         self.sub_screen = 'choose members'
 
-        self.elements['background'] = pygame_gui.elements.UIImage(scale(pygame.Rect((0, 828), (1600, 572))),
+        self.elements['background'] = pygame_gui.elements.UIImage(scale(pygame.Rect((0, 705), (1600, 696))),
                                                                   pygame.transform.scale(
                                                                       pygame.image.load(
                                                                           "resources/images/pick_clan_screen/clan_none_light.png").convert_alpha(),
