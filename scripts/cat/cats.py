@@ -2051,12 +2051,12 @@ class Cat():
             Checks if this cat is potential mate for the other cat.
             There are no restrictions if the current cat already has a mate or not (this allows poly-mates).
         """
-        
-        try:
-            first_cousin_mates = game.clan.clan_settings["first cousin mates"]
-        except:
-            if 'unittest' not in sys.modules:
-                raise
+        first_cousin_mates = False
+        # try:
+        #     first_cousin_mates = game.clan.clan_settings["first cousin mates"]
+        # except:
+        #     if 'unittest' not in sys.modules:
+        #         raise
                 
         
         # just to be sure, check if it is not the same cat
