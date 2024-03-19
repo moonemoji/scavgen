@@ -2100,7 +2100,7 @@ class Cat():
         
         #Former mentor
         is_former_mentor = (other_cat.ID in self.former_apprentices or self.ID in other_cat.former_apprentices)
-        if is_former_mentor and not game.clan.clan_settings['romantic with former mentor']:
+        if is_former_mentor: #and not game.clan.clan_settings['romantic with former mentor']:
             return False
 
         return True
